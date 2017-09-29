@@ -1,18 +1,18 @@
-# Глава 8 Построение деревьев решений CRT с помощью пакета R rpart
+# Р“Р»Р°РІР° 8 РџРѕСЃС‚СЂРѕРµРЅРёРµ РґРµСЂРµРІСЊРµРІ СЂРµС€РµРЅРёР№ CRT СЃ РїРѕРјРѕС‰СЊСЋ РїР°РєРµС‚Р° R rpart
 
-# 8.1 Метод отсечения ветвей на основе стоимости-сложности с кросс-проверкой
+# 8.1 РњРµС‚РѕРґ РѕС‚СЃРµС‡РµРЅРёСЏ РІРµС‚РІРµР№ РЅР° РѕСЃРЅРѕРІРµ СЃС‚РѕРёРјРѕСЃС‚Рё-СЃР»РѕР¶РЅРѕСЃС‚Рё СЃ РєСЂРѕСЃСЃ-РїСЂРѕРІРµСЂРєРѕР№
 
-# 8.2 Построение и интерпретация дерева классификации CRT
-# 8.2.1 Подготовка данных
+# 8.2 РџРѕСЃС‚СЂРѕРµРЅРёРµ Рё РёРЅС‚РµСЂРїСЂРµС‚Р°С†РёСЏ РґРµСЂРµРІР° РєР»Р°СЃСЃРёС„РёРєР°С†РёРё CRT
+# 8.2.1 РџРѕРґРіРѕС‚РѕРІРєР° РґР°РЅРЅС‹С…
 
-# Задаем постоянный CRAN репозиторий
+# Р—Р°РґР°РµРј РїРѕСЃС‚РѕСЏРЅРЅС‹Р№ CRAN СЂРµРїРѕР·РёС‚РѕСЂРёР№
 cat(".Rprofile: Setting US repositoryn")
 r = getOption("repos")
 r["CRAN"] = "http://cran.us.r-project.org"
 options(repos = r)
 rm(r)
 
-# Устанавливаем необходимые для работы пакеты
+# РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅРµРѕР±С…РѕРґРёРјС‹Рµ РґР»СЏ СЂР°Р±РѕС‚С‹ РїР°РєРµС‚С‹
 install.packages("pROC")
 install.packages("RGtk2")
 install.packages("rpart")
@@ -38,7 +38,7 @@ data$response <-as.factor(data$response)
 
 str(data)
 
-# 8.2.2 Построение модели и работа с диаграммой дерева
+# 8.2.2 РџРѕСЃС‚СЂРѕРµРЅРёРµ РјРѕРґРµР»Рё Рё СЂР°Р±РѕС‚Р° СЃ РґРёР°РіСЂР°РјРјРѕР№ РґРµСЂРµРІР°
 
 library(rpart)
 
@@ -55,7 +55,7 @@ library(rpart.plot)
 library(rattle)
 fancyRpartPlot(model)
 
-# 8.2.3 Прунинг дерева CRT
+# 8.2.3 РџСЂСѓРЅРёРЅРі РґРµСЂРµРІР° CRT
 
 plotcp(model)
 model2 <- prune(model, cp=0.00107)
@@ -63,9 +63,9 @@ fancyRpartPlot(model2)
 
 model$cptable[which.min(model$cptable[,"xerror"]),"CP"]
 model3<- prune(model,cp=model$cptable
-         [which.min(model$cptable[,"xerror"]),"CP"]) 
+               [which.min(model$cptable[,"xerror"]),"CP"]) 
 
-# 8.2.4 Вычисление вероятностей классов
+# 8.2.4 Р’С‹С‡РёСЃР»РµРЅРёРµ РІРµСЂРѕСЏС‚РЅРѕСЃС‚РµР№ РєР»Р°СЃСЃРѕРІ
 
 predict(model2, data, type="prob")
 predict(model2, data, type="prob")[30230:30259]
@@ -93,12 +93,12 @@ ci.auc(roc, method="bootstrap", boot.n=10000)
 
 ci.auc(roc, method="bootstrap", boot.stratified=FALSE)
 
-# 8.2.6 Сохранение спрогнозированных вероятностей
+# 8.2.6 РЎРѕС…СЂР°РЅРµРЅРёРµ СЃРїСЂРѕРіРЅРѕР·РёСЂРѕРІР°РЅРЅС‹С… РІРµСЂРѕСЏС‚РЅРѕСЃС‚РµР№
 
 newdata<-data.frame(data, result=score)
 write.csv(newdata, "result.csv")
 
-# 8.2.7 Применение модели к новым данным
+# 8.2.7 РџСЂРёРјРµРЅРµРЅРёРµ РјРѕРґРµР»Рё Рє РЅРѕРІС‹Рј РґР°РЅРЅС‹Рј
 
 prognoz <- read.csv2("C:/Trees/Response_new.csv")
 str(prognoz)
@@ -125,20 +125,20 @@ newclients_prognoz<-data.frame(prognoz, result=newscore)
 
 write.csv(newclients_prognoz, "newclients_prognoz.csv")
 
-# 8.3 Построение и интерпретация дерева регрессии CRT
-# 8.3.1 Подготовка данных
+# 8.3 РџРѕСЃС‚СЂРѕРµРЅРёРµ Рё РёРЅС‚РµСЂРїСЂРµС‚Р°С†РёСЏ РґРµСЂРµРІР° СЂРµРіСЂРµСЃСЃРёРё CRT
+# 8.3.1 РџРѕРґРіРѕС‚РѕРІРєР° РґР°РЅРЅС‹С…
 
 data <- read.csv2("C:/Trees/Savings.csv")
 str(data)
 
 data$inccat2 <- ordered(data$inccat)
 data$inccat <- NULL
-data$ed2 <- ordered(data$ed, levels = c("Неполное среднее", "Среднее", "Среднее специальное", "Незаконченное высшее", "Высшее, ученая степень"))
+data$ed2 <- ordered(data$ed, levels = c("РќРµРїРѕР»РЅРѕРµ СЃСЂРµРґРЅРµРµ", "РЎСЂРµРґРЅРµРµ", "РЎСЂРµРґРЅРµРµ СЃРїРµС†РёР°Р»СЊРЅРѕРµ", "РќРµР·Р°РєРѕРЅС‡РµРЅРЅРѕРµ РІС‹СЃС€РµРµ", "Р’С‹СЃС€РµРµ, СѓС‡РµРЅР°СЏ СЃС‚РµРїРµРЅСЊ"))
 data$ed <- NULL
 
 str(data)
 
-# 8.3.2 Построение модели и работа с диаграммой дерева
+# 8.3.2 РџРѕСЃС‚СЂРѕРµРЅРёРµ РјРѕРґРµР»Рё Рё СЂР°Р±РѕС‚Р° СЃ РґРёР°РіСЂР°РјРјРѕР№ РґРµСЂРµРІР°
 
 library(rpart)
 set.seed(42)
@@ -155,11 +155,3 @@ library(rattle)
 fancyRpartPlot(model2)
 
 predict(model2, data)[3105:3110]
-
-
-
-
-
-
-
-

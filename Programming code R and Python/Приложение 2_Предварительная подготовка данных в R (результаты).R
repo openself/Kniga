@@ -3,190 +3,190 @@ R version 3.4.0 (2017-04-21) -- "You Stupid Darkness"
 Copyright (C) 2017 The R Foundation for Statistical Computing
 Platform: x86_64-w64-mingw32/x64 (64-bit)
 
-R -- ˝ÚÓ Ò‚Ó·Ó‰ÌÓÂ œŒ, Ë ÓÌÓ ÔÓÒÚ‡‚ÎˇÂÚÒˇ ·ÂÁÓ ‚ÒˇÍËı „‡‡ÌÚËÈ.
-¬˚ ‚ÓÎ¸Ì˚ ‡ÒÔÓÒÚ‡ÌˇÚ¸ Â„Ó ÔË ÒÓ·Î˛‰ÂÌËË ÌÂÍÓÚÓ˚ı ÛÒÎÓ‚ËÈ.
-¬‚Â‰ËÚÂ 'license()' ‰Îˇ ÔÓÎÛ˜ÂÌËˇ ·ÓÎÂÂ ÔÓ‰Ó·ÌÓÈ ËÌÙÓÏ‡ˆËË.
+R -- —ç—Ç–æ —Å–≤–æ–±–æ–¥–Ω–æ–µ –ü–û, –∏ –æ–Ω–æ –ø–æ—Å—Ç–∞–≤–ª—è–µ—Ç—Å—è –±–µ–∑–æ –≤—Å—è–∫–∏—Ö –≥–∞—Ä–∞–Ω—Ç–∏–π.
+–í—ã –≤–æ–ª—å–Ω—ã —Ä–∞—Å–ø—Ä–æ—Å—Ç—Ä–∞–Ω—è—Ç—å –µ–≥–æ –ø—Ä–∏ —Å–æ–±–ª—é–¥–µ–Ω–∏–∏ –Ω–µ–∫–æ—Ç–æ—Ä—ã—Ö —É—Å–ª–æ–≤–∏–π.
+–í–≤–µ–¥–∏—Ç–µ 'license()' –¥–ª—è –ø–æ–ª—É—á–µ–Ω–∏—è –±–æ–ª–µ–µ –ø–æ–¥—Ä–æ–±–Ω–æ–π –∏–Ω—Ñ–æ—Ä–º–∞—Ü–∏–∏.
 
-R -- ˝ÚÓ ÔÓÂÍÚ, ‚ ÍÓÚÓÓÏ ÒÓÚÛ‰ÌË˜‡ÂÚ ÏÌÓÊÂÒÚ‚Ó ‡Á‡·ÓÚ˜ËÍÓ‚.
-¬‚Â‰ËÚÂ 'contributors()' ‰Îˇ ÔÓÎÛ˜ÂÌËˇ ‰ÓÔÓÎÌËÚÂÎ¸ÌÓÈ ËÌÙÓÏ‡ˆËË Ë
-'citation()' ‰Îˇ ÓÁÌ‡ÍÓÏÎÂÌËˇ Ò Ô‡‚ËÎ‡ÏË ÛÔÓÏËÌ‡ÌËˇ R Ë Â„Ó Ô‡ÍÂÚÓ‚
-‚ ÔÛ·ÎËÍ‡ˆËˇı.
+R -- —ç—Ç–æ –ø—Ä–æ–µ–∫—Ç, –≤ –∫–æ—Ç–æ—Ä–æ–º —Å–æ—Ç—Ä—É–¥–Ω–∏—á–∞–µ—Ç –º–Ω–æ–∂–µ—Å—Ç–≤–æ —Ä–∞–∑—Ä–∞–±–æ—Ç—á–∏–∫–æ–≤.
+–í–≤–µ–¥–∏—Ç–µ 'contributors()' –¥–ª—è –ø–æ–ª—É—á–µ–Ω–∏—è –¥–æ–ø–æ–ª–Ω–∏—Ç–µ–ª—å–Ω–æ–π –∏–Ω—Ñ–æ—Ä–º–∞—Ü–∏–∏ –∏
+'citation()' –¥–ª—è –æ–∑–Ω–∞–∫–æ–º–ª–µ–Ω–∏—è —Å –ø—Ä–∞–≤–∏–ª–∞–º–∏ —É–ø–æ–º–∏–Ω–∞–Ω–∏—è R –∏ –µ–≥–æ –ø–∞–∫–µ—Ç–æ–≤
+–≤ –ø—É–±–ª–∏–∫–∞—Ü–∏—è—Ö.
 
-¬‚Â‰ËÚÂ 'demo()' ‰Îˇ Á‡ÔÛÒÍ‡ ‰ÂÏÓÌÒÚ‡ˆËÓÌÌ˚ı ÔÓ„‡ÏÏ, 'help()' -- ‰Îˇ
-ÔÓÎÛ˜ÂÌËˇ ÒÔ‡‚ÍË, 'help.start()' -- ‰Îˇ ‰ÓÒÚÛÔ‡ Í ÒÔ‡‚ÍÂ ˜ÂÂÁ ·‡ÛÁÂ.
-¬‚Â‰ËÚÂ 'q()', ˜ÚÓ·˚ ‚˚ÈÚË ËÁ R.
+–í–≤–µ–¥–∏—Ç–µ 'demo()' –¥–ª—è –∑–∞–ø—É—Å–∫–∞ –¥–µ–º–æ–Ω—Å—Ç—Ä–∞—Ü–∏–æ–Ω–Ω—ã—Ö –ø—Ä–æ–≥—Ä–∞–º–º, 'help()' -- –¥–ª—è
+–ø–æ–ª—É—á–µ–Ω–∏—è —Å–ø—Ä–∞–≤–∫–∏, 'help.start()' -- –¥–ª—è –¥–æ—Å—Ç—É–ø–∞ –∫ —Å–ø—Ä–∞–≤–∫–µ —á–µ—Ä–µ–∑ –±—Ä–∞—É–∑–µ—Ä.
+–í–≤–µ–¥–∏—Ç–µ 'q()', —á—Ç–æ–±—ã –≤—ã–π—Ç–∏ –∏–∑ R.
 
-[«‡„ÛÊÂÌÓ ‡ÌÂÂ ÒÓı‡ÌÂÌÌÓÂ ‡·Ó˜ÂÂ ÔÓÒÚ‡ÌÒÚ‚Ó]
+[–ó–∞–≥—Ä—É–∂–µ–Ω–æ —Ä–∞–Ω–µ–µ —Å–æ—Ö—Ä–∞–Ω–µ–Ω–Ω–æ–µ —Ä–∞–±–æ—á–µ–µ –ø—Ä–æ—Å—Ç—Ä–∞–Ω—Å—Ç–≤–æ]
 
-> # œÂ‰‚‡ËÚÂÎ¸Ì˚Â ‰ÂÈÒÚ‚Ëˇ
+> # –ü—Ä–µ–¥–≤–∞—Ä–∏—Ç–µ–ª—å–Ω—ã–µ –¥–µ–π—Å—Ç–≤–∏—è
 > 
-> # «‡‰‡ÂÏ ÔÓÒÚÓˇÌÌ˚È CRAN ÂÔÓÁËÚÓËÈ
+> # –ó–∞–¥–∞–µ–º –ø–æ—Å—Ç–æ—è–Ω–Ω—ã–π CRAN —Ä–µ–ø–æ–∑–∏—Ç–æ—Ä–∏–π
 > cat(".Rprofile: Setting US repositoryn")
 .Rprofile: Setting US repositoryn> r = getOption("repos")
 > r["CRAN"] = "http://cran.us.r-project.org"
 > options(repos = r)
 > rm(r)
 > 
-> # ”ÒÚ‡Ì‡‚ÎË‚‡ÂÏ Ô‡ÍÂÚ xlsx
+> # –£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞–µ–º –ø–∞–∫–µ—Ç xlsx
 > install.packages("xlsx")
-”ÒÚ‡Ì‡‚ÎË‚‡˛ Ô‡ÍÂÚ ‚ ëC:/Users/Gewissta/Documents/R/win-library/3.4í
-(ÔÓÚÓÏÛ ˜ÚÓ ëlibí ÌÂ ÓÔÂ‰ÂÎÂÌÓ)
-ÔÓ·Û˛ URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/xlsx_0.5.7.zip'
+–£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞—é –ø–∞–∫–µ—Ç –≤ ‚ÄòC:/Users/Gewissta/Documents/R/win-library/3.4‚Äô
+(–ø–æ—Ç–æ–º—É —á—Ç–æ ‚Äòlib‚Äô –Ω–µ –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–æ)
+–ø—Ä–æ–±—É—é URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/xlsx_0.5.7.zip'
 Content type 'application/zip' length 401348 bytes (391 KB)
 downloaded 391 KB
 
-Ô‡ÍÂÚ ëxlsxí ÛÒÔÂ¯ÌÓ ‡ÒÔ‡ÍÓ‚‡Ì, MD5-ÒÛÏÏ˚ ÔÓ‚ÂÂÌ˚
+–ø–∞–∫–µ—Ç ‚Äòxlsx‚Äô —É—Å–ø–µ—à–Ω–æ —Ä–∞—Å–ø–∞–∫–æ–≤–∞–Ω, MD5-—Å—É–º–º—ã –ø—Ä–æ–≤–µ—Ä–µ–Ω—ã
 
-—Í‡˜‡ÌÌ˚Â ·ËÌ‡Ì˚Â Ô‡ÍÂÚ˚ Ì‡ıÓ‰ˇÚÒˇ ‚
-        C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
+–°–∫–∞—á–∞–Ω–Ω—ã–µ –±–∏–Ω–∞—Ä–Ω—ã–µ –ø–∞–∫–µ—Ç—ã –Ω–∞—Ö–æ–¥—è—Ç—Å—è –≤
+C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
 > 
-> # ”ÒÚ‡Ì‡‚ÎË‚‡ÂÏ Ô‡ÍÂÚ openxlsx
+> # –£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞–µ–º –ø–∞–∫–µ—Ç openxlsx
 > install.packages("openxlsx")
-”ÒÚ‡Ì‡‚ÎË‚‡˛ Ô‡ÍÂÚ ‚ ëC:/Users/Gewissta/Documents/R/win-library/3.4í
-(ÔÓÚÓÏÛ ˜ÚÓ ëlibí ÌÂ ÓÔÂ‰ÂÎÂÌÓ)
-ÔÓ·Û˛ URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/openxlsx_4.0.17.zip'
+–£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞—é –ø–∞–∫–µ—Ç –≤ ‚ÄòC:/Users/Gewissta/Documents/R/win-library/3.4‚Äô
+(–ø–æ—Ç–æ–º—É —á—Ç–æ ‚Äòlib‚Äô –Ω–µ –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–æ)
+–ø—Ä–æ–±—É—é URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/openxlsx_4.0.17.zip'
 Content type 'application/zip' length 2428940 bytes (2.3 MB)
 downloaded 2.3 MB
 
-Ô‡ÍÂÚ ëopenxlsxí ÛÒÔÂ¯ÌÓ ‡ÒÔ‡ÍÓ‚‡Ì, MD5-ÒÛÏÏ˚ ÔÓ‚ÂÂÌ˚
+–ø–∞–∫–µ—Ç ‚Äòopenxlsx‚Äô —É—Å–ø–µ—à–Ω–æ —Ä–∞—Å–ø–∞–∫–æ–≤–∞–Ω, MD5-—Å—É–º–º—ã –ø—Ä–æ–≤–µ—Ä–µ–Ω—ã
 
-—Í‡˜‡ÌÌ˚Â ·ËÌ‡Ì˚Â Ô‡ÍÂÚ˚ Ì‡ıÓ‰ˇÚÒˇ ‚
-        C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
+–°–∫–∞—á–∞–Ω–Ω—ã–µ –±–∏–Ω–∞—Ä–Ω—ã–µ –ø–∞–∫–µ—Ç—ã –Ω–∞—Ö–æ–¥—è—Ç—Å—è –≤
+C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
 > 
-> # ”ÒÚ‡Ì‡‚ÎË‚‡ÂÏ Ô‡ÍÂÚ Hmisc
+> # –£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞–µ–º –ø–∞–∫–µ—Ç Hmisc
 > install.packages("Hmisc")
-”ÒÚ‡Ì‡‚ÎË‚‡˛ Ô‡ÍÂÚ ‚ ëC:/Users/Gewissta/Documents/R/win-library/3.4í
-(ÔÓÚÓÏÛ ˜ÚÓ ëlibí ÌÂ ÓÔÂ‰ÂÎÂÌÓ)
-ÔÓ·Û˛ URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/Hmisc_4.0-3.zip'
+–£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞—é –ø–∞–∫–µ—Ç –≤ ‚ÄòC:/Users/Gewissta/Documents/R/win-library/3.4‚Äô
+(–ø–æ—Ç–æ–º—É —á—Ç–æ ‚Äòlib‚Äô –Ω–µ –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–æ)
+–ø—Ä–æ–±—É—é URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/Hmisc_4.0-3.zip'
 Content type 'application/zip' length 1792639 bytes (1.7 MB)
 downloaded 1.7 MB
 
-Ô‡ÍÂÚ ëHmiscí ÛÒÔÂ¯ÌÓ ‡ÒÔ‡ÍÓ‚‡Ì, MD5-ÒÛÏÏ˚ ÔÓ‚ÂÂÌ˚
+–ø–∞–∫–µ—Ç ‚ÄòHmisc‚Äô —É—Å–ø–µ—à–Ω–æ —Ä–∞—Å–ø–∞–∫–æ–≤–∞–Ω, MD5-—Å—É–º–º—ã –ø—Ä–æ–≤–µ—Ä–µ–Ω—ã
 
-—Í‡˜‡ÌÌ˚Â ·ËÌ‡Ì˚Â Ô‡ÍÂÚ˚ Ì‡ıÓ‰ˇÚÒˇ ‚
-        C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
+–°–∫–∞—á–∞–Ω–Ω—ã–µ –±–∏–Ω–∞—Ä–Ω—ã–µ –ø–∞–∫–µ—Ç—ã –Ω–∞—Ö–æ–¥—è—Ç—Å—è –≤
+C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
 > 
-> # ”ÒÚ‡Ì‡‚ÎË‚‡ÂÏ Ô‡ÍÂÚ imputeMissings
+> # –£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞–µ–º –ø–∞–∫–µ—Ç imputeMissings
 > install.packages("imputeMissings")
-”ÒÚ‡Ì‡‚ÎË‚‡˛ Ô‡ÍÂÚ ‚ ëC:/Users/Gewissta/Documents/R/win-library/3.4í
-(ÔÓÚÓÏÛ ˜ÚÓ ëlibí ÌÂ ÓÔÂ‰ÂÎÂÌÓ)
-ÔÓ·Û˛ URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/imputeMissings_0.0.3.zip'
+–£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞—é –ø–∞–∫–µ—Ç –≤ ‚ÄòC:/Users/Gewissta/Documents/R/win-library/3.4‚Äô
+(–ø–æ—Ç–æ–º—É —á—Ç–æ ‚Äòlib‚Äô –Ω–µ –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–æ)
+–ø—Ä–æ–±—É—é URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/imputeMissings_0.0.3.zip'
 Content type 'application/zip' length 19394 bytes (18 KB)
 downloaded 18 KB
 
-Ô‡ÍÂÚ ëimputeMissingsí ÛÒÔÂ¯ÌÓ ‡ÒÔ‡ÍÓ‚‡Ì, MD5-ÒÛÏÏ˚ ÔÓ‚ÂÂÌ˚
+–ø–∞–∫–µ—Ç ‚ÄòimputeMissings‚Äô —É—Å–ø–µ—à–Ω–æ —Ä–∞—Å–ø–∞–∫–æ–≤–∞–Ω, MD5-—Å—É–º–º—ã –ø—Ä–æ–≤–µ—Ä–µ–Ω—ã
 
-—Í‡˜‡ÌÌ˚Â ·ËÌ‡Ì˚Â Ô‡ÍÂÚ˚ Ì‡ıÓ‰ˇÚÒˇ ‚
-        C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
+–°–∫–∞—á–∞–Ω–Ω—ã–µ –±–∏–Ω–∞—Ä–Ω—ã–µ –ø–∞–∫–µ—Ç—ã –Ω–∞—Ö–æ–¥—è—Ç—Å—è –≤
+C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
 > 
-> # ”ÒÚ‡Ì‡‚ÎË‚‡ÂÏ Ô‡ÍÂÚ imputeTS
+> # –£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞–µ–º –ø–∞–∫–µ—Ç imputeTS
 > install.packages("imputeTS")
-”ÒÚ‡Ì‡‚ÎË‚‡˛ Ô‡ÍÂÚ ‚ ëC:/Users/Gewissta/Documents/R/win-library/3.4í
-(ÔÓÚÓÏÛ ˜ÚÓ ëlibí ÌÂ ÓÔÂ‰ÂÎÂÌÓ)
-ÔÓ·Û˛ URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/imputeTS_2.3.zip'
+–£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞—é –ø–∞–∫–µ—Ç –≤ ‚ÄòC:/Users/Gewissta/Documents/R/win-library/3.4‚Äô
+(–ø–æ—Ç–æ–º—É —á—Ç–æ ‚Äòlib‚Äô –Ω–µ –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–æ)
+–ø—Ä–æ–±—É—é URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/imputeTS_2.3.zip'
 Content type 'application/zip' length 2424899 bytes (2.3 MB)
 downloaded 2.3 MB
 
-Ô‡ÍÂÚ ëimputeTSí ÛÒÔÂ¯ÌÓ ‡ÒÔ‡ÍÓ‚‡Ì, MD5-ÒÛÏÏ˚ ÔÓ‚ÂÂÌ˚
+–ø–∞–∫–µ—Ç ‚ÄòimputeTS‚Äô —É—Å–ø–µ—à–Ω–æ —Ä–∞—Å–ø–∞–∫–æ–≤–∞–Ω, MD5-—Å—É–º–º—ã –ø—Ä–æ–≤–µ—Ä–µ–Ω—ã
 
-—Í‡˜‡ÌÌ˚Â ·ËÌ‡Ì˚Â Ô‡ÍÂÚ˚ Ì‡ıÓ‰ˇÚÒˇ ‚
-        C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
+–°–∫–∞—á–∞–Ω–Ω—ã–µ –±–∏–Ω–∞—Ä–Ω—ã–µ –ø–∞–∫–µ—Ç—ã –Ω–∞—Ö–æ–¥—è—Ç—Å—è –≤
+C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
 > 
-> # ”ÒÚ‡Ì‡‚ÎË‚‡ÂÏ Ô‡ÍÂÚ dplyr
+> # –£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞–µ–º –ø–∞–∫–µ—Ç dplyr
 > install.packages("dplyr")
-”ÒÚ‡Ì‡‚ÎË‚‡˛ Ô‡ÍÂÚ ‚ ëC:/Users/Gewissta/Documents/R/win-library/3.4í
-(ÔÓÚÓÏÛ ˜ÚÓ ëlibí ÌÂ ÓÔÂ‰ÂÎÂÌÓ)
-ÔÓ·Û˛ URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/dplyr_0.5.0.zip'
+–£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞—é –ø–∞–∫–µ—Ç –≤ ‚ÄòC:/Users/Gewissta/Documents/R/win-library/3.4‚Äô
+(–ø–æ—Ç–æ–º—É —á—Ç–æ ‚Äòlib‚Äô –Ω–µ –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–æ)
+–ø—Ä–æ–±—É—é URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/dplyr_0.5.0.zip'
 Content type 'application/zip' length 2556287 bytes (2.4 MB)
 downloaded 2.4 MB
 
-Ô‡ÍÂÚ ëdplyrí ÛÒÔÂ¯ÌÓ ‡ÒÔ‡ÍÓ‚‡Ì, MD5-ÒÛÏÏ˚ ÔÓ‚ÂÂÌ˚
+–ø–∞–∫–µ—Ç ‚Äòdplyr‚Äô —É—Å–ø–µ—à–Ω–æ —Ä–∞—Å–ø–∞–∫–æ–≤–∞–Ω, MD5-—Å—É–º–º—ã –ø—Ä–æ–≤–µ—Ä–µ–Ω—ã
 
-—Í‡˜‡ÌÌ˚Â ·ËÌ‡Ì˚Â Ô‡ÍÂÚ˚ Ì‡ıÓ‰ˇÚÒˇ ‚
-        C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
+–°–∫–∞—á–∞–Ω–Ω—ã–µ –±–∏–Ω–∞—Ä–Ω—ã–µ –ø–∞–∫–µ—Ç—ã –Ω–∞—Ö–æ–¥—è—Ç—Å—è –≤
+C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
 > 
-> # ”ÒÚ‡Ì‡‚ÎË‚‡ÂÏ Ô‡ÍÂÚ memisc
+> # –£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞–µ–º –ø–∞–∫–µ—Ç memisc
 > install.packages("memisc")
-”ÒÚ‡Ì‡‚ÎË‚‡˛ Ô‡ÍÂÚ ‚ ëC:/Users/Gewissta/Documents/R/win-library/3.4í
-(ÔÓÚÓÏÛ ˜ÚÓ ëlibí ÌÂ ÓÔÂ‰ÂÎÂÌÓ)
-ÔÓ·Û˛ URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/memisc_0.99.8.zip'
+–£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞—é –ø–∞–∫–µ—Ç –≤ ‚ÄòC:/Users/Gewissta/Documents/R/win-library/3.4‚Äô
+(–ø–æ—Ç–æ–º—É —á—Ç–æ ‚Äòlib‚Äô –Ω–µ –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–æ)
+–ø—Ä–æ–±—É—é URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/memisc_0.99.8.zip'
 Content type 'application/zip' length 1717248 bytes (1.6 MB)
 downloaded 1.6 MB
 
-Ô‡ÍÂÚ ëmemiscí ÛÒÔÂ¯ÌÓ ‡ÒÔ‡ÍÓ‚‡Ì, MD5-ÒÛÏÏ˚ ÔÓ‚ÂÂÌ˚
+–ø–∞–∫–µ—Ç ‚Äòmemisc‚Äô —É—Å–ø–µ—à–Ω–æ —Ä–∞—Å–ø–∞–∫–æ–≤–∞–Ω, MD5-—Å—É–º–º—ã –ø—Ä–æ–≤–µ—Ä–µ–Ω—ã
 
-—Í‡˜‡ÌÌ˚Â ·ËÌ‡Ì˚Â Ô‡ÍÂÚ˚ Ì‡ıÓ‰ˇÚÒˇ ‚
-        C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
+–°–∫–∞—á–∞–Ω–Ω—ã–µ –±–∏–Ω–∞—Ä–Ω—ã–µ –ø–∞–∫–µ—Ç—ã –Ω–∞—Ö–æ–¥—è—Ç—Å—è –≤
+C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
 > 
-> # ”ÒÚ‡Ì‡‚ÎË‚‡ÂÏ Ô‡ÍÂÚ rattle
+> # –£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞–µ–º –ø–∞–∫–µ—Ç rattle
 > install.packages("rattle")
-”ÒÚ‡Ì‡‚ÎË‚‡˛ Ô‡ÍÂÚ ‚ ëC:/Users/Gewissta/Documents/R/win-library/3.4í
-(ÔÓÚÓÏÛ ˜ÚÓ ëlibí ÌÂ ÓÔÂ‰ÂÎÂÌÓ)
-ÔÓ·Û˛ URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/rattle_4.1.0.zip'
+–£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞—é –ø–∞–∫–µ—Ç –≤ ‚ÄòC:/Users/Gewissta/Documents/R/win-library/3.4‚Äô
+(–ø–æ—Ç–æ–º—É —á—Ç–æ ‚Äòlib‚Äô –Ω–µ –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–æ)
+–ø—Ä–æ–±—É—é URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/rattle_4.1.0.zip'
 Content type 'application/zip' length 3853137 bytes (3.7 MB)
 downloaded 3.7 MB
 
-Ô‡ÍÂÚ ërattleí ÛÒÔÂ¯ÌÓ ‡ÒÔ‡ÍÓ‚‡Ì, MD5-ÒÛÏÏ˚ ÔÓ‚ÂÂÌ˚
+–ø–∞–∫–µ—Ç ‚Äòrattle‚Äô —É—Å–ø–µ—à–Ω–æ —Ä–∞—Å–ø–∞–∫–æ–≤–∞–Ω, MD5-—Å—É–º–º—ã –ø—Ä–æ–≤–µ—Ä–µ–Ω—ã
 
-—Í‡˜‡ÌÌ˚Â ·ËÌ‡Ì˚Â Ô‡ÍÂÚ˚ Ì‡ıÓ‰ˇÚÒˇ ‚
-        C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
+–°–∫–∞—á–∞–Ω–Ω—ã–µ –±–∏–Ω–∞—Ä–Ω—ã–µ –ø–∞–∫–µ—Ç—ã –Ω–∞—Ö–æ–¥—è—Ç—Å—è –≤
+C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
 > 
-> # ”ÒÚ‡Ì‡‚ÎË‚‡ÂÏ Ô‡ÍÂÚ data.table
+> # –£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞–µ–º –ø–∞–∫–µ—Ç data.table
 > install.packages("data.table")
-”ÒÚ‡Ì‡‚ÎË‚‡˛ Ô‡ÍÂÚ ‚ ëC:/Users/Gewissta/Documents/R/win-library/3.4í
-(ÔÓÚÓÏÛ ˜ÚÓ ëlibí ÌÂ ÓÔÂ‰ÂÎÂÌÓ)
-ÔÓ·Û˛ URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/data.table_1.10.4.zip'
+–£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞—é –ø–∞–∫–µ—Ç –≤ ‚ÄòC:/Users/Gewissta/Documents/R/win-library/3.4‚Äô
+(–ø–æ—Ç–æ–º—É —á—Ç–æ ‚Äòlib‚Äô –Ω–µ –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–æ)
+–ø—Ä–æ–±—É—é URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/data.table_1.10.4.zip'
 Content type 'application/zip' length 1573707 bytes (1.5 MB)
 downloaded 1.5 MB
 
-Ô‡ÍÂÚ ëdata.tableí ÛÒÔÂ¯ÌÓ ‡ÒÔ‡ÍÓ‚‡Ì, MD5-ÒÛÏÏ˚ ÔÓ‚ÂÂÌ˚
+–ø–∞–∫–µ—Ç ‚Äòdata.table‚Äô —É—Å–ø–µ—à–Ω–æ —Ä–∞—Å–ø–∞–∫–æ–≤–∞–Ω, MD5-—Å—É–º–º—ã –ø—Ä–æ–≤–µ—Ä–µ–Ω—ã
 
-—Í‡˜‡ÌÌ˚Â ·ËÌ‡Ì˚Â Ô‡ÍÂÚ˚ Ì‡ıÓ‰ˇÚÒˇ ‚
-        C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
+–°–∫–∞—á–∞–Ω–Ω—ã–µ –±–∏–Ω–∞—Ä–Ω—ã–µ –ø–∞–∫–µ—Ç—ã –Ω–∞—Ö–æ–¥—è—Ç—Å—è –≤
+C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
 > 
-> # ”ÒÚ‡Ì‡‚ÎË‚‡ÂÏ Ô‡ÍÂÚ anytime
+> # –£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞–µ–º –ø–∞–∫–µ—Ç anytime
 > install.packages("anytime")
-”ÒÚ‡Ì‡‚ÎË‚‡˛ Ô‡ÍÂÚ ‚ ëC:/Users/Gewissta/Documents/R/win-library/3.4í
-(ÔÓÚÓÏÛ ˜ÚÓ ëlibí ÌÂ ÓÔÂ‰ÂÎÂÌÓ)
-ÔÓ·Û˛ URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/anytime_0.2.2.zip'
+–£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞—é –ø–∞–∫–µ—Ç –≤ ‚ÄòC:/Users/Gewissta/Documents/R/win-library/3.4‚Äô
+(–ø–æ—Ç–æ–º—É —á—Ç–æ ‚Äòlib‚Äô –Ω–µ –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–æ)
+–ø—Ä–æ–±—É—é URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/anytime_0.2.2.zip'
 Content type 'application/zip' length 725812 bytes (708 KB)
 downloaded 708 KB
 
-Ô‡ÍÂÚ ëanytimeí ÛÒÔÂ¯ÌÓ ‡ÒÔ‡ÍÓ‚‡Ì, MD5-ÒÛÏÏ˚ ÔÓ‚ÂÂÌ˚
+–ø–∞–∫–µ—Ç ‚Äòanytime‚Äô —É—Å–ø–µ—à–Ω–æ —Ä–∞—Å–ø–∞–∫–æ–≤–∞–Ω, MD5-—Å—É–º–º—ã –ø—Ä–æ–≤–µ—Ä–µ–Ω—ã
 
-—Í‡˜‡ÌÌ˚Â ·ËÌ‡Ì˚Â Ô‡ÍÂÚ˚ Ì‡ıÓ‰ˇÚÒˇ ‚
-        C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
+–°–∫–∞—á–∞–Ω–Ω—ã–µ –±–∏–Ω–∞—Ä–Ω—ã–µ –ø–∞–∫–µ—Ç—ã –Ω–∞—Ö–æ–¥—è—Ç—Å—è –≤
+C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
 > 
-> # ”ÒÚ‡Ì‡‚ÎË‚‡ÂÏ Ô‡ÍÂÚ stringr
+> # –£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞–µ–º –ø–∞–∫–µ—Ç stringr
 > install.packages("stringr")
-”ÒÚ‡Ì‡‚ÎË‚‡˛ Ô‡ÍÂÚ ‚ ëC:/Users/Gewissta/Documents/R/win-library/3.4í
-(ÔÓÚÓÏÛ ˜ÚÓ ëlibí ÌÂ ÓÔÂ‰ÂÎÂÌÓ)
-ÔÓ·Û˛ URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/stringr_1.2.0.zip'
+–£—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞—é –ø–∞–∫–µ—Ç –≤ ‚ÄòC:/Users/Gewissta/Documents/R/win-library/3.4‚Äô
+(–ø–æ—Ç–æ–º—É —á—Ç–æ ‚Äòlib‚Äô –Ω–µ –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–æ)
+–ø—Ä–æ–±—É—é URL 'http://cran.us.r-project.org/bin/windows/contrib/3.4/stringr_1.2.0.zip'
 Content type 'application/zip' length 149107 bytes (145 KB)
 downloaded 145 KB
 
-Ô‡ÍÂÚ ëstringrí ÛÒÔÂ¯ÌÓ ‡ÒÔ‡ÍÓ‚‡Ì, MD5-ÒÛÏÏ˚ ÔÓ‚ÂÂÌ˚
+–ø–∞–∫–µ—Ç ‚Äòstringr‚Äô —É—Å–ø–µ—à–Ω–æ —Ä–∞—Å–ø–∞–∫–æ–≤–∞–Ω, MD5-—Å—É–º–º—ã –ø—Ä–æ–≤–µ—Ä–µ–Ω—ã
 
-—Í‡˜‡ÌÌ˚Â ·ËÌ‡Ì˚Â Ô‡ÍÂÚ˚ Ì‡ıÓ‰ˇÚÒˇ ‚
-        C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
-> # 1. —ÓÁ‰‡ÌËÂ ‰‡Ú‡ÙÂÈÏ‡ ËÁ Ù‡ÈÎ‡ Excel Ë CSV Ù‡ÈÎ‡
+–°–∫–∞—á–∞–Ω–Ω—ã–µ –±–∏–Ω–∞—Ä–Ω—ã–µ –ø–∞–∫–µ—Ç—ã –Ω–∞—Ö–æ–¥—è—Ç—Å—è –≤
+C:\Users\Gewissta\AppData\Local\Temp\Rtmpu4GFb4\downloaded_packages
+> # 1. –°–æ–∑–¥–∞–Ω–∏–µ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º–∞ –∏–∑ —Ñ–∞–π–ª–∞ Excel –∏ CSV —Ñ–∞–π–ª–∞
 > 
-> # 1.1 —ÓÁ‰‡ÂÏ ‰‡Ú‡ÙÂÈÏ ËÁ Ù‡ÈÎ‡ Excel (ÔÂ‚˚È ÒÔÓÒÓ·)
+> # 1.1 –°–æ–∑–¥–∞–µ–º –¥–∞—Ç–∞—Ñ—Ä–µ–π–º –∏–∑ —Ñ–∞–π–ª–∞ Excel (–ø–µ—Ä–≤—ã–π —Å–ø–æ—Å–æ–±)
 > 
-> # ¬Ó ËÁ·ÂÊ‡ÌËÂ Ó¯Ë·ÍË java.lang.OutOfMemoryError: GC overhead limit exceeded
-> # Û‚ÂÎË˜Ë‚‡ÂÏ ‡ÁÏÂ ‰ÓÒÚÛÔÌÓÈ ÓÔÂ‡ÚË‚ÌÓÈ Ô‡ÏˇÚË (8 √·) ÔÂÂ‰ Á‡„ÛÁÍÓÈ 
-> # Ô‡ÍÂÚ‡ rJava, ÍÓÚÓ˚È Á‡„ÛÊ‡ÂÚÒˇ Í‡Í Á‡‚ËÒËÏÓÒÚ¸ Ô‡ÍÂÚ‡ xlsx
+> # –í–æ –∏–∑–±–µ–∂–∞–Ω–∏–µ –æ—à–∏–±–∫–∏ java.lang.OutOfMemoryError: GC overhead limit exceeded
+> # —É–≤–µ–ª–∏—á–∏–≤–∞–µ–º —Ä–∞–∑–º–µ—Ä –¥–æ—Å—Ç—É–ø–Ω–æ–π –æ–ø–µ—Ä–∞—Ç–∏–≤–Ω–æ–π –ø–∞–º—è—Ç–∏ (8 –ì–±) –ø–µ—Ä–µ–¥ –∑–∞–≥—Ä—É–∑–∫–æ–π 
+> # –ø–∞–∫–µ—Ç–∞ rJava, –∫–æ—Ç–æ—Ä—ã–π –∑–∞–≥—Ä—É–∂–∞–µ—Ç—Å—è –∫–∞–∫ –∑–∞–≤–∏—Å–∏–º–æ—Å—Ç—å –ø–∞–∫–µ—Ç–∞ xlsx
 > options(java.parameters = "-Xmx8192m")
 > 
-> # «‡„ÛÊ‡ÂÏ Ô‡ÍÂÚ xlsx
+> # –ó–∞–≥—Ä—É–∂–∞–µ–º –ø–∞–∫–µ—Ç xlsx
 > library(xlsx)
-«‡„ÛÁÍ‡ ÚÂ·ÛÂÏÓ„Ó Ô‡ÍÂÚ‡: rJava
-«‡„ÛÁÍ‡ ÚÂ·ÛÂÏÓ„Ó Ô‡ÍÂÚ‡: xlsxjars
+–ó–∞–≥—Ä—É–∑–∫–∞ —Ç—Ä–µ–±—É–µ–º–æ–≥–æ –ø–∞–∫–µ—Ç–∞: rJava
+–ó–∞–≥—Ä—É–∑–∫–∞ —Ç—Ä–µ–±—É–µ–º–æ–≥–æ –ø–∞–∫–µ—Ç–∞: xlsxjars
 > 
-> # —˜ËÚ˚‚‡ÂÏ ‰‡ÌÌ˚Â, ÛÍ‡Á‡‚ ËÌ‰ÂÍÒ ÌÛÊÌÓ„Ó ‡·Ó˜Â„Ó ÎËÒÚ‡
+> # –°—á–∏—Ç—ã–≤–∞–µ–º –¥–∞–Ω–Ω—ã–µ, —É–∫–∞–∑–∞–≤ –∏–Ω–¥–µ–∫—Å –Ω—É–∂–Ω–æ–≥–æ —Ä–∞–±–æ—á–µ–≥–æ –ª–∏—Å—Ç–∞
 > data <- read.xlsx2("C:/Trees/Credit.xlsx", sheetIndex=1)
 > head(data)
-  client_id gender age marital_status job_position credit_sum credit_month score_shk education tariff_id living_region okrug avregzarplata monthly_income credit_count overdue_credit_count open_account_flg
+client_id gender age marital_status job_position credit_sum credit_month score_shk education tariff_id living_region okrug avregzarplata monthly_income credit_count overdue_credit_count open_account_flg
 1         1      2  48              3           15      59998           10  0.770249         2        28            23     8         25850          30000            1                    1                0
 2         2      1  28                          15      10889            6  0.248514         2         2            30     7         66880          43000            2                    0                0
 3         3      2  32              3           14      10728           12  0.459589         4         2            64     2         23430          23000            5                    0                0
@@ -194,22 +194,22 @@ downloaded 145 KB
 5         5      2  45              3           14   16908.89           10  0.421385         4         2            77     6         26620                           1                    0                0
 6         6      1  37              3           14      26788           10  0.484203         4         2            68     4         22000          30000            0                    0                0
 > 
-> # 1.2 —ÓÁ‰‡ÂÏ ‰‡Ú‡ÙÂÈÏ ËÁ Ù‡ÈÎ‡ Excel (‚ÚÓÓÈ ÒÔÓÒÓ·)
-> 
-> # «‡„ÛÊ‡ÂÏ Ô‡ÍÂÚ openxlsx
+> # 1.2 –°–æ–∑–¥–∞–µ–º –¥–∞—Ç–∞—Ñ—Ä–µ–π–º –∏–∑ —Ñ–∞–π–ª–∞ Excel (–≤—Ç–æ—Ä–æ–π —Å–ø–æ—Å–æ–±)
+>
+> # –ó–∞–≥—Ä—É–∂–∞–µ–º –ø–∞–∫–µ—Ç openxlsx
 > library("openxlsx")
 
-œËÒÓÂ‰ËÌˇ˛ Ô‡ÍÂÚ: ëopenxlsxí
+–ü—Ä–∏—Å–æ–µ–¥–∏–Ω—è—é –ø–∞–∫–µ—Ç: ‚Äòopenxlsx‚Äô
 
-—ÎÂ‰Û˛˘ËÂ Ó·˙ÂÍÚ˚ ÒÍ˚Ú˚ ÓÚ ëpackage:xlsxí:
-
-    createWorkbook, loadWorkbook, read.xlsx, saveWorkbook, write.xlsx
+–°–ª–µ–¥—É—é—â–∏–µ –æ–±—ä–µ–∫—Ç—ã —Å–∫—Ä—ã—Ç—ã –æ—Ç ‚Äòpackage:xlsx‚Äô:
+  
+  createWorkbook, loadWorkbook, read.xlsx, saveWorkbook, write.xlsx
 
 > 
-> # —˜ËÚ˚‚‡ÂÏ ‰‡ÌÌ˚Â, ÛÍ‡Á‡‚ ËÌ‰ÂÍÒ ÌÛÊÌÓ„Ó ‡·Ó˜Â„Ó ÎËÒÚ‡
+> # –°—á–∏—Ç—ã–≤–∞–µ–º –¥–∞–Ω–Ω—ã–µ, —É–∫–∞–∑–∞–≤ –∏–Ω–¥–µ–∫—Å –Ω—É–∂–Ω–æ–≥–æ —Ä–∞–±–æ—á–µ–≥–æ –ª–∏—Å—Ç–∞
 > data_xls <- read.xlsx("C:/Trees/Credit.xlsx", sheet=1)
 > head(data_xls)
-  client_id gender age marital_status job_position credit_sum credit_month score_shk education tariff_id living_region okrug avregzarplata monthly_income credit_count overdue_credit_count open_account_flg
+client_id gender age marital_status job_position credit_sum credit_month score_shk education tariff_id living_region okrug avregzarplata monthly_income credit_count overdue_credit_count open_account_flg
 1         1      2  48              3           15   59998.00           10  0.770249         2        28            23     8         25850          30000            1                    1                0
 2         2      1  28             NA           15   10889.00            6  0.248514         2         2            30     7         66880          43000            2                    0                0
 3         3      2  32              3           14   10728.00           12  0.459589         4         2            64     2         23430          23000            5                    0                0
@@ -217,146 +217,146 @@ downloaded 145 KB
 5         5      2  45              3           14   16908.89           10  0.421385         4         2            77     6         26620             NA            1                    0                0
 6         6      1  37              3           14   26788.00           10  0.484203         4         2            68     4         22000          30000            0                    0                0
 > 
-> # ŒÚÒÓÂ‰ËÌˇÂÏ Ô‡ÍÂÚ openxlsx
+> # –û—Ç—Å–æ–µ–¥–∏–Ω—è–µ–º –ø–∞–∫–µ—Ç openxlsx
 > detach("package:openxlsx", unload=TRUE)
 > 
-> # 1.3 —ÓÁ‰‡ÂÏ ‰‡Ú‡ÙÂÈÏ ËÁ CSV Ù‡ÈÎ‡, ‚ ÍÓÚÓÓÏ ËÒÔÓÎ¸ÁÛÂÚÒˇ ÍËËÎÎËˆ‡ Ë ÁÌ‡˜ÂÌËˇ ‡Á‰ÂÎÂÌ˚ ÚÓ˜Í‡ÏË Ò Á‡ÔˇÚÓÈ
+> # 1.3 –°–æ–∑–¥–∞–µ–º –¥–∞—Ç–∞—Ñ—Ä–µ–π–º –∏–∑ CSV —Ñ–∞–π–ª–∞, –≤ –∫–æ—Ç–æ—Ä–æ–º –∏—Å–ø–æ–ª—å–∑—É–µ—Ç—Å—è –∫–∏—Ä–∏–ª–ª–∏—Ü–∞ –∏ –∑–Ω–∞—á–µ–Ω–∏—è —Ä–∞–∑–¥–µ–ª–µ–Ω—ã —Ç–æ—á–∫–∞–º–∏ —Å –∑–∞–ø—è—Ç–æ–π
 > 
 > data2 <- read.csv2("C:/Trees/Example_semicolon.csv", sep = ';')
 > head(data2)
-  client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg
-1         1      M  48            MAR          UMN      59998           10        28  0.770249       GRD     –¿—ÕŒƒ¿–— »…  –¿…          30000            1                    1                0
-2         2      F  28            MAR          UMN      10889            6         2  0.248514       GRD                ÃŒ— ¬¿          43000            2                    0                0
-3         3      M  32            MAR          SPC      10728           12         2  0.459589       SCH   —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹          23000            5                    0                0
-4         4      F  27            DIV          SPC   12009.09           12         2  0.362536       GRD ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹          17000            2                    0                0
-5         5      M  45            MAR          SPC   16908.89           10         2  0.421385       SCH   ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹          25000            1                    0                0
-6         6      F  37            MAR          SPC      26788           10         2  0.484203       SCH   —“¿¬–ŒœŒÀ‹— »…  –¿…          30000            0                    0                0
+client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg
+1         1      M  48            MAR          UMN      59998           10        28  0.770249       GRD    –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          30000            1                    1                0
+2         2      F  28            MAR          UMN      10889            6         2  0.248514       GRD                –ú–û–°–ö–í–ê          43000            2                    0                0
+3         3      M  32            MAR          SPC      10728           12         2  0.459589       SCH   –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          23000            5                    0                0
+4         4      F  27            DIV          SPC   12009.09           12         2  0.362536       GRD –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          17000            2                    0                0
+5         5      M  45            MAR          SPC   16908.89           10         2  0.421385       SCH   –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          25000            1                    0                0
+6         6      F  37            MAR          SPC      26788           10         2  0.484203       SCH   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          30000            0                    0                0
 > 
-> # 1.4 —ÓÁ‰‡ÂÏ ‰‡Ú‡ÙÂÈÏ ËÁ CSV Ù‡ÈÎ‡, ‚ ÍÓÚÓÓÏ ËÒÔÓÎ¸ÁÛÂÚÒˇ ÍËËÎÎËˆ‡ Ë ÁÌ‡˜ÂÌËˇ ‡Á‰ÂÎÂÌ˚ Á‡ÔˇÚ˚ÏË
+> # 1.4 –°–æ–∑–¥–∞–µ–º –¥–∞—Ç–∞—Ñ—Ä–µ–π–º –∏–∑ CSV —Ñ–∞–π–ª–∞, –≤ –∫–æ—Ç–æ—Ä–æ–º –∏—Å–ø–æ–ª—å–∑—É–µ—Ç—Å—è –∫–∏—Ä–∏–ª–ª–∏—Ü–∞ –∏ –∑–Ω–∞—á–µ–Ω–∏—è —Ä–∞–∑–¥–µ–ª–µ–Ω—ã –∑–∞–ø—è—Ç—ã–º–∏
 > 
 > data3 <- read.csv2("C:/Trees/Example_comma.csv", sep = ',')
 > head(data3)
-  client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg
-1         1      M  48            MAR          UMN      59998           10        28  0.770249       GRD     –¿—ÕŒƒ¿–— »…  –¿…          30000            1                    1                0
-2         2      F  28            MAR          UMN      10889            6         2  0.248514       GRD                ÃŒ— ¬¿          43000            2                    0                0
-3         3      M  32            MAR          SPC      10728           12         2  0.459589       SCH   —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹          23000            5                    0                0
-4         4      F  27            DIV          SPC   12009.09           12         2  0.362536       GRD ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹          17000            2                    0                0
-5         5      M  45            MAR          SPC   16908.89           10         2  0.421385       SCH   ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹          25000            1                    0                0
-6         6      F  37            MAR          SPC      26788           10         2  0.484203       SCH   —“¿¬–ŒœŒÀ‹— »…  –¿…          30000            0                    0                0
+client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg
+1         1      M  48            MAR          UMN      59998           10        28  0.770249       GRD    –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          30000            1                    1                0
+2         2      F  28            MAR          UMN      10889            6         2  0.248514       GRD                –ú–û–°–ö–í–ê          43000            2                    0                0
+3         3      M  32            MAR          SPC      10728           12         2  0.459589       SCH   –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          23000            5                    0                0
+4         4      F  27            DIV          SPC   12009.09           12         2  0.362536       GRD –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          17000            2                    0                0
+5         5      M  45            MAR          SPC   16908.89           10         2  0.421385       SCH   –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          25000            1                    0                0
+6         6      F  37            MAR          SPC      26788           10         2  0.484203       SCH   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          30000            0                    0                0
 > 
-> # 2. «‡ÔËÒ¸ ‰‡Ú‡ÙÂÈÏ‡ ‚ CSV Ù‡ÈÎ Ë Ù‡ÈÎ Excel
+> # 2. –ó–∞–ø–∏—Å—å –¥–∞—Ç–∞—Ñ—Ä–µ–π–º–∞ –≤ CSV —Ñ–∞–π–ª –∏ —Ñ–∞–π–ª Excel
 > 
-> # 2.1 «‡ÔËÒ˚‚‡ÂÏ Ì‡ ÓÒÌÓ‚Â ‰‡Ú‡ÙÂÈÏ‡ CSV Ù‡ÈÎ, ‚ ÍÓÚÓÓÏ ÁÌ‡˜ÂÌËˇ ‡Á‰ÂÎÂÌ˚ Á‡ÔˇÚ˚ÏË (ÔÂ‚˚È ÒÔÓÒÓ·)
+> # 2.1 –ó–∞–ø–∏—Å—ã–≤–∞–µ–º –Ω–∞ –æ—Å–Ω–æ–≤–µ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º–∞ CSV —Ñ–∞–π–ª, –≤ –∫–æ—Ç–æ—Ä–æ–º –∑–Ω–∞—á–µ–Ω–∏—è —Ä–∞–∑–¥–µ–ª–µ–Ω—ã –∑–∞–ø—è—Ç—ã–º–∏ (–ø–µ—Ä–≤—ã–π —Å–ø–æ—Å–æ–±)
 > 
-> # «‡ÔËÒ˚‚‡ÂÏ CSV Ù‡ÈÎ, ÔÓ ÛÏÓÎ˜‡ÌË˛ ‚ ÌÓ‚ÓÏ Ù‡ÈÎÂ 
-> # ÒÓÁ‰‡ÂÚÒˇ ‰ÓÔÓÎÌËÚÂÎ¸Ì˚È ÒÚÓÎ·Âˆ ID
+> # –ó–∞–ø–∏—Å—ã–≤–∞–µ–º CSV —Ñ–∞–π–ª, –ø–æ —É–º–æ–ª—á–∞–Ω–∏—é –≤ –Ω–æ–≤–æ–º —Ñ–∞–π–ª–µ 
+> # —Å–æ–∑–¥–∞–µ—Ç—Å—è –¥–æ–ø–æ–ª–Ω–∏—Ç–µ–ª—å–Ω—ã–π —Å—Ç–æ–ª–±–µ—Ü ID
 > write.csv(data3, "C:/Trees/Example_from_R_to_csv_comma.csv")
 > 
-> # 2.2 «‡ÔËÒ˚‚‡ÂÏ Ì‡ ÓÒÌÓ‚Â ‰‡Ú‡ÙÂÈÏ‡ CSV Ù‡ÈÎ, ‚ ÍÓÚÓÓÏ ÁÌ‡˜ÂÌËˇ ‡Á‰ÂÎÂÌ˚ Á‡ÔˇÚ˚ÏË (‚ÚÓÓÈ ÒÔÓÒÓ·)
+> # 2.2 –ó–∞–ø–∏—Å—ã–≤–∞–µ–º –Ω–∞ –æ—Å–Ω–æ–≤–µ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º–∞ CSV —Ñ–∞–π–ª, –≤ –∫–æ—Ç–æ—Ä–æ–º –∑–Ω–∞—á–µ–Ω–∏—è —Ä–∞–∑–¥–µ–ª–µ–Ω—ã –∑–∞–ø—è—Ç—ã–º–∏ (–≤—Ç–æ—Ä–æ–π —Å–ø–æ—Å–æ–±)
 > 
-> # «‡ÔËÒ˚‚‡ÂÏ CSV Ù‡ÈÎ, ÔÓ ÛÏÓÎ˜‡ÌË˛ ÒÓÁ‰‡ÂÚÒˇ ‰ÓÔÓÎÌËÚÂÎ¸Ì˚È ÒÚÓÎ·Âˆ ID, 
-> # Û Ì‡Ò ÛÊÂ ÂÒÚ¸ Ë‰ÂÌÚËÙËÍ‡ˆËÓÌÌ‡ˇ ÔÂÂÏÂÌÌ‡ˇ client_id, ÔÓ˝ÚÓÏÛ 
-> # Ò ÔÓÏÓ˘¸˛ Ô‡‡ÏÂÚ‡ row.names=FALSE Á‡ÔÂÚËÏ ÒÓÁ‰‡ÌËÂ ÒÚÓÎ·ˆ‡ ID
+> # –ó–∞–ø–∏—Å—ã–≤–∞–µ–º CSV —Ñ–∞–π–ª, –ø–æ —É–º–æ–ª—á–∞–Ω–∏—é —Å–æ–∑–¥–∞–µ—Ç—Å—è –¥–æ–ø–æ–ª–Ω–∏—Ç–µ–ª—å–Ω—ã–π —Å—Ç–æ–ª–±–µ—Ü ID, 
+> # —É –Ω–∞—Å —É–∂–µ –µ—Å—Ç—å –∏–¥–µ–Ω—Ç–∏—Ñ–∏–∫–∞—Ü–∏–æ–Ω–Ω–∞—è –ø–µ—Ä–µ–º–µ–Ω–Ω–∞—è client_id, –ø–æ—ç—Ç–æ–º—É 
+> # —Å –ø–æ–º–æ—â—å—é –ø–∞—Ä–∞–º–µ—Ç—Ä–∞ row.names=FALSE –∑–∞–ø—Ä–µ—Ç–∏–º —Å–æ–∑–¥–∞–Ω–∏–µ —Å—Ç–æ–ª–±—Ü–∞ ID
 > write.table(data3, file="C:/Trees/Example_from_R_to_csv_comma2.csv", 
-+                         row.names=FALSE, sep=",")
+              row.names=FALSE, sep=",")
 > 
-> # 2.3 «‡ÔËÒ˚‚‡ÂÏ Ì‡ ÓÒÌÓ‚Â ‰‡Ú‡ÙÂÈÏ‡ CSV Ù‡ÈÎ, ‚ ÍÓÚÓÓÏ ÁÌ‡˜ÂÌËˇ ‡Á‰ÂÎÂÌ˚ ÚÓ˜Í‡ÏË Ò Á‡ÔˇÚ˚ÏË
+> # 2.3 –ó–∞–ø–∏—Å—ã–≤–∞–µ–º –Ω–∞ –æ—Å–Ω–æ–≤–µ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º–∞ CSV —Ñ–∞–π–ª, –≤ –∫–æ—Ç–æ—Ä–æ–º –∑–Ω–∞—á–µ–Ω–∏—è —Ä–∞–∑–¥–µ–ª–µ–Ω—ã —Ç–æ—á–∫–∞–º–∏ —Å –∑–∞–ø—è—Ç—ã–º–∏
 > 
-> # «‡ÔËÒ˚‚‡ÂÏ CSV Ù‡ÈÎ, ÔÓ ÛÏÓÎ˜‡ÌË˛ ÒÓÁ‰‡ÂÚÒˇ ‰ÓÔÓÎÌËÚÂÎ¸Ì˚È ÒÚÓÎ·Âˆ ID, 
-> # Û Ì‡Ò ÛÊÂ ÂÒÚ¸ Ë‰ÂÌÚËÙËÍ‡ˆËÓÌÌ‡ˇ ÔÂÂÏÂÌÌ‡ˇ client_id, ÔÓ˝ÚÓÏÛ 
-> # Ò ÔÓÏÓ˘¸˛ Ô‡‡ÏÂÚ‡ row.names=FALSE Á‡ÔÂÚËÏ ÒÓÁ‰‡ÌËÂ ÒÚÓÎ·ˆ‡ ID  
-> write.table(data3, file="C:/Trees/Example_from_R_to_csv_semicolon.csv",       
-+             row.names=FALSE, sep=";")
+> # –ó–∞–ø–∏—Å—ã–≤–∞–µ–º CSV —Ñ–∞–π–ª, –ø–æ —É–º–æ–ª—á–∞–Ω–∏—é —Å–æ–∑–¥–∞–µ—Ç—Å—è –¥–æ–ø–æ–ª–Ω–∏—Ç–µ–ª—å–Ω—ã–π —Å—Ç–æ–ª–±–µ—Ü ID, 
+> # —É –Ω–∞—Å —É–∂–µ –µ—Å—Ç—å –∏–¥–µ–Ω—Ç–∏—Ñ–∏–∫–∞—Ü–∏–æ–Ω–Ω–∞—è –ø–µ—Ä–µ–º–µ–Ω–Ω–∞—è client_id, –ø–æ—ç—Ç–æ–º—É 
+> # —Å –ø–æ–º–æ—â—å—é –ø–∞—Ä–∞–º–µ—Ç—Ä–∞ row.names=FALSE –∑–∞–ø—Ä–µ—Ç–∏–º —Å–æ–∑–¥–∞–Ω–∏–µ —Å—Ç–æ–ª–±—Ü–∞ ID  
+> write.table(data3, file="C:/Trees/Example_from_R_to_csv_semicolon.csv",
+              row.names=FALSE, sep=";")
 > 
-> # 2.4 «‡ÔËÒ˚‚‡ÂÏ Ì‡ ÓÒÌÓ‚Â ‰‡Ú‡ÙÂÈÏ‡ Ù‡ÈÎ Excel
+> # 2.4 –ó–∞–ø–∏—Å—ã–≤–∞–µ–º –Ω–∞ –æ—Å–Ω–æ–≤–µ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º–∞ —Ñ–∞–π–ª Excel
 > 
-> # «‡ÔËÒ˚‚‡ÂÏ Ù‡ÈÎ Excel, ÔÓ ÛÏÓÎ˜‡ÌË˛ ÒÓÁ‰‡ÂÚÒˇ ‰ÓÔÓÎÌËÚÂÎ¸Ì˚È ÒÚÓÎ·Âˆ ID, 
-> # Û Ì‡Ò ÛÊÂ ÂÒÚ¸ Ë‰ÂÌÚËÙËÍ‡ˆËÓÌÌ‡ˇ ÔÂÂÏÂÌÌ‡ˇ client_id, ÔÓ˝ÚÓÏÛ 
-> # Ò ÔÓÏÓ˘¸˛ Ô‡‡ÏÂÚ‡ row.names=FALSE Á‡ÔÂÚËÏ ÒÓÁ‰‡ÌËÂ ÒÚÓÎ·ˆ‡ ID  
+> # –ó–∞–ø–∏—Å—ã–≤–∞–µ–º —Ñ–∞–π–ª Excel, –ø–æ —É–º–æ–ª—á–∞–Ω–∏—é —Å–æ–∑–¥–∞–µ—Ç—Å—è –¥–æ–ø–æ–ª–Ω–∏—Ç–µ–ª—å–Ω—ã–π —Å—Ç–æ–ª–±–µ—Ü ID, 
+> # —É –Ω–∞—Å —É–∂–µ –µ—Å—Ç—å –∏–¥–µ–Ω—Ç–∏—Ñ–∏–∫–∞—Ü–∏–æ–Ω–Ω–∞—è –ø–µ—Ä–µ–º–µ–Ω–Ω–∞—è client_id, –ø–æ—ç—Ç–æ–º—É 
+> # —Å –ø–æ–º–æ—â—å—é –ø–∞—Ä–∞–º–µ—Ç—Ä–∞ row.names=FALSE –∑–∞–ø—Ä–µ—Ç–∏–º —Å–æ–∑–¥–∞–Ω–∏–µ —Å—Ç–æ–ª–±—Ü–∞ ID  
 > write.xlsx2(data3, "C:/Trees/Example_from_R_to_xlsx.xlsx", row.names=FALSE)
 > 
-> # 3. Œ·˘ËÂ ÓÔÂ‡ˆËË Ò ‰‡Ú‡ÙÂÈÏÓÏ
+> # 3. –û–±—â–∏–µ –æ–ø–µ—Ä–∞—Ü–∏–∏ —Å –¥–∞—Ç–∞—Ñ—Ä–µ–π–º–æ–º
 > 
-> # 3.1. ¬˚‚Ó‰ Ó·˘ÂÈ ËÌÙÓÏ‡ˆËË Ó ‰‡Ú‡ÙÂÈÏÂ
+> # 3.1. –í—ã–≤–æ–¥ –æ–±—â–µ–π –∏–Ω—Ñ–æ—Ä–º–∞—Ü–∏–∏ –æ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º–µ
 > 
-> # ¬˚‚Ó‰ËÏ Ó·˘Û˛ ËÌÙÓÏ‡ˆË˛ Ó ‰‡Ú‡ÙÂÈÏÂ
+> # –í—ã–≤–æ–¥–∏–º –æ–±—â—É—é –∏–Ω—Ñ–æ—Ä–º–∞—Ü–∏—é –æ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º–µ
 > str(data3)
 'data.frame':   170746 obs. of  15 variables:
- $ client_id           : int  1 2 3 4 5 6 7 8 9 10 ...
- $ gender              : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
- $ age                 : int  48 28 32 27 45 37 NA 26 23 32 ...
- $ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 1 5 ...
- $ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
- $ credit_sum          : Factor w/ 42770 levels "","10000","10000.1",..: 36010 900 731 2110 8154 19709 315 32002 27507 19205 ...
- $ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
- $ tariff_id           : int  28 2 2 2 2 2 25 2 28 2 ...
- $ score_shk           : Factor w/ 16281 levels "","0","0.071819",..: 15463 808 4386 2347 3497 5021 1102 5814 10344 4522 ...
- $ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
- $ living_region       : Factor w/ 82 levels "","¿À“¿…— »…  –¿…",..: 24 31 64 9 77 68 34 32 73 68 ...
- $ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
- $ credit_count        : int  1 2 5 2 1 0 3 3 3 7 ...
- $ overdue_credit_count: int  1 0 0 0 0 0 0 0 0 0 ...
- $ open_account_flg    : int  0 0 0 0 0 0 0 0 0 0 ...
+$ client_id           : int  1 2 3 4 5 6 7 8 9 10 ...
+$ gender              : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
+$ age                 : int  48 28 32 27 45 37 NA 26 23 32 ...
+$ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 1 5 ...
+$ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
+$ credit_sum          : Factor w/ 42770 levels "","10000","10000.1",..: 36010 900 731 2110 8154 19709 315 32002 27507 19205 ...
+$ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
+$ tariff_id           : int  28 2 2 2 2 2 25 2 28 2 ...
+$ score_shk           : Factor w/ 16281 levels "","0","0.071819",..: 15463 808 4386 2347 3497 5021 1102 5814 10344 4522 ...
+$ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
+$ living_region       : Factor w/ 82 levels "","–ê–õ–¢–ê–ô–°–ö–ò–ô –ö–†–ê–ô",..: 24 31 64 9 77 68 34 32 73 68 ...
+$ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
+$ credit_count        : int  1 2 5 2 1 0 3 3 3 7 ...
+$ overdue_credit_count: int  1 0 0 0 0 0 0 0 0 0 ...
+$ open_account_flg    : int  0 0 0 0 0 0 0 0 0 0 ...
 > 
-> # ¬˚‚Ó‰ËÏ ÔÂ‚˚Â 6 Ì‡·Î˛‰ÂÌËÈ
+> # –í—ã–≤–æ–¥–∏–º –ø–µ—Ä–≤—ã–µ 6 –Ω–∞–±–ª—é–¥–µ–Ω–∏–π
 > head(data3)
-  client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg
-1         1      M  48            MAR          UMN      59998           10        28  0.770249       GRD     –¿—ÕŒƒ¿–— »…  –¿…          30000            1                    1                0
-2         2      F  28            MAR          UMN      10889            6         2  0.248514       GRD                ÃŒ— ¬¿          43000            2                    0                0
-3         3      M  32            MAR          SPC      10728           12         2  0.459589       SCH   —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹          23000            5                    0                0
-4         4      F  27            DIV          SPC   12009.09           12         2  0.362536       GRD ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹          17000            2                    0                0
-5         5      M  45            MAR          SPC   16908.89           10         2  0.421385       SCH   ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹          25000            1                    0                0
-6         6      F  37            MAR          SPC      26788           10         2  0.484203       SCH   —“¿¬–ŒœŒÀ‹— »…  –¿…          30000            0                    0                0
+client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg
+1         1      M  48            MAR          UMN      59998           10        28  0.770249       GRD    –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          30000            1                    1                0
+2         2      F  28            MAR          UMN      10889            6         2  0.248514       GRD                –ú–û–°–ö–í–ê          43000            2                    0                0
+3         3      M  32            MAR          SPC      10728           12         2  0.459589       SCH   –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          23000            5                    0                0
+4         4      F  27            DIV          SPC   12009.09           12         2  0.362536       GRD –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          17000            2                    0                0
+5         5      M  45            MAR          SPC   16908.89           10         2  0.421385       SCH   –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          25000            1                    0                0
+6         6      F  37            MAR          SPC      26788           10         2  0.484203       SCH   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          30000            0                    0                0
 > 
-> # ¬˚‚Ó‰ËÏ ÔÂ‚˚Â 10 Ì‡·Î˛‰ÂÌËÈ
+> # –í—ã–≤–æ–¥–∏–º –ø–µ—Ä–≤—ã–µ 10 –Ω–∞–±–ª—é–¥–µ–Ω–∏–π
 > head(data3, 10)
-   client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg
-1          1      M  48            MAR          UMN      59998           10        28  0.770249       GRD     –¿—ÕŒƒ¿–— »…  –¿…          30000            1                    1                0
-2          2      F  28            MAR          UMN      10889            6         2  0.248514       GRD                ÃŒ— ¬¿          43000            2                    0                0
-3          3      M  32            MAR          SPC      10728           12         2  0.459589       SCH   —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹          23000            5                    0                0
-4          4      F  27            DIV          SPC   12009.09           12         2  0.362536       GRD ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹          17000            2                    0                0
-5          5      M  45            MAR          SPC   16908.89           10         2  0.421385       SCH   ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹          25000            1                    0                0
-6          6      F  37            MAR          SPC      26788           10         2  0.484203       SCH   —“¿¬–ŒœŒÀ‹— »…  –¿…          30000            0                    0                0
-7          7      M  NA            MAR          SPC      10317            6        25  0.276012       SCH Õ»∆≈√Œ–Œƒ— ¿ﬂ Œ¡À¿—“‹          28000            3                    0                0
-8          8      F  26            UNM          SPC      47878           10         2  0.512525       GRD    ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹          60000            3                    0                0
-9          9      M  23                         SPC   37577.16           12        28  0.642267       SCH     “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          50000            3                    0                0
-10        10      F  32            UNM          SPC      26268           10         2  0.465026       GRD   —“¿¬–ŒœŒÀ‹— »…  –¿…          39500            7                    0                0
+client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg
+1          1      M  48            MAR          UMN      59998           10        28  0.770249       GRD    –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          30000            1                    1                0
+2          2      F  28            MAR          UMN      10889            6         2  0.248514       GRD                –ú–û–°–ö–í–ê          43000            2                    0                0
+3          3      M  32            MAR          SPC      10728           12         2  0.459589       SCH   –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          23000            5                    0                0
+4          4      F  27            DIV          SPC   12009.09           12         2  0.362536       GRD –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          17000            2                    0                0
+5          5      M  45            MAR          SPC   16908.89           10         2  0.421385       SCH   –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          25000            1                    0                0
+6          6      F  37            MAR          SPC      26788           10         2  0.484203       SCH   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          30000            0                    0                0
+7          7      M  NA            MAR          SPC      10317            6        25  0.276012       SCH –ù–ò–ñ–ï–ì–û–†–û–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          28000            3                    0                0
+8          8      F  26            UNM          SPC      47878           10         2  0.512525       GRD    –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          60000            3                    0                0
+9          9      M  23                         SPC   37577.16           12        28  0.642267       SCH     –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          50000            3                    0                0
+10        10      F  32            UNM          SPC      26268           10         2  0.465026       GRD   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          39500            7                    0                0
 > 
-> # ¬˚‚Ó‰ËÏ ÔÓÒÎÂ‰ÌËÂ 6 Ì‡·Î˛‰ÂÌËÈ
+> # –í—ã–≤–æ–¥–∏–º –ø–æ—Å–ª–µ–¥–Ω–∏–µ 6 –Ω–∞–±–ª—é–¥–µ–Ω–∏–π
 > tail(data3)
-       client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education        living_region monthly_income credit_count overdue_credit_count open_account_flg
-170741    170741      F  24            UNM          SPC      19818           12        28  0.624391       SCH    –¿—ÕŒƒ¿–— »…  –¿…          22000            1                    0                0
-170742    170742      F  27            UNM          SPC      64867           12         2  0.535257       GRD –≈—œ”¡À» ¿ “¿“¿–—“¿Õ          40000            6                    0                0
-170743    170743      F  24            MAR          SPC      17640            6        28  0.573287       SCH      —¿Õ “-œ≈“≈–¡”–√          30000            1                    0                0
-170744    170744      F  31            UNM          SPC   27556.47           10        19  0.416098       GRD      œ–»ÃŒ–— »…  –¿…          40000            1                    0                0
-170745    170745      F  53            DIV          PNA       6189           12         2  0.482595       SCH   œ≈Õ«≈Õ— ¿ﬂ Œ¡À¿—“‹          31000            2                    0                0
-170746    170746      M  49            MAR          SPC      12787           10         2  0.316087       GRD   ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹          40000            3                    0                0
+client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education        living_region monthly_income credit_count overdue_credit_count open_account_flg
+170741    170741      F  24            UNM          SPC      19818           12        28  0.624391       SCH   –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          22000            1                    0                0
+170742    170742      F  27            UNM          SPC      64867           12         2  0.535257       GRD –†–ï–°–ü–£–ë–õ–ò–ö–ê –¢–ê–¢–ê–†–°–¢–ê–ù          40000            6                    0                0
+170743    170743      F  24            MAR          SPC      17640            6        28  0.573287       SCH      –°–ê–ù–ö–¢-–ü–ï–¢–ï–†–ë–£–†–ì          30000            1                    0                0
+170744    170744      F  31            UNM          SPC   27556.47           10        19  0.416098       GRD      –ü–†–ò–ú–û–†–°–ö–ò–ô –ö–†–ê–ô          40000            1                    0                0
+170745    170745      F  53            DIV          PNA       6189           12         2  0.482595       SCH   –ü–ï–ù–ó–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          31000            2                    0                0
+170746    170746      M  49            MAR          SPC      12787           10         2  0.316087       GRD   –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          40000            3                    0                0
 > 
-> # ¬˚‚Ó‰ËÏ ÔÓÒÎÂ‰ÌËÂ 10 Ì‡·Î˛‰ÂÌËÈ
+> # –í—ã–≤–æ–¥–∏–º –ø–æ—Å–ª–µ–¥–Ω–∏–µ 10 –Ω–∞–±–ª—é–¥–µ–Ω–∏–π
 > head(data3, 10)
-   client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg
-1          1      M  48            MAR          UMN      59998           10        28  0.770249       GRD     –¿—ÕŒƒ¿–— »…  –¿…          30000            1                    1                0
-2          2      F  28            MAR          UMN      10889            6         2  0.248514       GRD                ÃŒ— ¬¿          43000            2                    0                0
-3          3      M  32            MAR          SPC      10728           12         2  0.459589       SCH   —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹          23000            5                    0                0
-4          4      F  27            DIV          SPC   12009.09           12         2  0.362536       GRD ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹          17000            2                    0                0
-5          5      M  45            MAR          SPC   16908.89           10         2  0.421385       SCH   ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹          25000            1                    0                0
-6          6      F  37            MAR          SPC      26788           10         2  0.484203       SCH   —“¿¬–ŒœŒÀ‹— »…  –¿…          30000            0                    0                0
-7          7      M  NA            MAR          SPC      10317            6        25  0.276012       SCH Õ»∆≈√Œ–Œƒ— ¿ﬂ Œ¡À¿—“‹          28000            3                    0                0
-8          8      F  26            UNM          SPC      47878           10         2  0.512525       GRD    ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹          60000            3                    0                0
-9          9      M  23                         SPC   37577.16           12        28  0.642267       SCH     “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          50000            3                    0                0
-10        10      F  32            UNM          SPC      26268           10         2  0.465026       GRD   —“¿¬–ŒœŒÀ‹— »…  –¿…          39500            7                    0                0
+client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg
+1          1      M  48            MAR          UMN      59998           10        28  0.770249       GRD    –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          30000            1                    1                0
+2          2      F  28            MAR          UMN      10889            6         2  0.248514       GRD                –ú–û–°–ö–í–ê          43000            2                    0                0
+3          3      M  32            MAR          SPC      10728           12         2  0.459589       SCH   –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          23000            5                    0                0
+4          4      F  27            DIV          SPC   12009.09           12         2  0.362536       GRD –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          17000            2                    0                0
+5          5      M  45            MAR          SPC   16908.89           10         2  0.421385       SCH   –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          25000            1                    0                0
+6          6      F  37            MAR          SPC      26788           10         2  0.484203       SCH   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          30000            0                    0                0
+7          7      M  NA            MAR          SPC      10317            6        25  0.276012       SCH –ù–ò–ñ–ï–ì–û–†–û–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          28000            3                    0                0
+8          8      F  26            UNM          SPC      47878           10         2  0.512525       GRD    –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          60000            3                    0                0
+9          9      M  23                         SPC   37577.16           12        28  0.642267       SCH     –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          50000            3                    0                0
+10        10      F  32            UNM          SPC      26268           10         2  0.465026       GRD   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          39500            7                    0                0
 > 
-> # 3.2. ŒÚ·Ó ÓÔÂ‰ÂÎÂÌÌ˚ı ÒÚÓÎ·ˆÓ‚ Ë ÒÚÓÍ
+> # 3.2. –û—Ç–±–æ—Ä –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–Ω—ã—Ö —Å—Ç–æ–ª–±—Ü–æ–≤ –∏ —Å—Ç—Ä–æ–∫
 > 
-> # Œ·‡ÚËÏÒˇ Í 4-ÏÛ Ì‡·Î˛‰ÂÌË˛ ‚ ÔÂÂÏÂÌÌÓÈ age, ÒÌ‡˜‡Î‡ ÛÍ‡Á˚‚‡ÂÚÒˇ Ì‡Á‚‡ÌËÂ ÒÚÓÎ·ˆ‡, 
-> # Á‡ÚÂÏ ÛÍ‡Á˚‚‡ÂÚÒˇ ÌÓÏÂ ÒÚÓÍË
+> # –û–±—Ä–∞—Ç–∏–º—Å—è –∫ 4-–º—É –Ω–∞–±–ª—é–¥–µ–Ω–∏—é –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π age, —Å–Ω–∞—á–∞–ª–∞ —É–∫–∞–∑—ã–≤–∞–µ—Ç—Å—è –Ω–∞–∑–≤–∞–Ω–∏–µ —Å—Ç–æ–ª–±—Ü–∞, 
+> # –∑–∞—Ç–µ–º —É–∫–∞–∑—ã–≤–∞–µ—Ç—Å—è –Ω–æ–º–µ—Ä —Å—Ç—Ä–æ–∫–∏
 > data3$age[4]
 [1] 27
 > 
-> # ŒÚ·Ë‡ÂÏ ÒÚÓÎ·ˆ˚ age Ë marital_status Ë Á‡ÔËÒ˚‚‡ÂÏ ‚ ‰‡Ú‡ÙÂÈÏ example
+> # –û—Ç–±–∏—Ä–∞–µ–º —Å—Ç–æ–ª–±—Ü—ã age –∏ marital_status –∏ –∑–∞–ø–∏—Å—ã–≤–∞–µ–º –≤ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º example
 > example <- data3[,c("age","marital_status")]
 > head(example, 10)
-   age marital_status
+age marital_status
 1   48            MAR
 2   28            MAR
 3   32            MAR
@@ -368,17 +368,17 @@ downloaded 145 KB
 9   23               
 10  32            UNM
 > 
-> # »ÎË Â˘Â ÏÓÊÌÓ Ú‡Í
+> # –ò–ª–∏ –µ—â–µ –º–æ–∂–Ω–æ —Ç–∞–∫
 > example=data3[,c("age","marital_status")]
 > 
-> # ŒÚ·Ë‡ÂÏ ÒÚÓÍÛ 5
+> # –û—Ç–±–∏—Ä–∞–µ–º —Å—Ç—Ä–æ–∫—É 5
 > data3[c(5),]
-  client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education       living_region monthly_income credit_count overdue_credit_count open_account_flg
-5         5      M  45            MAR          SPC   16908.89           10         2  0.421385       SCH ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹          25000            1                    0                0
+client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education       living_region monthly_income credit_count overdue_credit_count open_account_flg
+5         5      M  45            MAR          SPC   16908.89           10         2  0.421385       SCH –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          25000            1                    0                0
 > 
-> # ŒÚ·Ë‡ÂÏ ÔÂ‚˚Â 10 ÒÚÓÍ ‚ ÒÚÓÎ·ˆ‡ı age Ë marital_status
+> # –û—Ç–±–∏—Ä–∞–µ–º –ø–µ—Ä–≤—ã–µ 10 —Å—Ç—Ä–æ–∫ –≤ —Å—Ç–æ–ª–±—Ü–∞—Ö age –∏ marital_status
 > data3[1:10,c("age","marital_status")]
-   age marital_status
+age marital_status
 1   48            MAR
 2   28            MAR
 3   32            MAR
@@ -390,11 +390,11 @@ downloaded 145 KB
 9   23               
 10  32            UNM
 > 
-> # ŒÚ·Ë‡ÂÏ ÔÂÂÏÂÌÌ˚Â, ‚ Ì‡Á‚‡ÌËË ÍÓÚÓ˚ı ‚ÒÚÂ˜‡ÂÚÒˇ Ô‡ÚÚÂÌ credit
-> # Ë Á‡ÔËÒ˚‚‡ÂÏ ‚ ‰‡Ú‡ÙÂÈÏ example
+> # –û—Ç–±–∏—Ä–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—ã–µ, –≤ –Ω–∞–∑–≤–∞–Ω–∏–∏ –∫–æ—Ç–æ—Ä—ã—Ö –≤—Å—Ç—Ä–µ—á–∞–µ—Ç—Å—è –ø–∞—Ç—Ç–µ—Ä–Ω credit
+> # –∏ –∑–∞–ø–∏—Å—ã–≤–∞–µ–º –≤ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º example
 > example <- data3[grepl("credit", names(data3))]
 > head(example, 10)
-   credit_sum credit_month credit_count overdue_credit_count
+credit_sum credit_month credit_count overdue_credit_count
 1       59998           10            1                    1
 2       10889            6            2                    0
 3       10728           12            5                    0
@@ -406,349 +406,346 @@ downloaded 145 KB
 9    37577.16           12            3                    0
 10      26268           10            7                    0
 > 
-> # 3.3. —ÓÚËÓ‚Í‡ Ì‡·Î˛‰ÂÌËÈ
+> # 3.3. –°–æ—Ä—Ç–∏—Ä–æ–≤–∫–∞ –Ω–∞–±–ª—é–¥–µ–Ω–∏–π
 > 
-> # —ÓÚËÛÂÏ Ì‡·Î˛‰ÂÌËˇ ÔÓ ‚ÓÁ‡ÒÚ‡ÌË˛ ÁÌ‡˜ÂÌËÈ ÔÂÂÏÂÌÌÓÈ age 
-> # Ë Á‡ÔËÒ˚‚‡ÂÏ ‚ ‰‡Ú‡ÙÂÈÏ example
+> # –°–æ—Ä—Ç–∏—Ä—É–µ–º –Ω–∞–±–ª—é–¥–µ–Ω–∏—è –ø–æ –≤–æ–∑—Ä–∞—Å—Ç–∞–Ω–∏—é –∑–Ω–∞—á–µ–Ω–∏–π –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π age 
+> # –∏ –∑–∞–ø–∏—Å—ã–≤–∞–µ–º –≤ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º example
 > example <- data3[order(data3$age),]
 > head(example, 10)
-      client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education           living_region monthly_income credit_count overdue_credit_count open_account_flg
-316         316      F  18            CIV          SPC       3990            5        25  0.553984       SCH      ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹          18000           NA                   NA                0
-4976       4976      F  18            UNM          SPC       9891            3        20  0.421201       SCH     ¬Œ–ŒÕ≈∆— ¿ﬂ Œ¡À¿—“‹          17000           NA                   NA                0
-6282       6282      F  18            UNM          SPC      45990            6         2  0.390746       SCH                  ÃŒ— ¬¿          25000           NA                   NA                0
-6587       6587      F  18            UNM          SPC      29589           10        28  0.689661       SCH      ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹          30000           NA                   NA                0
-8807       8807      F  18            MAR          SPC   17743.18           12        28  0.654138       SCH      –≈—œ”¡À» ¿ ¡”–ﬂ“»ﬂ          27000           NA                   NA                1
-13245     13245      F  18            UNM          SPC      34418           10        28  0.643072       SCH    Œ–≈Õ¡”–√— ¿ﬂ Œ¡À¿—“‹          22000           NA                   NA                0
-13287     13287      F  18            UNM          SPC      30368           10        28  0.711623       UGR       –¿—ÕŒƒ¿–— »…  –¿…          25000           NA                   NA                1
-15724     15724      F  18            UNM          SPC      30990           12        28  0.770546       SCH –≈—œ”¡À» ¿ ¡¿ÿ Œ–“Œ—“¿Õ          37000           NA                   NA                1
-15930     15930      F  18            UNM          SPC      27289           12        28  0.711979       SCH          ”–— ¿ﬂ Œ¡À¿—“‹          18000           NA                   NA                1
-19951     19951      F  18            UNM          SPC      35178           10        28  0.764604       SCH       –¿—ÕŒƒ¿–— »…  –¿…          50000           NA                   NA                0
+client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education           living_region monthly_income credit_count overdue_credit_count open_account_flg
+316         316      F  18            CIV          SPC       3990            5        25  0.553984       SCH      –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          18000           NA                   NA                0
+4976       4976      F  18            UNM          SPC       9891            3        20  0.421201       SCH     –í–û–†–û–ù–ï–ñ–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          17000           NA                   NA                0
+6282       6282      F  18            UNM          SPC      45990            6         2  0.390746       SCH                  –ú–û–°–ö–í–ê          25000           NA                   NA                0
+6587       6587      F  18            UNM          SPC      29589           10        28  0.689661       SCH      –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          30000           NA                   NA                0
+8807       8807      F  18            MAR          SPC   17743.18           12        28  0.654138       SCH      –†–ï–°–ü–£–ë–õ–ò–ö–ê –ë–£–†–Ø–¢–ò–Ø          27000           NA                   NA                1
+13245     13245      F  18            UNM          SPC      34418           10        28  0.643072       SCH    –û–†–ï–ù–ë–£–†–ì–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          22000           NA                   NA                0
+13287     13287      F  18            UNM          SPC      30368           10        28  0.711623       UGR      –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          25000           NA                   NA                1
+15724     15724      F  18            UNM          SPC      30990           12        28  0.770546       SCH –†–ï–°–ü–£–ë–õ–ò–ö–ê –ë–ê–®–ö–û–†–¢–û–°–¢–ê–ù          37000           NA                   NA                1
+15930     15930      F  18            UNM          SPC      27289           12        28  0.711979       SCH         –ö–£–†–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          18000           NA                   NA                1
+19951     19951      F  18            UNM          SPC      35178           10        28  0.764604       SCH      –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          50000           NA                   NA                0
 > 
-> # —ÓÚËÛÂÏ Ì‡·Î˛‰ÂÌËˇ ÔÓ Û·˚‚‡ÌË˛ ÁÌ‡˜ÂÌËÈ ÔÂÂÏÂÌÌÓÈ age 
-> # Ë Á‡ÔËÒ˚‚‡ÂÏ ‚ ‰‡Ú‡ÙÂÈÏ example
+> # –°–æ—Ä—Ç–∏—Ä—É–µ–º –Ω–∞–±–ª—é–¥–µ–Ω–∏—è –ø–æ —É–±—ã–≤–∞–Ω–∏—é –∑–Ω–∞—á–µ–Ω–∏–π –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π age 
+> # –∏ –∑–∞–ø–∏—Å—ã–≤–∞–µ–º –≤ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º example
 > example <- data3[order(-data3$age),]
 > head(example, 10)
-      client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education           living_region monthly_income credit_count overdue_credit_count open_account_flg
-3391       3391      F  71            UNM          PNA      16118           10         2  0.450626       GRD        ¿Ã”–— ¿ﬂ Œ¡À¿—“‹          25000            0                    0                1
-3746       3746      F  71            MAR          SPC      14000           10        28  0.516644       SCH        –¿—ÕŒﬂ–— »…  –¿…          30000            0                    0                0
-3853       3853      F  71            WID          PNA      13579           10         2  0.543567       SCH     ”À‹ﬂÕŒ¬— ¿ﬂ Œ¡À¿—“‹          32000            0                    0                0
-20002     20002      M  71            UNM          PNA       4590            6         2  0.497002       GRD   ÕŒ¬Œ—»¡»–— ¿ﬂ Œ¡À¿—“‹          39000            4                    0                1
-20992     20992      F  71            UNM          PNA       7680           13         2  0.386022       GRD          ”–— ¿ﬂ Œ¡À¿—“‹          16000            2                    0                1
-32859     32859      M  71            MAR          SPC      28386           12        18   0.55705       SCH     ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹          27000            0                    0                0
-45819     45819      F  71            UNM          SPC      15918           10         2  0.439365       UGR      ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹          68000            2                    0                0
-47815     47815      M  71            UNM          PNA      17649           10         2  0.541681       SCH –≈—œ”¡À» ¿ ¡¿ÿ Œ–“Œ—“¿Õ          22800            0                    0                0
-57120     57120      F  71            UNM          SPC      13229           10         2  0.337412       GRD        ¿À”∆— ¿ﬂ Œ¡À¿—“‹          28000            1                    0                1
-75492     75492      F  71            WID          SPC      41303           10        19  0.445599       SCH         —¿Õ “-œ≈“≈–¡”–√          35000            0                    0                1
+client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education           living_region monthly_income credit_count overdue_credit_count open_account_flg
+3391       3391      F  71            UNM          PNA      16118           10         2  0.450626       GRD        –ê–ú–£–†–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          25000            0                    0                1
+3746       3746      F  71            MAR          SPC      14000           10        28  0.516644       SCH       –ö–†–ê–°–ù–û–Ø–†–°–ö–ò–ô –ö–†–ê–ô          30000            0                    0                0
+3853       3853      F  71            WID          PNA      13579           10         2  0.543567       SCH     –£–õ–¨–Ø–ù–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          32000            0                    0                0
+20002     20002      M  71            UNM          PNA       4590            6         2  0.497002       GRD   –ù–û–í–û–°–ò–ë–ò–†–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          39000            4                    0                1
+20992     20992      F  71            UNM          PNA       7680           13         2  0.386022       GRD         –ö–£–†–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          16000            2                    0                1
+32859     32859      M  71            MAR          SPC      28386           12        18   0.55705       SCH     –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          27000            0                    0                0
+45819     45819      F  71            UNM          SPC      15918           10         2  0.439365       UGR      –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          68000            2                    0                0
+47815     47815      M  71            UNM          PNA      17649           10         2  0.541681       SCH –†–ï–°–ü–£–ë–õ–ò–ö–ê –ë–ê–®–ö–û–†–¢–û–°–¢–ê–ù          22800            0                    0                0
+57120     57120      F  71            UNM          SPC      13229           10         2  0.337412       GRD       –ö–ê–õ–£–ñ–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          28000            1                    0                1
+75492     75492      F  71            WID          SPC      41303           10        19  0.445599       SCH         –°–ê–ù–ö–¢-–ü–ï–¢–ï–†–ë–£–†–ì          35000            0                    0                1
 > 
-> # 4. ŒÔÂ‡ˆËË Ò ÔÂÂÏÂÌÌ˚ÏË
+> # 4. –û–ø–µ—Ä–∞—Ü–∏–∏ —Å –ø–µ—Ä–µ–º–µ–Ω–Ω—ã–º–∏
 > 
-> # 4.1. »ÁÏÂÌÂÌËÂ ÚËÔÓ‚ ÔÂÂÏÂÌÌ˚ı
+> # 4.1. –ò–∑–º–µ–Ω–µ–Ω–∏–µ —Ç–∏–ø–æ–≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö
 > 
-> # ¬˚‚Ó‰ËÏ Ó·˘Û˛ ËÌÙÓÏ‡ˆË˛ Ó ‰‡Ú‡ÙÂÈÏÂ
+> # –í—ã–≤–æ–¥–∏–º –æ–±—â—É—é –∏–Ω—Ñ–æ—Ä–º–∞—Ü–∏—é –æ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º–µ
 > str(data3)
 'data.frame':   170746 obs. of  15 variables:
- $ client_id           : int  1 2 3 4 5 6 7 8 9 10 ...
- $ gender              : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
- $ age                 : int  48 28 32 27 45 37 NA 26 23 32 ...
- $ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 1 5 ...
- $ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
- $ credit_sum          : Factor w/ 42770 levels "","10000","10000.1",..: 36010 900 731 2110 8154 19709 315 32002 27507 19205 ...
- $ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
- $ tariff_id           : int  28 2 2 2 2 2 25 2 28 2 ...
- $ score_shk           : Factor w/ 16281 levels "","0","0.071819",..: 15463 808 4386 2347 3497 5021 1102 5814 10344 4522 ...
- $ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
- $ living_region       : Factor w/ 82 levels "","¿À“¿…— »…  –¿…",..: 24 31 64 9 77 68 34 32 73 68 ...
- $ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
- $ credit_count        : int  1 2 5 2 1 0 3 3 3 7 ...
- $ overdue_credit_count: int  1 0 0 0 0 0 0 0 0 0 ...
- $ open_account_flg    : int  0 0 0 0 0 0 0 0 0 0 ...
+$ client_id           : int  1 2 3 4 5 6 7 8 9 10 ...
+$ gender              : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
+$ age                 : int  48 28 32 27 45 37 NA 26 23 32 ...
+$ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 1 5 ...
+$ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
+$ credit_sum          : Factor w/ 42770 levels "","10000","10000.1",..: 36010 900 731 2110 8154 19709 315 32002 27507 19205 ...
+$ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
+$ tariff_id           : int  28 2 2 2 2 2 25 2 28 2 ...
+$ score_shk           : Factor w/ 16281 levels "","0","0.071819",..: 15463 808 4386 2347 3497 5021 1102 5814 10344 4522 ...
+$ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
+$ living_region       : Factor w/ 82 levels "","–ê–õ–¢–ê–ô–°–ö–ò–ô –ö–†–ê–ô",..: 24 31 64 9 77 68 34 32 73 68 ...
+$ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
+$ credit_count        : int  1 2 5 2 1 0 3 3 3 7 ...
+$ overdue_credit_count: int  1 0 0 0 0 0 0 0 0 0 ...
+$ open_account_flg    : int  0 0 0 0 0 0 0 0 0 0 ...
 > 
-> #  ‡ÚÂ„ÓË‡Î¸Ì˚Â ÔÂÂÏÂÌÌ˚Â tariff_id Ë open_account_flg, 
-> # Û ÍÓÚÓ˚ı Ù‡ÍÚË˜ÂÒÍËÂ ÁÌ‡˜ÂÌËˇ ñ Í‡ÚÂ„ÓËË, ÌÂÔ‡‚ËÎ¸ÌÓ Á‡ÔËÒ‡Ì˚ Í‡Í
-> # ÚËÔ int (ÁÌ‡˜ÂÌËˇ ñ ˆÂÎ˚Â ˜ËÒÎ‡), ÔÓ˝ÚÓÏÛ ÔÂÓ·‡ÁÛÂÏ Ëı ‚ ÚËÔ factor 
-> # (ÁÌ‡˜ÂÌËˇ ñ ÛÓ‚ÌË ÌÓÏËÌ‡Î¸Ì˚ı ÔÂÂÏÂÌÌ˚ı) Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË as.factor
+> # –ö–∞—Ç–µ–≥–æ—Ä–∏–∞–ª—å–Ω—ã–µ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã–µ tariff_id –∏ open_account_flg, 
+> # —É –∫–æ—Ç–æ—Ä—ã—Ö —Ñ–∞–∫—Ç–∏—á–µ—Å–∫–∏–µ –∑–Ω–∞—á–µ–Ω–∏—è ‚Äì –∫–∞—Ç–µ–≥–æ—Ä–∏–∏, –Ω–µ–ø—Ä–∞–≤–∏–ª—å–Ω–æ –∑–∞–ø–∏—Å–∞–Ω—ã –∫–∞–∫
+> # —Ç–∏–ø int (–∑–Ω–∞—á–µ–Ω–∏—è ‚Äì —Ü–µ–ª—ã–µ —á–∏—Å–ª–∞), –ø–æ—ç—Ç–æ–º—É –ø—Ä–µ–æ–±—Ä–∞–∑—É–µ–º –∏—Ö –≤ —Ç–∏–ø factor 
+> # (–∑–Ω–∞—á–µ–Ω–∏—è ‚Äì —É—Ä–æ–≤–Ω–∏ –Ω–æ–º–∏–Ω–∞–ª—å–Ω—ã—Ö –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö) —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ as.factor
 > data3$tariff_id <-as.factor(data3$tariff_id)
 > data3$open_account_flg <-as.factor(data3$open_account_flg)
 > str(data3)
 'data.frame':   170746 obs. of  15 variables:
- $ client_id           : int  1 2 3 4 5 6 7 8 9 10 ...
- $ gender              : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
- $ age                 : int  48 28 32 27 45 37 NA 26 23 32 ...
- $ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 1 5 ...
- $ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
- $ credit_sum          : Factor w/ 42770 levels "","10000","10000.1",..: 36010 900 731 2110 8154 19709 315 32002 27507 19205 ...
- $ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
- $ tariff_id           : Factor w/ 33 levels "1","2","3","4",..: 28 2 2 2 2 2 25 2 28 2 ...
- $ score_shk           : Factor w/ 16281 levels "","0","0.071819",..: 15463 808 4386 2347 3497 5021 1102 5814 10344 4522 ...
- $ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
- $ living_region       : Factor w/ 82 levels "","¿À“¿…— »…  –¿…",..: 24 31 64 9 77 68 34 32 73 68 ...
- $ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
- $ credit_count        : int  1 2 5 2 1 0 3 3 3 7 ...
- $ overdue_credit_count: int  1 0 0 0 0 0 0 0 0 0 ...
- $ open_account_flg    : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
+$ client_id           : int  1 2 3 4 5 6 7 8 9 10 ...
+$ gender              : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
+$ age                 : int  48 28 32 27 45 37 NA 26 23 32 ...
+$ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 1 5 ...
+$ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
+$ credit_sum          : Factor w/ 42770 levels "","10000","10000.1",..: 36010 900 731 2110 8154 19709 315 32002 27507 19205 ...
+$ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
+$ tariff_id           : Factor w/ 33 levels "1","2","3","4",..: 28 2 2 2 2 2 25 2 28 2 ...
+$ score_shk           : Factor w/ 16281 levels "","0","0.071819",..: 15463 808 4386 2347 3497 5021 1102 5814 10344 4522 ...
+$ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
+$ living_region       : Factor w/ 82 levels "","–ê–õ–¢–ê–ô–°–ö–ò–ô –ö–†–ê–ô",..: 24 31 64 9 77 68 34 32 73 68 ...
+$ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
+$ credit_count        : int  1 2 5 2 1 0 3 3 3 7 ...
+$ overdue_credit_count: int  1 0 0 0 0 0 0 0 0 0 ...
+$ open_account_flg    : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
 > 
-> #  ÓÎË˜ÂÒÚ‚ÂÌÌ˚Â ÔÂÂÏÂÌÌ˚Â credit_sum, score_shk, Û ÍÓÚÓ˚ı Ù‡ÍÚË˜ÂÒÍËÂ 
-> # ÁÌ‡˜ÂÌËˇ ñ ˜ËÒÎ‡ Ò ÔÎ‡‚‡˛˘ÂÈ ÚÓ˜ÍÓÈ, ÌÂÔ‡‚ËÎ¸ÌÓ Á‡ÔËÒ‡Ì˚ Í‡Í ÚËÔ factor, 
-> # ÔÓ˝ÚÓÏÛ ÔÂÓ·‡ÁÛÂÏ Ëı ‚ ÚËÔ numeric (ÁÌ‡˜ÂÌËˇ ñ ˜ËÒÎ‡ Ò ÔÎ‡‚‡˛˘ÂÈ ÚÓ˜ÍÓÈ)
-> # Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË as.numeric.factor, ÔÂ‰‚‡ËÚÂÎ¸ÌÓ Ì‡ÔËÒ‡‚ ÂÂ 
+> # –ö–æ–ª–∏—á–µ—Å—Ç–≤–µ–Ω–Ω—ã–µ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã–µ credit_sum, score_shk, —É –∫–æ—Ç–æ—Ä—ã—Ö —Ñ–∞–∫—Ç–∏—á–µ—Å–∫–∏–µ 
+> # –∑–Ω–∞—á–µ–Ω–∏—è ‚Äì —á–∏—Å–ª–∞ —Å –ø–ª–∞–≤–∞—é—â–µ–π —Ç–æ—á–∫–æ–π, –Ω–µ–ø—Ä–∞–≤–∏–ª—å–Ω–æ –∑–∞–ø–∏—Å–∞–Ω—ã –∫–∞–∫ —Ç–∏–ø factor, 
+> # –ø–æ—ç—Ç–æ–º—É –ø—Ä–µ–æ–±—Ä–∞–∑—É–µ–º –∏—Ö –≤ —Ç–∏–ø numeric (–∑–Ω–∞—á–µ–Ω–∏—è ‚Äì —á–∏—Å–ª–∞ —Å –ø–ª–∞–≤–∞—é—â–µ–π —Ç–æ—á–∫–æ–π)
+> # —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ as.numeric.factor, –ø—Ä–µ–¥–≤–∞—Ä–∏—Ç–µ–ª—å–Ω–æ –Ω–∞–ø–∏—Å–∞–≤ –µ–µ 
 > as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}
 > data3$credit_sum <-as.numeric.factor(data3$credit_sum)
 > data3$score_shk <-as.numeric.factor(data3$score_shk)
 > str(data3)
 'data.frame':   170746 obs. of  15 variables:
- $ client_id           : int  1 2 3 4 5 6 7 8 9 10 ...
- $ gender              : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
- $ age                 : int  48 28 32 27 45 37 NA 26 23 32 ...
- $ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 1 5 ...
- $ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
- $ credit_sum          : num  59998 10889 10728 12009 16909 ...
- $ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
- $ tariff_id           : Factor w/ 33 levels "1","2","3","4",..: 28 2 2 2 2 2 25 2 28 2 ...
- $ score_shk           : num  0.77 0.249 0.46 0.363 0.421 ...
- $ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
- $ living_region       : Factor w/ 82 levels "","¿À“¿…— »…  –¿…",..: 24 31 64 9 77 68 34 32 73 68 ...
- $ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
- $ credit_count        : int  1 2 5 2 1 0 3 3 3 7 ...
- $ overdue_credit_count: int  1 0 0 0 0 0 0 0 0 0 ...
- $ open_account_flg    : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
+$ client_id           : int  1 2 3 4 5 6 7 8 9 10 ...
+$ gender              : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
+$ age                 : int  48 28 32 27 45 37 NA 26 23 32 ...
+$ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 1 5 ...
+$ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
+$ credit_sum          : num  59998 10889 10728 12009 16909 ...
+$ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
+$ tariff_id           : Factor w/ 33 levels "1","2","3","4",..: 28 2 2 2 2 2 25 2 28 2 ...
+$ score_shk           : num  0.77 0.249 0.46 0.363 0.421 ...
+$ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
+$ living_region       : Factor w/ 82 levels "","–ê–õ–¢–ê–ô–°–ö–ò–ô –ö–†–ê–ô",..: 24 31 64 9 77 68 34 32 73 68 ...
+$ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
+$ credit_count        : int  1 2 5 2 1 0 3 3 3 7 ...
+$ overdue_credit_count: int  1 0 0 0 0 0 0 0 0 0 ...
+$ open_account_flg    : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
 > 
-> # “ÂÔÂ¸ Í‡ÚÂ„ÓË‡Î¸ÌÛ˛ ÔÂÂÏÂÌÌÛ˛ tariff_id ·Û‰ÂÏ ‡ÒÒÏ‡ÚË‚‡Ú¸ Í‡Í 
-> # ÍÓÎË˜ÂÒÚ‚ÂÌÌÛ˛, ÔÂÓ·‡ÁÛÂÏ ÂÂ ‚ ÚËÔ integer (ÁÌ‡˜ÂÌËˇ ñ ˆÂÎ˚Â ˜ËÒÎ‡)
-> # Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË as.integer 
+> # –¢–µ–ø–µ—Ä—å –∫–∞—Ç–µ–≥–æ—Ä–∏–∞–ª—å–Ω—É—é –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é tariff_id –±—É–¥–µ–º —Ä–∞—Å—Å–º–∞—Ç—Ä–∏–≤–∞—Ç—å –∫–∞–∫ 
+> # –∫–æ–ª–∏—á–µ—Å—Ç–≤–µ–Ω–Ω—É—é, –ø—Ä–µ–æ–±—Ä–∞–∑—É–µ–º –µ–µ –≤ —Ç–∏–ø integer (–∑–Ω–∞—á–µ–Ω–∏—è ‚Äì —Ü–µ–ª—ã–µ —á–∏—Å–ª–∞)
+> # —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ as.integer 
 > data3$tariff_id <-as.integer(data3$tariff_id)
 > str(data3)
 'data.frame':   170746 obs. of  15 variables:
- $ client_id           : int  1 2 3 4 5 6 7 8 9 10 ...
- $ gender              : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
- $ age                 : int  48 28 32 27 45 37 NA 26 23 32 ...
- $ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 1 5 ...
- $ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
- $ credit_sum          : num  59998 10889 10728 12009 16909 ...
- $ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
- $ tariff_id           : int  28 2 2 2 2 2 25 2 28 2 ...
- $ score_shk           : num  0.77 0.249 0.46 0.363 0.421 ...
- $ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
- $ living_region       : Factor w/ 82 levels "","¿À“¿…— »…  –¿…",..: 24 31 64 9 77 68 34 32 73 68 ...
- $ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
- $ credit_count        : int  1 2 5 2 1 0 3 3 3 7 ...
- $ overdue_credit_count: int  1 0 0 0 0 0 0 0 0 0 ...
- $ open_account_flg    : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
+$ client_id           : int  1 2 3 4 5 6 7 8 9 10 ...
+$ gender              : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
+$ age                 : int  48 28 32 27 45 37 NA 26 23 32 ...
+$ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 1 5 ...
+$ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
+$ credit_sum          : num  59998 10889 10728 12009 16909 ...
+$ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
+$ tariff_id           : int  28 2 2 2 2 2 25 2 28 2 ...
+$ score_shk           : num  0.77 0.249 0.46 0.363 0.421 ...
+$ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
+$ living_region       : Factor w/ 82 levels "","–ê–õ–¢–ê–ô–°–ö–ò–ô –ö–†–ê–ô",..: 24 31 64 9 77 68 34 32 73 68 ...
+$ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
+$ credit_count        : int  1 2 5 2 1 0 3 3 3 7 ...
+$ overdue_credit_count: int  1 0 0 0 0 0 0 0 0 0 ...
+$ open_account_flg    : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
 > 
-> # œÂÓ·‡ÁÛÂÏ ÔÂÂÏÂÌÌÛ˛ tariff_id Ó·‡ÚÌÓ ‚ ÚËÔ factor
-> data3$tariff_id <-as.factor(data3$tariff_id)
+> # –ü—Ä–µ–æ–±—Ä–∞–∑—É–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é tariff_id –æ–±—Ä–∞—Ç–Ω–æ –≤ —Ç–∏–ø factor
+  > data3$tariff_id <-as.factor(data3$tariff_id)
 > 
-> # œÂ‰ÒÚ‡‚ËÏ, ˜ÚÓ ÔÂÂÏÂÌÌ‡ˇ education ˇ‚ÎˇÂÚÒˇ ÔÓˇ‰ÍÓ‚ÓÈ, ÚÓ„‰‡ Ï˚ ‰ÓÎÊÌ˚
-> # ÔÂÓ·‡ÁÓ‚‡Ú¸ ÂÂ ‚ ÚËÔ ordered factor (ÁÌ‡˜ÂÌËˇ ñ ÛÓ‚ÌË ÔÓˇ‰ÍÓ‚˚ı ÔÂÂÏÂÌÌ˚ı)
-> # Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË ordered 
-> data3$education2 <- ordered(data3$education, 
-+                            levels = c("SCH", "UGR", "GRD", "PGR", "ACD"))
+> # –ü—Ä–µ–¥—Å—Ç–∞–≤–∏–º, —á—Ç–æ –ø–µ—Ä–µ–º–µ–Ω–Ω–∞—è education —è–≤–ª—è–µ—Ç—Å—è –ø–æ—Ä—è–¥–∫–æ–≤–æ–π, —Ç–æ–≥–¥–∞ –º—ã –¥–æ–ª–∂–Ω—ã
+> # –ø—Ä–µ–æ–±—Ä–∞–∑–æ–≤–∞—Ç—å –µ–µ –≤ —Ç–∏–ø ordered factor (–∑–Ω–∞—á–µ–Ω–∏—è ‚Äì —É—Ä–æ–≤–Ω–∏ –ø–æ—Ä—è–¥–∫–æ–≤—ã—Ö –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö)
+> # —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ ordered 
+> data3$education2 <- ordered(data3$education, levels = c("SCH", "UGR", "GRD", "PGR", "ACD"))
 > str(data3)
 'data.frame':   170746 obs. of  16 variables:
- $ client_id           : int  1 2 3 4 5 6 7 8 9 10 ...
- $ gender              : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
- $ age                 : int  48 28 32 27 45 37 NA 26 23 32 ...
- $ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 1 5 ...
- $ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
- $ credit_sum          : num  59998 10889 10728 12009 16909 ...
- $ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
- $ tariff_id           : Factor w/ 33 levels "1","2","3","4",..: 28 2 2 2 2 2 25 2 28 2 ...
- $ score_shk           : num  0.77 0.249 0.46 0.363 0.421 ...
- $ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
- $ living_region       : Factor w/ 82 levels "","¿À“¿…— »…  –¿…",..: 24 31 64 9 77 68 34 32 73 68 ...
- $ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
- $ credit_count        : int  1 2 5 2 1 0 3 3 3 7 ...
- $ overdue_credit_count: int  1 0 0 0 0 0 0 0 0 0 ...
- $ open_account_flg    : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
- $ education2          : Ord.factor w/ 5 levels "SCH"<"UGR"<"GRD"<..: 3 3 1 3 1 1 1 3 1 3 ...
+$ client_id           : int  1 2 3 4 5 6 7 8 9 10 ...
+$ gender              : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
+$ age                 : int  48 28 32 27 45 37 NA 26 23 32 ...
+$ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 1 5 ...
+$ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
+$ credit_sum          : num  59998 10889 10728 12009 16909 ...
+$ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
+$ tariff_id           : Factor w/ 33 levels "1","2","3","4",..: 28 2 2 2 2 2 25 2 28 2 ...
+$ score_shk           : num  0.77 0.249 0.46 0.363 0.421 ...
+$ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
+$ living_region       : Factor w/ 82 levels "","–ê–õ–¢–ê–ô–°–ö–ò–ô –ö–†–ê–ô",..: 24 31 64 9 77 68 34 32 73 68 ...
+$ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
+$ credit_count        : int  1 2 5 2 1 0 3 3 3 7 ...
+$ overdue_credit_count: int  1 0 0 0 0 0 0 0 0 0 ...
+$ open_account_flg    : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
+$ education2          : Ord.factor w/ 5 levels "SCH"<"UGR"<"GRD"<..: 3 3 1 3 1 1 1 3 1 3 ...
 > 
-> # ”‰‡ÎËÏ ÒÓÁ‰‡ÌÌÛ˛ ÔÂÂÏÂÌÌÛ˛ education2
+> # –£–¥–∞–ª–∏–º —Å–æ–∑–¥–∞–Ω–Ω—É—é –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é education2
 > data3$education2 <-NULL
 > 
-> # 4.2 »ÏÔÛÚ‡ˆËˇ ÔÓÔÛ˘ÂÌÌ˚ı ÁÌ‡˜ÂÌËÈ
+> # 4.2 –ò–º–ø—É—Ç–∞—Ü–∏—è –ø—Ä–æ–ø—É—â–µ–Ω–Ω—ã—Ö –∑–Ω–∞—á–µ–Ω–∏–π
 > 
-> # 4.2.1. œÓÎÛ˜ÂÌËÂ ËÌÙÓÏ‡ˆËË Ó ÍÓÎË˜ÂÒÚ‚Â ÔÓÔÛÒÍÓ‚ ÔÓ Í‡Ê‰ÓÈ ÔÂÂÏÂÌÌÓÈ
+> # 4.2.1. –ü–æ–ª—É—á–µ–Ω–∏–µ –∏–Ω—Ñ–æ—Ä–º–∞—Ü–∏–∏ –æ –∫–æ–ª–∏—á–µ—Å—Ç–≤–µ –ø—Ä–æ–ø—É—Å–∫–æ–≤ –ø–æ –∫–∞–∂–¥–æ–π –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π
 > 
-> # œÂÊ‰Â ‚ÒÂ„Ó ÒÏÓÚËÏ Ì‡ ÚËÔ˚ ËÏÂ˛˘ËıÒˇ ÔÂÂÏÂÌÌ˚ı
+> # –ü—Ä–µ–∂–¥–µ –≤—Å–µ–≥–æ —Å–º–æ—Ç—Ä–∏–º –Ω–∞ —Ç–∏–ø—ã –∏–º–µ—é—â–∏—Ö—Å—è –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö
 > str(data3) 
 'data.frame':   170746 obs. of  15 variables:
- $ client_id           : int  1 2 3 4 5 6 7 8 9 10 ...
- $ gender              : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
- $ age                 : int  48 28 32 27 45 37 NA 26 23 32 ...
- $ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 1 5 ...
- $ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
- $ credit_sum          : num  59998 10889 10728 12009 16909 ...
- $ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
- $ tariff_id           : Factor w/ 33 levels "1","2","3","4",..: 28 2 2 2 2 2 25 2 28 2 ...
- $ score_shk           : num  0.77 0.249 0.46 0.363 0.421 ...
- $ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
- $ living_region       : Factor w/ 82 levels "","¿À“¿…— »…  –¿…",..: 24 31 64 9 77 68 34 32 73 68 ...
- $ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
- $ credit_count        : int  1 2 5 2 1 0 3 3 3 7 ...
- $ overdue_credit_count: int  1 0 0 0 0 0 0 0 0 0 ...
- $ open_account_flg    : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
+$ client_id           : int  1 2 3 4 5 6 7 8 9 10 ...
+$ gender              : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
+$ age                 : int  48 28 32 27 45 37 NA 26 23 32 ...
+$ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 1 5 ...
+$ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
+$ credit_sum          : num  59998 10889 10728 12009 16909 ...
+$ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
+$ tariff_id           : Factor w/ 33 levels "1","2","3","4",..: 28 2 2 2 2 2 25 2 28 2 ...
+$ score_shk           : num  0.77 0.249 0.46 0.363 0.421 ...
+$ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
+$ living_region       : Factor w/ 82 levels "","–ê–õ–¢–ê–ô–°–ö–ò–ô –ö–†–ê–ô",..: 24 31 64 9 77 68 34 32 73 68 ...
+$ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
+$ credit_count        : int  1 2 5 2 1 0 3 3 3 7 ...
+$ overdue_credit_count: int  1 0 0 0 0 0 0 0 0 0 ...
+$ open_account_flg    : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
 > 
-> # ≈ÒÎË ‚ÒÂ ÔÂÂÏÂÌÌ˚Â ËÏÂ˛Ú ÚËÔ˚ integer ËÎË numeric, ÏÓÊÌÓ ‚˚‚ÂÒÚË 
-> # ËÌÙÓÏ‡ˆË˛ Ó ÍÓÎË˜ÂÒÚ‚Â ÔÓÔÛÒÍÓ‚, ÂÒÎË ÂÒÚ¸ ÔÂÂÏÂÌÌ˚Â ÚËÔ‡ factor,
-> # ÚÓ ÏÓ„ÛÚ ·˚Ú¸ ÔÛÒÚ˚Â ÒÚÓÍÓ‚˚Â ÁÌ‡˜ÂÌËˇ, ÍÓÚÓ˚Â ÔÂÂ‰ ‚˚‚Ó‰ÓÏ ËÌÙÓÏ‡ˆËË
-> # Ó ÍÓÎË˜ÂÒÚ‚Â ÔÓÔÛÒÍÓ‚ ÌÛÊÌÓ ÔÓÏÂÚËÚ¸ Í‡Í ÔÓÔÛ˘ÂÌÌ˚Â (NA)
+> # –ï—Å–ª–∏ –≤—Å–µ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã–µ –∏–º–µ—é—Ç —Ç–∏–ø—ã integer –∏–ª–∏ numeric, –º–æ–∂–Ω–æ –≤—ã–≤–µ—Å—Ç–∏ 
+> # –∏–Ω—Ñ–æ—Ä–º–∞—Ü–∏—é –æ –∫–æ–ª–∏—á–µ—Å—Ç–≤–µ –ø—Ä–æ–ø—É—Å–∫–æ–≤, –µ—Å–ª–∏ –µ—Å—Ç—å –ø–µ—Ä–µ–º–µ–Ω–Ω—ã–µ —Ç–∏–ø–∞ factor,
+> # —Ç–æ –º–æ–≥—É—Ç –±—ã—Ç—å –ø—É—Å—Ç—ã–µ —Å—Ç—Ä–æ–∫–æ–≤—ã–µ –∑–Ω–∞—á–µ–Ω–∏—è, –∫–æ—Ç–æ—Ä—ã–µ –ø–µ—Ä–µ–¥ –≤—ã–≤–æ–¥–æ–º –∏–Ω—Ñ–æ—Ä–º–∞—Ü–∏–∏
+> # –æ –∫–æ–ª–∏—á–µ—Å—Ç–≤–µ –ø—Ä–æ–ø—É—Å–∫–æ–≤ –Ω—É–∂–Ω–æ –ø–æ–º–µ—Ç–∏—Ç—å –∫–∞–∫ –ø—Ä–æ–ø—É—â–µ–Ω–Ω—ã–µ (NA)
 > is.na(data3) <- data3==''
 > 
-> # «‡„ÛÊ‡ÂÏ Ô‡ÍÂÚ Hmisc
+> # –ó–∞–≥—Ä—É–∂–∞–µ–º –ø–∞–∫–µ—Ç Hmisc
 > library(Hmisc)
-«‡„ÛÁÍ‡ ÚÂ·ÛÂÏÓ„Ó Ô‡ÍÂÚ‡: lattice
-«‡„ÛÁÍ‡ ÚÂ·ÛÂÏÓ„Ó Ô‡ÍÂÚ‡: survival
-«‡„ÛÁÍ‡ ÚÂ·ÛÂÏÓ„Ó Ô‡ÍÂÚ‡: Formula
-«‡„ÛÁÍ‡ ÚÂ·ÛÂÏÓ„Ó Ô‡ÍÂÚ‡: ggplot2
+–ó–∞–≥—Ä—É–∑–∫–∞ —Ç—Ä–µ–±—É–µ–º–æ–≥–æ –ø–∞–∫–µ—Ç–∞: lattice
+–ó–∞–≥—Ä—É–∑–∫–∞ —Ç—Ä–µ–±—É–µ–º–æ–≥–æ –ø–∞–∫–µ—Ç–∞: survival
+–ó–∞–≥—Ä—É–∑–∫–∞ —Ç—Ä–µ–±—É–µ–º–æ–≥–æ –ø–∞–∫–µ—Ç–∞: Formula
+–ó–∞–≥—Ä—É–∑–∫–∞ —Ç—Ä–µ–±—É–µ–º–æ–≥–æ –ø–∞–∫–µ—Ç–∞: ggplot2
 
-œËÒÓÂ‰ËÌˇ˛ Ô‡ÍÂÚ: ëHmiscí
+–ü—Ä–∏—Å–æ–µ–¥–∏–Ω—è—é –ø–∞–∫–µ—Ç: ‚ÄòHmisc‚Äô
 
-—ÎÂ‰Û˛˘ËÂ Ó·˙ÂÍÚ˚ ÒÍ˚Ú˚ ÓÚ ëpackage:baseí:
-
-    format.pval, round.POSIXt, trunc.POSIXt, units
+–°–ª–µ–¥—É—é—â–∏–µ –æ–±—ä–µ–∫—Ç—ã —Å–∫—Ä—ã—Ç—ã –æ—Ç ‚Äòpackage:base‚Äô:
+  
+  format.pval, round.POSIXt, trunc.POSIXt, units
 
 > 
-> # — ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË describe Ô‡ÍÂÚ‡ Hmisc ‚˚‚Ó‰ËÏ Ó·˘Û˛ ËÌÙÓÏ‡ˆË˛ 
-> # Ó ÔÂÂÏÂÌÌ˚ı, ‚ Ú.˜. Ë Ó ÍÓÎË˜ÂÒÚ‚Â ÔÓÔÛÒÍÓ‚ 
+> # –° –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ describe –ø–∞–∫–µ—Ç–∞ Hmisc –≤—ã–≤–æ–¥–∏–º –æ–±—â—É—é –∏–Ω—Ñ–æ—Ä–º–∞—Ü–∏—é 
+> # –æ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö, –≤ —Ç.—á. –∏ –æ –∫–æ–ª–∏—á–µ—Å—Ç–≤–µ –ø—Ä–æ–ø—É—Å–∫–æ–≤ 
 > describe(data3)
 data3 
 
- 15  Variables      170746  Observations
+15  Variables      170746  Observations
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-client_id 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  170746        0   170746        1    85374    56916     8538    17076    42687    85374   128060   153672   162209 
+  client_id 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+170746        0   170746        1    85374    56916     8538    17076    42687    85374   128060   153672   162209 
 
 lowest :      1      2      3      4      5, highest: 170742 170743 170744 170745 170746
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-gender 
-       n  missing distinct 
-  170746        0        2 
-                      
+  gender 
+n  missing distinct 
+170746        0        2 
+
 Value          F     M
 Frequency  88697 82049
 Proportion 0.519 0.481
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-age 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  170744        2       54    0.999     36.5    11.78       23       24       28       34       43       52       57 
+  age 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+170744        2       54    0.999     36.5    11.78       23       24       28       34       43       52       57 
 
 lowest : 18 19 20 21 22, highest: 67 68 69 70 71
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-marital_status 
-       n  missing distinct 
-  170744        2        5 
-                                        
+  marital_status 
+n  missing distinct 
+170744        2        5 
+
 Value        CIV   DIV   MAR   UNM   WID
 Frequency   4196 16970 93955 52148  3475
 Proportion 0.025 0.099 0.550 0.305 0.020
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-job_position 
-       n  missing distinct 
-  170746        0       18 
-                                                                                                                                        
+  job_position 
+n  missing distinct 
+170746        0       18 
+
 Value         ATP    BIS    BIU    DIR    HSK    INP    INV    NOR    ONB    PNA    PNI    PNS    PNV    SPC    UMN    WOI    WRK    WRP
 Frequency    2791   5591    126   3750      8    241      5    537      1   4107     65     12     40 134680  17674    352    656    110
 Proportion  0.016  0.033  0.001  0.022  0.000  0.001  0.000  0.003  0.000  0.024  0.000  0.000  0.000  0.789  0.104  0.002  0.004  0.001
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-credit_sum 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  170745        1    42769        1    26095    17031     8059    10668    14908    21229    32068    50616    59846 
+  credit_sum 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+170745        1    42769        1    26095    17031     8059    10668    14908    21229    32068    50616    59846 
 
 lowest :   2736.0   3000.0   3000.4   3011.0   3029.0, highest: 184732.0 187768.0 189734.0 194570.0 200000.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-credit_month 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  170746        0       31    0.805    10.98    2.859        6       10       10       10       12       12       18 
+  credit_month 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+170746        0       31    0.805    10.98    2.859        6       10       10       10       12       12       18 
 
 lowest :  3  4  5  6  7, highest: 29 30 31 32 36
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-tariff_id 
-       n  missing distinct 
-  170746        0       33 
+  tariff_id 
+n  missing distinct 
+170746        0       33 
 
 lowest : 1  2  3  4  5 , highest: 29 30 31 32 33
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-score_shk 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  170743        3    16280        1   0.4695   0.1409   0.2785   0.3150   0.3795   0.4616   0.5524   0.6423   0.6916 
+  score_shk 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+170743        3    16280        1   0.4695   0.1409   0.2785   0.3150   0.3795   0.4616   0.5524   0.6423   0.6916 
 
 lowest : 0.000000 0.071819 0.072468 0.074979 0.076782, highest: 0.976126 0.978480 1.041122 1.054699 1.128291
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-education 
-       n  missing distinct 
-  170743        3        5 
-                                        
+  education 
+n  missing distinct 
+170743        3        5 
+
 Value        ACD   GRD   PGR   SCH   UGR
 Frequency    107 72594   565 87536  9941
 Proportion 0.001 0.425 0.003 0.513 0.058
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-living_region 
-       n  missing distinct 
-  170554      192       81 
+  living_region 
+n  missing distinct 
+170554      192       81 
 
-lowest : ¿À“¿…— »…  –¿…             ¿Ã”–— ¿ﬂ Œ¡À¿—“‹           ¿–’¿Õ√≈À‹— ¿ﬂ Œ¡À¿—“‹      ¿—“–¿’¿Õ— ¿ﬂ Œ¡À¿—“‹       ¡≈À√Œ–Œƒ— ¿ﬂ Œ¡À¿—“‹      
-highest: ◊≈◊≈Õ— ¿ﬂ –≈—œ”¡À» ¿       ◊»“»Õ— ¿ﬂ Œ¡À¿—“‹          ◊”¬¿ÿ— ¿ﬂ –≈—œ”¡À» ¿       ◊” Œ“— »… ¿¬“ŒÕŒÃÕ€… Œ –”√ ﬂ–Œ—À¿¬— ¿ﬂ Œ¡À¿—“‹       
+lowest : –ê–õ–¢–ê–ô–°–ö–ò–ô –ö–†–ê–ô             –ê–ú–£–†–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨           –ê–†–•–ê–ù–ì–ï–õ–¨–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨      –ê–°–¢–†–ê–•–ê–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨       –ë–ï–õ–ì–û–†–û–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨      
+highest: –ß–ï–ß–ï–ù–°–ö–ê–Ø –†–ï–°–ü–£–ë–õ–ò–ö–ê       –ß–ò–¢–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          –ß–£–í–ê–®–°–ö–ê–Ø –†–ï–°–ü–£–ë–õ–ò–ö–ê       –ß–£–ö–û–¢–°–ö–ò–ô –ê–í–¢–û–ù–û–ú–ù–´–ô –û–ö–†–£–ì –Ø–†–û–°–õ–ê–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨       
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-monthly_income 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  170745        1     1591    0.997    40138    22903    15000    20000    25000    35000    50000    68000    80000 
+  monthly_income 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+170745        1     1591    0.997    40138    22903    15000    20000    25000    35000    50000    68000    80000 
 
 lowest :   5000   5600   6000   6300   6434, highest: 700000 750000 800000 900000 950000
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-credit_count 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  161516     9230       21    0.958    2.107    1.866        0        0        1        2        3        4        5 
+  credit_count 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+161516     9230       21    0.958    2.107    1.866        0        0        1        2        3        4        5 
 
 lowest :  0  1  2  3  4, highest: 16 17 18 19 21
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-overdue_credit_count 
-       n  missing distinct     Info     Mean      Gmd 
-  161516     9230        4    0.131  0.04607  0.08796 
-                                      
+  overdue_credit_count 
+n  missing distinct     Info     Mean      Gmd 
+161516     9230        4    0.131  0.04607  0.08796 
+
 Value           0      1      2      3
 Frequency  154135   7326     50      5
 Proportion  0.954  0.045  0.000  0.000
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-open_account_flg 
-       n  missing distinct 
-  170746        0        2 
-                        
+  open_account_flg 
+n  missing distinct 
+170746        0        2 
+
 Value           0      1
 Frequency  140690  30056
 Proportion  0.824  0.176
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 > 
-> # ŒÚÒÓÂ‰ËÌˇÂÏ Ô‡ÍÂÚ Hmisc
+> # –û—Ç—Å–æ–µ–¥–∏–Ω—è–µ–º –ø–∞–∫–µ—Ç Hmisc
 > detach("package:Hmisc", unload=TRUE)
 > 
-> # ÃÓÊÌÓ ‚˚‚ÂÒÚË Ò‚Ó‰ÍÛ ÔÓ ÔÓÔÛÒÍ‡Ï Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË sapply
+> # –ú–æ–∂–Ω–æ –≤—ã–≤–µ—Å—Ç–∏ —Å–≤–æ–¥–∫—É –ø–æ –ø—Ä–æ–ø—É—Å–∫–∞–º —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ sapply
 > sapply(data3, function(x) sum(is.na(x)))
-           client_id               gender                  age       marital_status         job_position           credit_sum         credit_month            tariff_id            score_shk            education        living_region 
-                   0                    0                    2                    2                    0                    1                    0                    0                    3                    3                  192 
-      monthly_income         credit_count overdue_credit_count     open_account_flg 
-                   1                 9230                 9230                    0 
+client_id               gender                  age       marital_status         job_position           credit_sum         credit_month            tariff_id            score_shk            education        living_region 
+0                    0                    2                    2                    0                    1                    0                    0                    3                    3                  192 
+monthly_income         credit_count overdue_credit_count     open_account_flg 
+1                 9230                 9230                    0 
 > 
-> # 4.2.2. »ÏÔÛÚ‡ˆËˇ ÒÂ‰ÌËÏ, ÏÂ‰Ë‡ÌÓÈ Ë ÏÓ‰ÓÈ 
+> # 4.2.2. –ò–º–ø—É—Ç–∞—Ü–∏—è —Å—Ä–µ–¥–Ω–∏–º, –º–µ–¥–∏–∞–Ω–æ–π –∏ –º–æ–¥–æ–π 
 > 
-> # «‡ÏÂÌˇÂÏ ÔÓÔÛÒÍË ‚ ÔÂÂÏÂÌÌ˚ı age Ë score_shk ÒÂ‰ÌËÏË ÁÌ‡˜ÂÌËˇÏË
+> # –ó–∞–º–µ–Ω—è–µ–º –ø—Ä–æ–ø—É—Å–∫–∏ –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö age –∏ score_shk —Å—Ä–µ–¥–Ω–∏–º–∏ –∑–Ω–∞—á–µ–Ω–∏—è–º–∏
 > data3$age[is.na(data3$age)] <- mean(data3$age, na.rm=TRUE)
 > data3$score_shk[is.na(data3$score_shk)] <- mean(data3$score_shk, na.rm=TRUE)
 >  
-> # «‡ÏÂÌˇÂÏ ÔÓÔÛÒÍË ‚ ÔÂÂÏÂÌÌ˚ı monthly_income Ë credit_sum ÏÂ‰Ë‡Ì‡ÏË
-> data3$monthly_income[is.na(data3$monthly_income)] <- median(data3$monthly_income,  
-+                                                             na.rm=TRUE)
-> data3$credit_sum[is.na(data3$credit_sum)] <- median(data3$credit_sum,  
-+                                                     na.rm=TRUE)
+> # –ó–∞–º–µ–Ω—è–µ–º –ø—Ä–æ–ø—É—Å–∫–∏ –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö monthly_income –∏ credit_sum –º–µ–¥–∏–∞–Ω–∞–º–∏
+> data3$monthly_income[is.na(data3$monthly_income)] <- median(data3$monthly_income, na.rm=TRUE)
+> data3$credit_sum[is.na(data3$credit_sum)] <- median(data3$credit_sum, na.rm=TRUE)
 >  
-> # «‡ÏÂÌˇÂÏ ÔÓÔÛÒÍË ‚ ÔÂÂÏÂÌÌ˚ı education Ë marital_status ÏÓ‰‡ÏË 
-> # (Ò‡Ï˚ÏË ˜‡ÒÚÓ ‚ÒÚÂ˜‡˛˘ËÏËÒˇ ÁÌ‡˜ÂÌËˇÏË), ËÌÙÓÏ‡ˆË˛ Ó ÏÓ‰‡ı ·ÂÂÏ 
-> # ËÁ ÂÁÛÎ¸Ú‡ÚÓ‚, ‚ÓÁ‚‡˘ÂÌÌ˚ı ÙÛÌÍˆËÂÈ describe Ô‡ÍÂÚ‡ Hmisc
+> # –ó–∞–º–µ–Ω—è–µ–º –ø—Ä–æ–ø—É—Å–∫–∏ –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö education –∏ marital_status –º–æ–¥–∞–º–∏ 
+> # (—Å–∞–º—ã–º–∏ —á–∞—Å—Ç–æ –≤—Å—Ç—Ä–µ—á–∞—é—â–∏–º–∏—Å—è –∑–Ω–∞—á–µ–Ω–∏—è–º–∏), –∏–Ω—Ñ–æ—Ä–º–∞—Ü–∏—é –æ –º–æ–¥–∞—Ö –±–µ—Ä–µ–º 
+> # –∏–∑ —Ä–µ–∑—É–ª—å—Ç–∞—Ç–æ–≤, –≤–æ–∑–≤—Ä–∞—â–µ–Ω–Ω—ã—Ö —Ñ—É–Ω–∫—Ü–∏–µ–π describe –ø–∞–∫–µ—Ç–∞ Hmisc
 > data3$education[is.na(data3$education)] <- "SCH"
 > data3$marital_status[is.na(data3$marital_status)] <- "MAR"
 > 
-> # »ÌÙÓÏ‡ˆË˛ Ó ÏÓ‰‡ı Ë ÏÂ‰Ë‡Ì‡ı ÏÓÊÌÓ Ú‡ÍÊÂ ÔÓÎÛ˜ËÚ¸ Ò ÔÓÏÓ˘¸˛ Ô‡ÍÂÚ‡ 
-> # imputeMissings, ÙÛÌÍˆËˇ compute ‡‚ÚÓÏ‡ÚË˜ÂÒÍË ‚˚˜ËÒÎˇÂÚ ‰Îˇ ÍÓÎË˜ÂÒÚ‚ÂÌÌ˚ı
-> # ÔÂÂÏÂÌÌ˚ı ñ ÏÂ‰Ë‡Ì˚, ‡ ‰Îˇ Í‡ÚÂ„ÓË‡Î¸Ì˚ı ÔÂÂÏÂÌÌ˚ı ñ ÏÓ‰˚
+> # –ò–Ω—Ñ–æ—Ä–º–∞—Ü–∏—é –æ –º–æ–¥–∞—Ö –∏ –º–µ–¥–∏–∞–Ω–∞—Ö –º–æ–∂–Ω–æ —Ç–∞–∫–∂–µ –ø–æ–ª—É—á–∏—Ç—å —Å –ø–æ–º–æ—â—å—é –ø–∞–∫–µ—Ç–∞ 
+> # imputeMissings, —Ñ—É–Ω–∫—Ü–∏—è compute –∞–≤—Ç–æ–º–∞—Ç–∏—á–µ—Å–∫–∏ –≤—ã—á–∏—Å–ª—è–µ—Ç –¥–ª—è –∫–æ–ª–∏—á–µ—Å—Ç–≤–µ–Ω–Ω—ã—Ö
+> # –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö ‚Äì –º–µ–¥–∏–∞–Ω—ã, –∞ –¥–ª—è –∫–∞—Ç–µ–≥–æ—Ä–∏–∞–ª—å–Ω—ã—Ö –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö ‚Äì –º–æ–¥—ã
 > library(imputeMissings)
 > values <- compute(data3)
 > values
@@ -783,7 +780,7 @@ $education
 [1] "SCH"
 
 $living_region
-[1] "ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹"
+[1] "–ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨"
 
 $monthly_income
 [1] 35000
@@ -798,98 +795,98 @@ $open_account_flg
 [1] "0"
 
 > 
-> # 4.2.3. ¿‚ÚÓÏ‡ÚË˜ÂÒÍ‡ˇ ËÏÔÛÚ‡ˆËˇ ÏÂ‰Ë‡ÌÓÈ Ë ÏÓ‰ÓÈ c ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË impute Ô‡ÍÂÚ‡ imputeMissing
+> # 4.2.3. –ê–≤—Ç–æ–º–∞—Ç–∏—á–µ—Å–∫–∞—è –∏–º–ø—É—Ç–∞—Ü–∏—è –º–µ–¥–∏–∞–Ω–æ–π –∏ –º–æ–¥–æ–π c –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ impute –ø–∞–∫–µ—Ç–∞ imputeMissing
 > 
-> # — ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË impute Ô‡ÍÂÚ‡ imputeMissing ÏÓÊÌÓ ‡‚ÚÓÏ‡ÚË˜ÂÒÍË ËÏÔÛÚËÓ‚‡Ú¸
-> # ÔÓÔÛÒÍË ÍÓÎË˜ÂÒÚ‚ÂÌÌ˚ı ÔÂÂÏÂÌÌ˚ı ñ ÏÂ‰Ë‡Ì‡ÏË, ÔÓÔÛÒÍË Í‡ÚÂ„ÓË‡Î¸Ì˚ı
-> # ÔÂÂÏÂÌÌ˚ı ñ ÏÓ‰‡ÏË
+> # –° –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ impute –ø–∞–∫–µ—Ç–∞ imputeMissing –º–æ–∂–Ω–æ –∞–≤—Ç–æ–º–∞—Ç–∏—á–µ—Å–∫–∏ –∏–º–ø—É—Ç–∏—Ä–æ–≤–∞—Ç—å
+> # –ø—Ä–æ–ø—É—Å–∫–∏ –∫–æ–ª–∏—á–µ—Å—Ç–≤–µ–Ω–Ω—ã—Ö –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö ‚Äì –º–µ–¥–∏–∞–Ω–∞–º–∏, –ø—Ä–æ–ø—É—Å–∫–∏ –∫–∞—Ç–µ–≥–æ—Ä–∏–∞–ª—å–Ω—ã—Ö
+> # –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö ‚Äì –º–æ–¥–∞–º–∏
 > example <- read.csv2("C:/Trees/Example_comma.csv", sep = ',')
 > is.na(example) <- example==''
 > head(example, 20)
-   client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education                   living_region monthly_income credit_count overdue_credit_count open_account_flg
-1          1      M  48            MAR          UMN      59998           10        28  0.770249       GRD               –¿—ÕŒƒ¿–— »…  –¿…          30000            1                    1                0
-2          2      F  28            MAR          UMN      10889            6         2  0.248514       GRD                          ÃŒ— ¬¿          43000            2                    0                0
-3          3      M  32            MAR          SPC      10728           12         2  0.459589       SCH             —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹          23000            5                    0                0
-4          4      F  27            DIV          SPC   12009.09           12         2  0.362536       GRD           ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹          17000            2                    0                0
-5          5      M  45            MAR          SPC   16908.89           10         2  0.421385       SCH             ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹          25000            1                    0                0
-6          6      F  37            MAR          SPC      26788           10         2  0.484203       SCH             —“¿¬–ŒœŒÀ‹— »…  –¿…          30000            0                    0                0
-7          7      M  NA            MAR          SPC      10317            6        25  0.276012       SCH           Õ»∆≈√Œ–Œƒ— ¿ﬂ Œ¡À¿—“‹          28000            3                    0                0
-8          8      F  26            UNM          SPC      47878           10         2  0.512525       GRD              ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹          60000            3                    0                0
-9          9      M  23           <NA>          SPC   37577.16           12        28  0.642267       SCH               “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          50000            3                    0                0
-10        10      F  32            UNM          SPC      26268           10         2  0.465026       GRD             —“¿¬–ŒœŒÀ‹— »…  –¿…          39500            7                    0                0
-11        11      M  26           <NA>          SPC       <NA>           14         1   0.44543       SCH                 —¿Õ “-œ≈“≈–¡”–√          36000            2                    0                0
-12        12      F  26            UNM          SPC      18936           10        19  0.455774       GRD         –≈—œ”¡À» ¿ ¡¿ÿ Œ–“Œ—“¿Õ          30000            0                    0                0
-13        13      M  37            MAR          SPC      42289           10        28      <NA>       SCH           ¿–’¿Õ√≈À‹— ¿ﬂ Œ¡À¿—“‹          70000            1                    0                0
-14        14      M  43            MAR          INP      57567           10         2  0.341164       GRD               “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          60000            7                    0                0
-15        15      F  32            MAR          SPC      12711           12        25  0.411186      <NA>         –≈—œ”¡À» ¿ ¡¿ÿ Œ–“Œ—“¿Õ          30000            3                    0                0
-16        16      M  NA            MAR          SPC      13209           10         2  0.498255       SCH                   œ≈–Ã— »…  –¿…          34000            2                    0                0
-17        17      M  36            DIV          SPC      22612           10        20      <NA>       SCH               –¿—ÕŒƒ¿–— »…  –¿…          50000            4                    0                0
-18        18      F  54            UNM          UMN      24990           12         2  0.413558       GRD               “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          40000            6                    0                1
-19        19      M  43            UNM          SPC      54668           10        28  0.489676       SCH               “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          85000            2                    0                0
-20        20      M  33            UNM          SPC      19539           10        28  0.531547      <NA>  ¿–¿◊¿≈¬Œ-◊≈– ≈—— ¿ﬂ –≈—œ”¡À» ¿          30000            0                    0                0
+client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education                   living_region monthly_income credit_count overdue_credit_count open_account_flg
+1          1      M  48            MAR          UMN      59998           10        28  0.770249       GRD              –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          30000            1                    1                0
+2          2      F  28            MAR          UMN      10889            6         2  0.248514       GRD                          –ú–û–°–ö–í–ê          43000            2                    0                0
+3          3      M  32            MAR          SPC      10728           12         2  0.459589       SCH             –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          23000            5                    0                0
+4          4      F  27            DIV          SPC   12009.09           12         2  0.362536       GRD           –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          17000            2                    0                0
+5          5      M  45            MAR          SPC   16908.89           10         2  0.421385       SCH             –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          25000            1                    0                0
+6          6      F  37            MAR          SPC      26788           10         2  0.484203       SCH             –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          30000            0                    0                0
+7          7      M  NA            MAR          SPC      10317            6        25  0.276012       SCH           –ù–ò–ñ–ï–ì–û–†–û–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          28000            3                    0                0
+8          8      F  26            UNM          SPC      47878           10         2  0.512525       GRD              –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          60000            3                    0                0
+9          9      M  23           <NA>          SPC   37577.16           12        28  0.642267       SCH               –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          50000            3                    0                0
+10        10      F  32            UNM          SPC      26268           10         2  0.465026       GRD             –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          39500            7                    0                0
+11        11      M  26           <NA>          SPC       <NA>           14         1   0.44543       SCH                 –°–ê–ù–ö–¢-–ü–ï–¢–ï–†–ë–£–†–ì          36000            2                    0                0
+12        12      F  26            UNM          SPC      18936           10        19  0.455774       GRD         –†–ï–°–ü–£–ë–õ–ò–ö–ê –ë–ê–®–ö–û–†–¢–û–°–¢–ê–ù          30000            0                    0                0
+13        13      M  37            MAR          SPC      42289           10        28      <NA>       SCH           –ê–†–•–ê–ù–ì–ï–õ–¨–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          70000            1                    0                0
+14        14      M  43            MAR          INP      57567           10         2  0.341164       GRD               –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          60000            7                    0                0
+15        15      F  32            MAR          SPC      12711           12        25  0.411186      <NA>         –†–ï–°–ü–£–ë–õ–ò–ö–ê –ë–ê–®–ö–û–†–¢–û–°–¢–ê–ù          30000            3                    0                0
+16        16      M  NA            MAR          SPC      13209           10         2  0.498255       SCH                   –ü–ï–†–ú–°–ö–ò–ô –ö–†–ê–ô          34000            2                    0                0
+17        17      M  36            DIV          SPC      22612           10        20      <NA>       SCH              –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          50000            4                    0                0
+18        18      F  54            UNM          UMN      24990           12         2  0.413558       GRD               –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          40000            6                    0                1
+19        19      M  43            UNM          SPC      54668           10        28  0.489676       SCH               –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          85000            2                    0                0
+20        20      M  33            UNM          SPC      19539           10        28  0.531547      <NA> –ö–ê–†–ê–ß–ê–ï–í–û-–ß–ï–†–ö–ï–°–°–ö–ê–Ø –†–ï–°–ü–£–ë–õ–ò–ö–ê          30000            0                    0                0
 > example_imp <- impute(example, method = "median/mode")
 > head(example_imp, 20)
-   client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education                   living_region monthly_income credit_count overdue_credit_count open_account_flg
-1          1      M  48            MAR          UMN      59998           10        28  0.770249       GRD               –¿—ÕŒƒ¿–— »…  –¿…          30000            1                    1                0
-2          2      F  28            MAR          UMN      10889            6         2  0.248514       GRD                          ÃŒ— ¬¿          43000            2                    0                0
-3          3      M  32            MAR          SPC      10728           12         2  0.459589       SCH             —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹          23000            5                    0                0
-4          4      F  27            DIV          SPC   12009.09           12         2  0.362536       GRD           ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹          17000            2                    0                0
-5          5      M  45            MAR          SPC   16908.89           10         2  0.421385       SCH             ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹          25000            1                    0                0
-6          6      F  37            MAR          SPC      26788           10         2  0.484203       SCH             —“¿¬–ŒœŒÀ‹— »…  –¿…          30000            0                    0                0
-7          7      M  34            MAR          SPC      10317            6        25  0.276012       SCH           Õ»∆≈√Œ–Œƒ— ¿ﬂ Œ¡À¿—“‹          28000            3                    0                0
-8          8      F  26            UNM          SPC      47878           10         2  0.512525       GRD              ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹          60000            3                    0                0
-9          9      M  23            MAR          SPC   37577.16           12        28  0.642267       SCH               “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          50000            3                    0                0
-10        10      F  32            UNM          SPC      26268           10         2  0.465026       GRD             —“¿¬–ŒœŒÀ‹— »…  –¿…          39500            7                    0                0
-11        11      M  26            MAR          SPC      22990           14         1   0.44543       SCH                 —¿Õ “-œ≈“≈–¡”–√          36000            2                    0                0
-12        12      F  26            UNM          SPC      18936           10        19  0.455774       GRD         –≈—œ”¡À» ¿ ¡¿ÿ Œ–“Œ—“¿Õ          30000            0                    0                0
-13        13      M  37            MAR          SPC      42289           10        28  0.207858       SCH           ¿–’¿Õ√≈À‹— ¿ﬂ Œ¡À¿—“‹          70000            1                    0                0
-14        14      M  43            MAR          INP      57567           10         2  0.341164       GRD               “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          60000            7                    0                0
-15        15      F  32            MAR          SPC      12711           12        25  0.411186       SCH         –≈—œ”¡À» ¿ ¡¿ÿ Œ–“Œ—“¿Õ          30000            3                    0                0
-16        16      M  34            MAR          SPC      13209           10         2  0.498255       SCH                   œ≈–Ã— »…  –¿…          34000            2                    0                0
-17        17      M  36            DIV          SPC      22612           10        20  0.207858       SCH               –¿—ÕŒƒ¿–— »…  –¿…          50000            4                    0                0
-18        18      F  54            UNM          UMN      24990           12         2  0.413558       GRD               “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          40000            6                    0                1
-19        19      M  43            UNM          SPC      54668           10        28  0.489676       SCH               “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          85000            2                    0                0
-20        20      M  33            UNM          SPC      19539           10        28  0.531547       SCH  ¿–¿◊¿≈¬Œ-◊≈– ≈—— ¿ﬂ –≈—œ”¡À» ¿          30000            0                    0                0
+client_id gender age marital_status job_position credit_sum credit_month tariff_id score_shk education                   living_region monthly_income credit_count overdue_credit_count open_account_flg
+1          1      M  48            MAR          UMN      59998           10        28  0.770249       GRD              –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          30000            1                    1                0
+2          2      F  28            MAR          UMN      10889            6         2  0.248514       GRD                          –ú–û–°–ö–í–ê          43000            2                    0                0
+3          3      M  32            MAR          SPC      10728           12         2  0.459589       SCH             –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          23000            5                    0                0
+4          4      F  27            DIV          SPC   12009.09           12         2  0.362536       GRD           –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          17000            2                    0                0
+5          5      M  45            MAR          SPC   16908.89           10         2  0.421385       SCH             –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          25000            1                    0                0
+6          6      F  37            MAR          SPC      26788           10         2  0.484203       SCH             –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          30000            0                    0                0
+7          7      M  34            MAR          SPC      10317            6        25  0.276012       SCH           –ù–ò–ñ–ï–ì–û–†–û–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          28000            3                    0                0
+8          8      F  26            UNM          SPC      47878           10         2  0.512525       GRD              –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          60000            3                    0                0
+9          9      M  23            MAR          SPC   37577.16           12        28  0.642267       SCH               –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          50000            3                    0                0
+10        10      F  32            UNM          SPC      26268           10         2  0.465026       GRD             –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          39500            7                    0                0
+11        11      M  26            MAR          SPC      22990           14         1   0.44543       SCH                 –°–ê–ù–ö–¢-–ü–ï–¢–ï–†–ë–£–†–ì          36000            2                    0                0
+12        12      F  26            UNM          SPC      18936           10        19  0.455774       GRD         –†–ï–°–ü–£–ë–õ–ò–ö–ê –ë–ê–®–ö–û–†–¢–û–°–¢–ê–ù          30000            0                    0                0
+13        13      M  37            MAR          SPC      42289           10        28  0.207858       SCH           –ê–†–•–ê–ù–ì–ï–õ–¨–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          70000            1                    0                0
+14        14      M  43            MAR          INP      57567           10         2  0.341164       GRD               –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          60000            7                    0                0
+15        15      F  32            MAR          SPC      12711           12        25  0.411186       SCH         –†–ï–°–ü–£–ë–õ–ò–ö–ê –ë–ê–®–ö–û–†–¢–û–°–¢–ê–ù          30000            3                    0                0
+16        16      M  34            MAR          SPC      13209           10         2  0.498255       SCH                   –ü–ï–†–ú–°–ö–ò–ô –ö–†–ê–ô          34000            2                    0                0
+17        17      M  36            DIV          SPC      22612           10        20  0.207858       SCH              –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          50000            4                    0                0
+18        18      F  54            UNM          UMN      24990           12         2  0.413558       GRD               –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          40000            6                    0                1
+19        19      M  43            UNM          SPC      54668           10        28  0.489676       SCH               –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          85000            2                    0                0
+20        20      M  33            UNM          SPC      19539           10        28  0.531547       SCH –ö–ê–†–ê–ß–ê–ï–í–û-–ß–ï–†–ö–ï–°–°–ö–ê–Ø –†–ï–°–ü–£–ë–õ–ò–ö–ê          30000            0                    0                0
 > 
-> # 4.2.4. «‡ÏÂÌ‡ ÔÓÔÛÒÍÓ‚ ÓÚ‰ÂÎ¸ÌÓÈ Í‡ÚÂ„ÓËÂÈ ´œÓÔÛÒÍª
+> # 4.2.4. –ó–∞–º–µ–Ω–∞ –ø—Ä–æ–ø—É—Å–∫–æ–≤ –æ—Ç–¥–µ–ª—å–Ω–æ–π –∫–∞—Ç–µ–≥–æ—Ä–∏–µ–π ¬´–ü—Ä–æ–ø—É—Å–∫¬ª
 > 
-> # «‡ÏÂÌˇÂÏ ÔÓÔÛÒÍË ‚ ÔÂÂÏÂÌÌÓÈ living_region ÓÚ‰ÂÎ¸Ì˚Ï ÁÌ‡˜ÂÌËÂÏ ìœÓÔÛÒÍî,
-> # ‰Îˇ ˝ÚÓ„Ó ÔÂÂ‚Ó‰ËÏ ÂÂ ‚ ÒËÏ‚ÓÎ¸Ì˚È ‚ÂÍÚÓ Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË as.character
+> # –ó–∞–º–µ–Ω—è–µ–º –ø—Ä–æ–ø—É—Å–∫–∏ –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π living_region –æ—Ç–¥–µ–ª—å–Ω—ã–º –∑–Ω–∞—á–µ–Ω–∏–µ–º ‚Äú–ü—Ä–æ–ø—É—Å–∫‚Äù,
+> # –¥–ª—è —ç—Ç–æ–≥–æ –ø–µ—Ä–µ–≤–æ–¥–∏–º –µ–µ –≤ —Å–∏–º–≤–æ–ª—å–Ω—ã–π –≤–µ–∫—Ç–æ—Ä —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ as.character
 > data3$living_region <- as.character(data3$living_region)
 > 
-> # «‡ÏÂÌˇÂÏ ÔÓÔÛÒÍË ‚ ÔÂÂÏÂÌÌÓÈ living_region ÓÚ‰ÂÎ¸Ì˚Ï ÁÌ‡˜ÂÌËÂÏ ìœÓÔÛÒÍî
-> data3$living_region[is.na(data3$living_region)] <- "œÓÔÛÒÍ"
+> # –ó–∞–º–µ–Ω—è–µ–º –ø—Ä–æ–ø—É—Å–∫–∏ –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π living_region –æ—Ç–¥–µ–ª—å–Ω—ã–º –∑–Ω–∞—á–µ–Ω–∏–µ–º ‚Äú–ü—Ä–æ–ø—É—Å–∫‚Äù
+> data3$living_region[is.na(data3$living_region)] <- "–ü—Ä–æ–ø—É—Å–∫"
 > 
-> # œÂÓ·‡ÁÛÂÏ ÔÂÂÏÂÌÌÛ˛ living_region Ó·‡ÚÌÓ ‚ Ù‡ÍÚÓ
+> # –ü—Ä–µ–æ–±—Ä–∞–∑—É–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é living_region –æ–±—Ä–∞—Ç–Ω–æ –≤ —Ñ–∞–∫—Ç–æ—Ä
 > data3$living_region <- as.factor(data3$living_region)
 > 
-> # 4.2.5. «‡ÏÂÌ‡ ÔÓÔÛÒÍÓ‚ ÓÚ‰ÂÎ¸Ì˚Ï ÁÌ‡˜ÂÌËÂÏ Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË na.replace Ô‡ÍÂÚ‡ imputeTS
+> # 4.2.5. –ó–∞–º–µ–Ω–∞ –ø—Ä–æ–ø—É—Å–∫–æ–≤ –æ—Ç–¥–µ–ª—å–Ω—ã–º –∑–Ω–∞—á–µ–Ω–∏–µ–º —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ na.replace –ø–∞–∫–µ—Ç–∞ imputeTS
 > 
-> # «‡„ÛÊ‡ÂÏ Ô‡ÍÂÚ imputeTS
+> # –ó–∞–≥—Ä—É–∂–∞–µ–º –ø–∞–∫–µ—Ç imputeTS
 > library(imputeTS)
 > 
-> # «‡ÏÂÌˇÂÏ ÔÓÔÛÒÍË ‚ ÔÂÂÏÂÌÌ˚ı credit_count Ë overdue_credit_count
-> # ÓÚ‰ÂÎ¸Ì˚Ï ÁÌ‡˜ÂÌËÂÏ -1 Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË na.replace
+> # –ó–∞–º–µ–Ω—è–µ–º –ø—Ä–æ–ø—É—Å–∫–∏ –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö credit_count –∏ overdue_credit_count
+> # –æ—Ç–¥–µ–ª—å–Ω—ã–º –∑–Ω–∞—á–µ–Ω–∏–µ–º -1 —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ na.replace
 > data3$credit_count <- na.replace(data3$credit_count, fill = -1)
 > data3$overdue_credit_count <- na.replace(data3$overdue_credit_count, fill = -1)
 > 
-> # —ÌÓ‚‡ ‚˚‚Ó‰ËÏ Ò‚Ó‰ÍÛ ÔÓ ÔÓÔÛÒÍ‡Ï Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË sapply
-> # ÔÓ ËÚÓ„‡Ï ËÏÔÛÚ‡ˆËË ÔÂÂÏÂÌÌ˚ı
+> # –°–Ω–æ–≤–∞ –≤—ã–≤–æ–¥–∏–º —Å–≤–æ–¥–∫—É –ø–æ –ø—Ä–æ–ø—É—Å–∫–∞–º —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ sapply
+> # –ø–æ –∏—Ç–æ–≥–∞–º –∏–º–ø—É—Ç–∞—Ü–∏–∏ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö
 > sapply(data3, function(x) sum(is.na(x)))
-           client_id               gender                  age       marital_status         job_position           credit_sum         credit_month            tariff_id            score_shk            education        living_region 
-                   0                    0                    0                    0                    0                    0                    0                    0                    0                    0                    0 
-      monthly_income         credit_count overdue_credit_count     open_account_flg 
-                   0                    0                    0                    0 
+client_id               gender                  age       marital_status         job_position           credit_sum         credit_month            tariff_id            score_shk            education        living_region 
+0                    0                    0                    0                    0                    0                    0                    0                    0                    0                    0 
+monthly_income         credit_count overdue_credit_count     open_account_flg 
+0                    0                    0                    0 
 > 
-> # 4.3. ”‰‡ÎÂÌËÂ Ë ÒÓÁ‰‡ÌËÂ ÔÂÂÏÂÌÌ˚ı
+> # 4.3. –£–¥–∞–ª–µ–Ω–∏–µ –∏ —Å–æ–∑–¥–∞–Ω–∏–µ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö
 > 
-> # 4.3.1. ”‰‡ÎˇÂÏ ÔÂÂÏÂÌÌÛ˛
+> # 4.3.1. –£–¥–∞–ª—è–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é
 > data3$client_id <- NULL
 > 
-> # 4.3.2. —ÓÁ‰‡ÂÏ ÔÂÂÏÂÌÌÛ˛, Û ÍÓÚÓÓÈ ÁÌ‡˜ÂÌËˇ ÓÒÌÓ‚‡Ì˚ Ì‡ ÁÌ‡˜ÂÌËˇı ‰Û„ÓÈ ÔÂÂÏÂÌÌÓÈ
+> # 4.3.2. –°–æ–∑–¥–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é, —É –∫–æ—Ç–æ—Ä–æ–π –∑–Ω–∞—á–µ–Ω–∏—è –æ—Å–Ω–æ–≤–∞–Ω—ã –Ω–∞ –∑–Ω–∞—á–µ–Ω–∏—è—Ö –¥—Ä—É–≥–æ–π –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π
 > 
-> # —ÓÁ‰‡ÂÏ ÔÂÂÏÂÌÌÛ˛ avrzarplata, Û ÍÓÚÓÓÈ ÁÌ‡˜ÂÌËˇ ÓÒÌÓ‚‡Ì˚ 
-> # Ì‡ Í‡ÚÂ„ÓËˇı ÔÂÂÏÂÌÌÓÈ job_position
+> # –°–æ–∑–¥–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é avrzarplata, —É –∫–æ—Ç–æ—Ä–æ–π –∑–Ω–∞—á–µ–Ω–∏—è –æ—Å–Ω–æ–≤–∞–Ω—ã 
+> # –Ω–∞ –∫–∞—Ç–µ–≥–æ—Ä–∏—è—Ö –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π job_position
 > data3$avrzarplata[data3$job_position=="UMN"] <- 51000
 > data3$avrzarplata[data3$job_position=="SPC"] <- 63000
 > data3$avrzarplata[data3$job_position=="INP"] <- 55000
@@ -909,100 +906,100 @@ $open_account_flg
 > data3$avrzarplata[data3$job_position=="INV"] <- 88000
 > data3$avrzarplata[data3$job_position=="ONB"] <- 62000
 > 
-> # 4.3.3. —ÓÁ‰‡ÂÏ ÔÂÂÏÂÌÌÛ˛, ÍÓÚÓ‡ˇ ˇ‚ÎˇÂÚÒˇ ÓÚÌÓ¯ÂÌËÂÏ ‰‚Ûı ÔÂÂÏÂÌÌ˚ı
+> # 4.3.3. –°–æ–∑–¥–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é, –∫–æ—Ç–æ—Ä–∞—è —è–≤–ª—è–µ—Ç—Å—è –æ—Ç–Ω–æ—à–µ–Ω–∏–µ–º –¥–≤—É—Ö –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö
 > 
-> # —ÓÁ‰‡ÂÏ ÔÂÂÏÂÌÌÛ˛, ÍÓÚÓ‡ˇ ˇ‚ÎˇÂÚÒˇ ÓÚÌÓ¯ÂÌËÂÏ 
-> # ÒÛÏÏ˚ ÍÂ‰ËÚ‡ Í ÂÊÂÏÂÒˇ˜ÌÓÏÛ Á‡‡·ÓÚÍÛ
+> # –°–æ–∑–¥–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é, –∫–æ—Ç–æ—Ä–∞—è —è–≤–ª—è–µ—Ç—Å—è –æ—Ç–Ω–æ—à–µ–Ω–∏–µ–º 
+> # —Å—É–º–º—ã –∫—Ä–µ–¥–∏—Ç–∞ –∫ –µ–∂–µ–º–µ—Å—è—á–Ω–æ–º—É –∑–∞—Ä–∞–±–æ—Ç–∫—É
 > data3$ratio <- data3$credit_sum/data3$monthly_income
 > head(data3, 10)
-   gender      age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg avrzarplata     ratio
-1       M 48.00000            MAR          UMN   59998.00           10        28  0.770249       GRD     –¿—ÕŒƒ¿–— »…  –¿…          30000            1                    1                0       51000 1.9999333
-2       F 28.00000            MAR          UMN   10889.00            6         2  0.248514       GRD                ÃŒ— ¬¿          43000            2                    0                0       51000 0.2532326
-3       M 32.00000            MAR          SPC   10728.00           12         2  0.459589       SCH   —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹          23000            5                    0                0       63000 0.4664348
-4       F 27.00000            DIV          SPC   12009.09           12         2  0.362536       GRD ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹          17000            2                    0                0       63000 0.7064171
-5       M 45.00000            MAR          SPC   16908.89           10         2  0.421385       SCH   ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹          25000            1                    0                0       63000 0.6763556
-6       F 37.00000            MAR          SPC   26788.00           10         2  0.484203       SCH   —“¿¬–ŒœŒÀ‹— »…  –¿…          30000            0                    0                0       63000 0.8929333
-7       M 36.49731            MAR          SPC   10317.00            6        25  0.276012       SCH Õ»∆≈√Œ–Œƒ— ¿ﬂ Œ¡À¿—“‹          28000            3                    0                0       63000 0.3684643
-8       F 26.00000            UNM          SPC   47878.00           10         2  0.512525       GRD    ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹          60000            3                    0                0       63000 0.7979667
-9       M 23.00000            MAR          SPC   37577.16           12        28  0.642267       SCH     “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          50000            3                    0                0       63000 0.7515432
-10      F 32.00000            UNM          SPC   26268.00           10         2  0.465026       GRD   —“¿¬–ŒœŒÀ‹— »…  –¿…          39500            7                    0                0       63000 0.6650127
+gender      age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg avrzarplata     ratio
+1       M 48.00000            MAR          UMN   59998.00           10        28  0.770249       GRD    –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          30000            1                    1                0       51000 1.9999333
+2       F 28.00000            MAR          UMN   10889.00            6         2  0.248514       GRD                –ú–û–°–ö–í–ê          43000            2                    0                0       51000 0.2532326
+3       M 32.00000            MAR          SPC   10728.00           12         2  0.459589       SCH   –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          23000            5                    0                0       63000 0.4664348
+4       F 27.00000            DIV          SPC   12009.09           12         2  0.362536       GRD –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          17000            2                    0                0       63000 0.7064171
+5       M 45.00000            MAR          SPC   16908.89           10         2  0.421385       SCH   –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          25000            1                    0                0       63000 0.6763556
+6       F 37.00000            MAR          SPC   26788.00           10         2  0.484203       SCH   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          30000            0                    0                0       63000 0.8929333
+7       M 36.49731            MAR          SPC   10317.00            6        25  0.276012       SCH –ù–ò–ñ–ï–ì–û–†–û–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          28000            3                    0                0       63000 0.3684643
+8       F 26.00000            UNM          SPC   47878.00           10         2  0.512525       GRD    –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          60000            3                    0                0       63000 0.7979667
+9       M 23.00000            MAR          SPC   37577.16           12        28  0.642267       SCH     –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          50000            3                    0                0       63000 0.7515432
+10      F 32.00000            UNM          SPC   26268.00           10         2  0.465026       GRD   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          39500            7                    0                0       63000 0.6650127
 > 
-> # 4.3.4. —ÓÁ‰‡ÂÏ ÔÂÂÏÂÌÌÛ˛, Û ÍÓÚÓÓÈ Í‡Ê‰ÓÂ ÁÌ‡˜ÂÌËÂ ñ ˜‡ÒÚÓÚ‡ Ì‡·Î˛‰ÂÌËÈ ‚ Í‡ÚÂ„ÓËË ÔÂÂÏÂÌÌÓÈ
+> # 4.3.4. –°–æ–∑–¥–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é, —É –∫–æ—Ç–æ—Ä–æ–π –∫–∞–∂–¥–æ–µ –∑–Ω–∞—á–µ–Ω–∏–µ ‚Äì —á–∞—Å—Ç–æ—Ç–∞ –Ω–∞–±–ª—é–¥–µ–Ω–∏–π –≤ –∫–∞—Ç–µ–≥–æ—Ä–∏–∏ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π
 > 
-> # «‡„ÛÊ‡ÂÏ Ô‡ÍÂÚ dplyr
+> # –ó–∞–≥—Ä—É–∂–∞–µ–º –ø–∞–∫–µ—Ç dplyr
 > library(dplyr)
 
-œËÒÓÂ‰ËÌˇ˛ Ô‡ÍÂÚ: ëdplyrí
+–ü—Ä–∏—Å–æ–µ–¥–∏–Ω—è—é –ø–∞–∫–µ—Ç: ‚Äòdplyr‚Äô
 
-—ÎÂ‰Û˛˘ËÈ Ó·˙ÂÍÚ ÒÍ˚Ú ÓÚ ëpackage:imputeMissingsí:
+–°–ª–µ–¥—É—é—â–∏–π –æ–±—ä–µ–∫—Ç —Å–∫—Ä—ã—Ç –æ—Ç ‚Äòpackage:imputeMissings‚Äô:
+  
+  compute
 
-    compute
+–°–ª–µ–¥—É—é—â–∏–µ –æ–±—ä–µ–∫—Ç—ã —Å–∫—Ä—ã—Ç—ã –æ—Ç ‚Äòpackage:stats‚Äô:
+  
+  filter, lag
 
-—ÎÂ‰Û˛˘ËÂ Ó·˙ÂÍÚ˚ ÒÍ˚Ú˚ ÓÚ ëpackage:statsí:
-
-    filter, lag
-
-—ÎÂ‰Û˛˘ËÂ Ó·˙ÂÍÚ˚ ÒÍ˚Ú˚ ÓÚ ëpackage:baseí:
-
-    intersect, setdiff, setequal, union
+–°–ª–µ–¥—É—é—â–∏–µ –æ–±—ä–µ–∫—Ç—ã —Å–∫—Ä—ã—Ç—ã –æ—Ç ‚Äòpackage:base‚Äô:
+  
+  intersect, setdiff, setequal, union
 
 > 
-> # —ÓÁ‰‡ÂÏ ‚ÂÏÂÌÌ˚È ‰‡Ú‡ÙÂÈÏ, ‚ ÍÓÚÓ˚È Á‡ÔËÒ˚‚‡ÂÏ ÌÓ‚Û˛ ÔÂÂÏÂÌÌÛ˛,
-> # ˝ÚÓ ‰ÂÎ‡ÂÚÒˇ ‰Îˇ ÚÓ„Ó, ˜ÚÓ·˚ ÌÂ ÔÂÂ„ÛÊ‡Ú¸ ËÒıÓ‰Ì˚È ‰‡Ú‡ÙÂÈÏ
-> # ‰ÓÔÓÎÌËÚÂÎ¸ÌÓÈ ËÌÙÓÏ‡ˆËÂÈ, „ÂÌÂËÛÂÏÓÈ dplyr 
+> # –°–æ–∑–¥–∞–µ–º –≤—Ä–µ–º–µ–Ω–Ω—ã–π –¥–∞—Ç–∞—Ñ—Ä–µ–π–º, –≤ –∫–æ—Ç–æ—Ä—ã–π –∑–∞–ø–∏—Å—ã–≤–∞–µ–º –Ω–æ–≤—É—é –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é,
+> # —ç—Ç–æ –¥–µ–ª–∞–µ—Ç—Å—è –¥–ª—è —Ç–æ–≥–æ, —á—Ç–æ–±—ã –Ω–µ –ø–µ—Ä–µ–≥—Ä—É–∂–∞—Ç—å –∏—Å—Ö–æ–¥–Ω—ã–π –¥–∞—Ç–∞—Ñ—Ä–µ–π–º
+> # –¥–æ–ø–æ–ª–Ω–∏—Ç–µ–ª—å–Ω–æ–π –∏–Ω—Ñ–æ—Ä–º–∞—Ü–∏–µ–π, –≥–µ–Ω–µ—Ä–∏—Ä—É–µ–º–æ–π dplyr 
 > tmp <-data.frame(data3)
 > 
-> # ¬˚˜ËÒÎˇÂÏ ÌÓ‚Û˛ ÔÂÂÏÂÌÌÛ˛ living_region_cnt
-> # Û ÍÓÚÓÓÈ Í‡Ê‰ÓÂ ÁÌ‡˜ÂÌËÂ ñ ˜‡ÒÚÓÚ‡ Ì‡·Î˛‰ÂÌËÈ 
-> # ‚ Í‡ÚÂ„ÓËË ÔÂÂÏÂÌÌÓÈ living_region
+> # –í—ã—á–∏—Å–ª—è–µ–º –Ω–æ–≤—É—é –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é living_region_cnt
+> # —É –∫–æ—Ç–æ—Ä–æ–π –∫–∞–∂–¥–æ–µ –∑–Ω–∞—á–µ–Ω–∏–µ ‚Äì —á–∞—Å—Ç–æ—Ç–∞ –Ω–∞–±–ª—é–¥–µ–Ω–∏–π 
+> # –≤ –∫–∞—Ç–µ–≥–æ—Ä–∏–∏ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π living_region
 > tmp <- tmp %>%
-+ group_by(living_region) %>%
-+ mutate(living_region_cnt = n())
+  group_by(living_region) %>%
+  mutate(living_region_cnt = n())
 > 
-> # ƒÓ·‡‚ÎˇÂÏ ÌÓ‚Û˛ ÔÂÂÏÂÌÌÛ˛ living_region_cnt ‚ ËÒıÓ‰Ì˚È ‰‡Ú‡ÙÂÈÏ
+> # –î–æ–±–∞–≤–ª—è–µ–º –Ω–æ–≤—É—é –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é living_region_cnt –≤ –∏—Å—Ö–æ–¥–Ω—ã–π –¥–∞—Ç–∞—Ñ—Ä–µ–π–º
 > data3$living_region_cnt <-tmp$living_region_cnt
 > head(data3, 10)
-   gender      age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt
-1       M 48.00000            MAR          UMN   59998.00           10        28  0.770249       GRD     –¿—ÕŒƒ¿–— »…  –¿…          30000            1                    1                0       51000 1.9999333              8355
-2       F 28.00000            MAR          UMN   10889.00            6         2  0.248514       GRD                ÃŒ— ¬¿          43000            2                    0                0       51000 0.2532326              9261
-3       M 32.00000            MAR          SPC   10728.00           12         2  0.459589       SCH   —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹          23000            5                    0                0       63000 0.4664348              2282
-4       F 27.00000            DIV          SPC   12009.09           12         2  0.362536       GRD ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹          17000            2                    0                0       63000 0.7064171              2293
-5       M 45.00000            MAR          SPC   16908.89           10         2  0.421385       SCH   ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹          25000            1                    0                0       63000 0.6763556              5155
-6       F 37.00000            MAR          SPC   26788.00           10         2  0.484203       SCH   —“¿¬–ŒœŒÀ‹— »…  –¿…          30000            0                    0                0       63000 0.8929333              4617
-7       M 36.49731            MAR          SPC   10317.00            6        25  0.276012       SCH Õ»∆≈√Œ–Œƒ— ¿ﬂ Œ¡À¿—“‹          28000            3                    0                0       63000 0.3684643              3695
-8       F 26.00000            UNM          SPC   47878.00           10         2  0.512525       GRD    ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹          60000            3                    0                0       63000 0.7979667             12844
-9       M 23.00000            MAR          SPC   37577.16           12        28  0.642267       SCH     “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          50000            3                    0                0       63000 0.7515432              8735
-10      F 32.00000            UNM          SPC   26268.00           10         2  0.465026       GRD   —“¿¬–ŒœŒÀ‹— »…  –¿…          39500            7                    0                0       63000 0.6650127              4617
+gender      age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt
+1       M 48.00000            MAR          UMN   59998.00           10        28  0.770249       GRD    –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          30000            1                    1                0       51000 1.9999333              8355
+2       F 28.00000            MAR          UMN   10889.00            6         2  0.248514       GRD                –ú–û–°–ö–í–ê          43000            2                    0                0       51000 0.2532326              9261
+3       M 32.00000            MAR          SPC   10728.00           12         2  0.459589       SCH   –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          23000            5                    0                0       63000 0.4664348              2282
+4       F 27.00000            DIV          SPC   12009.09           12         2  0.362536       GRD –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          17000            2                    0                0       63000 0.7064171              2293
+5       M 45.00000            MAR          SPC   16908.89           10         2  0.421385       SCH   –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          25000            1                    0                0       63000 0.6763556              5155
+6       F 37.00000            MAR          SPC   26788.00           10         2  0.484203       SCH   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          30000            0                    0                0       63000 0.8929333              4617
+7       M 36.49731            MAR          SPC   10317.00            6        25  0.276012       SCH –ù–ò–ñ–ï–ì–û–†–û–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          28000            3                    0                0       63000 0.3684643              3695
+8       F 26.00000            UNM          SPC   47878.00           10         2  0.512525       GRD    –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          60000            3                    0                0       63000 0.7979667             12844
+9       M 23.00000            MAR          SPC   37577.16           12        28  0.642267       SCH     –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          50000            3                    0                0       63000 0.7515432              8735
+10      F 32.00000            UNM          SPC   26268.00           10         2  0.465026       GRD   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          39500            7                    0                0       63000 0.6650127              4617
 > 
-> # 4.3.5. —ÓÁ‰‡ÂÏ ÔÂÂÏÂÌÌÛ˛, Û ÍÓÚÓÓÈ Í‡Ê‰ÓÂ ÁÌ‡˜ÂÌËÂ ñ ÒÂ‰ÌÂÂ ÁÌ‡˜ÂÌËÂ ÍÓÎË˜ÂÒÚ‚ÂÌÌÓÈ 
-> # ÔÂÂÏÂÌÌÓÈ, ‚ÁˇÚÓÂ ÔÓ ÛÓ‚Ì˛ Í‡ÚÂ„ÓË‡Î¸ÌÓÈ ÔÂÂÏÂÌÌÓÈ
+> # 4.3.5. –°–æ–∑–¥–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é, —É –∫–æ—Ç–æ—Ä–æ–π –∫–∞–∂–¥–æ–µ –∑–Ω–∞—á–µ–Ω–∏–µ ‚Äì —Å—Ä–µ–¥–Ω–µ–µ –∑–Ω–∞—á–µ–Ω–∏–µ –∫–æ–ª–∏—á–µ—Å—Ç–≤–µ–Ω–Ω–æ–π 
+> # –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π, –≤–∑—è—Ç–æ–µ –ø–æ —É—Ä–æ–≤–Ω—é –∫–∞—Ç–µ–≥–æ—Ä–∏–∞–ª—å–Ω–æ–π –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π
 > 
-> # —ÓÁ‰‡ÂÏ ‚ÂÏÂÌÌ˚È ‰‡Ú‡ÙÂÈÏ, ‚ ÍÓÚÓ˚È Á‡ÔËÒ˚‚‡ÂÏ ÌÓ‚Û˛ ÔÂÂÏÂÌÌÛ˛,
-> # ˝ÚÓ ‰ÂÎ‡ÂÚÒˇ ‰Îˇ ÚÓ„Ó, ˜ÚÓ·˚ ÌÂ ÔÂÂ„ÛÊ‡Ú¸ ËÒıÓ‰Ì˚È ‰‡Ú‡ÙÂÈÏ
-> # ‰ÓÔÓÎÌËÚÂÎ¸ÌÓÈ ËÌÙÓÏ‡ˆËÂÈ, „ÂÌÂËÛÂÏÓÈ dplyr 
+> # –°–æ–∑–¥–∞–µ–º –≤—Ä–µ–º–µ–Ω–Ω—ã–π –¥–∞—Ç–∞—Ñ—Ä–µ–π–º, –≤ –∫–æ—Ç–æ—Ä—ã–π –∑–∞–ø–∏—Å—ã–≤–∞–µ–º –Ω–æ–≤—É—é –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é,
+> # —ç—Ç–æ –¥–µ–ª–∞–µ—Ç—Å—è –¥–ª—è —Ç–æ–≥–æ, —á—Ç–æ–±—ã –Ω–µ –ø–µ—Ä–µ–≥—Ä—É–∂–∞—Ç—å –∏—Å—Ö–æ–¥–Ω—ã–π –¥–∞—Ç–∞—Ñ—Ä–µ–π–º
+> # –¥–æ–ø–æ–ª–Ω–∏—Ç–µ–ª—å–Ω–æ–π –∏–Ω—Ñ–æ—Ä–º–∞—Ü–∏–µ–π, –≥–µ–Ω–µ—Ä–∏—Ä—É–µ–º–æ–π dplyr 
 > tmp <-data.frame(data3)
 > 
-> # —ÓÁ‰‡ÂÏ ÔÂÂÏÂÌÌÛ˛, Û ÍÓÚÓÓÈ Í‡Ê‰ÓÂ ÁÌ‡˜ÂÌËÂ ñ ÒÂ‰ÌÂÂ ÁÌ‡˜ÂÌËÂ 
-> # monthly_income ‚ Í‡ÚÂ„ÓËË ÔÂÂÏÂÌÌÓÈ living_region
+> # –°–æ–∑–¥–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é, —É –∫–æ—Ç–æ—Ä–æ–π –∫–∞–∂–¥–æ–µ –∑–Ω–∞—á–µ–Ω–∏–µ ‚Äì —Å—Ä–µ–¥–Ω–µ–µ –∑–Ω–∞—á–µ–Ω–∏–µ 
+> # monthly_income –≤ –∫–∞—Ç–µ–≥–æ—Ä–∏–∏ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π living_region
 > tmp <- tmp %>%
-+ group_by(living_region) %>%
-+ mutate(mean_income_by_reg = mean(monthly_income))
+  group_by(living_region) %>%
+  mutate(mean_income_by_reg = mean(monthly_income))
 > 
-> # ƒÓ·‡‚ÎˇÂÏ ÌÓ‚Û˛ ÔÂÂÏÂÌÌÛ˛ mean_income_by_reg ‚ ËÒıÓ‰Ì˚È ‰‡Ú‡ÙÂÈÏ
+> # –î–æ–±–∞–≤–ª—è–µ–º –Ω–æ–≤—É—é –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é mean_income_by_reg –≤ –∏—Å—Ö–æ–¥–Ω—ã–π –¥–∞—Ç–∞—Ñ—Ä–µ–π–º
 > data3$mean_income_by_reg <-tmp$mean_income_by_reg
 > head(data3, 10)
-   gender      age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt
-1       M 48.00000            MAR          UMN   59998.00           10        28  0.770249       GRD     –¿—ÕŒƒ¿–— »…  –¿…          30000            1                    1                0       51000 1.9999333              8355
-2       F 28.00000            MAR          UMN   10889.00            6         2  0.248514       GRD                ÃŒ— ¬¿          43000            2                    0                0       51000 0.2532326              9261
-3       M 32.00000            MAR          SPC   10728.00           12         2  0.459589       SCH   —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹          23000            5                    0                0       63000 0.4664348              2282
-4       F 27.00000            DIV          SPC   12009.09           12         2  0.362536       GRD ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹          17000            2                    0                0       63000 0.7064171              2293
-5       M 45.00000            MAR          SPC   16908.89           10         2  0.421385       SCH   ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹          25000            1                    0                0       63000 0.6763556              5155
-6       F 37.00000            MAR          SPC   26788.00           10         2  0.484203       SCH   —“¿¬–ŒœŒÀ‹— »…  –¿…          30000            0                    0                0       63000 0.8929333              4617
-7       M 36.49731            MAR          SPC   10317.00            6        25  0.276012       SCH Õ»∆≈√Œ–Œƒ— ¿ﬂ Œ¡À¿—“‹          28000            3                    0                0       63000 0.3684643              3695
-8       F 26.00000            UNM          SPC   47878.00           10         2  0.512525       GRD    ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹          60000            3                    0                0       63000 0.7979667             12844
-9       M 23.00000            MAR          SPC   37577.16           12        28  0.642267       SCH     “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          50000            3                    0                0       63000 0.7515432              8735
-10      F 32.00000            UNM          SPC   26268.00           10         2  0.465026       GRD   —“¿¬–ŒœŒÀ‹— »…  –¿…          39500            7                    0                0       63000 0.6650127              4617
-   mean_income_by_reg
+gender      age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt
+1       M 48.00000            MAR          UMN   59998.00           10        28  0.770249       GRD    –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          30000            1                    1                0       51000 1.9999333              8355
+2       F 28.00000            MAR          UMN   10889.00            6         2  0.248514       GRD                –ú–û–°–ö–í–ê          43000            2                    0                0       51000 0.2532326              9261
+3       M 32.00000            MAR          SPC   10728.00           12         2  0.459589       SCH   –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          23000            5                    0                0       63000 0.4664348              2282
+4       F 27.00000            DIV          SPC   12009.09           12         2  0.362536       GRD –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          17000            2                    0                0       63000 0.7064171              2293
+5       M 45.00000            MAR          SPC   16908.89           10         2  0.421385       SCH   –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          25000            1                    0                0       63000 0.6763556              5155
+6       F 37.00000            MAR          SPC   26788.00           10         2  0.484203       SCH   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          30000            0                    0                0       63000 0.8929333              4617
+7       M 36.49731            MAR          SPC   10317.00            6        25  0.276012       SCH –ù–ò–ñ–ï–ì–û–†–û–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          28000            3                    0                0       63000 0.3684643              3695
+8       F 26.00000            UNM          SPC   47878.00           10         2  0.512525       GRD    –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          60000            3                    0                0       63000 0.7979667             12844
+9       M 23.00000            MAR          SPC   37577.16           12        28  0.642267       SCH     –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          50000            3                    0                0       63000 0.7515432              8735
+10      F 32.00000            UNM          SPC   26268.00           10         2  0.465026       GRD   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          39500            7                    0                0       63000 0.6650127              4617
+mean_income_by_reg
 1            37260.77
 2            62696.12
 3            31110.90
@@ -1014,27 +1011,27 @@ $open_account_flg
 9            48550.90
 10           32335.76
 > 
-> # ŒÚÒÓÂ‰ËÌˇÂÏ Ô‡ÍÂÚ dplyr
+> # –û—Ç—Å–æ–µ–¥–∏–Ω—è–µ–º –ø–∞–∫–µ—Ç dplyr
 > detach("package:dplyr", unload=TRUE)
 > 
-> # 4.3.6. —ÓÁ‰‡ÂÏ Í‡ÚÂ„ÓË‡Î¸ÌÛ˛ ÔÂÂÏÂÌÌÛ˛ ‚ ÂÁÛÎ¸Ú‡ÚÂ ÍÓÌ˙˛ÌÍˆËË ‰‚Ûı ÔÂÂÏÂÌÌ˚ı
+> # 4.3.6. –°–æ–∑–¥–∞–µ–º –∫–∞—Ç–µ–≥–æ—Ä–∏–∞–ª—å–Ω—É—é –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é –≤ —Ä–µ–∑—É–ª—å—Ç–∞—Ç–µ –∫–æ–Ω—ä—é–Ω–∫—Ü–∏–∏ –¥–≤—É—Ö –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö
 > 
-> # —ÓÁ‰‡ÂÏ ÔÂÂÏÂÌÌÛ˛ conj, ÍÓÚÓ‡ˇ ˇ‚ÎˇÂÚÒˇ ÂÁÛÎ¸Ú‡ÚÓ‚ ÍÓÌ˙˛ÌÍˆËË 
-> # ‰‚Ûı ÔÂÂÏÂÌÌ˚ı education Ë marital_status 
+> # –°–æ–∑–¥–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é conj, –∫–æ—Ç–æ—Ä–∞—è —è–≤–ª—è–µ—Ç—Å—è —Ä–µ–∑—É–ª—å—Ç–∞—Ç–æ–≤ –∫–æ–Ω—ä—é–Ω–∫—Ü–∏–∏ 
+> # –¥–≤—É—Ö –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö education –∏ marital_status 
 > data3$conj <- paste(data3$education, data3$marital_status, sep="+")
 > head(data3, 10)
-   gender      age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt
-1       M 48.00000            MAR          UMN   59998.00           10        28  0.770249       GRD     –¿—ÕŒƒ¿–— »…  –¿…          30000            1                    1                0       51000 1.9999333              8355
-2       F 28.00000            MAR          UMN   10889.00            6         2  0.248514       GRD                ÃŒ— ¬¿          43000            2                    0                0       51000 0.2532326              9261
-3       M 32.00000            MAR          SPC   10728.00           12         2  0.459589       SCH   —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹          23000            5                    0                0       63000 0.4664348              2282
-4       F 27.00000            DIV          SPC   12009.09           12         2  0.362536       GRD ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹          17000            2                    0                0       63000 0.7064171              2293
-5       M 45.00000            MAR          SPC   16908.89           10         2  0.421385       SCH   ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹          25000            1                    0                0       63000 0.6763556              5155
-6       F 37.00000            MAR          SPC   26788.00           10         2  0.484203       SCH   —“¿¬–ŒœŒÀ‹— »…  –¿…          30000            0                    0                0       63000 0.8929333              4617
-7       M 36.49731            MAR          SPC   10317.00            6        25  0.276012       SCH Õ»∆≈√Œ–Œƒ— ¿ﬂ Œ¡À¿—“‹          28000            3                    0                0       63000 0.3684643              3695
-8       F 26.00000            UNM          SPC   47878.00           10         2  0.512525       GRD    ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹          60000            3                    0                0       63000 0.7979667             12844
-9       M 23.00000            MAR          SPC   37577.16           12        28  0.642267       SCH     “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          50000            3                    0                0       63000 0.7515432              8735
-10      F 32.00000            UNM          SPC   26268.00           10         2  0.465026       GRD   —“¿¬–ŒœŒÀ‹— »…  –¿…          39500            7                    0                0       63000 0.6650127              4617
-   mean_income_by_reg    conj
+gender      age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt
+1       M 48.00000            MAR          UMN   59998.00           10        28  0.770249       GRD    –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          30000            1                    1                0       51000 1.9999333              8355
+2       F 28.00000            MAR          UMN   10889.00            6         2  0.248514       GRD                –ú–û–°–ö–í–ê          43000            2                    0                0       51000 0.2532326              9261
+3       M 32.00000            MAR          SPC   10728.00           12         2  0.459589       SCH   –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          23000            5                    0                0       63000 0.4664348              2282
+4       F 27.00000            DIV          SPC   12009.09           12         2  0.362536       GRD –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          17000            2                    0                0       63000 0.7064171              2293
+5       M 45.00000            MAR          SPC   16908.89           10         2  0.421385       SCH   –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          25000            1                    0                0       63000 0.6763556              5155
+6       F 37.00000            MAR          SPC   26788.00           10         2  0.484203       SCH   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          30000            0                    0                0       63000 0.8929333              4617
+7       M 36.49731            MAR          SPC   10317.00            6        25  0.276012       SCH –ù–ò–ñ–ï–ì–û–†–û–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          28000            3                    0                0       63000 0.3684643              3695
+8       F 26.00000            UNM          SPC   47878.00           10         2  0.512525       GRD    –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          60000            3                    0                0       63000 0.7979667             12844
+9       M 23.00000            MAR          SPC   37577.16           12        28  0.642267       SCH     –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          50000            3                    0                0       63000 0.7515432              8735
+10      F 32.00000            UNM          SPC   26268.00           10         2  0.465026       GRD   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          39500            7                    0                0       63000 0.6650127              4617
+mean_income_by_reg    conj
 1            37260.77 GRD+MAR
 2            62696.12 GRD+MAR
 3            31110.90 SCH+MAR
@@ -1046,24 +1043,24 @@ $open_account_flg
 9            48550.90 SCH+MAR
 10           32335.76 GRD+UNM
 > 
-> # 4.3.7. —ÓÁ‰‡ÂÏ ÔÂÂÏÂÌÌÛ˛, Û ÍÓÚÓÓÈ Í‡Ê‰ÓÂ ÁÌ‡˜ÂÌËÂ ñ ÎÓ„‡ËÙÏ ÁÌ‡˜ÂÌËˇ ÍÓÎË˜ÂÒÚ‚ÂÌÌÓÈ ÔÂÂÏÂÌÌÓÈ
+> # 4.3.7. –°–æ–∑–¥–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é, —É –∫–æ—Ç–æ—Ä–æ–π –∫–∞–∂–¥–æ–µ –∑–Ω–∞—á–µ–Ω–∏–µ ‚Äì –ª–æ–≥–∞—Ä–∏—Ñ–º –∑–Ω–∞—á–µ–Ω–∏—è –∫–æ–ª–∏—á–µ—Å—Ç–≤–µ–Ω–Ω–æ–π –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π
 > 
-> # —ÓÁ‰‡ÂÏ ÔÂÂÏÂÌÌÛ˛ log_income, Û ÍÓÚÓÓÈ Í‡Ê‰ÓÂ ÁÌ‡˜ÂÌËÂ ñ ÎÓ„‡ËÙÏ ÁÌ‡˜ÂÌËˇ
-> # ÔÂÂÏÂÌÌÓÈ monthly_income
+> # –°–æ–∑–¥–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é log_income, —É –∫–æ—Ç–æ—Ä–æ–π –∫–∞–∂–¥–æ–µ –∑–Ω–∞—á–µ–Ω–∏–µ ‚Äì –ª–æ–≥–∞—Ä–∏—Ñ–º –∑–Ω–∞—á–µ–Ω–∏—è
+> # –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π monthly_income
 > data3$log_income <- log(data3$monthly_income)
 > head(data3, 10)
-   gender      age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt
-1       M 48.00000            MAR          UMN   59998.00           10        28  0.770249       GRD     –¿—ÕŒƒ¿–— »…  –¿…          30000            1                    1                0       51000 1.9999333              8355
-2       F 28.00000            MAR          UMN   10889.00            6         2  0.248514       GRD                ÃŒ— ¬¿          43000            2                    0                0       51000 0.2532326              9261
-3       M 32.00000            MAR          SPC   10728.00           12         2  0.459589       SCH   —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹          23000            5                    0                0       63000 0.4664348              2282
-4       F 27.00000            DIV          SPC   12009.09           12         2  0.362536       GRD ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹          17000            2                    0                0       63000 0.7064171              2293
-5       M 45.00000            MAR          SPC   16908.89           10         2  0.421385       SCH   ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹          25000            1                    0                0       63000 0.6763556              5155
-6       F 37.00000            MAR          SPC   26788.00           10         2  0.484203       SCH   —“¿¬–ŒœŒÀ‹— »…  –¿…          30000            0                    0                0       63000 0.8929333              4617
-7       M 36.49731            MAR          SPC   10317.00            6        25  0.276012       SCH Õ»∆≈√Œ–Œƒ— ¿ﬂ Œ¡À¿—“‹          28000            3                    0                0       63000 0.3684643              3695
-8       F 26.00000            UNM          SPC   47878.00           10         2  0.512525       GRD    ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹          60000            3                    0                0       63000 0.7979667             12844
-9       M 23.00000            MAR          SPC   37577.16           12        28  0.642267       SCH     “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          50000            3                    0                0       63000 0.7515432              8735
-10      F 32.00000            UNM          SPC   26268.00           10         2  0.465026       GRD   —“¿¬–ŒœŒÀ‹— »…  –¿…          39500            7                    0                0       63000 0.6650127              4617
-   mean_income_by_reg    conj log_income
+gender      age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt
+1       M 48.00000            MAR          UMN   59998.00           10        28  0.770249       GRD    –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          30000            1                    1                0       51000 1.9999333              8355
+2       F 28.00000            MAR          UMN   10889.00            6         2  0.248514       GRD                –ú–û–°–ö–í–ê          43000            2                    0                0       51000 0.2532326              9261
+3       M 32.00000            MAR          SPC   10728.00           12         2  0.459589       SCH   –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          23000            5                    0                0       63000 0.4664348              2282
+4       F 27.00000            DIV          SPC   12009.09           12         2  0.362536       GRD –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          17000            2                    0                0       63000 0.7064171              2293
+5       M 45.00000            MAR          SPC   16908.89           10         2  0.421385       SCH   –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          25000            1                    0                0       63000 0.6763556              5155
+6       F 37.00000            MAR          SPC   26788.00           10         2  0.484203       SCH   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          30000            0                    0                0       63000 0.8929333              4617
+7       M 36.49731            MAR          SPC   10317.00            6        25  0.276012       SCH –ù–ò–ñ–ï–ì–û–†–û–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          28000            3                    0                0       63000 0.3684643              3695
+8       F 26.00000            UNM          SPC   47878.00           10         2  0.512525       GRD    –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          60000            3                    0                0       63000 0.7979667             12844
+9       M 23.00000            MAR          SPC   37577.16           12        28  0.642267       SCH     –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          50000            3                    0                0       63000 0.7515432              8735
+10      F 32.00000            UNM          SPC   26268.00           10         2  0.465026       GRD   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          39500            7                    0                0       63000 0.6650127              4617
+mean_income_by_reg    conj log_income
 1            37260.77 GRD+MAR  10.308953
 2            62696.12 GRD+MAR  10.668955
 3            31110.90 SCH+MAR  10.043249
@@ -1075,26 +1072,26 @@ $open_account_flg
 9            48550.90 SCH+MAR  10.819778
 10           32335.76 GRD+UNM  10.584056
 > 
-> # 4.3.8. —ÓÁ‰‡ÂÏ ÍÓÎË˜ÂÒÚ‚ÂÌÌÛ˛ ÔÂÂÏÂÌÌÛ˛, Û ÍÓÚÓÓÈ Í‡Ê‰ÓÂ ÁÌ‡˜ÂÌËÂ ñ 
-> # ÛÒÂ‰ÌÂÌÌÓÂ ÁÌ‡˜ÂÌËÂ ÌÂÒÍÓÎ¸ÍËı ÍÓÎË˜ÂÒÚ‚ÂÌÌ˚ı ÔÂÂÏÂÌÌ˚ı
+> # 4.3.8. –°–æ–∑–¥–∞–µ–º –∫–æ–ª–∏—á–µ—Å—Ç–≤–µ–Ω–Ω—É—é –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é, —É –∫–æ—Ç–æ—Ä–æ–π –∫–∞–∂–¥–æ–µ –∑–Ω–∞—á–µ–Ω–∏–µ ‚Äì 
+> # —É—Å—Ä–µ–¥–Ω–µ–Ω–Ω–æ–µ –∑–Ω–∞—á–µ–Ω–∏–µ –Ω–µ—Å–∫–æ–ª—å–∫–∏—Ö –∫–æ–ª–∏—á–µ—Å—Ç–≤–µ–Ω–Ω—ã—Ö –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö
 > 
-> # — ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË rowMeans ÒÓÁ‰‡ÂÏ ÔÂÂÏÂÌÌÛ˛ mean_age_tenure, 
-> # Û ÍÓÚÓÓÈ Í‡Ê‰ÓÂ ÁÌ‡˜ÂÌËÂ ñ ÛcÂ‰ÌÂÌÌÓÂ ÁÌ‡˜ÂÌËÂ ÔÂÂÏÂÌÌ˚ı 
-> # age Ë credit_month 
+> # –° –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ rowMeans —Å–æ–∑–¥–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é mean_age_tenure, 
+> # —É –∫–æ—Ç–æ—Ä–æ–π –∫–∞–∂–¥–æ–µ –∑–Ω–∞—á–µ–Ω–∏–µ ‚Äì —Éc—Ä–µ–¥–Ω–µ–Ω–Ω–æ–µ –∑–Ω–∞—á–µ–Ω–∏–µ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö 
+> # age –∏ credit_month 
 > data3$mean_age_tenure=rowMeans(data3[,c("age", "credit_month")], na.rm=TRUE)
 > head(data3, 10)
-   gender      age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt
-1       M 48.00000            MAR          UMN   59998.00           10        28  0.770249       GRD     –¿—ÕŒƒ¿–— »…  –¿…          30000            1                    1                0       51000 1.9999333              8355
-2       F 28.00000            MAR          UMN   10889.00            6         2  0.248514       GRD                ÃŒ— ¬¿          43000            2                    0                0       51000 0.2532326              9261
-3       M 32.00000            MAR          SPC   10728.00           12         2  0.459589       SCH   —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹          23000            5                    0                0       63000 0.4664348              2282
-4       F 27.00000            DIV          SPC   12009.09           12         2  0.362536       GRD ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹          17000            2                    0                0       63000 0.7064171              2293
-5       M 45.00000            MAR          SPC   16908.89           10         2  0.421385       SCH   ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹          25000            1                    0                0       63000 0.6763556              5155
-6       F 37.00000            MAR          SPC   26788.00           10         2  0.484203       SCH   —“¿¬–ŒœŒÀ‹— »…  –¿…          30000            0                    0                0       63000 0.8929333              4617
-7       M 36.49731            MAR          SPC   10317.00            6        25  0.276012       SCH Õ»∆≈√Œ–Œƒ— ¿ﬂ Œ¡À¿—“‹          28000            3                    0                0       63000 0.3684643              3695
-8       F 26.00000            UNM          SPC   47878.00           10         2  0.512525       GRD    ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹          60000            3                    0                0       63000 0.7979667             12844
-9       M 23.00000            MAR          SPC   37577.16           12        28  0.642267       SCH     “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          50000            3                    0                0       63000 0.7515432              8735
-10      F 32.00000            UNM          SPC   26268.00           10         2  0.465026       GRD   —“¿¬–ŒœŒÀ‹— »…  –¿…          39500            7                    0                0       63000 0.6650127              4617
-   mean_income_by_reg    conj log_income mean_age_tenure
+gender      age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt
+1       M 48.00000            MAR          UMN   59998.00           10        28  0.770249       GRD    –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          30000            1                    1                0       51000 1.9999333              8355
+2       F 28.00000            MAR          UMN   10889.00            6         2  0.248514       GRD                –ú–û–°–ö–í–ê          43000            2                    0                0       51000 0.2532326              9261
+3       M 32.00000            MAR          SPC   10728.00           12         2  0.459589       SCH   –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          23000            5                    0                0       63000 0.4664348              2282
+4       F 27.00000            DIV          SPC   12009.09           12         2  0.362536       GRD –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          17000            2                    0                0       63000 0.7064171              2293
+5       M 45.00000            MAR          SPC   16908.89           10         2  0.421385       SCH   –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          25000            1                    0                0       63000 0.6763556              5155
+6       F 37.00000            MAR          SPC   26788.00           10         2  0.484203       SCH   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          30000            0                    0                0       63000 0.8929333              4617
+7       M 36.49731            MAR          SPC   10317.00            6        25  0.276012       SCH –ù–ò–ñ–ï–ì–û–†–û–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          28000            3                    0                0       63000 0.3684643              3695
+8       F 26.00000            UNM          SPC   47878.00           10         2  0.512525       GRD    –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          60000            3                    0                0       63000 0.7979667             12844
+9       M 23.00000            MAR          SPC   37577.16           12        28  0.642267       SCH     –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          50000            3                    0                0       63000 0.7515432              8735
+10      F 32.00000            UNM          SPC   26268.00           10         2  0.465026       GRD   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          39500            7                    0                0       63000 0.6650127              4617
+mean_income_by_reg    conj log_income mean_age_tenure
 1            37260.77 GRD+MAR  10.308953        29.00000
 2            62696.12 GRD+MAR  10.668955        17.00000
 3            31110.90 SCH+MAR  10.043249        22.00000
@@ -1106,776 +1103,775 @@ $open_account_flg
 9            48550.90 SCH+MAR  10.819778        17.50000
 10           32335.76 GRD+UNM  10.584056        21.00000
 > 
-> # 4.3.9. ¬˚ÔÓÎÌˇÂÏ Í‡ÚÂ„ÓËÁ‡ˆË˛ (·ËÌÌËÌ„) ÍÓÎË˜ÂÒÚ‚ÂÌÌÓÈ ÔÂÂÏÂÌÌÓÈ Ì‡ ÓÒÌÓ‚Â ËÌÚÂ‚‡ÎÓ‚, Á‡‰‡ÌÌ˚ı ‚Û˜ÌÛ˛
+> # 4.3.9. –í—ã–ø–æ–ª–Ω—è–µ–º –∫–∞—Ç–µ–≥–æ—Ä–∏–∑–∞—Ü–∏—é (–±–∏–Ω–Ω–∏–Ω–≥) –∫–æ–ª–∏—á–µ—Å—Ç–≤–µ–Ω–Ω–æ–π –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π –Ω–∞ –æ—Å–Ω–æ–≤–µ –∏–Ω—Ç–µ—Ä–≤–∞–ª–æ–≤, –∑–∞–¥–∞–Ω–Ω—ã—Ö –≤—Ä—É—á–Ω—É—é
 > 
-> # ¬˚˜ËÒÎˇÂÏ ÏËÌËÏ‡Î¸ÌÓÂ ÁÌ‡˜ÂÌËÂ ÔÂÂÏÂÌÌÓÈ age
+> # –í—ã—á–∏—Å–ª—è–µ–º –º–∏–Ω–∏–º–∞–ª—å–Ω–æ–µ –∑–Ω–∞—á–µ–Ω–∏–µ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π age
 > min(data3$age, na.rm=T)
 [1] 18
 > 
-> # ¬˚˜ËÒÎˇÂÏ Ï‡ÍÒËÏ‡Î¸ÌÓÂ ÁÌ‡˜ÂÌËÂ ÔÂÂÏÂÌÌÓÈ age
+> # –í—ã—á–∏—Å–ª—è–µ–º –º–∞–∫—Å–∏–º–∞–ª—å–Ω–æ–µ –∑–Ω–∞—á–µ–Ω–∏–µ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π age
 > max(data3$age, na.rm=T)
 [1] 71
 > 
-> # «‡‰‡ÂÏ Í‡ÚÂ„ÓËË ÌÓ‚ÓÈ ÔÂÂÏÂÌÌÓÈ agecat Ì‡ ÓÒÌÓ‚Â ËÌÚÂ‚‡ÎÓ‚
-> # ÁÌ‡˜ÂÌËÈ ÍÓÎË˜ÂÒÚ‚ÂÌÌÓÈ ÔÂÂÏÂÌÌÓÈ age
-> data3$agecat[data3$age <= 30] <- "ÓÚ 18 ‰Ó 30 ÎÂÚ"
-> data3$agecat[data3$age > 30 & data3$age <= 45] <- "ÓÚ 31 ‰Ó 45 ÎÂÚ"
-> data3$agecat[data3$age > 45 & data3$age <= 60] <- "ÓÚ 46 ‰Ó 60 ÎÂÚ"
-> data3$agecat[data3$age > 60] <- "ÒÚ‡¯Â 60 ÎÂÚ"
+> # –ó–∞–¥–∞–µ–º –∫–∞—Ç–µ–≥–æ—Ä–∏–∏ –Ω–æ–≤–æ–π –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π agecat –Ω–∞ –æ—Å–Ω–æ–≤–µ –∏–Ω—Ç–µ—Ä–≤–∞–ª–æ–≤
+> # –∑–Ω–∞—á–µ–Ω–∏–π –∫–æ–ª–∏—á–µ—Å—Ç–≤–µ–Ω–Ω–æ–π –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π age
+> data3$agecat[data3$age <= 30] <- "–æ—Ç 18 –¥–æ 30 –ª–µ—Ç"
+> data3$agecat[data3$age > 30 & data3$age <= 45] <- "–æ—Ç 31 –¥–æ 45 –ª–µ—Ç"
+> data3$agecat[data3$age > 45 & data3$age <= 60] <- "–æ—Ç 46 –¥–æ 60 –ª–µ—Ç"
+> data3$agecat[data3$age > 60] <- "—Å—Ç–∞—Ä—à–µ 60 –ª–µ—Ç"
 > head(data3, 10)
-   gender      age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt
-1       M 48.00000            MAR          UMN   59998.00           10        28  0.770249       GRD     –¿—ÕŒƒ¿–— »…  –¿…          30000            1                    1                0       51000 1.9999333              8355
-2       F 28.00000            MAR          UMN   10889.00            6         2  0.248514       GRD                ÃŒ— ¬¿          43000            2                    0                0       51000 0.2532326              9261
-3       M 32.00000            MAR          SPC   10728.00           12         2  0.459589       SCH   —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹          23000            5                    0                0       63000 0.4664348              2282
-4       F 27.00000            DIV          SPC   12009.09           12         2  0.362536       GRD ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹          17000            2                    0                0       63000 0.7064171              2293
-5       M 45.00000            MAR          SPC   16908.89           10         2  0.421385       SCH   ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹          25000            1                    0                0       63000 0.6763556              5155
-6       F 37.00000            MAR          SPC   26788.00           10         2  0.484203       SCH   —“¿¬–ŒœŒÀ‹— »…  –¿…          30000            0                    0                0       63000 0.8929333              4617
-7       M 36.49731            MAR          SPC   10317.00            6        25  0.276012       SCH Õ»∆≈√Œ–Œƒ— ¿ﬂ Œ¡À¿—“‹          28000            3                    0                0       63000 0.3684643              3695
-8       F 26.00000            UNM          SPC   47878.00           10         2  0.512525       GRD    ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹          60000            3                    0                0       63000 0.7979667             12844
-9       M 23.00000            MAR          SPC   37577.16           12        28  0.642267       SCH     “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          50000            3                    0                0       63000 0.7515432              8735
-10      F 32.00000            UNM          SPC   26268.00           10         2  0.465026       GRD   —“¿¬–ŒœŒÀ‹— »…  –¿…          39500            7                    0                0       63000 0.6650127              4617
-   mean_income_by_reg    conj log_income mean_age_tenure          agecat
-1            37260.77 GRD+MAR  10.308953        29.00000 ÓÚ 46 ‰Ó 60 ÎÂÚ
-2            62696.12 GRD+MAR  10.668955        17.00000 ÓÚ 18 ‰Ó 30 ÎÂÚ
-3            31110.90 SCH+MAR  10.043249        22.00000 ÓÚ 31 ‰Ó 45 ÎÂÚ
-4            31301.44 GRD+DIV   9.740969        19.50000 ÓÚ 18 ‰Ó 30 ÎÂÚ
-5            33759.67 SCH+MAR  10.126631        27.50000 ÓÚ 31 ‰Ó 45 ÎÂÚ
-6            32335.76 SCH+MAR  10.308953        23.50000 ÓÚ 31 ‰Ó 45 ÎÂÚ
-7            34254.01 SCH+MAR  10.239960        21.24866 ÓÚ 31 ‰Ó 45 ÎÂÚ
-8            53064.73 GRD+UNM  11.002100        18.00000 ÓÚ 18 ‰Ó 30 ÎÂÚ
-9            48550.90 SCH+MAR  10.819778        17.50000 ÓÚ 18 ‰Ó 30 ÎÂÚ
-10           32335.76 GRD+UNM  10.584056        21.00000 ÓÚ 31 ‰Ó 45 ÎÂÚ
+gender      age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt
+1       M 48.00000            MAR          UMN   59998.00           10        28  0.770249       GRD    –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          30000            1                    1                0       51000 1.9999333              8355
+2       F 28.00000            MAR          UMN   10889.00            6         2  0.248514       GRD                –ú–û–°–ö–í–ê          43000            2                    0                0       51000 0.2532326              9261
+3       M 32.00000            MAR          SPC   10728.00           12         2  0.459589       SCH   –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          23000            5                    0                0       63000 0.4664348              2282
+4       F 27.00000            DIV          SPC   12009.09           12         2  0.362536       GRD –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          17000            2                    0                0       63000 0.7064171              2293
+5       M 45.00000            MAR          SPC   16908.89           10         2  0.421385       SCH   –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          25000            1                    0                0       63000 0.6763556              5155
+6       F 37.00000            MAR          SPC   26788.00           10         2  0.484203       SCH   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          30000            0                    0                0       63000 0.8929333              4617
+7       M 36.49731            MAR          SPC   10317.00            6        25  0.276012       SCH –ù–ò–ñ–ï–ì–û–†–û–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          28000            3                    0                0       63000 0.3684643              3695
+8       F 26.00000            UNM          SPC   47878.00           10         2  0.512525       GRD    –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          60000            3                    0                0       63000 0.7979667             12844
+9       M 23.00000            MAR          SPC   37577.16           12        28  0.642267       SCH     –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          50000            3                    0                0       63000 0.7515432              8735
+10      F 32.00000            UNM          SPC   26268.00           10         2  0.465026       GRD   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          39500            7                    0                0       63000 0.6650127              4617
+mean_income_by_reg    conj log_income mean_age_tenure          agecat
+1            37260.77 GRD+MAR  10.308953        29.00000 –æ—Ç 46 –¥–æ 60 –ª–µ—Ç
+2            62696.12 GRD+MAR  10.668955        17.00000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç
+3            31110.90 SCH+MAR  10.043249        22.00000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç
+4            31301.44 GRD+DIV   9.740969        19.50000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç
+5            33759.67 SCH+MAR  10.126631        27.50000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç
+6            32335.76 SCH+MAR  10.308953        23.50000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç
+7            34254.01 SCH+MAR  10.239960        21.24866 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç
+8            53064.73 GRD+UNM  11.002100        18.00000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç
+9            48550.90 SCH+MAR  10.819778        17.50000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç
+10           32335.76 GRD+UNM  10.584056        21.00000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç
 > 
-> # ÃÓÊÌÓ Ò‰ÂÎ‡Ú¸ ÔÓ˘Â, ËÒÔÓÎ¸ÁÓ‚‡‚ ÙÛÌÍˆË˛ cut
+> # –ú–æ–∂–Ω–æ —Å–¥–µ–ª–∞—Ç—å –ø—Ä–æ—â–µ, –∏—Å–ø–æ–ª—å–∑–æ–≤–∞–≤ —Ñ—É–Ω–∫—Ü–∏—é cut
 > data3$agecat2<-cut(data3$age, c(18,30,45,60,71), include.lowest = TRUE)
 > head(data3, 10)
-   gender      age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt
-1       M 48.00000            MAR          UMN   59998.00           10        28  0.770249       GRD     –¿—ÕŒƒ¿–— »…  –¿…          30000            1                    1                0       51000 1.9999333              8355
-2       F 28.00000            MAR          UMN   10889.00            6         2  0.248514       GRD                ÃŒ— ¬¿          43000            2                    0                0       51000 0.2532326              9261
-3       M 32.00000            MAR          SPC   10728.00           12         2  0.459589       SCH   —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹          23000            5                    0                0       63000 0.4664348              2282
-4       F 27.00000            DIV          SPC   12009.09           12         2  0.362536       GRD ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹          17000            2                    0                0       63000 0.7064171              2293
-5       M 45.00000            MAR          SPC   16908.89           10         2  0.421385       SCH   ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹          25000            1                    0                0       63000 0.6763556              5155
-6       F 37.00000            MAR          SPC   26788.00           10         2  0.484203       SCH   —“¿¬–ŒœŒÀ‹— »…  –¿…          30000            0                    0                0       63000 0.8929333              4617
-7       M 36.49731            MAR          SPC   10317.00            6        25  0.276012       SCH Õ»∆≈√Œ–Œƒ— ¿ﬂ Œ¡À¿—“‹          28000            3                    0                0       63000 0.3684643              3695
-8       F 26.00000            UNM          SPC   47878.00           10         2  0.512525       GRD    ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹          60000            3                    0                0       63000 0.7979667             12844
-9       M 23.00000            MAR          SPC   37577.16           12        28  0.642267       SCH     “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          50000            3                    0                0       63000 0.7515432              8735
-10      F 32.00000            UNM          SPC   26268.00           10         2  0.465026       GRD   —“¿¬–ŒœŒÀ‹— »…  –¿…          39500            7                    0                0       63000 0.6650127              4617
-   mean_income_by_reg    conj log_income mean_age_tenure          agecat agecat2
-1            37260.77 GRD+MAR  10.308953        29.00000 ÓÚ 46 ‰Ó 60 ÎÂÚ (45,60]
-2            62696.12 GRD+MAR  10.668955        17.00000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]
-3            31110.90 SCH+MAR  10.043249        22.00000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]
-4            31301.44 GRD+DIV   9.740969        19.50000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]
-5            33759.67 SCH+MAR  10.126631        27.50000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]
-6            32335.76 SCH+MAR  10.308953        23.50000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]
-7            34254.01 SCH+MAR  10.239960        21.24866 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]
-8            53064.73 GRD+UNM  11.002100        18.00000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]
-9            48550.90 SCH+MAR  10.819778        17.50000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]
-10           32335.76 GRD+UNM  10.584056        21.00000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]
+gender      age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt
+1       M 48.00000            MAR          UMN   59998.00           10        28  0.770249       GRD    –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          30000            1                    1                0       51000 1.9999333              8355
+2       F 28.00000            MAR          UMN   10889.00            6         2  0.248514       GRD                –ú–û–°–ö–í–ê          43000            2                    0                0       51000 0.2532326              9261
+3       M 32.00000            MAR          SPC   10728.00           12         2  0.459589       SCH   –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          23000            5                    0                0       63000 0.4664348              2282
+4       F 27.00000            DIV          SPC   12009.09           12         2  0.362536       GRD –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          17000            2                    0                0       63000 0.7064171              2293
+5       M 45.00000            MAR          SPC   16908.89           10         2  0.421385       SCH   –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          25000            1                    0                0       63000 0.6763556              5155
+6       F 37.00000            MAR          SPC   26788.00           10         2  0.484203       SCH   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          30000            0                    0                0       63000 0.8929333              4617
+7       M 36.49731            MAR          SPC   10317.00            6        25  0.276012       SCH –ù–ò–ñ–ï–ì–û–†–û–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          28000            3                    0                0       63000 0.3684643              3695
+8       F 26.00000            UNM          SPC   47878.00           10         2  0.512525       GRD    –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          60000            3                    0                0       63000 0.7979667             12844
+9       M 23.00000            MAR          SPC   37577.16           12        28  0.642267       SCH     –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          50000            3                    0                0       63000 0.7515432              8735
+10      F 32.00000            UNM          SPC   26268.00           10         2  0.465026       GRD   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          39500            7                    0                0       63000 0.6650127              4617
+mean_income_by_reg    conj log_income mean_age_tenure          agecat agecat2
+1            37260.77 GRD+MAR  10.308953        29.00000 –æ—Ç 46 –¥–æ 60 –ª–µ—Ç (45,60]
+2            62696.12 GRD+MAR  10.668955        17.00000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]
+3            31110.90 SCH+MAR  10.043249        22.00000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]
+4            31301.44 GRD+DIV   9.740969        19.50000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]
+5            33759.67 SCH+MAR  10.126631        27.50000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]
+6            32335.76 SCH+MAR  10.308953        23.50000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]
+7            34254.01 SCH+MAR  10.239960        21.24866 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]
+8            53064.73 GRD+UNM  11.002100        18.00000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]
+9            48550.90 SCH+MAR  10.819778        17.50000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]
+10           32335.76 GRD+UNM  10.584056        21.00000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]
 > 
-> # 4.3.10. ¬˚ÔÓÎÌˇÂÏ ÔÂÂ„ÛÔÔËÓ‚ÍÛ Í‡ÚÂ„ÓË‡Î¸ÌÓÈ ÔÂÂÏÂÌÌÓÈ
+> # 4.3.10. –í—ã–ø–æ–ª–Ω—è–µ–º –ø–µ—Ä–µ–≥—Ä—É–ø–ø–∏—Ä–æ–≤–∫—É –∫–∞—Ç–µ–≥–æ—Ä–∏–∞–ª—å–Ω–æ–π –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π
 > 
-> # «‡„ÛÊ‡ÂÏ Ô‡ÍÂÚ memisc
+> # –ó–∞–≥—Ä—É–∂–∞–µ–º –ø–∞–∫–µ—Ç memisc
 > library(memisc)
-«‡„ÛÁÍ‡ ÚÂ·ÛÂÏÓ„Ó Ô‡ÍÂÚ‡: MASS
+–ó–∞–≥—Ä—É–∑–∫–∞ —Ç—Ä–µ–±—É–µ–º–æ–≥–æ –ø–∞–∫–µ—Ç–∞: MASS
 
-œËÒÓÂ‰ËÌˇ˛ Ô‡ÍÂÚ: ëmemiscí
+–ü—Ä–∏—Å–æ–µ–¥–∏–Ω—è—é –ø–∞–∫–µ—Ç: ‚Äòmemisc‚Äô
 
-—ÎÂ‰Û˛˘ËÂ Ó·˙ÂÍÚ˚ ÒÍ˚Ú˚ ÓÚ ëpackage:statsí:
+–°–ª–µ–¥—É—é—â–∏–µ –æ–±—ä–µ–∫—Ç—ã —Å–∫—Ä—ã—Ç—ã –æ—Ç ‚Äòpackage:stats‚Äô:
+  
+  contr.sum, contr.treatment, contrasts
 
-    contr.sum, contr.treatment, contrasts
-
-—ÎÂ‰Û˛˘ËÈ Ó·˙ÂÍÚ ÒÍ˚Ú ÓÚ ëpackage:baseí:
-
-    as.array
+–°–ª–µ–¥—É—é—â–∏–π –æ–±—ä–µ–∫—Ç —Å–∫—Ä—ã—Ç –æ—Ç ‚Äòpackage:base‚Äô:
+  
+  as.array
 
 > 
-> # — ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË recode Ô‡ÍÂÚ‡ memisc cÓÁ‰‡‰ËÏ ÔÂÂÏÂÌÌÛ˛ jobcat 
-> # Ò ÛÍÛÔÌÂÌÌ˚ÏË Í‡ÚÂ„ÓËˇÏË ÔÂÂÏÂÌÌÓÈ job_position
+> # –° –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ recode –ø–∞–∫–µ—Ç–∞ memisc c–æ–∑–¥–∞–¥–∏–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é jobcat 
+> # —Å —É–∫—Ä—É–ø–Ω–µ–Ω–Ω—ã–º–∏ –∫–∞—Ç–µ–≥–æ—Ä–∏—è–º–∏ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π job_position
 > data3$jobcat <- recode(data3$job_position,
-+ "cat1" <- c("UMN", "SPC", "INP", "DIR"),
-+ "cat2" <- c("ATP", "PNA", "BIS"),
-+ "cat3" <- c("WOI", "NOR", "WRK", "WRP"),
-+ otherwise="cat4")
+                         "cat1" <- c("UMN", "SPC", "INP", "DIR"),
+                         "cat2" <- c("ATP", "PNA", "BIS"),
+                         "cat3" <- c("WOI", "NOR", "WRK", "WRP"),
+                         otherwise="cat4")
 > 
-> # 4.3.11. ¬˚ÔÓÎÌˇÂÏ Í‡ÚÂ„ÓËÁ‡ˆË˛ (·ËÌÌËÌ„) ÍÓÎË˜ÂÒÚ‚ÂÌÌÓÈ ÔÂÂÏÂÌÌÓÈ Ì‡ ÓÒÌÓ‚Â Í‚‡ÌÚËÎÂÈ
+> # 4.3.11. –í—ã–ø–æ–ª–Ω—è–µ–º –∫–∞—Ç–µ–≥–æ—Ä–∏–∑–∞—Ü–∏—é (–±–∏–Ω–Ω–∏–Ω–≥) –∫–æ–ª–∏—á–µ—Å—Ç–≤–µ–Ω–Ω–æ–π –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π –Ω–∞ –æ—Å–Ω–æ–≤–µ –∫–≤–∞–Ω—Ç–∏–ª–µ–π
 > 
-> # «‡„ÛÊ‡ÂÏ Ô‡ÍÂÚ rattle
+> # –ó–∞–≥—Ä—É–∂–∞–µ–º –ø–∞–∫–µ—Ç rattle
 > library(rattle)
-Rattle: A free graphical interface for data mining with R.
-Version 4.1.0 Copyright (c) 2006-2015 Togaware Pty Ltd.
-Type 'rattle()' to shake, rattle, and roll your data.
+  Rattle: A free graphical interface for data mining with R.
+  Version 4.1.0 Copyright (c) 2006-2015 Togaware Pty Ltd.
+  Type 'rattle()' to shake, rattle, and roll your data.
 > 
-> # ŒÒÛ˘ÂÒÚ‚ÎˇÂÏ ·ËÌÌËÌ„ ÔÂÂÏÂÌÌÓÈ age Ì‡ ÓÒÌÓ‚Â Í‚‡ÌÚËÎÂÈ 
-> # Ë Á‡ÔËÒ˚‚‡ÂÏ ÂÁÛÎ¸Ú‡Ú˚ ‚ ÌÓ‚Û˛ ÔÂÂÏÂÌÌÛ˛ age_decile, 
-> # ÌÂ ÒÓÁ‰‡‚‡ˇ ÏÂÚÓÍ Í‡ÚÂ„ÓËÈ.  ‚‡ÌÚËÎËñ ÁÌ‡˜ÂÌËˇ ÔËÁÌ‡Í‡, 
-> # Á‡ÌËÏ‡˛˘ËÂ ‚ ÛÔÓˇ‰Ó˜ÂÌÌÓÏ ˇ‰Û Â‰ËÌËˆ ÒÓ‚ÓÍÛÔÌÓÒÚË 
-> # ÓÔÂ‰ÂÎÂÌÌÓÂ ÏÂÒÚÓ.  ‚‡ÌÚËÎË ‰ÂÎˇÚ ˇ‰ Ì‡ ‡‚Ì˚Â (ÔÓ ˜ËÒÎÛ Â‰ËÌËˆ) 
-> # ˜‡ÒÚË: Í‚‡ÚËÎË ñ Ì‡ ˜ÂÚ˚Â, Í‚ËÌÚËÎË ñ Ì‡ ÔˇÚ¸, ‰ÂˆËÎË ñ Ì‡ ‰ÂÒˇÚ¸.
-> data3$age_decile<- binning(data3$age, bins=10,
-+                                         method="quantile", labels=NULL,
-+                                         ordered=TRUE, weights=NULL)
+> # –û—Å—É—â–µ—Å—Ç–≤–ª—è–µ–º –±–∏–Ω–Ω–∏–Ω–≥ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π age –Ω–∞ –æ—Å–Ω–æ–≤–µ –∫–≤–∞–Ω—Ç–∏–ª–µ–π 
+> # –∏ –∑–∞–ø–∏—Å—ã–≤–∞–µ–º —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã –≤ –Ω–æ–≤—É—é –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é age_decile, 
+> # –Ω–µ —Å–æ–∑–¥–∞–≤–∞—è –º–µ—Ç–æ–∫ –∫–∞—Ç–µ–≥–æ—Ä–∏–π. –ö–≤–∞–Ω—Ç–∏–ª–∏‚Äì –∑–Ω–∞—á–µ–Ω–∏—è –ø—Ä–∏–∑–Ω–∞–∫–∞, 
+> # –∑–∞–Ω–∏–º–∞—é—â–∏–µ –≤ —É–ø–æ—Ä—è–¥–æ—á–µ–Ω–Ω–æ–º —Ä—è–¥—É –µ–¥–∏–Ω–∏—Ü —Å–æ–≤–æ–∫—É–ø–Ω–æ—Å—Ç–∏ 
+> # –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–Ω–æ–µ –º–µ—Å—Ç–æ. –ö–≤–∞–Ω—Ç–∏–ª–∏ –¥–µ–ª—è—Ç —Ä—è–¥ –Ω–∞ —Ä–∞–≤–Ω—ã–µ (–ø–æ —á–∏—Å–ª—É –µ–¥–∏–Ω–∏—Ü) 
+> # —á–∞—Å—Ç–∏: –∫–≤–∞—Ä—Ç–∏–ª–∏ ‚Äì –Ω–∞ —á–µ—Ç—ã—Ä–µ, –∫–≤–∏–Ω—Ç–∏–ª–∏ ‚Äì –Ω–∞ –ø—è—Ç—å, –¥–µ—Ü–∏–ª–∏ ‚Äì –Ω–∞ –¥–µ—Å—è—Ç—å.
+> data3$age_decile<- binning(data3$age, bins=10, method="quantile", labels=NULL,
+                             ordered=TRUE, weights=NULL)
 > 
-> # 4.3.12. —ÓÁ‰‡ÂÏ ·ËÌ‡ÌÛ˛ ÔÂÂÏÂÌÌÛ˛ Ì‡ ÓÒÌÓ‚Â ÁÌ‡˜ÂÌËÈ ÍÓÎË˜ÂÒÚ‚ÂÌÌÓÈ ÔÂÂÏÂÌÌÓÈ
+> # 4.3.12. –°–æ–∑–¥–∞–µ–º –±–∏–Ω–∞—Ä–Ω—É—é –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é –Ω–∞ –æ—Å–Ω–æ–≤–µ –∑–Ω–∞—á–µ–Ω–∏–π –∫–æ–ª–∏—á–µ—Å—Ç–≤–µ–Ω–Ω–æ–π –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π
 > 
-> # —ÓÁ‰‡ÂÏ ÌÓ‚Û˛ ÔÂÂÏÂÌÌÛ˛ retired, ÍÓÚÓ‡ˇ ÔËÌËÏ‡ÂÚ ÁÌ‡˜ÂÌËÂ "Yes",
-> # ÂÒÎË ÁÌ‡˜ÂÌËÂ ÔÂÂÏÂÌÌÓÈ age ·ÓÎ¸¯Â 60, Ë ÁÌ‡˜ÂÌËÂ "No" ‚ ÔÓÚË‚ÌÓÏ ÒÎÛ˜‡Â
+> # –°–æ–∑–¥–∞–µ–º –Ω–æ–≤—É—é –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é retired, –∫–æ—Ç–æ—Ä–∞—è –ø—Ä–∏–Ω–∏–º–∞–µ—Ç –∑–Ω–∞—á–µ–Ω–∏–µ "Yes",
+> # –µ—Å–ª–∏ –∑–Ω–∞—á–µ–Ω–∏–µ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π age –±–æ–ª—å—à–µ 60, –∏ –∑–Ω–∞—á–µ–Ω–∏–µ "No" –≤ –ø—Ä–æ—Ç–∏–≤–Ω–æ–º —Å–ª—É—á–∞–µ
 > data3$retired <- ifelse(data3$age >= 60, c("Yes"), c("No"))
 > head(data3, 10) 
-   gender      age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt
-1       M 48.00000            MAR          UMN   59998.00           10        28  0.770249       GRD     –¿—ÕŒƒ¿–— »…  –¿…          30000            1                    1                0       51000 1.9999333              8355
-2       F 28.00000            MAR          UMN   10889.00            6         2  0.248514       GRD                ÃŒ— ¬¿          43000            2                    0                0       51000 0.2532326              9261
-3       M 32.00000            MAR          SPC   10728.00           12         2  0.459589       SCH   —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹          23000            5                    0                0       63000 0.4664348              2282
-4       F 27.00000            DIV          SPC   12009.09           12         2  0.362536       GRD ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹          17000            2                    0                0       63000 0.7064171              2293
-5       M 45.00000            MAR          SPC   16908.89           10         2  0.421385       SCH   ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹          25000            1                    0                0       63000 0.6763556              5155
-6       F 37.00000            MAR          SPC   26788.00           10         2  0.484203       SCH   —“¿¬–ŒœŒÀ‹— »…  –¿…          30000            0                    0                0       63000 0.8929333              4617
-7       M 36.49731            MAR          SPC   10317.00            6        25  0.276012       SCH Õ»∆≈√Œ–Œƒ— ¿ﬂ Œ¡À¿—“‹          28000            3                    0                0       63000 0.3684643              3695
-8       F 26.00000            UNM          SPC   47878.00           10         2  0.512525       GRD    ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹          60000            3                    0                0       63000 0.7979667             12844
-9       M 23.00000            MAR          SPC   37577.16           12        28  0.642267       SCH     “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹          50000            3                    0                0       63000 0.7515432              8735
-10      F 32.00000            UNM          SPC   26268.00           10         2  0.465026       GRD   —“¿¬–ŒœŒÀ‹— »…  –¿…          39500            7                    0                0       63000 0.6650127              4617
-   mean_income_by_reg    conj log_income mean_age_tenure          agecat agecat2 jobcat age_decile retired
-1            37260.77 GRD+MAR  10.308953        29.00000 ÓÚ 46 ‰Ó 60 ÎÂÚ (45,60]   cat1    (45,52]      No
-2            62696.12 GRD+MAR  10.668955        17.00000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]   cat1    (27,29]      No
-3            31110.90 SCH+MAR  10.043249        22.00000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (29,32]      No
-4            31301.44 GRD+DIV   9.740969        19.50000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]   cat1    (24,27]      No
-5            33759.67 SCH+MAR  10.126631        27.50000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (41,45]      No
-6            32335.76 SCH+MAR  10.308953        23.50000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (34,38]      No
-7            34254.01 SCH+MAR  10.239960        21.24866 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (34,38]      No
-8            53064.73 GRD+UNM  11.002100        18.00000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]   cat1    (24,27]      No
-9            48550.90 SCH+MAR  10.819778        17.50000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]   cat1    [18,24]      No
-10           32335.76 GRD+UNM  10.584056        21.00000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (29,32]      No
+  gender      age marital_status job_position credit_sum credit_month tariff_id score_shk education         living_region monthly_income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt
+  1       M 48.00000            MAR          UMN   59998.00           10        28  0.770249       GRD    –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô          30000            1                    1                0       51000 1.9999333              8355
+  2       F 28.00000            MAR          UMN   10889.00            6         2  0.248514       GRD                –ú–û–°–ö–í–ê          43000            2                    0                0       51000 0.2532326              9261
+  3       M 32.00000            MAR          SPC   10728.00           12         2  0.459589       SCH   –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          23000            5                    0                0       63000 0.4664348              2282
+  4       F 27.00000            DIV          SPC   12009.09           12         2  0.362536       GRD –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          17000            2                    0                0       63000 0.7064171              2293
+  5       M 45.00000            MAR          SPC   16908.89           10         2  0.421385       SCH   –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          25000            1                    0                0       63000 0.6763556              5155
+  6       F 37.00000            MAR          SPC   26788.00           10         2  0.484203       SCH   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          30000            0                    0                0       63000 0.8929333              4617
+  7       M 36.49731            MAR          SPC   10317.00            6        25  0.276012       SCH –ù–ò–ñ–ï–ì–û–†–û–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          28000            3                    0                0       63000 0.3684643              3695
+  8       F 26.00000            UNM          SPC   47878.00           10         2  0.512525       GRD    –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          60000            3                    0                0       63000 0.7979667             12844
+  9       M 23.00000            MAR          SPC   37577.16           12        28  0.642267       SCH     –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          50000            3                    0                0       63000 0.7515432              8735
+  10      F 32.00000            UNM          SPC   26268.00           10         2  0.465026       GRD   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô          39500            7                    0                0       63000 0.6650127              4617
+  mean_income_by_reg    conj log_income mean_age_tenure          agecat agecat2 jobcat age_decile retired
+1            37260.77 GRD+MAR  10.308953        29.00000 –æ—Ç 46 –¥–æ 60 –ª–µ—Ç (45,60]   cat1    (45,52]      No
+2            62696.12 GRD+MAR  10.668955        17.00000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]   cat1    (27,29]      No
+3            31110.90 SCH+MAR  10.043249        22.00000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (29,32]      No
+4            31301.44 GRD+DIV   9.740969        19.50000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]   cat1    (24,27]      No
+5            33759.67 SCH+MAR  10.126631        27.50000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (41,45]      No
+6            32335.76 SCH+MAR  10.308953        23.50000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (34,38]      No
+7            34254.01 SCH+MAR  10.239960        21.24866 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (34,38]      No
+8            53064.73 GRD+UNM  11.002100        18.00000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]   cat1    (24,27]      No
+9            48550.90 SCH+MAR  10.819778        17.50000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]   cat1    [18,24]      No
+10           32335.76 GRD+UNM  10.584056        21.00000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (29,32]      No
 > 
-> # 4.3.13. —ÓÁ‰‡ÂÏ ÔÂÂÏÂÌÌÛ˛ Ì‡ ÓÒÌÓ‚Â ÒÓ‚Ô‡‰ÂÌËÈ ÁÌ‡˜ÂÌËÈ ‚ ‰‚Ûı ÔÂÂÏÂÌÌ˚ı
+> # 4.3.13. –°–æ–∑–¥–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é –Ω–∞ –æ—Å–Ω–æ–≤–µ —Å–æ–≤–ø–∞–¥–µ–Ω–∏–π –∑–Ω–∞—á–µ–Ω–∏–π –≤ –¥–≤—É—Ö –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö
 > 
-> # —˜ËÚ˚‚‡ÂÏ ‰‡ÌÌ˚Â
+> # –°—á–∏—Ç—ã–≤–∞–µ–º –¥–∞–Ω–Ω—ã–µ
 > example <- read.csv2("C:/Trees/Strings.csv")
 > 
-> # —ÏÓÚËÏ ‰‡ÌÌ˚Â
+> # –°–º–æ—Ç—Ä–∏–º –¥–∞–Ω–Ω—ã–µ
 > example
-   age    registration     fact_living
-1   20       ‡ÒÌÓˇÒÍ          ÃÓÒÍ‚‡
-2   21          ÃÓÒÍ‚‡          ÃÓÒÍ‚‡
-3   22          ÃÓÒÍ‚‡          ÃÓÒÍ‚‡
-4   45    ≈Í‡ÚÂËÌ·Û„       ◊ÂÎˇ·ËÌÒÍ
-5   60     ÕÓ‚ÓÒË·ËÒÍ          ÃÓÒÍ‚‡
-6   18          ÃÓÒÍ‚‡          ÃÓÒÍ‚‡
-7   21 —‡ÌÍÚ-œÂÚÂ·Û„ —‡ÌÍÚ-œÂÚÂ·Û„
-8   45     ¬Î‡‰Ë‚ÓÒÚÓÍ          ÃÓÒÍ‚‡
-9   22      ‡ÎËÌËÌ„‡‰      ‡ÎËÌËÌ„‡‰
-10  48         —‡‡ÚÓ‚         —‡‡ÚÓ‚
+  age    registration     fact_living
+  1   20      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫          –ú–æ—Å–∫–≤–∞
+  2   21          –ú–æ—Å–∫–≤–∞          –ú–æ—Å–∫–≤–∞
+  3   22          –ú–æ—Å–∫–≤–∞          –ú–æ—Å–∫–≤–∞
+  4   45    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥       –ß–µ–ª—è–±–∏–Ω—Å–∫
+  5   60     –ù–æ–≤–æ—Å–∏–±–∏—Ä—Å–∫          –ú–æ—Å–∫–≤–∞
+  6   18          –ú–æ—Å–∫–≤–∞          –ú–æ—Å–∫–≤–∞
+  7   21 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥ –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥
+  8   45     –í–ª–∞–¥–∏–≤–æ—Å—Ç–æ–∫          –ú–æ—Å–∫–≤–∞
+  9   22     –ö–∞–ª–∏–Ω–∏–Ω–≥—Ä–∞–¥     –ö–∞–ª–∏–Ω–∏–Ω–≥—Ä–∞–¥
+  10  48         –°–∞—Ä–∞—Ç–æ–≤         –°–∞—Ä–∞—Ç–æ–≤
 > 
-> # “ÂÔÂ¸ Ò‡‚ÌËÏ ÔÂÂÏÂÌÌ˚Â registration Ë fact_living Ì‡ ÒÓ‚Ô‡‰ÂÌËÂ ÁÌ‡˜ÂÌËÈ
-> # Ë ÂÁÛÎ¸Ú‡Ú˚ Á‡ÔË¯ÂÏ ‚ ÔÂÂÏÂÌÌÛ˛ matching
+> # –¢–µ–ø–µ—Ä—å —Å—Ä–∞–≤–Ω–∏–º –ø–µ—Ä–µ–º–µ–Ω–Ω—ã–µ registration –∏ fact_living –Ω–∞ —Å–æ–≤–ø–∞–¥–µ–Ω–∏–µ –∑–Ω–∞—á–µ–Ω–∏–π
+> # –∏ —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã –∑–∞–ø–∏—à–µ–º –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é matching
 > example$matching <- (example$registration %in% example$fact_living) & (example$registration %in% example$fact_living)
 > 
-> # —ÏÓÚËÏ ‰‡ÌÌ˚Â
+> # –°–º–æ—Ç—Ä–∏–º –¥–∞–Ω–Ω—ã–µ
 > example
-   age    registration     fact_living matching
-1   20       ‡ÒÌÓˇÒÍ          ÃÓÒÍ‚‡    FALSE
-2   21          ÃÓÒÍ‚‡          ÃÓÒÍ‚‡     TRUE
-3   22          ÃÓÒÍ‚‡          ÃÓÒÍ‚‡     TRUE
-4   45    ≈Í‡ÚÂËÌ·Û„       ◊ÂÎˇ·ËÌÒÍ    FALSE
-5   60     ÕÓ‚ÓÒË·ËÒÍ          ÃÓÒÍ‚‡    FALSE
-6   18          ÃÓÒÍ‚‡          ÃÓÒÍ‚‡     TRUE
-7   21 —‡ÌÍÚ-œÂÚÂ·Û„ —‡ÌÍÚ-œÂÚÂ·Û„     TRUE
-8   45     ¬Î‡‰Ë‚ÓÒÚÓÍ          ÃÓÒÍ‚‡    FALSE
-9   22      ‡ÎËÌËÌ„‡‰      ‡ÎËÌËÌ„‡‰     TRUE
-10  48         —‡‡ÚÓ‚         —‡‡ÚÓ‚     TRUE
+  age    registration     fact_living matching
+  1   20      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫          –ú–æ—Å–∫–≤–∞    FALSE
+  2   21          –ú–æ—Å–∫–≤–∞          –ú–æ—Å–∫–≤–∞     TRUE
+  3   22          –ú–æ—Å–∫–≤–∞          –ú–æ—Å–∫–≤–∞     TRUE
+  4   45    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥       –ß–µ–ª—è–±–∏–Ω—Å–∫    FALSE
+  5   60     –ù–æ–≤–æ—Å–∏–±–∏—Ä—Å–∫          –ú–æ—Å–∫–≤–∞    FALSE
+  6   18          –ú–æ—Å–∫–≤–∞          –ú–æ—Å–∫–≤–∞     TRUE
+  7   21 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥ –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥     TRUE
+  8   45     –í–ª–∞–¥–∏–≤–æ—Å—Ç–æ–∫          –ú–æ—Å–∫–≤–∞    FALSE
+  9   22     –ö–∞–ª–∏–Ω–∏–Ω–≥—Ä–∞–¥     –ö–∞–ª–∏–Ω–∏–Ω–≥—Ä–∞–¥     TRUE
+  10  48         –°–∞—Ä–∞—Ç–æ–≤         –°–∞—Ä–∞—Ç–æ–≤     TRUE
 > 
-> # ÃÓÊÌÓ Ò‰ÂÎ‡Ú¸ ÌÂÏÌÓ„Ó ËÌ˚Ï ÒÔÓÒÓ·ÓÏ, ÔÂ‰‚‡ËÚÂÎ¸ÌÓ ÔÂÓ·‡ÁÓ‚‡‚ 
-> # ÔÂÂÏÂÌÌ˚Â registration Ë fact_living ‚ ÚËÔ char
+> # –ú–æ–∂–Ω–æ —Å–¥–µ–ª–∞—Ç—å –Ω–µ–º–Ω–æ–≥–æ –∏–Ω—ã–º —Å–ø–æ—Å–æ–±–æ–º, –ø—Ä–µ–¥–≤–∞—Ä–∏—Ç–µ–ª—å–Ω–æ –ø—Ä–µ–æ–±—Ä–∞–∑–æ–≤–∞–≤ 
+> # –ø–µ—Ä–µ–º–µ–Ω–Ω—ã–µ registration –∏ fact_living –≤ —Ç–∏–ø char
 > example$fact_living <- as.character(example$fact_living)
 > example$registration <- as.character(example$registration) 
 > example$matching2 <- example$registration==example$fact_living
 > 
-> # —ÏÓÚËÏ ‰‡ÌÌ˚Â
+> # –°–º–æ—Ç—Ä–∏–º –¥–∞–Ω–Ω—ã–µ
 > example
-   age    registration     fact_living matching matching2
-1   20       ‡ÒÌÓˇÒÍ          ÃÓÒÍ‚‡    FALSE     FALSE
-2   21          ÃÓÒÍ‚‡          ÃÓÒÍ‚‡     TRUE      TRUE
-3   22          ÃÓÒÍ‚‡          ÃÓÒÍ‚‡     TRUE      TRUE
-4   45    ≈Í‡ÚÂËÌ·Û„       ◊ÂÎˇ·ËÌÒÍ    FALSE     FALSE
-5   60     ÕÓ‚ÓÒË·ËÒÍ          ÃÓÒÍ‚‡    FALSE     FALSE
-6   18          ÃÓÒÍ‚‡          ÃÓÒÍ‚‡     TRUE      TRUE
-7   21 —‡ÌÍÚ-œÂÚÂ·Û„ —‡ÌÍÚ-œÂÚÂ·Û„     TRUE      TRUE
-8   45     ¬Î‡‰Ë‚ÓÒÚÓÍ          ÃÓÒÍ‚‡    FALSE     FALSE
-9   22      ‡ÎËÌËÌ„‡‰      ‡ÎËÌËÌ„‡‰     TRUE      TRUE
-10  48         —‡‡ÚÓ‚         —‡‡ÚÓ‚     TRUE      TRUE
+  age    registration     fact_living matching matching2
+  1   20      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫          –ú–æ—Å–∫–≤–∞    FALSE     FALSE
+  2   21          –ú–æ—Å–∫–≤–∞          –ú–æ—Å–∫–≤–∞     TRUE      TRUE
+  3   22          –ú–æ—Å–∫–≤–∞          –ú–æ—Å–∫–≤–∞     TRUE      TRUE
+  4   45    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥       –ß–µ–ª—è–±–∏–Ω—Å–∫    FALSE     FALSE
+  5   60     –ù–æ–≤–æ—Å–∏–±–∏—Ä—Å–∫          –ú–æ—Å–∫–≤–∞    FALSE     FALSE
+  6   18          –ú–æ—Å–∫–≤–∞          –ú–æ—Å–∫–≤–∞     TRUE      TRUE
+  7   21 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥ –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥     TRUE      TRUE
+  8   45     –í–ª–∞–¥–∏–≤–æ—Å—Ç–æ–∫          –ú–æ—Å–∫–≤–∞    FALSE     FALSE
+  9   22     –ö–∞–ª–∏–Ω–∏–Ω–≥—Ä–∞–¥     –ö–∞–ª–∏–Ω–∏–Ω–≥—Ä–∞–¥     TRUE      TRUE
+  10  48         –°–∞—Ä–∞—Ç–æ–≤         –°–∞—Ä–∞—Ç–æ–≤     TRUE      TRUE
 > 
-> # 4.4. œÓÎÛ˜ÂÌËÂ ÒÚ‡ÚËÒÚË˜ÂÒÍÓÈ ËÌÙÓÏ‡ˆËË Ó ÔÂÂÏÂÌÌ˚ı
+> # 4.4. –ü–æ–ª—É—á–µ–Ω–∏–µ —Å—Ç–∞—Ç–∏—Å—Ç–∏—á–µ—Å–∫–æ–π –∏–Ω—Ñ–æ—Ä–º–∞—Ü–∏–∏ –æ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö
 > 
-> # — ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË summary ‚˚‚Ó‰ËÏ ÒÚ‡ÚËÒÚË˜ÂÒÍÛ˛
-> # ËÌÙÓÏ‡ˆË˛ Ó ÔÂÂÏÂÌÌ˚ı
+> # –° –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ summary –≤—ã–≤–æ–¥–∏–º —Å—Ç–∞—Ç–∏—Å—Ç–∏—á–µ—Å–∫—É—é
+> # –∏–Ω—Ñ–æ—Ä–º–∞—Ü–∏—é –æ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö
 > summary(data3)
- gender         age       marital_status  job_position      credit_sum      credit_month     tariff_id       score_shk      education                living_region    monthly_income    credit_count    overdue_credit_count
- F:88697   Min.   :18.0      :    0      SPC    :134680   Min.   :  2736   Min.   : 3.00   2      :69355   Min.   :0.0000      :    0   ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹  : 12844   Min.   :  5000   Min.   :-1.000   Min.   :-1.00000    
- M:82049   1st Qu.:28.0   CIV: 4196      UMN    : 17674   1st Qu.: 14908   1st Qu.:10.00   28     :39117   1st Qu.:0.3795   ACD:  107   ÃŒ— ¬¿              :  9261   1st Qu.: 25000   1st Qu.: 1.000   1st Qu.: 0.00000    
-           Median :34.0   DIV:16970      BIS    :  5591   Median : 21229   Median :10.00   19     :15537   Median :0.4616   GRD:72594   “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹   :  8735   Median : 35000   Median : 2.000   Median : 0.00000    
-           Mean   :36.5   MAR:93957      PNA    :  4107   Mean   : 26095   Mean   :10.98   20     :10970   Mean   :0.4695   PGR:  565    –¿—ÕŒƒ¿–— »…  –¿…  :  8355   Mean   : 40138   Mean   : 1.939   Mean   :-0.01048    
-           3rd Qu.:43.0   UNM:52148      DIR    :  3750   3rd Qu.: 32068   3rd Qu.:12.00   25     : 7497   3rd Qu.:0.5524   SCH:87539   —¿Õ “-œ≈“≈–¡”–√     :  8303   3rd Qu.: 50000   3rd Qu.: 3.000   3rd Qu.: 0.00000    
-           Max.   :71.0   WID: 3475      ATP    :  2791   Max.   :200000   Max.   :36.00   30     : 5538   Max.   :1.1283   UGR: 9941   –≈—œ”¡À» ¿ “¿“¿–—“¿Õ:  7667   Max.   :950000   Max.   :21.000   Max.   : 3.00000    
-                                         (Other):  2153                                    (Other):22732                                (Other)             :115581                                                         
- open_account_flg  avrzarplata        ratio          living_region_cnt mean_income_by_reg     conj             log_income     mean_age_tenure    agecat             agecat2       jobcat         age_decile      retired         
- 0:140690         Min.   :43000   Min.   : 0.01173   Min.   :   17     Min.   :28170      Length:170746      Min.   : 8.517   Min.   :10.50   Length:170746      [18,30]:59714   cat1:156345   (34,38]:21442   Length:170746     
- 1: 30056         1st Qu.:63000   1st Qu.: 0.41903   1st Qu.: 1723     1st Qu.:33760      Class :character   1st Qu.:10.127   1st Qu.:19.50   Class :character   (30,45]:77284   cat2: 12489   (29,32]:20729   Class :character  
-                  Median :63000   Median : 0.63992   Median : 4328     Median :36570      Mode  :character   Median :10.463   Median :23.00   Mode  :character   (45,60]:29155   cat3:  1655   (24,27]:20060   Mode  :character  
-                  Mean   :62397   Mean   : 0.74720   Mean   : 5118     Mean   :40138                         Mean   :10.466   Mean   :23.74                      (60,71]: 4593   cat4:   257   (45,52]:17426                     
-                  3rd Qu.:63000   3rd Qu.: 0.95960   3rd Qu.: 8303     3rd Qu.:48551                         3rd Qu.:10.820   3rd Qu.:27.00                                                    [18,24]:17206                     
-                  Max.   :88000   Max.   :16.90000   Max.   :12844     Max.   :72813                         Max.   :13.764   Max.   :53.50                                                    (52,71]:16322                     
-                                                                                                                                                                                               (Other):57561                     
+  gender         age       marital_status  job_position      credit_sum      credit_month     tariff_id       score_shk      education                living_region    monthly_income    credit_count    overdue_credit_count
+  F:88697   Min.   :18.0      :    0      SPC    :134680   Min.   :  2736   Min.   : 3.00   2      :69355   Min.   :0.0000      :    0   –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  : 12844   Min.   :  5000   Min.   :-1.000   Min.   :-1.00000    
+  M:82049   1st Qu.:28.0   CIV: 4196      UMN    : 17674   1st Qu.: 14908   1st Qu.:10.00   28     :39117   1st Qu.:0.3795   ACD:  107   –ú–û–°–ö–í–ê              :  9261   1st Qu.: 25000   1st Qu.: 1.000   1st Qu.: 0.00000    
+  Median :34.0   DIV:16970      BIS    :  5591   Median : 21229   Median :10.00   19     :15537   Median :0.4616   GRD:72594   –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨   :  8735   Median : 35000   Median : 2.000   Median : 0.00000    
+  Mean   :36.5   MAR:93957      PNA    :  4107   Mean   : 26095   Mean   :10.98   20     :10970   Mean   :0.4695   PGR:  565   –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô  :  8355   Mean   : 40138   Mean   : 1.939   Mean   :-0.01048    
+  3rd Qu.:43.0   UNM:52148      DIR    :  3750   3rd Qu.: 32068   3rd Qu.:12.00   25     : 7497   3rd Qu.:0.5524   SCH:87539   –°–ê–ù–ö–¢-–ü–ï–¢–ï–†–ë–£–†–ì     :  8303   3rd Qu.: 50000   3rd Qu.: 3.000   3rd Qu.: 0.00000    
+  Max.   :71.0   WID: 3475      ATP    :  2791   Max.   :200000   Max.   :36.00   30     : 5538   Max.   :1.1283   UGR: 9941   –†–ï–°–ü–£–ë–õ–ò–ö–ê –¢–ê–¢–ê–†–°–¢–ê–ù:  7667   Max.   :950000   Max.   :21.000   Max.   : 3.00000    
+  (Other):  2153                                    (Other):22732                                (Other)             :115581                                                         
+  open_account_flg  avrzarplata        ratio          living_region_cnt mean_income_by_reg     conj             log_income     mean_age_tenure    agecat             agecat2       jobcat         age_decile      retired         
+  0:140690         Min.   :43000   Min.   : 0.01173   Min.   :   17     Min.   :28170      Length:170746      Min.   : 8.517   Min.   :10.50   Length:170746      [18,30]:59714   cat1:156345   (34,38]:21442   Length:170746     
+1: 30056         1st Qu.:63000   1st Qu.: 0.41903   1st Qu.: 1723     1st Qu.:33760      Class :character   1st Qu.:10.127   1st Qu.:19.50   Class :character   (30,45]:77284   cat2: 12489   (29,32]:20729   Class :character  
+Median :63000   Median : 0.63992   Median : 4328     Median :36570      Mode  :character   Median :10.463   Median :23.00   Mode  :character   (45,60]:29155   cat3:  1655   (24,27]:20060   Mode  :character  
+Mean   :62397   Mean   : 0.74720   Mean   : 5118     Mean   :40138                         Mean   :10.466   Mean   :23.74                      (60,71]: 4593   cat4:   257   (45,52]:17426                     
+3rd Qu.:63000   3rd Qu.: 0.95960   3rd Qu.: 8303     3rd Qu.:48551                         3rd Qu.:10.820   3rd Qu.:27.00                                                    [18,24]:17206                     
+Max.   :88000   Max.   :16.90000   Max.   :12844     Max.   :72813                         Max.   :13.764   Max.   :53.50                                                    (52,71]:16322                     
+(Other):57561                     
 > 
-> # «‡„ÛÊ‡ÂÏ Ô‡ÍÂÚ Hmisc
+> # –ó–∞–≥—Ä—É–∂–∞–µ–º –ø–∞–∫–µ—Ç Hmisc
 > library(Hmisc)
 
-œËÒÓÂ‰ËÌˇ˛ Ô‡ÍÂÚ: ëHmiscí
+–ü—Ä–∏—Å–æ–µ–¥–∏–Ω—è—é –ø–∞–∫–µ—Ç: ‚ÄòHmisc‚Äô
 
-—ÎÂ‰Û˛˘ËÂ Ó·˙ÂÍÚ˚ ÒÍ˚Ú˚ ÓÚ ëpackage:memiscí:
+–°–ª–µ–¥—É—é—â–∏–µ –æ–±—ä–µ–∫—Ç—ã —Å–∫—Ä—ã—Ç—ã –æ—Ç ‚Äòpackage:memisc‚Äô:
+  
+  %nin%, html
 
-    %nin%, html
+–°–ª–µ–¥—É—é—â–∏–π –æ–±—ä–µ–∫—Ç —Å–∫—Ä—ã—Ç –æ—Ç ‚Äòpackage:imputeMissings‚Äô:
+  
+  impute
 
-—ÎÂ‰Û˛˘ËÈ Ó·˙ÂÍÚ ÒÍ˚Ú ÓÚ ëpackage:imputeMissingsí:
-
-    impute
-
-—ÎÂ‰Û˛˘ËÂ Ó·˙ÂÍÚ˚ ÒÍ˚Ú˚ ÓÚ ëpackage:baseí:
-
-    format.pval, round.POSIXt, trunc.POSIXt, units
+–°–ª–µ–¥—É—é—â–∏–µ –æ–±—ä–µ–∫—Ç—ã —Å–∫—Ä—ã—Ç—ã –æ—Ç ‚Äòpackage:base‚Äô:
+  
+  format.pval, round.POSIXt, trunc.POSIXt, units
 
 > 
-> # — ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË describe Ô‡ÍÂÚ‡ Hmisc ‚˚‚Ó‰ËÏ ÒÚ‡ÚËÒÚË˜ÂÒÍÛ˛
-> # ËÌÙÓÏ‡ˆË˛ Ó ÔÂÂÏÂÌÌ˚ı
+> # –° –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ describe –ø–∞–∫–µ—Ç–∞ Hmisc –≤—ã–≤–æ–¥–∏–º —Å—Ç–∞—Ç–∏—Å—Ç–∏—á–µ—Å–∫—É—é
+> # –∏–Ω—Ñ–æ—Ä–º–∞—Ü–∏—é –æ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö
 > describe(data3)
 data3 
 
- 26  Variables      170746  Observations
+26  Variables      170746  Observations
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-gender 
-       n  missing distinct 
-  170746        0        2 
-                      
+  gender 
+n  missing distinct 
+170746        0        2 
+
 Value          F     M
 Frequency  88697 82049
 Proportion 0.519 0.481
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-age 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  170746        0       55    0.999     36.5    11.78       23       24       28       34       43       52       57 
+  age 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+170746        0       55    0.999     36.5    11.78       23       24       28       34       43       52       57 
 
 lowest : 18 19 20 21 22, highest: 67 68 69 70 71
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-marital_status 
-       n  missing distinct 
-  170746        0        5 
-                                        
+  marital_status 
+n  missing distinct 
+170746        0        5 
+
 Value        CIV   DIV   MAR   UNM   WID
 Frequency   4196 16970 93957 52148  3475
 Proportion 0.025 0.099 0.550 0.305 0.020
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-job_position 
-       n  missing distinct 
-  170746        0       18 
-                                                                                                                                        
+  job_position 
+n  missing distinct 
+170746        0       18 
+
 Value         ATP    BIS    BIU    DIR    HSK    INP    INV    NOR    ONB    PNA    PNI    PNS    PNV    SPC    UMN    WOI    WRK    WRP
 Frequency    2791   5591    126   3750      8    241      5    537      1   4107     65     12     40 134680  17674    352    656    110
 Proportion  0.016  0.033  0.001  0.022  0.000  0.001  0.000  0.003  0.000  0.024  0.000  0.000  0.000  0.789  0.104  0.002  0.004  0.001
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-credit_sum 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  170746        0    42769        1    26095    17031     8059    10668    14908    21229    32068    50616    59846 
+  credit_sum 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+170746        0    42769        1    26095    17031     8059    10668    14908    21229    32068    50616    59846 
 
 lowest :   2736.0   3000.0   3000.4   3011.0   3029.0, highest: 184732.0 187768.0 189734.0 194570.0 200000.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-credit_month 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  170746        0       31    0.805    10.98    2.859        6       10       10       10       12       12       18 
+  credit_month 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+170746        0       31    0.805    10.98    2.859        6       10       10       10       12       12       18 
 
 lowest :  3  4  5  6  7, highest: 29 30 31 32 36
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-tariff_id 
-       n  missing distinct 
-  170746        0       33 
+  tariff_id 
+n  missing distinct 
+170746        0       33 
 
 lowest : 1  2  3  4  5 , highest: 29 30 31 32 33
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-score_shk 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  170746        0    16281        1   0.4695   0.1409   0.2785   0.3150   0.3795   0.4616   0.5524   0.6423   0.6916 
+  score_shk 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+170746        0    16281        1   0.4695   0.1409   0.2785   0.3150   0.3795   0.4616   0.5524   0.6423   0.6916 
 
 lowest : 0.000000 0.071819 0.072468 0.074979 0.076782, highest: 0.976126 0.978480 1.041122 1.054699 1.128291
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-education 
-       n  missing distinct 
-  170746        0        5 
-                                        
+  education 
+n  missing distinct 
+170746        0        5 
+
 Value        ACD   GRD   PGR   SCH   UGR
 Frequency    107 72594   565 87539  9941
 Proportion 0.001 0.425 0.003 0.513 0.058
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-living_region 
-       n  missing distinct 
-  170746        0       82 
+  living_region 
+n  missing distinct 
+170746        0       82 
 
-lowest : ¿À“¿…— »…  –¿…             ¿Ã”–— ¿ﬂ Œ¡À¿—“‹           ¿–’¿Õ√≈À‹— ¿ﬂ Œ¡À¿—“‹      ¿—“–¿’¿Õ— ¿ﬂ Œ¡À¿—“‹       ¡≈À√Œ–Œƒ— ¿ﬂ Œ¡À¿—“‹      
-highest: ◊≈◊≈Õ— ¿ﬂ –≈—œ”¡À» ¿       ◊»“»Õ— ¿ﬂ Œ¡À¿—“‹          ◊”¬¿ÿ— ¿ﬂ –≈—œ”¡À» ¿       ◊” Œ“— »… ¿¬“ŒÕŒÃÕ€… Œ –”√ ﬂ–Œ—À¿¬— ¿ﬂ Œ¡À¿—“‹       
+lowest : –ê–õ–¢–ê–ô–°–ö–ò–ô –ö–†–ê–ô             –ê–ú–£–†–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨           –ê–†–•–ê–ù–ì–ï–õ–¨–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨      –ê–°–¢–†–ê–•–ê–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨       –ë–ï–õ–ì–û–†–û–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨      
+highest: –ß–ï–ß–ï–ù–°–ö–ê–Ø –†–ï–°–ü–£–ë–õ–ò–ö–ê       –ß–ò–¢–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨          –ß–£–í–ê–®–°–ö–ê–Ø –†–ï–°–ü–£–ë–õ–ò–ö–ê       –ß–£–ö–û–¢–°–ö–ò–ô –ê–í–¢–û–ù–û–ú–ù–´–ô –û–ö–†–£–ì –Ø–†–û–°–õ–ê–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨       
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-monthly_income 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  170746        0     1591    0.997    40138    22903    15000    20000    25000    35000    50000    68000    80000 
+  monthly_income 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+170746        0     1591    0.997    40138    22903    15000    20000    25000    35000    50000    68000    80000 
 
 lowest :   5000   5600   6000   6300   6434, highest: 700000 750000 800000 900000 950000
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-credit_count 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  170746        0       22    0.964    1.939    1.987       -1        0        1        2        3        4        5 
+  credit_count 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+170746        0       22    0.964    1.939    1.987       -1        0        1        2        3        4        5 
 
 lowest : -1  0  1  2  3, highest: 16 17 18 19 21
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-overdue_credit_count 
-       n  missing distinct     Info     Mean      Gmd 
-  170746        0        5    0.264 -0.01048   0.1857 
-                                             
+  overdue_credit_count 
+n  missing distinct     Info     Mean      Gmd 
+170746        0        5    0.264 -0.01048   0.1857 
+
 Value          -1      0      1      2      3
 Frequency    9230 154135   7326     50      5
 Proportion  0.054  0.903  0.043  0.000  0.000
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-open_account_flg 
-       n  missing distinct 
-  170746        0        2 
-                        
+  open_account_flg 
+n  missing distinct 
+170746        0        2 
+
 Value           0      1
 Frequency  140690  30056
 Proportion  0.824  0.176
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-avrzarplata 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  170746        0       18    0.508    62397     4850    51000    51000    63000    63000    63000    63000    71000 
-                                                                                                                                        
+  avrzarplata 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+170746        0       18    0.508    62397     4850    51000    51000    63000    63000    63000    63000    71000 
+
 Value       43000  44000  46000  51000  54000  55000  60000  62000  63000  67000  69000  71000  74000  75000  76000  77000  86000  88000
 Frequency     126     12   2791  17674    537    241   3750      1 134680     40     65   4107      8    110    352    656   5591      5
 Proportion  0.001  0.000  0.016  0.104  0.003  0.001  0.022  0.000  0.789  0.000  0.000  0.024  0.000  0.001  0.002  0.004  0.033  0.000
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-ratio 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  170746        0   112337        1   0.7472   0.4854   0.2138   0.2777   0.4190   0.6399   0.9596   1.3596   1.6499 
+  ratio 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+170746        0   112337        1   0.7472   0.4854   0.2138   0.2777   0.4190   0.6399   0.9596   1.3596   1.6499 
 
 lowest :  0.01173333  0.01460250  0.01676176  0.01784000  0.01852381, highest:  9.04000000  9.33260000 10.00000000 16.00200000 16.90000000
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-living_region_cnt 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  170746        0       80    0.999     5118     4082      700      915     1723     4328     8303     9261    12844 
+  living_region_cnt 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+170746        0       80    0.999     5118     4082      700      915     1723     4328     8303     9261    12844 
 
 lowest :    17    19    31    32    54, highest:  8303  8355  8735  9261 12844
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-mean_income_by_reg 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  170746        0       82    0.999    40138     9750    30202    31262    33760    36570    48551    53065    62696 
+  mean_income_by_reg 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+170746        0       82    0.999    40138     9750    30202    31262    33760    36570    48551    53065    62696 
 
 lowest : 28170.07 28316.98 28745.93 29267.81 29465.12, highest: 56408.87 61619.22 62696.12 64996.12 72812.50
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-conj 
-       n  missing distinct 
-  170746        0       25 
+  conj 
+n  missing distinct 
+170746        0       25 
 
 lowest : ACD+CIV ACD+DIV ACD+MAR ACD+UNM ACD+WID, highest: UGR+CIV UGR+DIV UGR+MAR UGR+UNM UGR+WID
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-log_income 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  170746        0     1591    0.997    10.47    0.561    9.616    9.903   10.127   10.463   10.820   11.127   11.290 
+  log_income 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+170746        0     1591    0.997    10.47    0.561    9.616    9.903   10.127   10.463   10.820   11.127   11.290 
 
 lowest :  8.517193  8.630522  8.699515  8.748305  8.769352, highest: 13.458836 13.527828 13.592367 13.710150 13.764217
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-mean_age_tenure 
-       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
-  170746        0       87    0.999    23.74    6.214     16.5     17.5     19.5     23.0     27.0     32.0     34.5 
+  mean_age_tenure 
+n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90      .95 
+170746        0       87    0.999    23.74    6.214     16.5     17.5     19.5     23.0     27.0     32.0     34.5 
 
 lowest : 10.5 11.0 11.5 12.0 12.5, highest: 51.0 51.5 52.0 52.5 53.5
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-agecat 
-       n  missing distinct 
-  170746        0        4 
-                                                                          
-Value      ÓÚ 18 ‰Ó 30 ÎÂÚ ÓÚ 31 ‰Ó 45 ÎÂÚ ÓÚ 46 ‰Ó 60 ÎÂÚ   ÒÚ‡¯Â 60 ÎÂÚ
+  agecat 
+n  missing distinct 
+170746        0        4 
+
+Value      –æ—Ç 18 –¥–æ 30 –ª–µ—Ç –æ—Ç 31 –¥–æ 45 –ª–µ—Ç –æ—Ç 46 –¥–æ 60 –ª–µ—Ç   —Å—Ç–∞—Ä—à–µ 60 –ª–µ—Ç
 Frequency            59714           77284           29155            4593
 Proportion           0.350           0.453           0.171           0.027
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-agecat2 
-       n  missing distinct 
-  170746        0        4 
-                                          
+  agecat2 
+n  missing distinct 
+170746        0        4 
+
 Value      [18,30] (30,45] (45,60] (60,71]
 Frequency    59714   77284   29155    4593
 Proportion   0.350   0.453   0.171   0.027
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-jobcat 
-       n  missing distinct 
-  170746        0        4 
-                                      
+  jobcat 
+n  missing distinct 
+170746        0        4 
+
 Value        cat1   cat2   cat3   cat4
 Frequency  156345  12489   1655    257
 Proportion  0.916  0.073  0.010  0.002
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-age_decile 
-       n  missing distinct 
-  170746        0       10 
-                                                                                          
+  age_decile 
+n  missing distinct 
+170746        0       10 
+
 Value      [18,24] (24,27] (27,29] (29,32] (32,34] (34,38] (38,41] (41,45] (45,52] (52,71]
 Frequency    17206   20060   15120   20729   12451   21442   14551   15439   17426   16322
 Proportion   0.101   0.117   0.089   0.121   0.073   0.126   0.085   0.090   0.102   0.096
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-retired 
-       n  missing distinct 
-  170746        0        2 
-                        
+  retired 
+n  missing distinct 
+170746        0        2 
+
 Value          No    Yes
 Frequency  165195   5551
 Proportion  0.967  0.033
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 > 
-> # ŒÚÒÓÂ‰ËÌˇÂÏ Ô‡ÍÂÚ Hmisc
+> # –û—Ç—Å–æ–µ–¥–∏–Ω—è–µ–º –ø–∞–∫–µ—Ç Hmisc
 > detach("package:Hmisc", unload=TRUE)
 > 
-> # 4.5. œÂÂËÏÂÌÓ‚‡ÌËÂ ÔÂÂÏÂÌÌ˚ı
+> # 4.5. –ü–µ—Ä–µ–∏–º–µ–Ω–æ–≤–∞–Ω–∏–µ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö
 > 
-> # 4.5.1. œÂÂËÏÂÌÓ‚˚‚‡ÂÏ ÔÂÂÏÂÌÌÛ˛ Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË names 
+> # 4.5.1. –ü–µ—Ä–µ–∏–º–µ–Ω–æ–≤—ã–≤–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ names 
 > 
-> # œÂÂËÏÂÌÓ‚˚‚‡ÂÏ ÔÂÂÏÂÌÌÛ˛ living_region ‚ ÔÂÂÏÂÌÌÛ˛ region
+> # –ü–µ—Ä–µ–∏–º–µ–Ω–æ–≤—ã–≤–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é living_region –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é region
 > names(data3)[names(data3)=="living_region"] <- "region"
 > str(data3)
 'data.frame':   170746 obs. of  26 variables:
- $ gender              : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
- $ age                 : num  48 28 32 27 45 ...
- $ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 4 5 ...
- $ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
- $ credit_sum          : num  59998 10889 10728 12009 16909 ...
- $ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
- $ tariff_id           : Factor w/ 33 levels "1","2","3","4",..: 28 2 2 2 2 2 25 2 28 2 ...
- $ score_shk           : num  0.77 0.249 0.46 0.363 0.421 ...
- $ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
- $ region              : Factor w/ 82 levels "¿À“¿…— »…  –¿…",..: 23 30 64 8 77 68 33 31 73 68 ...
- $ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
- $ credit_count        : num  1 2 5 2 1 0 3 3 3 7 ...
- $ overdue_credit_count: num  1 0 0 0 0 0 0 0 0 0 ...
- $ open_account_flg    : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
- $ avrzarplata         : num  51000 51000 63000 63000 63000 63000 63000 63000 63000 63000 ...
- $ ratio               : num  2 0.253 0.466 0.706 0.676 ...
- $ living_region_cnt   : int  8355 9261 2282 2293 5155 4617 3695 12844 8735 4617 ...
- $ mean_income_by_reg  : num  37261 62696 31111 31301 33760 ...
- $ conj                : chr  "GRD+MAR" "GRD+MAR" "SCH+MAR" "GRD+DIV" ...
- $ log_income          : num  10.31 10.67 10.04 9.74 10.13 ...
- $ mean_age_tenure     : num  29 17 22 19.5 27.5 ...
- $ agecat              : chr  "ÓÚ 46 ‰Ó 60 ÎÂÚ" "ÓÚ 18 ‰Ó 30 ÎÂÚ" "ÓÚ 31 ‰Ó 45 ÎÂÚ" "ÓÚ 18 ‰Ó 30 ÎÂÚ" ...
- $ agecat2             : Factor w/ 4 levels "[18,30]","(30,45]",..: 3 1 2 1 2 2 2 1 1 2 ...
- $ jobcat              : Factor w/ 4 levels "cat1","cat2",..: 1 1 1 1 1 1 1 1 1 1 ...
- $ age_decile          : Ord.factor w/ 10 levels "[18,24]"<"(24,27]"<..: 9 3 4 2 8 6 6 2 1 4 ...
-  ..- attr(*, "breaks")= num  18 24 27 29 32 34 38 41 45 52 ...
- $ retired             : chr  "No" "No" "No" "No" ...
+$ gender              : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
+$ age                 : num  48 28 32 27 45 ...
+$ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 4 5 ...
+$ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
+$ credit_sum          : num  59998 10889 10728 12009 16909 ...
+$ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
+$ tariff_id           : Factor w/ 33 levels "1","2","3","4",..: 28 2 2 2 2 2 25 2 28 2 ...
+$ score_shk           : num  0.77 0.249 0.46 0.363 0.421 ...
+$ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
+$ region              : Factor w/ 82 levels "–ê–õ–¢–ê–ô–°–ö–ò–ô –ö–†–ê–ô",..: 23 30 64 8 77 68 33 31 73 68 ...
+$ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
+$ credit_count        : num  1 2 5 2 1 0 3 3 3 7 ...
+$ overdue_credit_count: num  1 0 0 0 0 0 0 0 0 0 ...
+$ open_account_flg    : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
+$ avrzarplata         : num  51000 51000 63000 63000 63000 63000 63000 63000 63000 63000 ...
+$ ratio               : num  2 0.253 0.466 0.706 0.676 ...
+$ living_region_cnt   : int  8355 9261 2282 2293 5155 4617 3695 12844 8735 4617 ...
+$ mean_income_by_reg  : num  37261 62696 31111 31301 33760 ...
+$ conj                : chr  "GRD+MAR" "GRD+MAR" "SCH+MAR" "GRD+DIV" ...
+$ log_income          : num  10.31 10.67 10.04 9.74 10.13 ...
+$ mean_age_tenure     : num  29 17 22 19.5 27.5 ...
+$ agecat              : chr  "–æ—Ç 46 –¥–æ 60 –ª–µ—Ç" "–æ—Ç 18 –¥–æ 30 –ª–µ—Ç" "–æ—Ç 31 –¥–æ 45 –ª–µ—Ç" "–æ—Ç 18 –¥–æ 30 –ª–µ—Ç" ...
+$ agecat2             : Factor w/ 4 levels "[18,30]","(30,45]",..: 3 1 2 1 2 2 2 1 1 2 ...
+$ jobcat              : Factor w/ 4 levels "cat1","cat2",..: 1 1 1 1 1 1 1 1 1 1 ...
+$ age_decile          : Ord.factor w/ 10 levels "[18,24]"<"(24,27]"<..: 9 3 4 2 8 6 6 2 1 4 ...
+..- attr(*, "breaks")= num  18 24 27 29 32 34 38 41 45 52 ...
+$ retired             : chr  "No" "No" "No" "No" ...
 > 
-> # œÂÂËÏÂÌÛÂÏ ÔÂÂÏÂÌÌÛ˛ gender ‚ sex, ÛÍ‡Á‡‚ ÂÂ ËÌ‰ÂÍÒ 
+> # –ü–µ—Ä–µ–∏–º–µ–Ω—É–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é gender –≤ sex, —É–∫–∞–∑–∞–≤ –µ–µ –∏–Ω–¥–µ–∫—Å 
 > names(data3)[1]<-"sex"
 > str(data3)
 'data.frame':   170746 obs. of  26 variables:
- $ sex                 : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
- $ age                 : num  48 28 32 27 45 ...
- $ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 4 5 ...
- $ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
- $ credit_sum          : num  59998 10889 10728 12009 16909 ...
- $ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
- $ tariff_id           : Factor w/ 33 levels "1","2","3","4",..: 28 2 2 2 2 2 25 2 28 2 ...
- $ score_shk           : num  0.77 0.249 0.46 0.363 0.421 ...
- $ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
- $ region              : Factor w/ 82 levels "¿À“¿…— »…  –¿…",..: 23 30 64 8 77 68 33 31 73 68 ...
- $ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
- $ credit_count        : num  1 2 5 2 1 0 3 3 3 7 ...
- $ overdue_credit_count: num  1 0 0 0 0 0 0 0 0 0 ...
- $ open_account_flg    : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
- $ avrzarplata         : num  51000 51000 63000 63000 63000 63000 63000 63000 63000 63000 ...
- $ ratio               : num  2 0.253 0.466 0.706 0.676 ...
- $ living_region_cnt   : int  8355 9261 2282 2293 5155 4617 3695 12844 8735 4617 ...
- $ mean_income_by_reg  : num  37261 62696 31111 31301 33760 ...
- $ conj                : chr  "GRD+MAR" "GRD+MAR" "SCH+MAR" "GRD+DIV" ...
- $ log_income          : num  10.31 10.67 10.04 9.74 10.13 ...
- $ mean_age_tenure     : num  29 17 22 19.5 27.5 ...
- $ agecat              : chr  "ÓÚ 46 ‰Ó 60 ÎÂÚ" "ÓÚ 18 ‰Ó 30 ÎÂÚ" "ÓÚ 31 ‰Ó 45 ÎÂÚ" "ÓÚ 18 ‰Ó 30 ÎÂÚ" ...
- $ agecat2             : Factor w/ 4 levels "[18,30]","(30,45]",..: 3 1 2 1 2 2 2 1 1 2 ...
- $ jobcat              : Factor w/ 4 levels "cat1","cat2",..: 1 1 1 1 1 1 1 1 1 1 ...
- $ age_decile          : Ord.factor w/ 10 levels "[18,24]"<"(24,27]"<..: 9 3 4 2 8 6 6 2 1 4 ...
-  ..- attr(*, "breaks")= num  18 24 27 29 32 34 38 41 45 52 ...
- $ retired             : chr  "No" "No" "No" "No" ...
+$ sex                 : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
+$ age                 : num  48 28 32 27 45 ...
+$ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 4 5 ...
+$ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
+$ credit_sum          : num  59998 10889 10728 12009 16909 ...
+$ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
+$ tariff_id           : Factor w/ 33 levels "1","2","3","4",..: 28 2 2 2 2 2 25 2 28 2 ...
+$ score_shk           : num  0.77 0.249 0.46 0.363 0.421 ...
+$ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
+$ region              : Factor w/ 82 levels "–ê–õ–¢–ê–ô–°–ö–ò–ô –ö–†–ê–ô",..: 23 30 64 8 77 68 33 31 73 68 ...
+$ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
+$ credit_count        : num  1 2 5 2 1 0 3 3 3 7 ...
+$ overdue_credit_count: num  1 0 0 0 0 0 0 0 0 0 ...
+$ open_account_flg    : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
+$ avrzarplata         : num  51000 51000 63000 63000 63000 63000 63000 63000 63000 63000 ...
+$ ratio               : num  2 0.253 0.466 0.706 0.676 ...
+$ living_region_cnt   : int  8355 9261 2282 2293 5155 4617 3695 12844 8735 4617 ...
+$ mean_income_by_reg  : num  37261 62696 31111 31301 33760 ...
+$ conj                : chr  "GRD+MAR" "GRD+MAR" "SCH+MAR" "GRD+DIV" ...
+$ log_income          : num  10.31 10.67 10.04 9.74 10.13 ...
+$ mean_age_tenure     : num  29 17 22 19.5 27.5 ...
+$ agecat              : chr  "–æ—Ç 46 –¥–æ 60 –ª–µ—Ç" "–æ—Ç 18 –¥–æ 30 –ª–µ—Ç" "–æ—Ç 31 –¥–æ 45 –ª–µ—Ç" "–æ—Ç 18 –¥–æ 30 –ª–µ—Ç" ...
+$ agecat2             : Factor w/ 4 levels "[18,30]","(30,45]",..: 3 1 2 1 2 2 2 1 1 2 ...
+$ jobcat              : Factor w/ 4 levels "cat1","cat2",..: 1 1 1 1 1 1 1 1 1 1 ...
+$ age_decile          : Ord.factor w/ 10 levels "[18,24]"<"(24,27]"<..: 9 3 4 2 8 6 6 2 1 4 ...
+..- attr(*, "breaks")= num  18 24 27 29 32 34 38 41 45 52 ...
+$ retired             : chr  "No" "No" "No" "No" ...
 > 
-> # 4.5.2. œÂÂËÏÂÌÓ‚˚‚‡ÂÏ ÔÂÂÏÂÌÌÛ˛ Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË rename Ô‡ÍÂÚ‡ dplyr
+> # 4.5.2. –ü–µ—Ä–µ–∏–º–µ–Ω–æ–≤—ã–≤–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ rename –ø–∞–∫–µ—Ç–∞ dplyr
 > 
-> # «‡„ÛÊ‡ÂÏ Ô‡ÍÂÚ dplyr
+> # –ó–∞–≥—Ä—É–∂–∞–µ–º –ø–∞–∫–µ—Ç dplyr
 > library(dplyr)
 
-œËÒÓÂ‰ËÌˇ˛ Ô‡ÍÂÚ: ëdplyrí
+–ü—Ä–∏—Å–æ–µ–¥–∏–Ω—è—é –ø–∞–∫–µ—Ç: ‚Äòdplyr‚Äô
 
-—ÎÂ‰Û˛˘ËÂ Ó·˙ÂÍÚ˚ ÒÍ˚Ú˚ ÓÚ ëpackage:memiscí:
+–°–ª–µ–¥—É—é—â–∏–µ –æ–±—ä–µ–∫—Ç—ã —Å–∫—Ä—ã—Ç—ã –æ—Ç ‚Äòpackage:memisc‚Äô:
+  
+  collect, query, recode, rename
 
-    collect, query, recode, rename
+–°–ª–µ–¥—É—é—â–∏–π –æ–±—ä–µ–∫—Ç —Å–∫—Ä—ã—Ç –æ—Ç ‚Äòpackage:MASS‚Äô:
+  
+  select
 
-—ÎÂ‰Û˛˘ËÈ Ó·˙ÂÍÚ ÒÍ˚Ú ÓÚ ëpackage:MASSí:
+–°–ª–µ–¥—É—é—â–∏–π –æ–±—ä–µ–∫—Ç —Å–∫—Ä—ã—Ç –æ—Ç ‚Äòpackage:imputeMissings‚Äô:
+  
+  compute
 
-    select
+–°–ª–µ–¥—É—é—â–∏–µ –æ–±—ä–µ–∫—Ç—ã —Å–∫—Ä—ã—Ç—ã –æ—Ç ‚Äòpackage:stats‚Äô:
+  
+  filter, lag
 
-—ÎÂ‰Û˛˘ËÈ Ó·˙ÂÍÚ ÒÍ˚Ú ÓÚ ëpackage:imputeMissingsí:
-
-    compute
-
-—ÎÂ‰Û˛˘ËÂ Ó·˙ÂÍÚ˚ ÒÍ˚Ú˚ ÓÚ ëpackage:statsí:
-
-    filter, lag
-
-—ÎÂ‰Û˛˘ËÂ Ó·˙ÂÍÚ˚ ÒÍ˚Ú˚ ÓÚ ëpackage:baseí:
-
-    intersect, setdiff, setequal, union
+–°–ª–µ–¥—É—é—â–∏–µ –æ–±—ä–µ–∫—Ç—ã —Å–∫—Ä—ã—Ç—ã –æ—Ç ‚Äòpackage:base‚Äô:
+  
+  intersect, setdiff, setequal, union
 
 > 
-> # — ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË rename Ô‡ÍÂÚ‡ dplyr
-> # ÔÂÂËÏÂÌÓ‚˚‚‡ÂÏ ÔÂÂÏÂÌÌÛ˛ region ‚ ÔÂÂÏÂÌÌÛ˛ reg,
-> # ‡ ÔÂÂÏÂÌÌÛ˛ tariff_id ‚ ÔÂÂÏÂÌÌÛ˛ tariff
+> # –° –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ rename –ø–∞–∫–µ—Ç–∞ dplyr
+> # –ø–µ—Ä–µ–∏–º–µ–Ω–æ–≤—ã–≤–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é region –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é reg,
+> # –∞ –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é tariff_id –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é tariff
 > data3 <- rename(data3, reg=region, tariff=tariff_id)
 > str(data3)
 'data.frame':   170746 obs. of  26 variables:
- $ sex                 : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
- $ age                 : num  48 28 32 27 45 ...
- $ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 4 5 ...
- $ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
- $ credit_sum          : num  59998 10889 10728 12009 16909 ...
- $ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
- $ tariff              : Factor w/ 33 levels "1","2","3","4",..: 28 2 2 2 2 2 25 2 28 2 ...
- $ score_shk           : num  0.77 0.249 0.46 0.363 0.421 ...
- $ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
- $ reg                 : Factor w/ 82 levels "¿À“¿…— »…  –¿…",..: 23 30 64 8 77 68 33 31 73 68 ...
- $ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
- $ credit_count        : num  1 2 5 2 1 0 3 3 3 7 ...
- $ overdue_credit_count: num  1 0 0 0 0 0 0 0 0 0 ...
- $ open_account_flg    : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
- $ avrzarplata         : num  51000 51000 63000 63000 63000 63000 63000 63000 63000 63000 ...
- $ ratio               : num  2 0.253 0.466 0.706 0.676 ...
- $ living_region_cnt   : int  8355 9261 2282 2293 5155 4617 3695 12844 8735 4617 ...
- $ mean_income_by_reg  : num  37261 62696 31111 31301 33760 ...
- $ conj                : chr  "GRD+MAR" "GRD+MAR" "SCH+MAR" "GRD+DIV" ...
- $ log_income          : num  10.31 10.67 10.04 9.74 10.13 ...
- $ mean_age_tenure     : num  29 17 22 19.5 27.5 ...
- $ agecat              : chr  "ÓÚ 46 ‰Ó 60 ÎÂÚ" "ÓÚ 18 ‰Ó 30 ÎÂÚ" "ÓÚ 31 ‰Ó 45 ÎÂÚ" "ÓÚ 18 ‰Ó 30 ÎÂÚ" ...
- $ agecat2             : Factor w/ 4 levels "[18,30]","(30,45]",..: 3 1 2 1 2 2 2 1 1 2 ...
- $ jobcat              : Factor w/ 4 levels "cat1","cat2",..: 1 1 1 1 1 1 1 1 1 1 ...
- $ age_decile          : Ord.factor w/ 10 levels "[18,24]"<"(24,27]"<..: 9 3 4 2 8 6 6 2 1 4 ...
-  ..- attr(*, "breaks")= num  18 24 27 29 32 34 38 41 45 52 ...
- $ retired             : chr  "No" "No" "No" "No" ...
+$ sex                 : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
+$ age                 : num  48 28 32 27 45 ...
+$ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 4 5 ...
+$ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
+$ credit_sum          : num  59998 10889 10728 12009 16909 ...
+$ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
+$ tariff              : Factor w/ 33 levels "1","2","3","4",..: 28 2 2 2 2 2 25 2 28 2 ...
+$ score_shk           : num  0.77 0.249 0.46 0.363 0.421 ...
+$ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
+$ reg                 : Factor w/ 82 levels "–ê–õ–¢–ê–ô–°–ö–ò–ô –ö–†–ê–ô",..: 23 30 64 8 77 68 33 31 73 68 ...
+$ monthly_income      : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
+$ credit_count        : num  1 2 5 2 1 0 3 3 3 7 ...
+$ overdue_credit_count: num  1 0 0 0 0 0 0 0 0 0 ...
+$ open_account_flg    : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
+$ avrzarplata         : num  51000 51000 63000 63000 63000 63000 63000 63000 63000 63000 ...
+$ ratio               : num  2 0.253 0.466 0.706 0.676 ...
+$ living_region_cnt   : int  8355 9261 2282 2293 5155 4617 3695 12844 8735 4617 ...
+$ mean_income_by_reg  : num  37261 62696 31111 31301 33760 ...
+$ conj                : chr  "GRD+MAR" "GRD+MAR" "SCH+MAR" "GRD+DIV" ...
+$ log_income          : num  10.31 10.67 10.04 9.74 10.13 ...
+$ mean_age_tenure     : num  29 17 22 19.5 27.5 ...
+$ agecat              : chr  "–æ—Ç 46 –¥–æ 60 –ª–µ—Ç" "–æ—Ç 18 –¥–æ 30 –ª–µ—Ç" "–æ—Ç 31 –¥–æ 45 –ª–µ—Ç" "–æ—Ç 18 –¥–æ 30 –ª–µ—Ç" ...
+$ agecat2             : Factor w/ 4 levels "[18,30]","(30,45]",..: 3 1 2 1 2 2 2 1 1 2 ...
+$ jobcat              : Factor w/ 4 levels "cat1","cat2",..: 1 1 1 1 1 1 1 1 1 1 ...
+$ age_decile          : Ord.factor w/ 10 levels "[18,24]"<"(24,27]"<..: 9 3 4 2 8 6 6 2 1 4 ...
+..- attr(*, "breaks")= num  18 24 27 29 32 34 38 41 45 52 ...
+$ retired             : chr  "No" "No" "No" "No" ...
 > 
-> # ŒÚÒÓÂ‰ËÌˇÂÏ Ô‡ÍÂÚ dplyr
+> # –û—Ç—Å–æ–µ–¥–∏–Ω—è–µ–º –ø–∞–∫–µ—Ç dplyr
 > detach("package:dplyr", unload=TRUE)
 > 
-> # 4.5.3. œÂÂËÏÂÌÓ‚˚‚‡ÂÏ ÔÂÂÏÂÌÌÛ˛ Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË setnames Ô‡ÍÂÚ‡ data.table
+> # 4.5.3. –ü–µ—Ä–µ–∏–º–µ–Ω–æ–≤—ã–≤–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ setnames –ø–∞–∫–µ—Ç–∞ data.table
 > 
-> # «‡„ÛÊ‡ÂÏ Ô‡ÍÂÚ data.table
+> # –ó–∞–≥—Ä—É–∂–∞–µ–º –ø–∞–∫–µ—Ç data.table
 > library(data.table)
 data.table 1.10.4
-  The fastest way to learn (by data.table authors): https://www.datacamp.com/courses/data-analysis-the-data-table-way
-  Documentation: ?data.table, example(data.table) and browseVignettes("data.table")
-  Release notes, videos and slides: http://r-datatable.com
+The fastest way to learn (by data.table authors): https://www.datacamp.com/courses/data-analysis-the-data-table-way
+Documentation: ?data.table, example(data.table) and browseVignettes("data.table")
+Release notes, videos and slides: http://r-datatable.com
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-data.table + dplyr code now lives in dtplyr.
+  data.table + dplyr code now lives in dtplyr.
 Please library(dtplyr)!
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-data.table + dplyr code now lives in dtplyr.
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  data.table + dplyr code now lives in dtplyr.
 Please library(dtplyr)!
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 > 
-> # — ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË setnames Ô‡ÍÂÚ‡ data.table ÔÂÂËÏÂÌÛÂÏ ÔÂÂÏÂÌÌ˚Â
-> # monthly_income Ë score_shk
+> # –° –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ setnames –ø–∞–∫–µ—Ç–∞ data.table –ø–µ—Ä–µ–∏–º–µ–Ω—É–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—ã–µ
+> # monthly_income –∏ score_shk
 > setnames(data3, old=c("monthly_income","score_shk"), new=c("income", "score"))
 > str(data3)
 'data.frame':   170746 obs. of  26 variables:
- $ sex                 : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
- $ age                 : num  48 28 32 27 45 ...
- $ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 4 5 ...
- $ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
- $ credit_sum          : num  59998 10889 10728 12009 16909 ...
- $ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
- $ tariff              : Factor w/ 33 levels "1","2","3","4",..: 28 2 2 2 2 2 25 2 28 2 ...
- $ score               : num  0.77 0.249 0.46 0.363 0.421 ...
- $ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
- $ reg                 : Factor w/ 82 levels "¿À“¿…— »…  –¿…",..: 23 30 64 8 77 68 33 31 73 68 ...
- $ income              : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
- $ credit_count        : num  1 2 5 2 1 0 3 3 3 7 ...
- $ overdue_credit_count: num  1 0 0 0 0 0 0 0 0 0 ...
- $ open_account_flg    : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
- $ avrzarplata         : num  51000 51000 63000 63000 63000 63000 63000 63000 63000 63000 ...
- $ ratio               : num  2 0.253 0.466 0.706 0.676 ...
- $ living_region_cnt   : int  8355 9261 2282 2293 5155 4617 3695 12844 8735 4617 ...
- $ mean_income_by_reg  : num  37261 62696 31111 31301 33760 ...
- $ conj                : chr  "GRD+MAR" "GRD+MAR" "SCH+MAR" "GRD+DIV" ...
- $ log_income          : num  10.31 10.67 10.04 9.74 10.13 ...
- $ mean_age_tenure     : num  29 17 22 19.5 27.5 ...
- $ agecat              : chr  "ÓÚ 46 ‰Ó 60 ÎÂÚ" "ÓÚ 18 ‰Ó 30 ÎÂÚ" "ÓÚ 31 ‰Ó 45 ÎÂÚ" "ÓÚ 18 ‰Ó 30 ÎÂÚ" ...
- $ agecat2             : Factor w/ 4 levels "[18,30]","(30,45]",..: 3 1 2 1 2 2 2 1 1 2 ...
- $ jobcat              : Factor w/ 4 levels "cat1","cat2",..: 1 1 1 1 1 1 1 1 1 1 ...
- $ age_decile          : Ord.factor w/ 10 levels "[18,24]"<"(24,27]"<..: 9 3 4 2 8 6 6 2 1 4 ...
-  ..- attr(*, "breaks")= num  18 24 27 29 32 34 38 41 45 52 ...
- $ retired             : chr  "No" "No" "No" "No" ...
+$ sex                 : Factor w/ 2 levels "F","M": 2 1 2 1 2 1 2 1 2 1 ...
+$ age                 : num  48 28 32 27 45 ...
+$ marital_status      : Factor w/ 6 levels "","CIV","DIV",..: 4 4 4 3 4 4 4 5 4 5 ...
+$ job_position        : Factor w/ 18 levels "ATP","BIS","BIU",..: 15 15 14 14 14 14 14 14 14 14 ...
+$ credit_sum          : num  59998 10889 10728 12009 16909 ...
+$ credit_month        : int  10 6 12 12 10 10 6 10 12 10 ...
+$ tariff              : Factor w/ 33 levels "1","2","3","4",..: 28 2 2 2 2 2 25 2 28 2 ...
+$ score               : num  0.77 0.249 0.46 0.363 0.421 ...
+$ education           : Factor w/ 6 levels "","ACD","GRD",..: 3 3 5 3 5 5 5 3 5 3 ...
+$ reg                 : Factor w/ 82 levels "–ê–õ–¢–ê–ô–°–ö–ò–ô –ö–†–ê–ô",..: 23 30 64 8 77 68 33 31 73 68 ...
+$ income              : int  30000 43000 23000 17000 25000 30000 28000 60000 50000 39500 ...
+$ credit_count        : num  1 2 5 2 1 0 3 3 3 7 ...
+$ overdue_credit_count: num  1 0 0 0 0 0 0 0 0 0 ...
+$ open_account_flg    : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
+$ avrzarplata         : num  51000 51000 63000 63000 63000 63000 63000 63000 63000 63000 ...
+$ ratio               : num  2 0.253 0.466 0.706 0.676 ...
+$ living_region_cnt   : int  8355 9261 2282 2293 5155 4617 3695 12844 8735 4617 ...
+$ mean_income_by_reg  : num  37261 62696 31111 31301 33760 ...
+$ conj                : chr  "GRD+MAR" "GRD+MAR" "SCH+MAR" "GRD+DIV" ...
+$ log_income          : num  10.31 10.67 10.04 9.74 10.13 ...
+$ mean_age_tenure     : num  29 17 22 19.5 27.5 ...
+$ agecat              : chr  "–æ—Ç 46 –¥–æ 60 –ª–µ—Ç" "–æ—Ç 18 –¥–æ 30 –ª–µ—Ç" "–æ—Ç 31 –¥–æ 45 –ª–µ—Ç" "–æ—Ç 18 –¥–æ 30 –ª–µ—Ç" ...
+$ agecat2             : Factor w/ 4 levels "[18,30]","(30,45]",..: 3 1 2 1 2 2 2 1 1 2 ...
+$ jobcat              : Factor w/ 4 levels "cat1","cat2",..: 1 1 1 1 1 1 1 1 1 1 ...
+$ age_decile          : Ord.factor w/ 10 levels "[18,24]"<"(24,27]"<..: 9 3 4 2 8 6 6 2 1 4 ...
+..- attr(*, "breaks")= num  18 24 27 29 32 34 38 41 45 52 ...
+$ retired             : chr  "No" "No" "No" "No" ...
 > 
-> # ŒÚÒÓÂ‰ËÌˇÂÏ Ô‡ÍÂÚ data.table
+> # –û—Ç—Å–æ–µ–¥–∏–Ω—è–µ–º –ø–∞–∫–µ—Ç data.table
 > detach("package:data.table", unload=TRUE)
 > 
-> # 4.6. œÂÂËÏÂÌÓ‚‡ÌËÂ Í‡ÚÂ„ÓËÈ ÔÂÂÏÂÌÌ˚ı
+> # 4.6. –ü–µ—Ä–µ–∏–º–µ–Ω–æ–≤–∞–Ω–∏–µ –∫–∞—Ç–µ–≥–æ—Ä–∏–π –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö
 > 
-> # 4.6.1. œÂÂËÏÂÌÓ‚˚‚‡ÂÏ Í‡ÚÂ„ÓËË ÔÂÂÏÂÌÌ˚ı Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË recode Ô‡ÍÂÚ‡ dplyr
+> # 4.6.1. –ü–µ—Ä–µ–∏–º–µ–Ω–æ–≤—ã–≤–∞–µ–º –∫–∞—Ç–µ–≥–æ—Ä–∏–∏ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ recode –ø–∞–∫–µ—Ç–∞ dplyr
 > 
-> # «‡„ÛÊ‡ÂÏ Ô‡ÍÂÚ dplyr
+> # –ó–∞–≥—Ä—É–∂–∞–µ–º –ø–∞–∫–µ—Ç dplyr
 > library(dplyr)
 
-œËÒÓÂ‰ËÌˇ˛ Ô‡ÍÂÚ: ëdplyrí
+–ü—Ä–∏—Å–æ–µ–¥–∏–Ω—è—é –ø–∞–∫–µ—Ç: ‚Äòdplyr‚Äô
 
-—ÎÂ‰Û˛˘ËÂ Ó·˙ÂÍÚ˚ ÒÍ˚Ú˚ ÓÚ ëpackage:memiscí:
+–°–ª–µ–¥—É—é—â–∏–µ –æ–±—ä–µ–∫—Ç—ã —Å–∫—Ä—ã—Ç—ã –æ—Ç ‚Äòpackage:memisc‚Äô:
+  
+  collect, query, recode, rename
 
-    collect, query, recode, rename
+–°–ª–µ–¥—É—é—â–∏–π –æ–±—ä–µ–∫—Ç —Å–∫—Ä—ã—Ç –æ—Ç ‚Äòpackage:MASS‚Äô:
+  
+  select
 
-—ÎÂ‰Û˛˘ËÈ Ó·˙ÂÍÚ ÒÍ˚Ú ÓÚ ëpackage:MASSí:
+–°–ª–µ–¥—É—é—â–∏–π –æ–±—ä–µ–∫—Ç —Å–∫—Ä—ã—Ç –æ—Ç ‚Äòpackage:imputeMissings‚Äô:
+  
+  compute
 
-    select
+–°–ª–µ–¥—É—é—â–∏–µ –æ–±—ä–µ–∫—Ç—ã —Å–∫—Ä—ã—Ç—ã –æ—Ç ‚Äòpackage:stats‚Äô:
+  
+  filter, lag
 
-—ÎÂ‰Û˛˘ËÈ Ó·˙ÂÍÚ ÒÍ˚Ú ÓÚ ëpackage:imputeMissingsí:
-
-    compute
-
-—ÎÂ‰Û˛˘ËÂ Ó·˙ÂÍÚ˚ ÒÍ˚Ú˚ ÓÚ ëpackage:statsí:
-
-    filter, lag
-
-—ÎÂ‰Û˛˘ËÂ Ó·˙ÂÍÚ˚ ÒÍ˚Ú˚ ÓÚ ëpackage:baseí:
-
-    intersect, setdiff, setequal, union
+–°–ª–µ–¥—É—é—â–∏–µ –æ–±—ä–µ–∫—Ç—ã —Å–∫—Ä—ã—Ç—ã –æ—Ç ‚Äòpackage:base‚Äô:
+  
+  intersect, setdiff, setequal, union
 
 > 
-> # — ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË recode Ô‡ÍÂÚ‡ dplyr ÔÂÂËÏÂÌÓ‚˚‚‡ÂÏ 
-> # Í‡ÚÂ„ÓËË ÔÂÂÏÂÌÌÓÈ marital_status
+> # –° –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ recode –ø–∞–∫–µ—Ç–∞ dplyr –ø–µ—Ä–µ–∏–º–µ–Ω–æ–≤—ã–≤–∞–µ–º 
+> # –∫–∞—Ç–µ–≥–æ—Ä–∏–∏ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π marital_status
 > data3$marital_status <- recode(data3$marital_status, 
-+                                MAR="Married", DIV="Divorced", WID="Widowed",
-+                                UNM="Unmarried", CIV="Civil union")
+                                 MAR="Married", DIV="Divorced", WID="Widowed",
+                                 UNM="Unmarried", CIV="Civil union")
 > head(data3, 10)
-   sex      age marital_status job_position credit_sum credit_month tariff    score education                   reg income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt mean_income_by_reg
-1    M 48.00000        Married          UMN   59998.00           10     28 0.770249       GRD     –¿—ÕŒƒ¿–— »…  –¿…  30000            1                    1                0       51000 1.9999333              8355           37260.77
-2    F 28.00000        Married          UMN   10889.00            6      2 0.248514       GRD                ÃŒ— ¬¿  43000            2                    0                0       51000 0.2532326              9261           62696.12
-3    M 32.00000        Married          SPC   10728.00           12      2 0.459589       SCH   —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹  23000            5                    0                0       63000 0.4664348              2282           31110.90
-4    F 27.00000       Divorced          SPC   12009.09           12      2 0.362536       GRD ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹  17000            2                    0                0       63000 0.7064171              2293           31301.44
-5    M 45.00000        Married          SPC   16908.89           10      2 0.421385       SCH   ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹  25000            1                    0                0       63000 0.6763556              5155           33759.67
-6    F 37.00000        Married          SPC   26788.00           10      2 0.484203       SCH   —“¿¬–ŒœŒÀ‹— »…  –¿…  30000            0                    0                0       63000 0.8929333              4617           32335.76
-7    M 36.49731        Married          SPC   10317.00            6     25 0.276012       SCH Õ»∆≈√Œ–Œƒ— ¿ﬂ Œ¡À¿—“‹  28000            3                    0                0       63000 0.3684643              3695           34254.01
-8    F 26.00000      Unmarried          SPC   47878.00           10      2 0.512525       GRD    ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹  60000            3                    0                0       63000 0.7979667             12844           53064.73
-9    M 23.00000        Married          SPC   37577.16           12     28 0.642267       SCH     “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹  50000            3                    0                0       63000 0.7515432              8735           48550.90
-10   F 32.00000      Unmarried          SPC   26268.00           10      2 0.465026       GRD   —“¿¬–ŒœŒÀ‹— »…  –¿…  39500            7                    0                0       63000 0.6650127              4617           32335.76
-      conj log_income mean_age_tenure          agecat agecat2 jobcat age_decile retired
-1  GRD+MAR  10.308953        29.00000 ÓÚ 46 ‰Ó 60 ÎÂÚ (45,60]   cat1    (45,52]      No
-2  GRD+MAR  10.668955        17.00000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]   cat1    (27,29]      No
-3  SCH+MAR  10.043249        22.00000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (29,32]      No
-4  GRD+DIV   9.740969        19.50000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]   cat1    (24,27]      No
-5  SCH+MAR  10.126631        27.50000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (41,45]      No
-6  SCH+MAR  10.308953        23.50000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (34,38]      No
-7  SCH+MAR  10.239960        21.24866 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (34,38]      No
-8  GRD+UNM  11.002100        18.00000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]   cat1    (24,27]      No
-9  SCH+MAR  10.819778        17.50000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]   cat1    [18,24]      No
-10 GRD+UNM  10.584056        21.00000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (29,32]      No
+sex      age marital_status job_position credit_sum credit_month tariff    score education                   reg income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt mean_income_by_reg
+1    M 48.00000        Married          UMN   59998.00           10     28 0.770249       GRD    –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô  30000            1                    1                0       51000 1.9999333              8355           37260.77
+2    F 28.00000        Married          UMN   10889.00            6      2 0.248514       GRD                –ú–û–°–ö–í–ê  43000            2                    0                0       51000 0.2532326              9261           62696.12
+3    M 32.00000        Married          SPC   10728.00           12      2 0.459589       SCH   –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  23000            5                    0                0       63000 0.4664348              2282           31110.90
+4    F 27.00000       Divorced          SPC   12009.09           12      2 0.362536       GRD –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  17000            2                    0                0       63000 0.7064171              2293           31301.44
+5    M 45.00000        Married          SPC   16908.89           10      2 0.421385       SCH   –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  25000            1                    0                0       63000 0.6763556              5155           33759.67
+6    F 37.00000        Married          SPC   26788.00           10      2 0.484203       SCH   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô  30000            0                    0                0       63000 0.8929333              4617           32335.76
+7    M 36.49731        Married          SPC   10317.00            6     25 0.276012       SCH –ù–ò–ñ–ï–ì–û–†–û–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  28000            3                    0                0       63000 0.3684643              3695           34254.01
+8    F 26.00000      Unmarried          SPC   47878.00           10      2 0.512525       GRD    –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  60000            3                    0                0       63000 0.7979667             12844           53064.73
+9    M 23.00000        Married          SPC   37577.16           12     28 0.642267       SCH     –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  50000            3                    0                0       63000 0.7515432              8735           48550.90
+10   F 32.00000      Unmarried          SPC   26268.00           10      2 0.465026       GRD   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô  39500            7                    0                0       63000 0.6650127              4617           32335.76
+conj log_income mean_age_tenure          agecat agecat2 jobcat age_decile retired
+1  GRD+MAR  10.308953        29.00000 –æ—Ç 46 –¥–æ 60 –ª–µ—Ç (45,60]   cat1    (45,52]      No
+2  GRD+MAR  10.668955        17.00000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]   cat1    (27,29]      No
+3  SCH+MAR  10.043249        22.00000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (29,32]      No
+4  GRD+DIV   9.740969        19.50000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]   cat1    (24,27]      No
+5  SCH+MAR  10.126631        27.50000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (41,45]      No
+6  SCH+MAR  10.308953        23.50000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (34,38]      No
+7  SCH+MAR  10.239960        21.24866 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (34,38]      No
+8  GRD+UNM  11.002100        18.00000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]   cat1    (24,27]      No
+9  SCH+MAR  10.819778        17.50000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]   cat1    [18,24]      No
+10 GRD+UNM  10.584056        21.00000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (29,32]      No
 > 
-> # ŒÚÒÓÂ‰ËÌˇÂÏ Ô‡ÍÂÚ dplyr
+> # –û—Ç—Å–æ–µ–¥–∏–Ω—è–µ–º –ø–∞–∫–µ—Ç dplyr
 > detach("package:dplyr", unload=TRUE)
 > 
-> # 4.6.2. œÂÂËÏÂÌÓ‚˚‚‡ÂÏ Í‡ÚÂ„ÓËË ÔÂÂÏÂÌÌ˚ı Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË revalue Ô‡ÍÂÚ‡ plyr
+> # 4.6.2. –ü–µ—Ä–µ–∏–º–µ–Ω–æ–≤—ã–≤–∞–µ–º –∫–∞—Ç–µ–≥–æ—Ä–∏–∏ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ revalue –ø–∞–∫–µ—Ç–∞ plyr
 > 
-> # «‡„ÛÊ‡ÂÏ Ô‡ÍÂÚ plyr
+> # –ó–∞–≥—Ä—É–∂–∞–µ–º –ø–∞–∫–µ—Ç plyr
 > library(plyr)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-You have loaded plyr after dplyr - this is likely to cause problems.
+  You have loaded plyr after dplyr - this is likely to cause problems.
 If you need functions from both plyr and dplyr, please load plyr first, then dplyr:
-library(plyr); library(dplyr)
+  library(plyr); library(dplyr)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-You have loaded plyr after dplyr - this is likely to cause problems.
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  You have loaded plyr after dplyr - this is likely to cause problems.
 If you need functions from both plyr and dplyr, please load plyr first, then dplyr:
-library(plyr); library(dplyr)
+  library(plyr); library(dplyr)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-You have loaded plyr after dplyr - this is likely to cause problems.
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  You have loaded plyr after dplyr - this is likely to cause problems.
 If you need functions from both plyr and dplyr, please load plyr first, then dplyr:
-library(plyr); library(dplyr)
+  library(plyr); library(dplyr)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+  –ü—Ä–∏—Å–æ–µ–¥–∏–Ω—è—é –ø–∞–∫–µ—Ç: ‚Äòplyr‚Äô
 
-œËÒÓÂ‰ËÌˇ˛ Ô‡ÍÂÚ: ëplyrí
-
-—ÎÂ‰Û˛˘ËÈ Ó·˙ÂÍÚ ÒÍ˚Ú ÓÚ ëpackage:memiscí:
-
-    rename
+–°–ª–µ–¥—É—é—â–∏–π –æ–±—ä–µ–∫—Ç —Å–∫—Ä—ã—Ç –æ—Ç ‚Äòpackage:memisc‚Äô:
+  
+  rename
 
 > 
-> # — ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË revalue Ô‡ÍÂÚ‡ plyr ÔÂÂËÏÂÌÓ‚˚‚‡ÂÏ 
-> # Í‡ÚÂ„ÓËË ÔÂÂÏÂÌÌÓÈ sex
+> # –° –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ revalue –ø–∞–∫–µ—Ç–∞ plyr –ø–µ—Ä–µ–∏–º–µ–Ω–æ–≤—ã–≤–∞–µ–º 
+> # –∫–∞—Ç–µ–≥–æ—Ä–∏–∏ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π sex
 > data3$sex <- revalue(data3$sex, c("M"="male", "F"="female"))
 > head(data3, 10)
-      sex      age marital_status job_position credit_sum credit_month tariff    score education                   reg income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt
-1    male 48.00000        Married          UMN   59998.00           10     28 0.770249       GRD     –¿—ÕŒƒ¿–— »…  –¿…  30000            1                    1                0       51000 1.9999333              8355
-2  female 28.00000        Married          UMN   10889.00            6      2 0.248514       GRD                ÃŒ— ¬¿  43000            2                    0                0       51000 0.2532326              9261
-3    male 32.00000        Married          SPC   10728.00           12      2 0.459589       SCH   —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹  23000            5                    0                0       63000 0.4664348              2282
-4  female 27.00000       Divorced          SPC   12009.09           12      2 0.362536       GRD ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹  17000            2                    0                0       63000 0.7064171              2293
-5    male 45.00000        Married          SPC   16908.89           10      2 0.421385       SCH   ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹  25000            1                    0                0       63000 0.6763556              5155
-6  female 37.00000        Married          SPC   26788.00           10      2 0.484203       SCH   —“¿¬–ŒœŒÀ‹— »…  –¿…  30000            0                    0                0       63000 0.8929333              4617
-7    male 36.49731        Married          SPC   10317.00            6     25 0.276012       SCH Õ»∆≈√Œ–Œƒ— ¿ﬂ Œ¡À¿—“‹  28000            3                    0                0       63000 0.3684643              3695
-8  female 26.00000      Unmarried          SPC   47878.00           10      2 0.512525       GRD    ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹  60000            3                    0                0       63000 0.7979667             12844
-9    male 23.00000        Married          SPC   37577.16           12     28 0.642267       SCH     “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹  50000            3                    0                0       63000 0.7515432              8735
-10 female 32.00000      Unmarried          SPC   26268.00           10      2 0.465026       GRD   —“¿¬–ŒœŒÀ‹— »…  –¿…  39500            7                    0                0       63000 0.6650127              4617
-   mean_income_by_reg    conj log_income mean_age_tenure          agecat agecat2 jobcat age_decile retired
-1            37260.77 GRD+MAR  10.308953        29.00000 ÓÚ 46 ‰Ó 60 ÎÂÚ (45,60]   cat1    (45,52]      No
-2            62696.12 GRD+MAR  10.668955        17.00000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]   cat1    (27,29]      No
-3            31110.90 SCH+MAR  10.043249        22.00000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (29,32]      No
-4            31301.44 GRD+DIV   9.740969        19.50000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]   cat1    (24,27]      No
-5            33759.67 SCH+MAR  10.126631        27.50000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (41,45]      No
-6            32335.76 SCH+MAR  10.308953        23.50000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (34,38]      No
-7            34254.01 SCH+MAR  10.239960        21.24866 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (34,38]      No
-8            53064.73 GRD+UNM  11.002100        18.00000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]   cat1    (24,27]      No
-9            48550.90 SCH+MAR  10.819778        17.50000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]   cat1    [18,24]      No
-10           32335.76 GRD+UNM  10.584056        21.00000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (29,32]      No
+sex      age marital_status job_position credit_sum credit_month tariff    score education                   reg income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt
+1    male 48.00000        Married          UMN   59998.00           10     28 0.770249       GRD    –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô  30000            1                    1                0       51000 1.9999333              8355
+2  female 28.00000        Married          UMN   10889.00            6      2 0.248514       GRD                –ú–û–°–ö–í–ê  43000            2                    0                0       51000 0.2532326              9261
+3    male 32.00000        Married          SPC   10728.00           12      2 0.459589       SCH   –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  23000            5                    0                0       63000 0.4664348              2282
+4  female 27.00000       Divorced          SPC   12009.09           12      2 0.362536       GRD –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  17000            2                    0                0       63000 0.7064171              2293
+5    male 45.00000        Married          SPC   16908.89           10      2 0.421385       SCH   –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  25000            1                    0                0       63000 0.6763556              5155
+6  female 37.00000        Married          SPC   26788.00           10      2 0.484203       SCH   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô  30000            0                    0                0       63000 0.8929333              4617
+7    male 36.49731        Married          SPC   10317.00            6     25 0.276012       SCH –ù–ò–ñ–ï–ì–û–†–û–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  28000            3                    0                0       63000 0.3684643              3695
+8  female 26.00000      Unmarried          SPC   47878.00           10      2 0.512525       GRD    –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  60000            3                    0                0       63000 0.7979667             12844
+9    male 23.00000        Married          SPC   37577.16           12     28 0.642267       SCH     –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  50000            3                    0                0       63000 0.7515432              8735
+10 female 32.00000      Unmarried          SPC   26268.00           10      2 0.465026       GRD   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô  39500            7                    0                0       63000 0.6650127              4617
+mean_income_by_reg    conj log_income mean_age_tenure          agecat agecat2 jobcat age_decile retired
+1            37260.77 GRD+MAR  10.308953        29.00000 –æ—Ç 46 –¥–æ 60 –ª–µ—Ç (45,60]   cat1    (45,52]      No
+2            62696.12 GRD+MAR  10.668955        17.00000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]   cat1    (27,29]      No
+3            31110.90 SCH+MAR  10.043249        22.00000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (29,32]      No
+4            31301.44 GRD+DIV   9.740969        19.50000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]   cat1    (24,27]      No
+5            33759.67 SCH+MAR  10.126631        27.50000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (41,45]      No
+6            32335.76 SCH+MAR  10.308953        23.50000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (34,38]      No
+7            34254.01 SCH+MAR  10.239960        21.24866 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (34,38]      No
+8            53064.73 GRD+UNM  11.002100        18.00000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]   cat1    (24,27]      No
+9            48550.90 SCH+MAR  10.819778        17.50000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]   cat1    [18,24]      No
+10           32335.76 GRD+UNM  10.584056        21.00000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (29,32]      No
 > 
-> # 4.6.3. œÂÂËÏÂÌÓ‚˚‚‡ÂÏ Í‡ÚÂ„ÓËË ÔÂÂÏÂÌÌ˚ı Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË mapvalues Ô‡ÍÂÚ‡ plyr
+> # 4.6.3. –ü–µ—Ä–µ–∏–º–µ–Ω–æ–≤—ã–≤–∞–µ–º –∫–∞—Ç–µ–≥–æ—Ä–∏–∏ –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ mapvalues –ø–∞–∫–µ—Ç–∞ plyr
 > 
-> # — ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË mapvalues Ô‡ÍÂÚ‡ plyr ÔÂÂËÏÂÌÓ‚˚‚‡ÂÏ 
-> # Ó·‡ÚÌÓ Í‡ÚÂ„ÓËË ÔÂÂÏÂÌÌÓÈ sex
+> # –° –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ mapvalues –ø–∞–∫–µ—Ç–∞ plyr –ø–µ—Ä–µ–∏–º–µ–Ω–æ–≤—ã–≤–∞–µ–º 
+> # –æ–±—Ä–∞—Ç–Ω–æ –∫–∞—Ç–µ–≥–æ—Ä–∏–∏ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π sex
 > data3$sex <- mapvalues(data3$sex, from = c("male", "female"), to = c("M", "F"))
 > head(data3, 10)
-   sex      age marital_status job_position credit_sum credit_month tariff    score education                   reg income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt mean_income_by_reg
-1    M 48.00000        Married          UMN   59998.00           10     28 0.770249       GRD     –¿—ÕŒƒ¿–— »…  –¿…  30000            1                    1                0       51000 1.9999333              8355           37260.77
-2    F 28.00000        Married          UMN   10889.00            6      2 0.248514       GRD                ÃŒ— ¬¿  43000            2                    0                0       51000 0.2532326              9261           62696.12
-3    M 32.00000        Married          SPC   10728.00           12      2 0.459589       SCH   —¿–¿“Œ¬— ¿ﬂ Œ¡À¿—“‹  23000            5                    0                0       63000 0.4664348              2282           31110.90
-4    F 27.00000       Divorced          SPC   12009.09           12      2 0.362536       GRD ¬ŒÀ√Œ√–¿ƒ— ¿ﬂ Œ¡À¿—“‹  17000            2                    0                0       63000 0.7064171              2293           31301.44
-5    M 45.00000        Married          SPC   16908.89           10      2 0.421385       SCH   ◊≈Àﬂ¡»Õ— ¿ﬂ Œ¡À¿—“‹  25000            1                    0                0       63000 0.6763556              5155           33759.67
-6    F 37.00000        Married          SPC   26788.00           10      2 0.484203       SCH   —“¿¬–ŒœŒÀ‹— »…  –¿…  30000            0                    0                0       63000 0.8929333              4617           32335.76
-7    M 36.49731        Married          SPC   10317.00            6     25 0.276012       SCH Õ»∆≈√Œ–Œƒ— ¿ﬂ Œ¡À¿—“‹  28000            3                    0                0       63000 0.3684643              3695           34254.01
-8    F 26.00000      Unmarried          SPC   47878.00           10      2 0.512525       GRD    ÃŒ— Œ¬— ¿ﬂ Œ¡À¿—“‹  60000            3                    0                0       63000 0.7979667             12844           53064.73
-9    M 23.00000        Married          SPC   37577.16           12     28 0.642267       SCH     “ﬁÃ≈Õ— ¿ﬂ Œ¡À¿—“‹  50000            3                    0                0       63000 0.7515432              8735           48550.90
-10   F 32.00000      Unmarried          SPC   26268.00           10      2 0.465026       GRD   —“¿¬–ŒœŒÀ‹— »…  –¿…  39500            7                    0                0       63000 0.6650127              4617           32335.76
-      conj log_income mean_age_tenure          agecat agecat2 jobcat age_decile retired
-1  GRD+MAR  10.308953        29.00000 ÓÚ 46 ‰Ó 60 ÎÂÚ (45,60]   cat1    (45,52]      No
-2  GRD+MAR  10.668955        17.00000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]   cat1    (27,29]      No
-3  SCH+MAR  10.043249        22.00000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (29,32]      No
-4  GRD+DIV   9.740969        19.50000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]   cat1    (24,27]      No
-5  SCH+MAR  10.126631        27.50000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (41,45]      No
-6  SCH+MAR  10.308953        23.50000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (34,38]      No
-7  SCH+MAR  10.239960        21.24866 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (34,38]      No
-8  GRD+UNM  11.002100        18.00000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]   cat1    (24,27]      No
-9  SCH+MAR  10.819778        17.50000 ÓÚ 18 ‰Ó 30 ÎÂÚ [18,30]   cat1    [18,24]      No
-10 GRD+UNM  10.584056        21.00000 ÓÚ 31 ‰Ó 45 ÎÂÚ (30,45]   cat1    (29,32]      No
+  sex      age marital_status job_position credit_sum credit_month tariff    score education                   reg income credit_count overdue_credit_count open_account_flg avrzarplata     ratio living_region_cnt mean_income_by_reg
+  1    M 48.00000        Married          UMN   59998.00           10     28 0.770249       GRD    –ö–†–ê–°–ù–û–î–ê–†–°–ö–ò–ô –ö–†–ê–ô  30000            1                    1                0       51000 1.9999333              8355           37260.77
+  2    F 28.00000        Married          UMN   10889.00            6      2 0.248514       GRD                –ú–û–°–ö–í–ê  43000            2                    0                0       51000 0.2532326              9261           62696.12
+  3    M 32.00000        Married          SPC   10728.00           12      2 0.459589       SCH   –°–ê–†–ê–¢–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  23000            5                    0                0       63000 0.4664348              2282           31110.90
+  4    F 27.00000       Divorced          SPC   12009.09           12      2 0.362536       GRD –í–û–õ–ì–û–ì–†–ê–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  17000            2                    0                0       63000 0.7064171              2293           31301.44
+  5    M 45.00000        Married          SPC   16908.89           10      2 0.421385       SCH   –ß–ï–õ–Ø–ë–ò–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  25000            1                    0                0       63000 0.6763556              5155           33759.67
+  6    F 37.00000        Married          SPC   26788.00           10      2 0.484203       SCH   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô  30000            0                    0                0       63000 0.8929333              4617           32335.76
+  7    M 36.49731        Married          SPC   10317.00            6     25 0.276012       SCH –ù–ò–ñ–ï–ì–û–†–û–î–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  28000            3                    0                0       63000 0.3684643              3695           34254.01
+  8    F 26.00000      Unmarried          SPC   47878.00           10      2 0.512525       GRD    –ú–û–°–ö–û–í–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  60000            3                    0                0       63000 0.7979667             12844           53064.73
+  9    M 23.00000        Married          SPC   37577.16           12     28 0.642267       SCH     –¢–Æ–ú–ï–ù–°–ö–ê–Ø –û–ë–õ–ê–°–¢–¨  50000            3                    0                0       63000 0.7515432              8735           48550.90
+  10   F 32.00000      Unmarried          SPC   26268.00           10      2 0.465026       GRD   –°–¢–ê–í–†–û–ü–û–õ–¨–°–ö–ò–ô –ö–†–ê–ô  39500            7                    0                0       63000 0.6650127              4617           32335.76
+  conj log_income mean_age_tenure          agecat agecat2 jobcat age_decile retired
+1  GRD+MAR  10.308953        29.00000 –æ—Ç 46 –¥–æ 60 –ª–µ—Ç (45,60]   cat1    (45,52]      No
+2  GRD+MAR  10.668955        17.00000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]   cat1    (27,29]      No
+3  SCH+MAR  10.043249        22.00000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (29,32]      No
+4  GRD+DIV   9.740969        19.50000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]   cat1    (24,27]      No
+5  SCH+MAR  10.126631        27.50000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (41,45]      No
+6  SCH+MAR  10.308953        23.50000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (34,38]      No
+7  SCH+MAR  10.239960        21.24866 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (34,38]      No
+8  GRD+UNM  11.002100        18.00000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]   cat1    (24,27]      No
+9  SCH+MAR  10.819778        17.50000 –æ—Ç 18 –¥–æ 30 –ª–µ—Ç [18,30]   cat1    [18,24]      No
+10 GRD+UNM  10.584056        21.00000 –æ—Ç 31 –¥–æ 45 –ª–µ—Ç (30,45]   cat1    (29,32]      No
 > 
-> # ŒÚÒÓÂ‰ËÌˇÂÏ Ô‡ÍÂÚ plyr
+> # –û—Ç—Å–æ–µ–¥–∏–Ω—è–µ–º –ø–∞–∫–µ—Ç plyr
 > detach("package:plyr", unload=TRUE)
-œÂ‰ÛÔÂÊ‰ÂÌËÂ:
-ëplyrí ÔÓÒÚ‡ÌÒÚ‚Ó ËÏÂÌ ÌÂÎ¸Áˇ ‚˚„ÛÁËÚ¸:
-  ÔÓÒÚ‡ÌÒÚ‚Ó ËÏÂÌ ëplyrí ËÏÔÓÚËÓ‚‡ÌÓ ËÁ ëggplot2í, ëscalesí Ë ÔÓÚÓÏÛ Â„Ó ÌÂÎ¸Áˇ ‚˚„ÛÁËÚ¸ 
+–ü—Ä–µ–¥—É–ø—Ä–µ–∂–¥–µ–Ω–∏–µ:
+  ‚Äòplyr‚Äô –ø—Ä–æ—Å—Ç—Ä–∞–Ω—Å—Ç–≤–æ –∏–º–µ–Ω –Ω–µ–ª—å–∑—è –≤—ã–≥—Ä—É–∑–∏—Ç—å:
+  –ø—Ä–æ—Å—Ç—Ä–∞–Ω—Å—Ç–≤–æ –∏–º–µ–Ω ‚Äòplyr‚Äô –∏–º–ø–æ—Ä—Ç–∏—Ä–æ–≤–∞–Ω–æ –∏–∑ ‚Äòggplot2‚Äô, ‚Äòscales‚Äô –∏ –ø–æ—Ç–æ–º—É –µ–≥–æ –Ω–µ–ª—å–∑—è –≤—ã–≥—Ä—É–∑–∏—Ç—å 
 > 
-> # 4.7. √ÛÔÔËÓ‚Í‡ ‰‡ÌÌ˚ı
+> # 4.7. –ì—Ä—É–ø–ø–∏—Ä–æ–≤–∫–∞ –¥–∞–Ω–Ω—ã—Ö
 > 
-> # ¬˚˜ËÒÎËÏ ÒÂ‰ÌËÈ ÏÂÒˇ˜Ì˚È Á‡‡·ÓÚÓÍ ‰Îˇ Í‡Ê‰Ó„Ó ÁÌ‡˜ÂÌËˇ 
-> # ÔÂÂÏÂÌÌÓÈ job_position
+> # –í—ã—á–∏—Å–ª–∏–º —Å—Ä–µ–¥–Ω–∏–π –º–µ—Å—è—á–Ω—ã–π –∑–∞—Ä–∞–±–æ—Ç–æ–∫ –¥–ª—è –∫–∞–∂–¥–æ–≥–æ –∑–Ω–∞—á–µ–Ω–∏—è 
+> # –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π job_position
 > aggregate(data3$income, list(data3$job_position), mean)
-   Group.1        x
+Group.1        x
 1      ATP 29717.37
 2      BIS 59556.53
 3      BIU 41508.73
@@ -1895,10 +1891,10 @@ library(plyr); library(dplyr)
 17     WRK 37029.19
 18     WRP 38859.83
 > 
-> # ¬˚˜ËÒÎËÏ ÒÂ‰ÌËÈ ÏÂÒˇ˜Ì˚È Á‡‡·ÓÚÓÍ ‰Îˇ Í‡Ê‰Ó„Ó ÁÌ‡˜ÂÌËˇ 
-> # ÔÂÂÏÂÌÌÓÈ job_position ·ÓÎÂÂ Û‰Ó·Ì˚Ï ÒÔÓÒÓ·ÓÏ
+> # –í—ã—á–∏—Å–ª–∏–º —Å—Ä–µ–¥–Ω–∏–π –º–µ—Å—è—á–Ω—ã–π –∑–∞—Ä–∞–±–æ—Ç–æ–∫ –¥–ª—è –∫–∞–∂–¥–æ–≥–æ –∑–Ω–∞—á–µ–Ω–∏—è 
+> # –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π job_position –±–æ–ª–µ–µ —É–¥–æ–±–Ω—ã–º —Å–ø–æ—Å–æ–±–æ–º
 > aggregate(income ~ job_position, data3, mean)
-   job_position   income
+job_position   income
 1           ATP 29717.37
 2           BIS 59556.53
 3           BIU 41508.73
@@ -1918,46 +1914,46 @@ library(plyr); library(dplyr)
 17          WRK 37029.19
 18          WRP 38859.83
 > 
-> # ¬˚˜ËÒÎËÏ ÒÂ‰ÌËÈ ÏÂÒˇ˜Ì˚È Á‡‡·ÓÚÓÍ ‰Îˇ Í‡Ê‰Ó„Ó ÁÌ‡˜ÂÌËˇ 
-> # ÔÂÂÏÂÌÌÓÈ job_position Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË tapply
+> # –í—ã—á–∏—Å–ª–∏–º —Å—Ä–µ–¥–Ω–∏–π –º–µ—Å—è—á–Ω—ã–π –∑–∞—Ä–∞–±–æ—Ç–æ–∫ –¥–ª—è –∫–∞–∂–¥–æ–≥–æ –∑–Ω–∞—á–µ–Ω–∏—è 
+> # –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π job_position —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ tapply
 > tapply(data3$income, data3$job_position, FUN=mean)
-     ATP      BIS      BIU      DIR      HSK      INP      INV      NOR      ONB      PNA      PNI      PNS      PNV      SPC      UMN      WOI      WRK      WRP 
+ATP      BIS      BIU      DIR      HSK      INP      INV      NOR      ONB      PNA      PNI      PNS      PNV      SPC      UMN      WOI      WRK      WRP 
 29717.37 59556.53 41508.73 67521.52 31250.00 65553.94 25680.00 36650.98 17000.00 22575.58 20367.69 39591.67 23335.30 38111.61 49431.94 35983.68 37029.19 38859.83 
 > 
-> # «‡„ÛÁËÏ dplyr Ë ‚˚˜ËÒÎËÏ Ò ÔÓÏÓ˘¸˛ ÌÂ„Ó ÒÂ‰ÌËÈ ÏÂÒˇ˜Ì˚È Á‡‡·ÓÚÓÍ 
-> # ‰Îˇ Í‡Ê‰Ó„Ó ÁÌ‡˜ÂÌËˇ ÔÂÂÏÂÌÌÓÈ job_position, Ó·‡ÚËÚÂ ‚ÌËÏ‡ÌËÂ, Ï˚
-> # ‚ÓÒÔÓÎ¸ÁÛÂÏÒˇ ‚ÂÏÂÌÌ˚Ï ‰‡Ú‡ÙÂÈÏÓÏ, ‚ ÍÓÚÓÓÏ ÔÂÂÏÂÌÌ‡ˇ income Á‡ÔËÒ‡Ì‡
-> # ‚ ËÒıÓ‰ÌÓÏ ‚‡Ë‡ÌÚÂ Í‡Í monthly_income
+> # –ó–∞–≥—Ä—É–∑–∏–º dplyr –∏ –≤—ã—á–∏—Å–ª–∏–º —Å –ø–æ–º–æ—â—å—é –Ω–µ–≥–æ —Å—Ä–µ–¥–Ω–∏–π –º–µ—Å—è—á–Ω—ã–π –∑–∞—Ä–∞–±–æ—Ç–æ–∫ 
+> # –¥–ª—è –∫–∞–∂–¥–æ–≥–æ –∑–Ω–∞—á–µ–Ω–∏—è –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π job_position, –æ–±—Ä–∞—Ç–∏—Ç–µ –≤–Ω–∏–º–∞–Ω–∏–µ, –º—ã
+> # –≤–æ—Å–ø–æ–ª—å–∑—É–µ–º—Å—è –≤—Ä–µ–º–µ–Ω–Ω—ã–º –¥–∞—Ç–∞—Ñ—Ä–µ–π–º–æ–º, –≤ –∫–æ—Ç–æ—Ä–æ–º –ø–µ—Ä–µ–º–µ–Ω–Ω–∞—è income –∑–∞–ø–∏—Å–∞–Ω–∞
+> # –≤ –∏—Å—Ö–æ–¥–Ω–æ–º –≤–∞—Ä–∏–∞–Ω—Ç–µ –∫–∞–∫ monthly_income
 > library(dplyr)
 
-œËÒÓÂ‰ËÌˇ˛ Ô‡ÍÂÚ: ëdplyrí
+–ü—Ä–∏—Å–æ–µ–¥–∏–Ω—è—é –ø–∞–∫–µ—Ç: ‚Äòdplyr‚Äô
 
-—ÎÂ‰Û˛˘ËÂ Ó·˙ÂÍÚ˚ ÒÍ˚Ú˚ ÓÚ ëpackage:memiscí:
+–°–ª–µ–¥—É—é—â–∏–µ –æ–±—ä–µ–∫—Ç—ã —Å–∫—Ä—ã—Ç—ã –æ—Ç ‚Äòpackage:memisc‚Äô:
+  
+  collect, query, recode, rename
 
-    collect, query, recode, rename
+–°–ª–µ–¥—É—é—â–∏–π –æ–±—ä–µ–∫—Ç —Å–∫—Ä—ã—Ç –æ—Ç ‚Äòpackage:MASS‚Äô:
+  
+  select
 
-—ÎÂ‰Û˛˘ËÈ Ó·˙ÂÍÚ ÒÍ˚Ú ÓÚ ëpackage:MASSí:
+–°–ª–µ–¥—É—é—â–∏–π –æ–±—ä–µ–∫—Ç —Å–∫—Ä—ã—Ç –æ—Ç ‚Äòpackage:imputeMissings‚Äô:
+  
+  compute
 
-    select
+–°–ª–µ–¥—É—é—â–∏–µ –æ–±—ä–µ–∫—Ç—ã —Å–∫—Ä—ã—Ç—ã –æ—Ç ‚Äòpackage:stats‚Äô:
+  
+  filter, lag
 
-—ÎÂ‰Û˛˘ËÈ Ó·˙ÂÍÚ ÒÍ˚Ú ÓÚ ëpackage:imputeMissingsí:
-
-    compute
-
-—ÎÂ‰Û˛˘ËÂ Ó·˙ÂÍÚ˚ ÒÍ˚Ú˚ ÓÚ ëpackage:statsí:
-
-    filter, lag
-
-—ÎÂ‰Û˛˘ËÂ Ó·˙ÂÍÚ˚ ÒÍ˚Ú˚ ÓÚ ëpackage:baseí:
-
-    intersect, setdiff, setequal, union
+–°–ª–µ–¥—É—é—â–∏–µ –æ–±—ä–µ–∫—Ç—ã —Å–∫—Ä—ã—Ç—ã –æ—Ç ‚Äòpackage:base‚Äô:
+  
+  intersect, setdiff, setequal, union
 
 > tmp %>% 
-+   group_by(job_position) %>%
-+   summarise(mean_income_by_job = mean(monthly_income))
+  group_by(job_position) %>%
+  summarise(mean_income_by_job = mean(monthly_income))
 # A tibble: 18 x 2
-   job_position mean_income_by_job
-         <fctr>              <dbl>
+job_position mean_income_by_job
+<fctr>              <dbl>
 1           ATP           29717.37
 2           BIS           59556.53
 3           BIU           41508.73
@@ -1977,17 +1973,17 @@ library(plyr); library(dplyr)
 17          WRK           37029.19
 18          WRP           38859.83
 > 
-> # “ÂÔÂ¸ ‚˚˜ËÒÎËÏ Ò ÔÓÏÓ˘¸˛ dplyr ÒÂ‰ÌËÈ ÏÂÒˇ˜Ì˚È Á‡‡·ÓÚÓÍ 
-> # ‰Îˇ Í‡Ê‰ÓÈ ÍÓÏ·ËÌ‡ˆËË ÁÌ‡˜ÂÌËÈ ÔÂÂÏÂÌÌ˚ı job_position Ë gender
-> # Ë Á‡ÔË¯ÂÏ ÔÓÎÛ˜ÂÌÌ˚Â ÂÁÛÎ¸Ú‡Ú˚ ‚ result
+> # –¢–µ–ø–µ—Ä—å –≤—ã—á–∏—Å–ª–∏–º —Å –ø–æ–º–æ—â—å—é dplyr —Å—Ä–µ–¥–Ω–∏–π –º–µ—Å—è—á–Ω—ã–π –∑–∞—Ä–∞–±–æ—Ç–æ–∫ 
+> # –¥–ª—è –∫–∞–∂–¥–æ–π –∫–æ–º–±–∏–Ω–∞—Ü–∏–∏ –∑–Ω–∞—á–µ–Ω–∏–π –ø–µ—Ä–µ–º–µ–Ω–Ω—ã—Ö job_position –∏ gender
+> # –∏ –∑–∞–ø–∏—à–µ–º –ø–æ–ª—É—á–µ–Ω–Ω—ã–µ —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã –≤ result
 > result <- tmp %>% 
-+   group_by(job_position, gender) %>%
-+   summarise(mean_income_gender = mean(monthly_income))
+  group_by(job_position, gender) %>%
+  summarise(mean_income_gender = mean(monthly_income))
 > 
-> # ƒÎˇ ‡Á‚ÂÌÛÚÓ„Ó, ‡ ÌÂ ÛÒÂ˜ÂÌÌÓ„Ó ‚˚‚Ó‰‡ ÂÁÛÎ¸Ú‡ÚÓ‚ 
-> # ‚ÓÒÔÓÎ¸ÁÛÂÏÒˇ data.frame
+> # –î–ª—è —Ä–∞–∑–≤–µ—Ä–Ω—É—Ç–æ–≥–æ, –∞ –Ω–µ —É—Å–µ—á–µ–Ω–Ω–æ–≥–æ –≤—ã–≤–æ–¥–∞ —Ä–µ–∑—É–ª—å—Ç–∞—Ç–æ–≤ 
+> # –≤–æ—Å–ø–æ–ª—å–∑—É–µ–º—Å—è data.frame
 > data.frame(result)
-   job_position gender mean_income_gender
+job_position gender mean_income_gender
 1           ATP      F           25992.18
 2           ATP      M           34256.88
 3           BIS      F           54021.89
@@ -2023,25 +2019,25 @@ library(plyr); library(dplyr)
 33          WRP      F           35566.94
 34          WRP      M           43616.22
 > 
-> # ŒÚÒÓÂ‰ËÌˇÂÏ Ô‡ÍÂÚ dplyr
+> # –û—Ç—Å–æ–µ–¥–∏–Ω—è–µ–º –ø–∞–∫–µ—Ç dplyr
 > detach("package:dplyr", unload=TRUE)
 > 
-> # ¬˚˜ËÒÎËÏ ÏÂ‰Ë‡ÌÌ˚È ÏÂÒˇ˜Ì˚È Á‡‡·ÓÚÓÍ ‰Îˇ Í‡Ê‰Ó„Ó ÁÌ‡˜ÂÌËˇ 
-> # ÔÂÂÏÂÌÌÓÈ job_position
+> # –í—ã—á–∏—Å–ª–∏–º –º–µ–¥–∏–∞–Ω–Ω—ã–π –º–µ—Å—è—á–Ω—ã–π –∑–∞—Ä–∞–±–æ—Ç–æ–∫ –¥–ª—è –∫–∞–∂–¥–æ–≥–æ –∑–Ω–∞—á–µ–Ω–∏—è 
+> # –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π job_position
 > tapply(data3$income, data3$job_position, FUN=median)
-  ATP   BIS   BIU   DIR   HSK   INP   INV   NOR   ONB   PNA   PNI   PNS   PNV   SPC   UMN   WOI   WRK   WRP 
+ATP   BIS   BIU   DIR   HSK   INP   INV   NOR   ONB   PNA   PNI   PNS   PNV   SPC   UMN   WOI   WRK   WRP 
 25000 50000 35000 55000 27500 50000 25000 32000 17000 20000 17000 32000 21000 35000 43000 30000 32000 35000 
 > 
-> # 5. –‡·ÓÚ‡ Ò ‰‡Ú‡ÏË
+> # 5. –†–∞–±–æ—Ç–∞ —Å –¥–∞—Ç–∞–º–∏
 > 
-> # 5.1. Œ·‡·ÓÚÍ‡ ‰‡Ú ‚ ÙÓÏ‡ÚÂ dd.mm.yyyy (Ì‡ÔËÏÂ, 01.01.2017)
+> # 5.1. –û–±—Ä–∞–±–æ—Ç–∫–∞ –¥–∞—Ç –≤ —Ñ–æ—Ä–º–∞—Ç–µ dd.mm.yyyy (–Ω–∞–ø—Ä–∏–º–µ—Ä, 01.01.2017)
 > 
-> # —˜ËÚ˚‚‡ÂÏ CSV Ù‡ÈÎ, ÒÓ‰ÂÊ‡˘ËÈ ‰‡Ú˚, ‚ ‰‡Ú‡ÙÂÈÏ data4
+> # –°—á–∏—Ç—ã–≤–∞–µ–º CSV —Ñ–∞–π–ª, —Å–æ–¥–µ—Ä–∂–∞—â–∏–π –¥–∞—Ç—ã, –≤ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º data4
 > data4 <- read.csv2("C:/Trees/Dates.csv")
 > 
-> # —ÏÓÚËÏ, Í‡Í ‚˚„Îˇ‰ˇÚ ‰‡Ú˚
+> # –°–º–æ—Ç—Ä–∏–º, –∫–∞–∫ –≤—ã–≥–ª—è–¥—è—Ç –¥–∞—Ç—ã
 > head(data4)
-  date_start   date_end gender
+date_start   date_end gender
 1 03.04.2016 19.04.2016   male
 2 17.04.2016 19.05.2016   male
 3 12.01.2016 22.01.2016   male
@@ -2049,14 +2045,14 @@ library(plyr); library(dplyr)
 5 13.10.2016 25.10.2016 female
 6 17.01.2016 22.01.2016   male
 > 
-> # ¿ ÚÂÔÂ¸ ÔÂÂÏÂÌÌ˚Â, ÒÓÓÚ‚ÂÚÒÚ‚Û˛˘ËÂ ‰‡Ú‡Ï, ÔÂÂ‚Ó‰ËÏ ‚ Ó·˙ÂÍÚ˚ ÚËÔ‡ 
-> # POSIXct Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË as.POSIXct
+> # –ê —Ç–µ–ø–µ—Ä—å –ø–µ—Ä–µ–º–µ–Ω–Ω—ã–µ, —Å–æ–æ—Ç–≤–µ—Ç—Å—Ç–≤—É—é—â–∏–µ –¥–∞—Ç–∞–º, –ø–µ—Ä–µ–≤–æ–¥–∏–º –≤ –æ–±—ä–µ–∫—Ç—ã —Ç–∏–ø–∞ 
+> # POSIXct —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ as.POSIXct
 > data4$date_start <- as.POSIXct(data4$date_start, format="%d.%m.%Y")
 > data4$date_end <- as.POSIXct(data4$date_end, format="%d.%m.%Y")
 > 
-> # —ÏÓÚËÏ, Í‡Í ‚˚„Îˇ‰ˇÚ ‰‡Ú˚
+> # –°–º–æ—Ç—Ä–∏–º, –∫–∞–∫ –≤—ã–≥–ª—è–¥—è—Ç –¥–∞—Ç—ã
 > head(data4)
-  date_start   date_end gender
+date_start   date_end gender
 1 2016-04-03 2016-04-19   male
 2 2016-04-17 2016-05-19   male
 3 2016-01-12 2016-01-22   male
@@ -2064,14 +2060,14 @@ library(plyr); library(dplyr)
 5 2016-10-13 2016-10-25 female
 6 2016-01-17 2016-01-22   male
 > 
-> # 5.2. Œ·‡·ÓÚÍ‡ ‰‡Ú ‚ ÙÓÏ‡ÚÂ dd/mm/yyyy (Ì‡ÔËÏÂ, 01/01/2017)
+> # 5.2. –û–±—Ä–∞–±–æ—Ç–∫–∞ –¥–∞—Ç –≤ —Ñ–æ—Ä–º–∞—Ç–µ dd/mm/yyyy (–Ω–∞–ø—Ä–∏–º–µ—Ä, 01/01/2017)
 > 
-> # —˜ËÚ˚‚‡ÂÏ CSV Ù‡ÈÎ, ÒÓ‰ÂÊ‡˘ËÈ ‰‡Ú˚, ‚ ‰‡Ú‡ÙÂÈÏ data5
+> # –°—á–∏—Ç—ã–≤–∞–µ–º CSV —Ñ–∞–π–ª, —Å–æ–¥–µ—Ä–∂–∞—â–∏–π –¥–∞—Ç—ã, –≤ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º data5
 > data5 <- read.csv2("C:/Trees/Dates2.csv")
 > 
-> # —ÏÓÚËÏ, Í‡Í ‚˚„Îˇ‰ˇÚ ‰‡Ú˚
+> # –°–º–æ—Ç—Ä–∏–º, –∫–∞–∫ –≤—ã–≥–ª—è–¥—è—Ç –¥–∞—Ç—ã
 > head(data5)
-  date_start   date_end gender
+date_start   date_end gender
 1 03/04/2016 19/04/2016   male
 2 17/04/2016 19/05/2016   male
 3 12/01/2016 22/01/2016   male
@@ -2079,14 +2075,14 @@ library(plyr); library(dplyr)
 5 13/10/2016 25/10/2016 female
 6 17/01/2016 22/01/2016   male
 > 
-> # ¿ ÚÂÔÂ¸ ÔÂÂÏÂÌÌ˚Â, ÒÓÓÚ‚ÂÚÒÚ‚Û˛˘ËÂ ‰‡Ú‡Ï, ÔÂÂ‚Ó‰ËÏ ‚ Ó·˙ÂÍÚ˚ ÚËÔ‡ 
-> # POSIXct Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË as.POSIXct
+> # –ê —Ç–µ–ø–µ—Ä—å –ø–µ—Ä–µ–º–µ–Ω–Ω—ã–µ, —Å–æ–æ—Ç–≤–µ—Ç—Å—Ç–≤—É—é—â–∏–µ –¥–∞—Ç–∞–º, –ø–µ—Ä–µ–≤–æ–¥–∏–º –≤ –æ–±—ä–µ–∫—Ç—ã —Ç–∏–ø–∞ 
+> # POSIXct —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ as.POSIXct
 > data5$date_start <- as.POSIXct(data5$date_start, format="%d/%m/%Y")
 > data5$date_end <- as.POSIXct(data5$date_end, format="%d/%m/%Y")
 > 
-> # —ÏÓÚËÏ, Í‡Í ‚˚„Îˇ‰ˇÚ ‰‡Ú˚
+> # –°–º–æ—Ç—Ä–∏–º, –∫–∞–∫ –≤—ã–≥–ª—è–¥—è—Ç –¥–∞—Ç—ã
 > head(data5)
-  date_start   date_end gender
+date_start   date_end gender
 1 2016-04-03 2016-04-19   male
 2 2016-04-17 2016-05-19   male
 3 2016-01-12 2016-01-22   male
@@ -2094,14 +2090,14 @@ library(plyr); library(dplyr)
 5 2016-10-13 2016-10-25 female
 6 2016-01-17 2016-01-22   male
 > 
-> # 5.3. Œ·‡·ÓÚÍ‡ ‰‡Ú ‚ ÙÓÏ‡ÚÂ ddMthyyyy (Ì‡ÔËÏÂ, 01Jan2017)
+> # 5.3. –û–±—Ä–∞–±–æ—Ç–∫–∞ –¥–∞—Ç –≤ —Ñ–æ—Ä–º–∞—Ç–µ ddMthyyyy (–Ω–∞–ø—Ä–∏–º–µ—Ä, 01Jan2017)
 > 
-> # —˜ËÚ˚‚‡ÂÏ CSV Ù‡ÈÎ, ÒÓ‰ÂÊ‡˘ËÈ ‰‡Ú˚, ‚ ‰‡Ú‡ÙÂÈÏ data6
+> # –°—á–∏—Ç—ã–≤–∞–µ–º CSV —Ñ–∞–π–ª, —Å–æ–¥–µ—Ä–∂–∞—â–∏–π –¥–∞—Ç—ã, –≤ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º data6
 > data6 <- read.csv2("C:/Trees/Dates3.csv")
 > 
-> # —ÏÓÚËÏ, Í‡Í ‚˚„Îˇ‰ˇÚ ‰‡Ú˚
+> # –°–º–æ—Ç—Ä–∏–º, –∫–∞–∫ –≤—ã–≥–ª—è–¥—è—Ç –¥–∞—Ç—ã
 > head(data6)
-  date_start  date_end gender
+date_start  date_end gender
 1  03Apr2016 19Apr2016   male
 2  17Apr2016 19May2016   male
 3  12Jan2016 22Jan2016   male
@@ -2109,17 +2105,17 @@ library(plyr); library(dplyr)
 5  13Oct2016 25Oct2016 female
 6  17Jan2016 22Jan2016   male
 > 
-> # «‡„ÛÊ‡ÂÏ Ô‡ÍÂÚ anytime
+> # –ó–∞–≥—Ä—É–∂–∞–µ–º –ø–∞–∫–µ—Ç anytime
 > library(anytime)
 > 
-> # ¿ ÚÂÔÂ¸ ÔÂÂÏÂÌÌ˚Â, ÒÓÓÚ‚ÂÚÒÚ‚Û˛˘ËÂ ‰‡Ú‡Ï, ÔÂÂ‚Ó‰ËÏ ‚ Ó·˙ÂÍÚ˚ ÚËÔ‡ 
-> # POSIXct Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË anytime Ó‰ÌÓËÏÂÌÌÓ„Ó Ô‡ÍÂÚ‡
+> # –ê —Ç–µ–ø–µ—Ä—å –ø–µ—Ä–µ–º–µ–Ω–Ω—ã–µ, —Å–æ–æ—Ç–≤–µ—Ç—Å—Ç–≤—É—é—â–∏–µ –¥–∞—Ç–∞–º, –ø–µ—Ä–µ–≤–æ–¥–∏–º –≤ –æ–±—ä–µ–∫—Ç—ã —Ç–∏–ø–∞ 
+> # POSIXct —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ anytime –æ–¥–Ω–æ–∏–º–µ–Ω–Ω–æ–≥–æ –ø–∞–∫–µ—Ç–∞
 > data6$date_start <- anytime(data6$date_start)
 > data6$date_end <- anytime(data6$date_end)
 > 
-> # —ÏÓÚËÏ, Í‡Í ‚˚„Îˇ‰ˇÚ ‰‡Ú˚
+> # –°–º–æ—Ç—Ä–∏–º, –∫–∞–∫ –≤—ã–≥–ª—è–¥—è—Ç –¥–∞—Ç—ã
 > head(data6)
-  date_start   date_end gender
+date_start   date_end gender
 1 2016-04-03 2016-04-19   male
 2 2016-04-17 2016-05-19   male
 3 2016-01-12 2016-01-22   male
@@ -2127,123 +2123,123 @@ library(plyr); library(dplyr)
 5 2016-10-13 2016-10-25 female
 6 2016-01-17 2016-01-22   male
 > 
-> # 5.4. Œ·‡·ÓÚÍ‡ ‰‡Ú ‚ ÙÓÏ‡ÚÂ dd-Mth-yyyy (Ì‡ÔËÏÂ, 01-Jan-2017)
+> # 5.4. –û–±—Ä–∞–±–æ—Ç–∫–∞ –¥–∞—Ç –≤ —Ñ–æ—Ä–º–∞—Ç–µ dd-Mth-yyyy (–Ω–∞–ø—Ä–∏–º–µ—Ä, 01-Jan-2017)
 > 
-> # —˜ËÚ˚‚‡ÂÏ CSV Ù‡ÈÎ, ÒÓ‰ÂÊ‡˘ËÈ ‰‡Ú˚, ‚ ‰‡Ú‡ÙÂÈÏ data7
+> # –°—á–∏—Ç—ã–≤–∞–µ–º CSV —Ñ–∞–π–ª, —Å–æ–¥–µ—Ä–∂–∞—â–∏–π –¥–∞—Ç—ã, –≤ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º data7
 > data7 <- read.csv2("C:/Trees/MFOcredit.csv")
 > 
-> # —ÏÓÚËÏ, Í‡Í ‚˚„Îˇ‰ˇÚ ‰‡Ú˚ ‚ ÔÂ‚˚ı 10 Ì‡·Î˛‰ÂÌËˇı
+> # –°–º–æ—Ç—Ä–∏–º, –∫–∞–∫ –≤—ã–≥–ª—è–¥—è—Ç –¥–∞—Ç—ã –≤ –ø–µ—Ä–≤—ã—Ö 10 –Ω–∞–±–ª—é–¥–µ–Ω–∏—è—Ö
 > head(data7, 10)
-   id  date_start    date_end  gender age         auto            housing                      marstatus regclient       jobtype                    region      credits     children delinq60plus
-1   1 03-Jan-2013 12-Jan-2013 ÃÛÊÒÍÓÈ  44          ÕÂÚ        —Ó·ÒÚ‚ÂÌÌÓÂ √‡Ê‰‡ÌÒÍËÈ ·‡Í/ÊÂÌ‡Ú/Á‡ÏÛÊÂÏ       ÕÂÚ   ŒÙËˆË‡Î¸ÌÓÂ     ÕÓ‚ÓÒË·ËÒÍ‡ˇ Ó·Î‡ÒÚ¸          ÕÂÚ           ƒ‡          ÕÂÚ
-2   2 03-Jan-2013 17-Jan-2013 ÃÛÊÒÍÓÈ  21 œÓÔÛÒÍ ÔÓÎˇ ∆Ë‚ÛÚ Ò Ó‰ËÚÂÎˇÏË                         ’ÓÎÓÒÚ       ÕÂÚ   ŒÙËˆË‡Î¸ÌÓÂ     ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ˛„           ƒ‡          ÕÂÚ          ÕÂÚ
-3   3 03-Jan-2013 17-Jan-2013 ÃÛÊÒÍÓÈ  25 œÓÔÛÒÍ ÔÓÎˇ        —Ó·ÒÚ‚ÂÌÌÓÂ                         ’ÓÎÓÒÚ        ƒ‡   ŒÙËˆË‡Î¸ÌÓÂ  ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ÒÂ‚Â œÓÔÛÒÍ ÔÓÎˇ          ÕÂÚ          ÕÂÚ
-4   4 03-Jan-2013 17-Jan-2013 ∆ÂÌÒÍËÈ  47 œÓÔÛÒÍ ÔÓÎˇ        —Ó·ÒÚ‚ÂÌÌÓÂ √‡Ê‰‡ÌÒÍËÈ ·‡Í/ÊÂÌ‡Ú/Á‡ÏÛÊÂÏ        ƒ‡   ŒÙËˆË‡Î¸ÌÓÂ  ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ÒÂ‚Â          ÕÂÚ          ÕÂÚ          ÕÂÚ
-5   5 03-Jan-2013 17-Jan-2013 ÃÛÊÒÍÓÈ  22          ÕÂÚ         ¿ÂÌ‰ÛÂÏÓÂ √‡Ê‰‡ÌÒÍËÈ ·‡Í/ÊÂÌ‡Ú/Á‡ÏÛÊÂÏ       ÕÂÚ   ŒÙËˆË‡Î¸ÌÓÂ  ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ÒÂ‚Â           ƒ‡           ƒ‡          ÕÂÚ
-6   6 03-Jan-2013 17-Jan-2013 ÃÛÊÒÍÓÈ  40          ÕÂÚ        —Ó·ÒÚ‚ÂÌÌÓÂ                       –‡Á‚Â‰ÂÌ       ÕÂÚ ÕÂÓÙËˆË‡Î¸ÌÓÂ  ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ÒÂ‚Â          ÕÂÚ          ÕÂÚ          ÕÂÚ
-7   7 03-Jan-2013 17-Jan-2013 ∆ÂÌÒÍËÈ  63 œÓÔÛÒÍ ÔÓÎˇ        —Ó·ÒÚ‚ÂÌÌÓÂ                   œÓÔÛÒÍ ÔÓÎˇ        ƒ‡  œÓÔÛÒÍ ÔÓÎˇ  ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ÒÂ‚Â           ƒ‡ œÓÔÛÒÍ ÔÓÎˇ          ÕÂÚ
-8   8 03-Jan-2013 17-Jan-2013 ∆ÂÌÒÍËÈ  29          ÕÂÚ        —Ó·ÒÚ‚ÂÌÌÓÂ                       –‡Á‚Â‰ÂÌ        ƒ‡  œÓÔÛÒÍ ÔÓÎˇ  ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ÒÂ‚Â          ÕÂÚ           ƒ‡          ÕÂÚ
-9   9 03-Jan-2013 17-Jan-2013 ∆ÂÌÒÍËÈ  27 œÓÔÛÒÍ ÔÓÎˇ       œÓÔÛÒÍ ÔÓÎˇ                   œÓÔÛÒÍ ÔÓÎˇ        ƒ‡  œÓÔÛÒÍ ÔÓÎˇ     ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ˛„           ƒ‡          ÕÂÚ          ÕÂÚ
-10 10 03-Jan-2013 17-Jan-2013 ÃÛÊÒÍÓÈ  20 œÓÔÛÒÍ ÔÓÎˇ      ÃÛÌËˆËÔ‡Î¸ÌÓÂ                         ’ÓÎÓÒÚ       ÕÂÚ  œÓÔÛÒÍ ÔÓÎˇ     ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ˛„          ÕÂÚ          ÕÂÚ          ÕÂÚ
+id  date_start    date_end  gender age         auto            housing                      marstatus regclient       jobtype                    region      credits     children delinq60plus
+1   1 03-Jan-2013 12-Jan-2013 –ú—É–∂—Å–∫–æ–π  44          –ù–µ—Ç        –°–æ–±—Å—Ç–≤–µ–Ω–Ω–æ–µ –ì—Ä–∞–∂–¥–∞–Ω—Å–∫–∏–π –±—Ä–∞–∫/–∂–µ–Ω–∞—Ç/–∑–∞–º—É–∂–µ–º       –ù–µ—Ç   –û—Ñ–∏—Ü–∏–∞–ª—å–Ω–æ–µ     –ù–æ–≤–æ—Å–∏–±–∏—Ä—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å          –ù–µ—Ç           –î–∞          –ù–µ—Ç
+2   2 03-Jan-2013 17-Jan-2013 –ú—É–∂—Å–∫–æ–π  21 –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è –ñ–∏–≤—É—Ç —Å —Ä–æ–¥–∏—Ç–µ–ª—è–º–∏                         –•–æ–ª–æ—Å—Ç       –ù–µ—Ç   –û—Ñ–∏—Ü–∏–∞–ª—å–Ω–æ–µ    –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —é–≥           –î–∞          –ù–µ—Ç          –ù–µ—Ç
+3   3 03-Jan-2013 17-Jan-2013 –ú—É–∂—Å–∫–æ–π  25 –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è        –°–æ–±—Å—Ç–≤–µ–Ω–Ω–æ–µ                         –•–æ–ª–æ—Å—Ç        –î–∞   –û—Ñ–∏—Ü–∏–∞–ª—å–Ω–æ–µ –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —Å–µ–≤–µ—Ä –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è          –ù–µ—Ç          –ù–µ—Ç
+4   4 03-Jan-2013 17-Jan-2013 –ñ–µ–Ω—Å–∫–∏–π  47 –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è        –°–æ–±—Å—Ç–≤–µ–Ω–Ω–æ–µ –ì—Ä–∞–∂–¥–∞–Ω—Å–∫–∏–π –±—Ä–∞–∫/–∂–µ–Ω–∞—Ç/–∑–∞–º—É–∂–µ–º        –î–∞   –û—Ñ–∏—Ü–∏–∞–ª—å–Ω–æ–µ –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —Å–µ–≤–µ—Ä          –ù–µ—Ç          –ù–µ—Ç          –ù–µ—Ç
+5   5 03-Jan-2013 17-Jan-2013 –ú—É–∂—Å–∫–æ–π  22          –ù–µ—Ç         –ê—Ä–µ–Ω–¥—É–µ–º–æ–µ –ì—Ä–∞–∂–¥–∞–Ω—Å–∫–∏–π –±—Ä–∞–∫/–∂–µ–Ω–∞—Ç/–∑–∞–º—É–∂–µ–º       –ù–µ—Ç   –û—Ñ–∏—Ü–∏–∞–ª—å–Ω–æ–µ –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —Å–µ–≤–µ—Ä           –î–∞           –î–∞          –ù–µ—Ç
+6   6 03-Jan-2013 17-Jan-2013 –ú—É–∂—Å–∫–æ–π  40          –ù–µ—Ç        –°–æ–±—Å—Ç–≤–µ–Ω–Ω–æ–µ                       –†–∞–∑–≤–µ–¥–µ–Ω       –ù–µ—Ç –ù–µ–æ—Ñ–∏—Ü–∏–∞–ª—å–Ω–æ–µ –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —Å–µ–≤–µ—Ä          –ù–µ—Ç          –ù–µ—Ç          –ù–µ—Ç
+7   7 03-Jan-2013 17-Jan-2013 –ñ–µ–Ω—Å–∫–∏–π  63 –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è        –°–æ–±—Å—Ç–≤–µ–Ω–Ω–æ–µ                   –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è        –î–∞  –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —Å–µ–≤–µ—Ä           –î–∞ –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è          –ù–µ—Ç
+8   8 03-Jan-2013 17-Jan-2013 –ñ–µ–Ω—Å–∫–∏–π  29          –ù–µ—Ç        –°–æ–±—Å—Ç–≤–µ–Ω–Ω–æ–µ                       –†–∞–∑–≤–µ–¥–µ–Ω        –î–∞  –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —Å–µ–≤–µ—Ä          –ù–µ—Ç           –î–∞          –ù–µ—Ç
+9   9 03-Jan-2013 17-Jan-2013 –ñ–µ–Ω—Å–∫–∏–π  27 –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è       –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è                   –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è        –î–∞  –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è    –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —é–≥           –î–∞          –ù–µ—Ç          –ù–µ—Ç
+10 10 03-Jan-2013 17-Jan-2013 –ú—É–∂—Å–∫–æ–π  20 –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è      –ú—É–Ω–∏—Ü–∏–ø–∞–ª—å–Ω–æ–µ                         –•–æ–ª–æ—Å—Ç       –ù–µ—Ç  –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è    –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —é–≥          –ù–µ—Ç          –ù–µ—Ç          –ù–µ—Ç
 > 
-> # ¿ ÚÂÔÂ¸ ÔÂÂÏÂÌÌ˚Â, ÒÓÓÚ‚ÂÚÒÚ‚Û˛˘ËÂ ‰‡Ú‡Ï, ÔÂÂ‚Ó‰ËÏ ‚ Ó·˙ÂÍÚ˚ ÚËÔ‡ 
-> # POSIXct Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË anytime Ó‰ÌÓËÏÂÌÌÓ„Ó Ô‡ÍÂÚ‡
+> # –ê —Ç–µ–ø–µ—Ä—å –ø–µ—Ä–µ–º–µ–Ω–Ω—ã–µ, —Å–æ–æ—Ç–≤–µ—Ç—Å—Ç–≤—É—é—â–∏–µ –¥–∞—Ç–∞–º, –ø–µ—Ä–µ–≤–æ–¥–∏–º –≤ –æ–±—ä–µ–∫—Ç—ã —Ç–∏–ø–∞ 
+> # POSIXct —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ anytime –æ–¥–Ω–æ–∏–º–µ–Ω–Ω–æ–≥–æ –ø–∞–∫–µ—Ç–∞
 > data7$date_start <- anytime(data7$date_start)
 > data7$date_end <- anytime(data7$date_end)
 > 
-> # —ÏÓÚËÏ, Í‡Í ‚˚„Îˇ‰ˇÚ ‰‡Ú˚ ‚ ÔÂ‚˚ı 10 Ì‡·Î˛‰ÂÌËˇı
+> # –°–º–æ—Ç—Ä–∏–º, –∫–∞–∫ –≤—ã–≥–ª—è–¥—è—Ç –¥–∞—Ç—ã –≤ –ø–µ—Ä–≤—ã—Ö 10 –Ω–∞–±–ª—é–¥–µ–Ω–∏—è—Ö
 > head(data7, 10)
-   id          date_start            date_end  gender age         auto            housing                      marstatus regclient       jobtype                    region      credits     children delinq60plus
-1   1 2013-01-03 01:00:00 2013-01-12 01:00:00 ÃÛÊÒÍÓÈ  44          ÕÂÚ        —Ó·ÒÚ‚ÂÌÌÓÂ √‡Ê‰‡ÌÒÍËÈ ·‡Í/ÊÂÌ‡Ú/Á‡ÏÛÊÂÏ       ÕÂÚ   ŒÙËˆË‡Î¸ÌÓÂ     ÕÓ‚ÓÒË·ËÒÍ‡ˇ Ó·Î‡ÒÚ¸          ÕÂÚ           ƒ‡          ÕÂÚ
-2   2 2013-01-03 01:00:00 2013-01-17 01:00:00 ÃÛÊÒÍÓÈ  21 œÓÔÛÒÍ ÔÓÎˇ ∆Ë‚ÛÚ Ò Ó‰ËÚÂÎˇÏË                         ’ÓÎÓÒÚ       ÕÂÚ   ŒÙËˆË‡Î¸ÌÓÂ     ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ˛„           ƒ‡          ÕÂÚ          ÕÂÚ
-3   3 2013-01-03 01:00:00 2013-01-17 01:00:00 ÃÛÊÒÍÓÈ  25 œÓÔÛÒÍ ÔÓÎˇ        —Ó·ÒÚ‚ÂÌÌÓÂ                         ’ÓÎÓÒÚ        ƒ‡   ŒÙËˆË‡Î¸ÌÓÂ  ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ÒÂ‚Â œÓÔÛÒÍ ÔÓÎˇ          ÕÂÚ          ÕÂÚ
-4   4 2013-01-03 01:00:00 2013-01-17 01:00:00 ∆ÂÌÒÍËÈ  47 œÓÔÛÒÍ ÔÓÎˇ        —Ó·ÒÚ‚ÂÌÌÓÂ √‡Ê‰‡ÌÒÍËÈ ·‡Í/ÊÂÌ‡Ú/Á‡ÏÛÊÂÏ        ƒ‡   ŒÙËˆË‡Î¸ÌÓÂ  ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ÒÂ‚Â          ÕÂÚ          ÕÂÚ          ÕÂÚ
-5   5 2013-01-03 01:00:00 2013-01-17 01:00:00 ÃÛÊÒÍÓÈ  22          ÕÂÚ         ¿ÂÌ‰ÛÂÏÓÂ √‡Ê‰‡ÌÒÍËÈ ·‡Í/ÊÂÌ‡Ú/Á‡ÏÛÊÂÏ       ÕÂÚ   ŒÙËˆË‡Î¸ÌÓÂ  ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ÒÂ‚Â           ƒ‡           ƒ‡          ÕÂÚ
-6   6 2013-01-03 01:00:00 2013-01-17 01:00:00 ÃÛÊÒÍÓÈ  40          ÕÂÚ        —Ó·ÒÚ‚ÂÌÌÓÂ                       –‡Á‚Â‰ÂÌ       ÕÂÚ ÕÂÓÙËˆË‡Î¸ÌÓÂ  ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ÒÂ‚Â          ÕÂÚ          ÕÂÚ          ÕÂÚ
-7   7 2013-01-03 01:00:00 2013-01-17 01:00:00 ∆ÂÌÒÍËÈ  63 œÓÔÛÒÍ ÔÓÎˇ        —Ó·ÒÚ‚ÂÌÌÓÂ                   œÓÔÛÒÍ ÔÓÎˇ        ƒ‡  œÓÔÛÒÍ ÔÓÎˇ  ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ÒÂ‚Â           ƒ‡ œÓÔÛÒÍ ÔÓÎˇ          ÕÂÚ
-8   8 2013-01-03 01:00:00 2013-01-17 01:00:00 ∆ÂÌÒÍËÈ  29          ÕÂÚ        —Ó·ÒÚ‚ÂÌÌÓÂ                       –‡Á‚Â‰ÂÌ        ƒ‡  œÓÔÛÒÍ ÔÓÎˇ  ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ÒÂ‚Â          ÕÂÚ           ƒ‡          ÕÂÚ
-9   9 2013-01-03 01:00:00 2013-01-17 01:00:00 ∆ÂÌÒÍËÈ  27 œÓÔÛÒÍ ÔÓÎˇ       œÓÔÛÒÍ ÔÓÎˇ                   œÓÔÛÒÍ ÔÓÎˇ        ƒ‡  œÓÔÛÒÍ ÔÓÎˇ     ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ˛„           ƒ‡          ÕÂÚ          ÕÂÚ
-10 10 2013-01-03 01:00:00 2013-01-17 01:00:00 ÃÛÊÒÍÓÈ  20 œÓÔÛÒÍ ÔÓÎˇ      ÃÛÌËˆËÔ‡Î¸ÌÓÂ                         ’ÓÎÓÒÚ       ÕÂÚ  œÓÔÛÒÍ ÔÓÎˇ     ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ˛„          ÕÂÚ          ÕÂÚ          ÕÂÚ
+id          date_start            date_end  gender age         auto            housing                      marstatus regclient       jobtype                    region      credits     children delinq60plus
+1   1 2013-01-03 01:00:00 2013-01-12 01:00:00 –ú—É–∂—Å–∫–æ–π  44          –ù–µ—Ç        –°–æ–±—Å—Ç–≤–µ–Ω–Ω–æ–µ –ì—Ä–∞–∂–¥–∞–Ω—Å–∫–∏–π –±—Ä–∞–∫/–∂–µ–Ω–∞—Ç/–∑–∞–º—É–∂–µ–º       –ù–µ—Ç   –û—Ñ–∏—Ü–∏–∞–ª—å–Ω–æ–µ     –ù–æ–≤–æ—Å–∏–±–∏—Ä—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å          –ù–µ—Ç           –î–∞          –ù–µ—Ç
+2   2 2013-01-03 01:00:00 2013-01-17 01:00:00 –ú—É–∂—Å–∫–æ–π  21 –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è –ñ–∏–≤—É—Ç —Å —Ä–æ–¥–∏—Ç–µ–ª—è–º–∏                         –•–æ–ª–æ—Å—Ç       –ù–µ—Ç   –û—Ñ–∏—Ü–∏–∞–ª—å–Ω–æ–µ    –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —é–≥           –î–∞          –ù–µ—Ç          –ù–µ—Ç
+3   3 2013-01-03 01:00:00 2013-01-17 01:00:00 –ú—É–∂—Å–∫–æ–π  25 –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è        –°–æ–±—Å—Ç–≤–µ–Ω–Ω–æ–µ                         –•–æ–ª–æ—Å—Ç        –î–∞   –û—Ñ–∏—Ü–∏–∞–ª—å–Ω–æ–µ –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —Å–µ–≤–µ—Ä –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è          –ù–µ—Ç          –ù–µ—Ç
+4   4 2013-01-03 01:00:00 2013-01-17 01:00:00 –ñ–µ–Ω—Å–∫–∏–π  47 –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è        –°–æ–±—Å—Ç–≤–µ–Ω–Ω–æ–µ –ì—Ä–∞–∂–¥–∞–Ω—Å–∫–∏–π –±—Ä–∞–∫/–∂–µ–Ω–∞—Ç/–∑–∞–º—É–∂–µ–º        –î–∞   –û—Ñ–∏—Ü–∏–∞–ª—å–Ω–æ–µ –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —Å–µ–≤–µ—Ä          –ù–µ—Ç          –ù–µ—Ç          –ù–µ—Ç
+5   5 2013-01-03 01:00:00 2013-01-17 01:00:00 –ú—É–∂—Å–∫–æ–π  22          –ù–µ—Ç         –ê—Ä–µ–Ω–¥—É–µ–º–æ–µ –ì—Ä–∞–∂–¥–∞–Ω—Å–∫–∏–π –±—Ä–∞–∫/–∂–µ–Ω–∞—Ç/–∑–∞–º—É–∂–µ–º       –ù–µ—Ç   –û—Ñ–∏—Ü–∏–∞–ª—å–Ω–æ–µ –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —Å–µ–≤–µ—Ä           –î–∞           –î–∞          –ù–µ—Ç
+6   6 2013-01-03 01:00:00 2013-01-17 01:00:00 –ú—É–∂—Å–∫–æ–π  40          –ù–µ—Ç        –°–æ–±—Å—Ç–≤–µ–Ω–Ω–æ–µ                       –†–∞–∑–≤–µ–¥–µ–Ω       –ù–µ—Ç –ù–µ–æ—Ñ–∏—Ü–∏–∞–ª—å–Ω–æ–µ –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —Å–µ–≤–µ—Ä          –ù–µ—Ç          –ù–µ—Ç          –ù–µ—Ç
+7   7 2013-01-03 01:00:00 2013-01-17 01:00:00 –ñ–µ–Ω—Å–∫–∏–π  63 –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è        –°–æ–±—Å—Ç–≤–µ–Ω–Ω–æ–µ                   –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è        –î–∞  –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —Å–µ–≤–µ—Ä           –î–∞ –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è          –ù–µ—Ç
+8   8 2013-01-03 01:00:00 2013-01-17 01:00:00 –ñ–µ–Ω—Å–∫–∏–π  29          –ù–µ—Ç        –°–æ–±—Å—Ç–≤–µ–Ω–Ω–æ–µ                       –†–∞–∑–≤–µ–¥–µ–Ω        –î–∞  –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —Å–µ–≤–µ—Ä          –ù–µ—Ç           –î–∞          –ù–µ—Ç
+9   9 2013-01-03 01:00:00 2013-01-17 01:00:00 –ñ–µ–Ω—Å–∫–∏–π  27 –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è       –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è                   –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è        –î–∞  –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è    –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —é–≥           –î–∞          –ù–µ—Ç          –ù–µ—Ç
+10 10 2013-01-03 01:00:00 2013-01-17 01:00:00 –ú—É–∂—Å–∫–æ–π  20 –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è      –ú—É–Ω–∏—Ü–∏–ø–∞–ª—å–Ω–æ–µ                         –•–æ–ª–æ—Å—Ç       –ù–µ—Ç  –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è    –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —é–≥          –ù–µ—Ç          –ù–µ—Ç          –ù–µ—Ç
 > 
-> # 5.5. ¬˚˜ËÒÎÂÌËÂ ‡ÁÌÓÒÚË ÏÂÊ‰Û ‰‡Ú‡ÏË
+> # 5.5. –í—ã—á–∏—Å–ª–µ–Ω–∏–µ —Ä–∞–∑–Ω–æ—Å—Ç–∏ –º–µ–∂–¥—É –¥–∞—Ç–∞–º–∏
 > 
-> # ¬˚˜ËÒÎˇÂÏ ‡ÁÌÓÒÚ¸ ÏÂÊ‰Û ‰‡Ú‡ÏË ‚ ‰Ìˇı ‰Îˇ ‰‡Ú‡ÙÂÈÏ‡ data7
+> # –í—ã—á–∏—Å–ª—è–µ–º —Ä–∞–∑–Ω–æ—Å—Ç—å –º–µ–∂–¥—É –¥–∞—Ç–∞–º–∏ –≤ –¥–Ω—è—Ö –¥–ª—è –¥–∞—Ç–∞—Ñ—Ä–µ–π–º–∞ data7
 > data7$diff <- data7$date_end-data7$date_start
 > 
-> # —ÏÓÚËÏ ÂÁÛÎ¸Ú‡Ú ‚ ÔÂ‚˚ı 10 Ì‡·Î˛‰ÂÌËˇı
+> # –°–º–æ—Ç—Ä–∏–º —Ä–µ–∑—É–ª—å—Ç–∞—Ç –≤ –ø–µ—Ä–≤—ã—Ö 10 –Ω–∞–±–ª—é–¥–µ–Ω–∏—è—Ö
 > head(data7, 10)
-   id          date_start            date_end  gender age         auto            housing                      marstatus regclient       jobtype                    region      credits     children delinq60plus    diff
-1   1 2013-01-03 01:00:00 2013-01-12 01:00:00 ÃÛÊÒÍÓÈ  44          ÕÂÚ        —Ó·ÒÚ‚ÂÌÌÓÂ √‡Ê‰‡ÌÒÍËÈ ·‡Í/ÊÂÌ‡Ú/Á‡ÏÛÊÂÏ       ÕÂÚ   ŒÙËˆË‡Î¸ÌÓÂ     ÕÓ‚ÓÒË·ËÒÍ‡ˇ Ó·Î‡ÒÚ¸          ÕÂÚ           ƒ‡          ÕÂÚ  9 days
-2   2 2013-01-03 01:00:00 2013-01-17 01:00:00 ÃÛÊÒÍÓÈ  21 œÓÔÛÒÍ ÔÓÎˇ ∆Ë‚ÛÚ Ò Ó‰ËÚÂÎˇÏË                         ’ÓÎÓÒÚ       ÕÂÚ   ŒÙËˆË‡Î¸ÌÓÂ     ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ˛„           ƒ‡          ÕÂÚ          ÕÂÚ 14 days
-3   3 2013-01-03 01:00:00 2013-01-17 01:00:00 ÃÛÊÒÍÓÈ  25 œÓÔÛÒÍ ÔÓÎˇ        —Ó·ÒÚ‚ÂÌÌÓÂ                         ’ÓÎÓÒÚ        ƒ‡   ŒÙËˆË‡Î¸ÌÓÂ  ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ÒÂ‚Â œÓÔÛÒÍ ÔÓÎˇ          ÕÂÚ          ÕÂÚ 14 days
-4   4 2013-01-03 01:00:00 2013-01-17 01:00:00 ∆ÂÌÒÍËÈ  47 œÓÔÛÒÍ ÔÓÎˇ        —Ó·ÒÚ‚ÂÌÌÓÂ √‡Ê‰‡ÌÒÍËÈ ·‡Í/ÊÂÌ‡Ú/Á‡ÏÛÊÂÏ        ƒ‡   ŒÙËˆË‡Î¸ÌÓÂ  ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ÒÂ‚Â          ÕÂÚ          ÕÂÚ          ÕÂÚ 14 days
-5   5 2013-01-03 01:00:00 2013-01-17 01:00:00 ÃÛÊÒÍÓÈ  22          ÕÂÚ         ¿ÂÌ‰ÛÂÏÓÂ √‡Ê‰‡ÌÒÍËÈ ·‡Í/ÊÂÌ‡Ú/Á‡ÏÛÊÂÏ       ÕÂÚ   ŒÙËˆË‡Î¸ÌÓÂ  ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ÒÂ‚Â           ƒ‡           ƒ‡          ÕÂÚ 14 days
-6   6 2013-01-03 01:00:00 2013-01-17 01:00:00 ÃÛÊÒÍÓÈ  40          ÕÂÚ        —Ó·ÒÚ‚ÂÌÌÓÂ                       –‡Á‚Â‰ÂÌ       ÕÂÚ ÕÂÓÙËˆË‡Î¸ÌÓÂ  ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ÒÂ‚Â          ÕÂÚ          ÕÂÚ          ÕÂÚ 14 days
-7   7 2013-01-03 01:00:00 2013-01-17 01:00:00 ∆ÂÌÒÍËÈ  63 œÓÔÛÒÍ ÔÓÎˇ        —Ó·ÒÚ‚ÂÌÌÓÂ                   œÓÔÛÒÍ ÔÓÎˇ        ƒ‡  œÓÔÛÒÍ ÔÓÎˇ  ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ÒÂ‚Â           ƒ‡ œÓÔÛÒÍ ÔÓÎˇ          ÕÂÚ 14 days
-8   8 2013-01-03 01:00:00 2013-01-17 01:00:00 ∆ÂÌÒÍËÈ  29          ÕÂÚ        —Ó·ÒÚ‚ÂÌÌÓÂ                       –‡Á‚Â‰ÂÌ        ƒ‡  œÓÔÛÒÍ ÔÓÎˇ  ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ÒÂ‚Â          ÕÂÚ           ƒ‡          ÕÂÚ 14 days
-9   9 2013-01-03 01:00:00 2013-01-17 01:00:00 ∆ÂÌÒÍËÈ  27 œÓÔÛÒÍ ÔÓÎˇ       œÓÔÛÒÍ ÔÓÎˇ                   œÓÔÛÒÍ ÔÓÎˇ        ƒ‡  œÓÔÛÒÍ ÔÓÎˇ     ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ˛„           ƒ‡          ÕÂÚ          ÕÂÚ 14 days
-10 10 2013-01-03 01:00:00 2013-01-17 01:00:00 ÃÛÊÒÍÓÈ  20 œÓÔÛÒÍ ÔÓÎˇ      ÃÛÌËˆËÔ‡Î¸ÌÓÂ                         ’ÓÎÓÒÚ       ÕÂÚ  œÓÔÛÒÍ ÔÓÎˇ     ÂÏÂÓ‚ÒÍ‡ˇ Ó·Î‡ÒÚ¸ ˛„          ÕÂÚ          ÕÂÚ          ÕÂÚ 14 days
+id          date_start            date_end  gender age         auto            housing                      marstatus regclient       jobtype                    region      credits     children delinq60plus    diff
+1   1 2013-01-03 01:00:00 2013-01-12 01:00:00 –ú—É–∂—Å–∫–æ–π  44          –ù–µ—Ç        –°–æ–±—Å—Ç–≤–µ–Ω–Ω–æ–µ –ì—Ä–∞–∂–¥–∞–Ω—Å–∫–∏–π –±—Ä–∞–∫/–∂–µ–Ω–∞—Ç/–∑–∞–º—É–∂–µ–º       –ù–µ—Ç   –û—Ñ–∏—Ü–∏–∞–ª—å–Ω–æ–µ     –ù–æ–≤–æ—Å–∏–±–∏—Ä—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å          –ù–µ—Ç           –î–∞          –ù–µ—Ç  9 days
+2   2 2013-01-03 01:00:00 2013-01-17 01:00:00 –ú—É–∂—Å–∫–æ–π  21 –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è –ñ–∏–≤—É—Ç —Å —Ä–æ–¥–∏—Ç–µ–ª—è–º–∏                         –•–æ–ª–æ—Å—Ç       –ù–µ—Ç   –û—Ñ–∏—Ü–∏–∞–ª—å–Ω–æ–µ    –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —é–≥           –î–∞          –ù–µ—Ç          –ù–µ—Ç 14 days
+3   3 2013-01-03 01:00:00 2013-01-17 01:00:00 –ú—É–∂—Å–∫–æ–π  25 –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è        –°–æ–±—Å—Ç–≤–µ–Ω–Ω–æ–µ                         –•–æ–ª–æ—Å—Ç        –î–∞   –û—Ñ–∏—Ü–∏–∞–ª—å–Ω–æ–µ –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —Å–µ–≤–µ—Ä –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è          –ù–µ—Ç          –ù–µ—Ç 14 days
+4   4 2013-01-03 01:00:00 2013-01-17 01:00:00 –ñ–µ–Ω—Å–∫–∏–π  47 –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è        –°–æ–±—Å—Ç–≤–µ–Ω–Ω–æ–µ –ì—Ä–∞–∂–¥–∞–Ω—Å–∫–∏–π –±—Ä–∞–∫/–∂–µ–Ω–∞—Ç/–∑–∞–º—É–∂–µ–º        –î–∞   –û—Ñ–∏—Ü–∏–∞–ª—å–Ω–æ–µ –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —Å–µ–≤–µ—Ä          –ù–µ—Ç          –ù–µ—Ç          –ù–µ—Ç 14 days
+5   5 2013-01-03 01:00:00 2013-01-17 01:00:00 –ú—É–∂—Å–∫–æ–π  22          –ù–µ—Ç         –ê—Ä–µ–Ω–¥—É–µ–º–æ–µ –ì—Ä–∞–∂–¥–∞–Ω—Å–∫–∏–π –±—Ä–∞–∫/–∂–µ–Ω–∞—Ç/–∑–∞–º—É–∂–µ–º       –ù–µ—Ç   –û—Ñ–∏—Ü–∏–∞–ª—å–Ω–æ–µ –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —Å–µ–≤–µ—Ä           –î–∞           –î–∞          –ù–µ—Ç 14 days
+6   6 2013-01-03 01:00:00 2013-01-17 01:00:00 –ú—É–∂—Å–∫–æ–π  40          –ù–µ—Ç        –°–æ–±—Å—Ç–≤–µ–Ω–Ω–æ–µ                       –†–∞–∑–≤–µ–¥–µ–Ω       –ù–µ—Ç –ù–µ–æ—Ñ–∏—Ü–∏–∞–ª—å–Ω–æ–µ –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —Å–µ–≤–µ—Ä          –ù–µ—Ç          –ù–µ—Ç          –ù–µ—Ç 14 days
+7   7 2013-01-03 01:00:00 2013-01-17 01:00:00 –ñ–µ–Ω—Å–∫–∏–π  63 –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è        –°–æ–±—Å—Ç–≤–µ–Ω–Ω–æ–µ                   –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è        –î–∞  –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —Å–µ–≤–µ—Ä           –î–∞ –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è          –ù–µ—Ç 14 days
+8   8 2013-01-03 01:00:00 2013-01-17 01:00:00 –ñ–µ–Ω—Å–∫–∏–π  29          –ù–µ—Ç        –°–æ–±—Å—Ç–≤–µ–Ω–Ω–æ–µ                       –†–∞–∑–≤–µ–¥–µ–Ω        –î–∞  –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —Å–µ–≤–µ—Ä          –ù–µ—Ç           –î–∞          –ù–µ—Ç 14 days
+9   9 2013-01-03 01:00:00 2013-01-17 01:00:00 –ñ–µ–Ω—Å–∫–∏–π  27 –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è       –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è                   –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è        –î–∞  –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è    –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —é–≥           –î–∞          –ù–µ—Ç          –ù–µ—Ç 14 days
+10 10 2013-01-03 01:00:00 2013-01-17 01:00:00 –ú—É–∂—Å–∫–æ–π  20 –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è      –ú—É–Ω–∏—Ü–∏–ø–∞–ª—å–Ω–æ–µ                         –•–æ–ª–æ—Å—Ç       –ù–µ—Ç  –ü—Ä–æ–ø—É—Å–∫ –ø–æ–ª—è    –ö–µ–º–µ—Ä–æ–≤—Å–∫–∞—è –æ–±–ª–∞—Å—Ç—å —é–≥          –ù–µ—Ç          –ù–µ—Ç          –ù–µ—Ç 14 days
 > 
-> # 5.6. »Á‚ÎÂ˜ÂÌËÂ ËÁ ‰‡Ú „Ó‰Ó‚, Í‚‡Ú‡ÎÓ‚, ÏÂÒˇˆÂ‚, ‰ÌÂÈ, ‰ÌÂÈ ÌÂ‰ÂÎË
+> # 5.6. –ò–∑–≤–ª–µ—á–µ–Ω–∏–µ –∏–∑ –¥–∞—Ç –≥–æ–¥–æ–≤, –∫–≤–∞—Ä—Ç–∞–ª–æ–≤, –º–µ—Å—è—Ü–µ–≤, –¥–Ω–µ–π, –¥–Ω–µ–π –Ω–µ–¥–µ–ª–∏
 > 
-> # —ÏÓÚËÏ, Í‡Í ‚˚„Îˇ‰ˇÚ ‰‡Ú˚
+> # –°–º–æ—Ç—Ä–∏–º, –∫–∞–∫ –≤—ã–≥–ª—è–¥—è—Ç –¥–∞—Ç—ã
 > str(data4)
 'data.frame':   10 obs. of  3 variables:
- $ date_start: POSIXct, format: "2016-04-03" "2016-04-17" "2016-01-12" "2016-08-23" ...
- $ date_end  : POSIXct, format: "2016-04-19" "2016-05-19" "2016-01-22" "2016-09-03" ...
- $ gender    : Factor w/ 2 levels "female","male": 2 2 2 1 1 2 2 1 2 1
+$ date_start: POSIXct, format: "2016-04-03" "2016-04-17" "2016-01-12" "2016-08-23" ...
+$ date_end  : POSIXct, format: "2016-04-19" "2016-05-19" "2016-01-22" "2016-09-03" ...
+$ gender    : Factor w/ 2 levels "female","male": 2 2 2 1 1 2 2 1 2 1
 > 
-> # »Á‚ÎÂÍ‡ÂÏ ËÁ ÔÂÂÏÂÌÌÓÈ ‰‡Ú date_start, ÓÚÌÓÒˇ˘ÂÈÒˇ Í ÚËÔÛ POSIXct, 
-> # „Ó‰‡ Ë Á‡ÔËÒ˚‚‡ÂÏ ‚ ÔÂÂÏÂÌÌÛ˛ year
+> # –ò–∑–≤–ª–µ–∫–∞–µ–º –∏–∑ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π –¥–∞—Ç date_start, –æ—Ç–Ω–æ—Å—è—â–µ–π—Å—è –∫ —Ç–∏–ø—É POSIXct, 
+> # –≥–æ–¥–∞ –∏ –∑–∞–ø–∏—Å—ã–≤–∞–µ–º –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é year
 > data4$year <- format(data4$date_start, "%Y")
 > 
-> # — ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË quarters ËÁ‚ÎÂÍ‡ÂÏ ËÁ ÔÂÂÏÂÌÌÓÈ ‰‡Ú date_start, 
-> # ÓÚÌÓÒˇ˘ÂÈÒˇ Í ÚËÔÛ POSIXct, Í‚‡Ú‡Î˚ Ë Á‡ÔËÒ˚‚‡ÂÏ ‚ ÔÂÂÏÂÌÌÛ˛ quarter
+> # –° –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ quarters –∏–∑–≤–ª–µ–∫–∞–µ–º –∏–∑ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π –¥–∞—Ç date_start, 
+> # –æ—Ç–Ω–æ—Å—è—â–µ–π—Å—è –∫ —Ç–∏–ø—É POSIXct, –∫–≤–∞—Ä—Ç–∞–ª—ã –∏ –∑–∞–ø–∏—Å—ã–≤–∞–µ–º –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é quarter
 > data4$quarter <- quarters(data4$date_start)
 > 
-> # »Á‚ÎÂÍ‡ÂÏ ËÁ ÔÂÂÏÂÌÌÓÈ ‰‡Ú date_start, ÓÚÌÓÒˇ˘ÂÈÒˇ Í ÚËÔÛ POSIXct, 
-> # ÔÓˇ‰ÍÓ‚˚Â ÌÓÏÂ‡ ÏÂÒˇˆÂ‚ Ë Á‡ÔËÒ˚‚‡ÂÏ ‚ ÔÂÂÏÂÌÌÛ˛ num_of_month
+> # –ò–∑–≤–ª–µ–∫–∞–µ–º –∏–∑ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π –¥–∞—Ç date_start, –æ—Ç–Ω–æ—Å—è—â–µ–π—Å—è –∫ —Ç–∏–ø—É POSIXct, 
+> # –ø–æ—Ä—è–¥–∫–æ–≤—ã–µ –Ω–æ–º–µ—Ä–∞ –º–µ—Å—è—Ü–µ–≤ –∏ –∑–∞–ø–∏—Å—ã–≤–∞–µ–º –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é num_of_month
 > data4$num_of_month <- format(data4$date_start, "%m")
 > 
-> # »Á‚ÎÂÍ‡ÂÏ ËÁ ÔÂÂÏÂÌÌÓÈ ‰‡Ú date_start, ÓÚÌÓÒˇ˘ÂÈÒˇ Í ÚËÔÛ POSIXct, 
-> # ÒÓÍ‡˘ÂÌÌ˚Â Ì‡Á‚‡ÌËˇ ÏÂÒˇˆÂ‚ Ë Á‡ÔËÒ˚‚‡ÂÏ ‚ ÔÂÂÏÂÌÌÛ˛ shortname_of_month
+> # –ò–∑–≤–ª–µ–∫–∞–µ–º –∏–∑ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π –¥–∞—Ç date_start, –æ—Ç–Ω–æ—Å—è—â–µ–π—Å—è –∫ —Ç–∏–ø—É POSIXct, 
+> # —Å–æ–∫—Ä–∞—â–µ–Ω–Ω—ã–µ –Ω–∞–∑–≤–∞–Ω–∏—è –º–µ—Å—è—Ü–µ–≤ –∏ –∑–∞–ø–∏—Å—ã–≤–∞–µ–º –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é shortname_of_month
 > data4$shortname_of_month <- format(data4$date_start, "%b")
 > 
-> # »Á‚ÎÂÍ‡ÂÏ ËÁ ÔÂÂÏÂÌÌÓÈ ‰‡Ú date_start, ÓÚÌÓÒˇ˘ÂÈÒˇ Í ÚËÔÛ POSIXct, 
-> # ÔÓÎÌ˚Â Ì‡Á‚‡ÌËˇ ÏÂÒˇˆÂ‚ Ë Á‡ÔËÒ˚‚‡ÂÏ ‚ ÔÂÂÏÂÌÌÛ˛ fullname_of_month
+> # –ò–∑–≤–ª–µ–∫–∞–µ–º –∏–∑ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π –¥–∞—Ç date_start, –æ—Ç–Ω–æ—Å—è—â–µ–π—Å—è –∫ —Ç–∏–ø—É POSIXct, 
+> # –ø–æ–ª–Ω—ã–µ –Ω–∞–∑–≤–∞–Ω–∏—è –º–µ—Å—è—Ü–µ–≤ –∏ –∑–∞–ø–∏—Å—ã–≤–∞–µ–º –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é fullname_of_month
 > data4$fullname_of_month <- format(data4$date_start, "%B")
 > 
-> # »Á‚ÎÂÍ‡ÂÏ ËÁ ÔÂÂÏÂÌÌÓÈ ‰‡Ú date_start, ÓÚÌÓÒˇ˘ÂÈÒˇ Í ÚËÔÛ POSIXct, 
-> # ÔÓˇ‰ÍÓ‚˚Â ÌÓÏÂ‡ ‰ÌÂÈ Ë Á‡ÔËÒ˚‚‡ÂÏ ‚ ÔÂÂÏÂÌÌÛ˛ day
+> # –ò–∑–≤–ª–µ–∫–∞–µ–º –∏–∑ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π –¥–∞—Ç date_start, –æ—Ç–Ω–æ—Å—è—â–µ–π—Å—è –∫ —Ç–∏–ø—É POSIXct, 
+> # –ø–æ—Ä—è–¥–∫–æ–≤—ã–µ –Ω–æ–º–µ—Ä–∞ –¥–Ω–µ–π –∏ –∑–∞–ø–∏—Å—ã–≤–∞–µ–º –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é day
 > data4$day <- format(data4$date_start, "%d")
 > 
-> # »Á‚ÎÂÍ‡ÂÏ ËÁ ÔÂÂÏÂÌÌÓÈ ‰‡Ú date_start, ÓÚÌÓÒˇ˘ÂÈÒˇ Í ÚËÔÛ POSIXct, 
-> # ÒÓÍ‡˘ÂÌÌ˚Â Ì‡Á‚‡ÌËˇ ‰ÌÂÈ ÌÂ‰ÂÎË Ë Á‡ÔËÒ˚‚‡ÂÏ ‚ ÔÂÂÏÂÌÌÛ˛ name_of_weekday
+> # –ò–∑–≤–ª–µ–∫–∞–µ–º –∏–∑ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π –¥–∞—Ç date_start, –æ—Ç–Ω–æ—Å—è—â–µ–π—Å—è –∫ —Ç–∏–ø—É POSIXct, 
+> # —Å–æ–∫—Ä–∞—â–µ–Ω–Ω—ã–µ –Ω–∞–∑–≤–∞–Ω–∏—è –¥–Ω–µ–π –Ω–µ–¥–µ–ª–∏ –∏ –∑–∞–ø–∏—Å—ã–≤–∞–µ–º –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é name_of_weekday
 > data4$name_of_weekday <- format(data4$date_start, "%a")
 > 
-> # »Á‚ÎÂÍ‡ÂÏ ËÁ ÔÂÂÏÂÌÌÓÈ ‰‡Ú date_start, ÓÚÌÓÒˇ˘ÂÈÒˇ Í ÚËÔÛ POSIXct, 
-> # ÔÓˇ‰ÍÓ‚˚Â ÌÓÏÂ‡ ‰ÌÂÈ ÌÂ‰ÂÎË (0-6, 0 ñ ‚ÓÒÍÂÒÂÌ¸Â) 
-> # Ë Á‡ÔËÒ˚‚‡ÂÏ ‚ ÔÂÂÏÂÌÌÛ˛ num_of_weekday
+> # –ò–∑–≤–ª–µ–∫–∞–µ–º –∏–∑ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π –¥–∞—Ç date_start, –æ—Ç–Ω–æ—Å—è—â–µ–π—Å—è –∫ —Ç–∏–ø—É POSIXct, 
+> # –ø–æ—Ä—è–¥–∫–æ–≤—ã–µ –Ω–æ–º–µ—Ä–∞ –¥–Ω–µ–π –Ω–µ–¥–µ–ª–∏ (0-6, 0 ‚Äì –≤–æ—Å–∫—Ä–µ—Å–µ–Ω—å–µ) 
+> # –∏ –∑–∞–ø–∏—Å—ã–≤–∞–µ–º –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é num_of_weekday
 > data4$num_of_weekday <- format(data4$date_start, "%w")
 > 
-> # —ÏÓÚËÏ ÔÂ‚˚Â 10 Ì‡·Î˛‰ÂÌËÈ
+> # –°–º–æ—Ç—Ä–∏–º –ø–µ—Ä–≤—ã–µ 10 –Ω–∞–±–ª—é–¥–µ–Ω–∏–π
 > head(data4)
-  date_start   date_end gender year quarter num_of_month shortname_of_month fullname_of_month day name_of_weekday num_of_weekday
-1 2016-04-03 2016-04-19   male 2016      Q2           04                ‡Ô            ¿ÔÂÎ¸  03              ¬Ò              0
-2 2016-04-17 2016-05-19   male 2016      Q2           04                ‡Ô            ¿ÔÂÎ¸  17              ¬Ò              0
-3 2016-01-12 2016-01-22   male 2016      Q1           01                ˇÌ‚            ﬂÌ‚‡¸  12              ¬Ú              2
-4 2016-08-23 2016-09-03 female 2016      Q3           08                ‡‚„            ¿‚„ÛÒÚ  23              ¬Ú              2
-5 2016-10-13 2016-10-25 female 2016      Q4           10                ÓÍÚ           ŒÍÚˇ·¸  13              ◊Ú              4
-6 2016-01-17 2016-01-22   male 2016      Q1           01                ˇÌ‚            ﬂÌ‚‡¸  17              ¬Ò              0
+date_start   date_end gender year quarter num_of_month shortname_of_month fullname_of_month day name_of_weekday num_of_weekday
+1 2016-04-03 2016-04-19   male 2016      Q2           04                –∞–ø—Ä            –ê–ø—Ä–µ–ª—å  03              –í—Å              0
+2 2016-04-17 2016-05-19   male 2016      Q2           04                –∞–ø—Ä            –ê–ø—Ä–µ–ª—å  17              –í—Å              0
+3 2016-01-12 2016-01-22   male 2016      Q1           01                —è–Ω–≤            –Ø–Ω–≤–∞—Ä—å  12              –í—Ç              2
+4 2016-08-23 2016-09-03 female 2016      Q3           08                –∞–≤–≥            –ê–≤–≥—É—Å—Ç  23              –í—Ç              2
+5 2016-10-13 2016-10-25 female 2016      Q4           10                –æ–∫—Ç           –û–∫—Ç—è–±—Ä—å  13              –ß—Ç              4
+6 2016-01-17 2016-01-22   male 2016      Q1           01                —è–Ω–≤            –Ø–Ω–≤–∞—Ä—å  17              –í—Å              0
 > 
-> # 6. –‡·ÓÚ‡ ÒÓ ÒÚÓÍ‡ÏË
+> # 6. –†–∞–±–æ—Ç–∞ —Å–æ —Å—Ç—Ä–æ–∫–∞–º–∏
 > 
-> # 6.1. »ÁÏÂÌÂÌËÂ Â„ËÒÚ‡ ÒÚÓÍ
+> # 6.1. –ò–∑–º–µ–Ω–µ–Ω–∏–µ —Ä–µ–≥–∏—Å—Ç—Ä–∞ —Å—Ç—Ä–æ–∫
 > 
-> # —ÏÓÚËÏ, Í‡Í ‚˚„Îˇ‰ˇÚ ÔÂ‚˚Â 10 Ì‡·Î˛‰ÂÌËÈ ÔÂÂÏÂÌÌÓÈ 
-> # job_position (ËÏÂÂÚ ËÌ‰ÂÍÒ 4) ‚ ‰‡Ú‡ÙÂÈÏÂ data3
+> # –°–º–æ—Ç—Ä–∏–º, –∫–∞–∫ –≤—ã–≥–ª—è–¥—è—Ç –ø–µ—Ä–≤—ã–µ 10 –Ω–∞–±–ª—é–¥–µ–Ω–∏–π –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π 
+> # job_position (–∏–º–µ–µ—Ç –∏–Ω–¥–µ–∫—Å 4) –≤ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º–µ data3
 > head(data3[4], 10)
-   job_position
+job_position
 1           UMN
 2           UMN
 3           SPC
@@ -2255,13 +2251,13 @@ library(plyr); library(dplyr)
 9           SPC
 10          SPC
 > 
-> # œÂÂ‚Ó‰ËÏ ÒÚÓÍË (ÁÌ‡˜ÂÌËˇ ÔÂÂÏÂÌÌÓÈ job_position) ‚ ÌËÊÌËÈ Â„ËÒÚ 
+> # –ü–µ—Ä–µ–≤–æ–¥–∏–º —Å—Ç—Ä–æ–∫–∏ (–∑–Ω–∞—á–µ–Ω–∏—è –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π job_position) –≤ –Ω–∏–∂–Ω–∏–π —Ä–µ–≥–∏—Å—Ç—Ä 
 > data3$job_position <- tolower(data3$job_position)
 > 
-> # —ÏÓÚËÏ, Í‡Í ‚˚„Îˇ‰ˇÚ ÔÂ‚˚Â 10 Ì‡·Î˛‰ÂÌËÈ ÔÂÂÏÂÌÌÓÈ 
-> # job_position (ËÏÂÂÚ ËÌ‰ÂÍÒ 4) ‚ ‰‡Ú‡ÙÂÈÏÂ data3
+> # –°–º–æ—Ç—Ä–∏–º, –∫–∞–∫ –≤—ã–≥–ª—è–¥—è—Ç –ø–µ—Ä–≤—ã–µ 10 –Ω–∞–±–ª—é–¥–µ–Ω–∏–π –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π 
+> # job_position (–∏–º–µ–µ—Ç –∏–Ω–¥–µ–∫—Å 4) –≤ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º–µ data3
 > head(data3[4], 10)
-   job_position
+job_position
 1           umn
 2           umn
 3           spc
@@ -2273,13 +2269,13 @@ library(plyr); library(dplyr)
 9           spc
 10          spc
 > 
-> # œÂÂ‚Ó‰ËÏ ÒÚÓÍË (ÁÌ‡˜ÂÌËˇ ÔÂÂÏÂÌÌÓÈ job_position) Ó·‡ÚÌÓ ‚ ‚ÂıÌËÈ Â„ËÒÚ 
+> # –ü–µ—Ä–µ–≤–æ–¥–∏–º —Å—Ç—Ä–æ–∫–∏ (–∑–Ω–∞—á–µ–Ω–∏—è –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π job_position) –æ–±—Ä–∞—Ç–Ω–æ –≤ –≤–µ—Ä—Ö–Ω–∏–π —Ä–µ–≥–∏—Å—Ç—Ä 
 > data3$job_position <- toupper(data3$job_position)
 > 
-> # —ÏÓÚËÏ, Í‡Í ‚˚„Îˇ‰ˇÚ ÔÂ‚˚Â 10 Ì‡·Î˛‰ÂÌËÈ ÔÂÂÏÂÌÌÓÈ 
-> # job_position (ËÏÂÂÚ ËÌ‰ÂÍÒ 4) ‚ ‰‡Ú‡ÙÂÈÏÂ data3
+> # –°–º–æ—Ç—Ä–∏–º, –∫–∞–∫ –≤—ã–≥–ª—è–¥—è—Ç –ø–µ—Ä–≤—ã–µ 10 –Ω–∞–±–ª—é–¥–µ–Ω–∏–π –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π 
+> # job_position (–∏–º–µ–µ—Ç –∏–Ω–¥–µ–∫—Å 4) –≤ –¥–∞—Ç–∞—Ñ—Ä–µ–π–º–µ data3
 > head(data3[4], 10)
-   job_position
+job_position
 1           UMN
 2           UMN
 3           SPC
@@ -2291,358 +2287,359 @@ library(plyr); library(dplyr)
 9           SPC
 10          SPC
 > 
-> # 6.2. ŒÔÂ‰ÂÎÂÌËÂ ÔÓÎ‡ ÍÎËÂÌÚ‡ ÔÓ ÓÚ˜ÂÒÚ‚Û
+> # 6.2. –û–ø—Ä–µ–¥–µ–ª–µ–Ω–∏–µ –ø–æ–ª–∞ –∫–ª–∏–µ–Ω—Ç–∞ –ø–æ –æ—Ç—á–µ—Å—Ç–≤—É
 > 
-> # —˜ËÚ˚‚‡ÂÏ CSV Ù‡ÈÎ Ò ‘»Œ ÍÎËÂÌÚÓ‚, ÔÓ ÍÓÚÓ˚Ï ÌÛÊÌÓ ÓÔÂ‰ÂÎËÚ¸ ÔÓÎ
+> # –°—á–∏—Ç—ã–≤–∞–µ–º CSV —Ñ–∞–π–ª —Å –§–ò–û –∫–ª–∏–µ–Ω—Ç–æ–≤, –ø–æ –∫–æ—Ç–æ—Ä—ã–º –Ω—É–∂–Ω–æ –æ–ø—Ä–µ–¥–µ–ª–∏—Ç—å –ø–æ–ª
 > data8 <- read.csv2("C:/Trees/Gender based on middle name.csv")
 > 
-> # —ÓÁ‰‡ÂÏ ÔÂÂÏÂÌÌÛ˛ œÓÎ, ÍÓÚÓ‡ˇ ·Û‰ÂÚ ËÏÂÚ¸ ÁÌ‡˜ÂÌËÂ True, ÂÒÎË ÒÚÓÍÓ‚ÓÂ 
-> # ÁÌ‡˜ÂÌËÂ ÔÂÂÏÂÌÌÓÈ  ÎËÂÌÚ ÒÓ‰ÂÊËÚ Ô‡ÚÚÂÌ "‚Ì‡" (¬ËÍÚÓÓ‚Ì‡, ƒÏËÚËÂ‚Ì‡) 
-> # Ë False ‚ ÔÓÚË‚ÌÓÏ ÒÎÛ˜‡Â
-> data8$œÓÎ <- grepl("‚Ì‡", data8$ ÎËÂÌÚ)
+> # –°–æ–∑–¥–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é –ü–æ–ª, –∫–æ—Ç–æ—Ä–∞—è –±—É–¥–µ—Ç –∏–º–µ—Ç—å –∑–Ω–∞—á–µ–Ω–∏–µ True, –µ—Å–ª–∏ —Å—Ç—Ä–æ–∫–æ–≤–æ–µ 
+> # –∑–Ω–∞—á–µ–Ω–∏–µ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π –ö–ª–∏–µ–Ω—Ç —Å–æ–¥–µ—Ä–∂–∏—Ç –ø–∞—Ç—Ç–µ—Ä–Ω "–≤–Ω–∞" (–í–∏–∫—Ç–æ—Ä–æ–≤–Ω–∞, –î–º–∏—Ç—Ä–∏–µ–≤–Ω–∞) 
+> # –∏ False –≤ –ø—Ä–æ—Ç–∏–≤–Ω–æ–º —Å–ª—É—á–∞–µ
+> data8$–ü–æ–ª <- grepl("–≤–Ω–∞", data8$–ö–ª–∏–µ–Ω—Ç)
 > 
-> # œÂÂËÏÂÌÛÂÏ Í‡ÚÂ„ÓËË ÔÂÂÏÂÌÌÓÈ œÓÎ
-> data8$œÓÎ[data8$œÓÎ=="FALSE"] <-"ÃÛÊÒÍÓÈ"
-> data8$œÓÎ[data8$œÓÎ=="TRUE"] <-"∆ÂÌÒÍËÈ"
+> # –ü–µ—Ä–µ–∏–º–µ–Ω—É–µ–º –∫–∞—Ç–µ–≥–æ—Ä–∏–∏ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π –ü–æ–ª
+> data8$–ü–æ–ª[data8$–ü–æ–ª=="FALSE"] <-"–ú—É–∂—Å–∫–æ–π"
+> data8$–ü–æ–ª[data8$–ü–æ–ª=="TRUE"] <-"–ñ–µ–Ω—Å–∫–∏–π"
 > 
-> # —ÏÓÚËÏ ÂÁÛÎ¸Ú‡Ú
+> # –°–º–æ—Ç—Ä–∏–º —Ä–µ–∑—É–ª—å—Ç–∞—Ç
 > head(data8, 10)
-                              ÎËÂÌÚ ¬ÓÁ‡ÒÚ             –Â„ËÓÌ       —Ú‡ÚÛÒ     œÓÎ
-1  _ ÓÎÂÒÌËÍÓ‚ ¬ˇ˜ÂÒÎ‡‚ ¿Ì‡ÚÓÎ¸Â‚Ë˜      33       ‡ÒÌÓˇÒÍ- 2    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ
-2     _—‡ÈÏÛÁ‡ÌÓ‚ ÃËı‡ËÎ ¡ÓËÒÓ‚Ë˜      22       ‡ÒÌÓˇÒÍ- 2    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ
-3         ¿·‡ËÏÓ‚ Ã‡ÍÒËÏ ƒÏËÚËÂ‚Ë˜      43          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ
-4           ¿·‡ÍÛÏÓ‚‡ ﬁÎËˇ »‚‡ÌÓ‚Ì‡      22          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ
-5        ¿·‡ÌÓ‚‡ ≈ÎÂÌ‡ ¬Î‡‰ËÏËÓ‚Ì‡      54 —‡ÌÍÚ-œÂÚÂ·Û„- 6    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ
-6        ¿·‰‡ıËÏÓ‚‡ ﬁÎËˇ –‡ÙËÍÓ‚Ì‡      23 —‡ÌÍÚ-œÂÚÂ·Û„- 6    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ
-7     ¿·‰Û„‡ÎËÂ‚‡ ¿È„ÛÎ¸ Ã‡ÍÒÛÚÓ‚Ì‡      27          ÃÓÒÍ‚‡- 4 ÕÂ ‚ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ
-8       ¿·‰ÛÎÎ‡Â‚ »Î¸„‡ ›Î¸‰‡Ó‚Ë˜      44    ≈Í‡ÚÂËÌ·Û„- 8 ÕÂ ‚ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ
-9       ¿·‰ÛÎÎËÌ ≈‚„ÂÌËÈ ›‰Û‡‰Ó‚Ë˜      22    ≈Í‡ÚÂËÌ·Û„- 8 ÕÂ ‚ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ
-10  ¿·‰ÛÎÎËÌ‡ ≈Í‡ÚÂËÌ‡ ¿Ì‡ÚÓÎ¸Â‚Ì‡      63    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ
+–ö–ª–∏–µ–Ω—Ç –í–æ–∑—Ä–∞—Å—Ç             –†–µ–≥–∏–æ–Ω       –°—Ç–∞—Ç—É—Å     –ü–æ–ª
+1  _–ö–æ–ª–µ—Å–Ω–∏–∫–æ–≤ –í—è—á–µ—Å–ª–∞–≤ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–∏—á      33      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫- 2    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π
+2     _–°–∞–π–º—É—Ä–∑–∞–Ω–æ–≤ –ú–∏—Ö–∞–∏–ª –ë–æ—Ä–∏—Å–æ–≤–∏—á      22      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫- 2    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π
+3         –ê–±–∞–∏–º–æ–≤ –ú–∞–∫—Å–∏–º –î–º–∏—Ç—Ä–∏–µ–≤–∏—á      43          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π
+4           –ê–±–∞–∫—É–º–æ–≤–∞ –Æ–ª–∏—è –ò–≤–∞–Ω–æ–≤–Ω–∞      22          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π
+5        –ê–±–∞–Ω–æ–≤–∞ –ï–ª–µ–Ω–∞ –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–Ω–∞      54 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥- 6    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π
+6        –ê–±–¥—Ä–∞—Ö–∏–º–æ–≤–∞ –Æ–ª–∏—è –†–∞—Ñ–∏–∫–æ–≤–Ω–∞      23 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥- 6    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π
+7     –ê–±–¥—É–≥–∞–ª–∏–µ–≤–∞ –ê–π–≥—É–ª—å –ú–∞–∫—Å—É—Ç–æ–≤–Ω–∞      27          –ú–æ—Å–∫–≤–∞- 4 –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π
+8       –ê–±–¥—É–ª–ª–∞–µ–≤ –ò–ª—å–≥–∞—Ä –≠–ª—å–¥–∞—Ä–æ–≤–∏—á      44    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8 –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π
+9       –ê–±–¥—É–ª–ª–∏–Ω –ï–≤–≥–µ–Ω–∏–π –≠–¥—É–∞—Ä–¥–æ–≤–∏—á      22    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8 –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π
+10  –ê–±–¥—É–ª–ª–∏–Ω–∞ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–Ω–∞      63    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π
 > 
-> # ¿ ÚÂÔÂ¸ Ì‡ÔË¯ÂÏ ÒÓ·ÒÚ‚ÂÌÌÛ˛ ÙÛÌÍˆË˛, ÍÓÚÓ‡ˇ ·Û‰ÂÚ ËÁ‚ÎÂÍ‡Ú¸ n
-> # ÔÓÒÎÂ‰ÌËı ÒËÏ‚ÓÎÓ‚ ËÁ ÒÚÓÍ  
+> # –ê —Ç–µ–ø–µ—Ä—å –Ω–∞–ø–∏—à–µ–º —Å–æ–±—Å—Ç–≤–µ–Ω–Ω—É—é —Ñ—É–Ω–∫—Ü–∏—é, –∫–æ—Ç–æ—Ä–∞—è –±—É–¥–µ—Ç –∏–∑–≤–ª–µ–∫–∞—Ç—å n
+> # –ø–æ—Å–ª–µ–¥–Ω–∏—Ö —Å–∏–º–≤–æ–ª–æ–≤ –∏–∑ —Å—Ç—Ä–æ–∫  
 > substrRight <- function(x, n){
-+   substr(x, nchar(x)-n+1, nchar(x))
-+ }
+  substr(x, nchar(x)-n+1, nchar(x))
+  }
 > 
-> # œÂÓ·‡ÁÛÂÏ ÔÂÂÏÂÌÌÛ˛  ÎËÂÌÚ ‚ ÚËÔ char (ÁÌ‡˜ÂÌËˇ ñ ÒËÏ‚ÓÎ¸Ì˚Â ÏÂÚÍË) 
-> # Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË as.character
-> data8$ ÎËÂÌÚ <- as.character(data8$ ÎËÂÌÚ)
+> # –ü—Ä–µ–æ–±—Ä–∞–∑—É–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é –ö–ª–∏–µ–Ω—Ç –≤ —Ç–∏–ø char (–∑–Ω–∞—á–µ–Ω–∏—è ‚Äì —Å–∏–º–≤–æ–ª—å–Ω—ã–µ –º–µ—Ç–∫–∏) 
+> # —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ as.character
+> data8$–ö–ª–∏–µ–Ω—Ç <- as.character(data8$–ö–ª–∏–µ–Ω—Ç)
 > 
-> # » ÚÂÔÂ¸ Ò ÔÓÏÓ˘¸˛ ˝ÚÓÈ ÙÛÌÍˆËË ËÁ‚ÎÂ˜ÂÏ ‚ Í‡Ê‰ÓÏ ÒÚÓÍÓ‚ÓÏ ÁÌ‡˜ÂÌËË
-> # ÔÂÂÏÂÌÌÓÈ  ÎËÂÌÚ ÔÓÒÎÂ‰ÌËÂ 3 ÒËÏ‚ÓÎ‡ Ë Á‡ÔË¯ÂÏ ‚ ÌÓ‚Û˛ ÔÂÂÏÂÌÌÛ˛ œÓÎ2
-> data8$œÓÎ2 <- substrRight(data8$ ÎËÂÌÚ, 3)
+> # –ò —Ç–µ–ø–µ—Ä—å —Å –ø–æ–º–æ—â—å—é —ç—Ç–æ–π —Ñ—É–Ω–∫—Ü–∏–∏ –∏–∑–≤–ª–µ—á–µ–º –≤ –∫–∞–∂–¥–æ–º —Å—Ç—Ä–æ–∫–æ–≤–æ–º –∑–Ω–∞—á–µ–Ω–∏–∏
+> # –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π –ö–ª–∏–µ–Ω—Ç –ø–æ—Å–ª–µ–¥–Ω–∏–µ 3 —Å–∏–º–≤–æ–ª–∞ –∏ –∑–∞–ø–∏—à–µ–º –≤ –Ω–æ–≤—É—é –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é –ü–æ–ª2
+> data8$–ü–æ–ª2 <- substrRight(data8$–ö–ª–∏–µ–Ω—Ç, 3)
 > 
-> # œÂÂËÏÂÌÛÂÏ Í‡ÚÂ„ÓËË ÔÂÂÏÂÌÌÓÈ œÓÎ
-> data8$œÓÎ2[data8$œÓÎ2=="‚Ë˜"] <-"ÃÛÊÒÍÓÈ"
-> data8$œÓÎ2[data8$œÓÎ2=="‚Ì‡"] <-"∆ÂÌÒÍËÈ"
+> # –ü–µ—Ä–µ–∏–º–µ–Ω—É–µ–º –∫–∞—Ç–µ–≥–æ—Ä–∏–∏ –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π –ü–æ–ª
+> data8$–ü–æ–ª2[data8$–ü–æ–ª2=="–≤–∏—á"] <-"–ú—É–∂—Å–∫–æ–π"
+> data8$–ü–æ–ª2[data8$–ü–æ–ª2=="–≤–Ω–∞"] <-"–ñ–µ–Ω—Å–∫–∏–π"
 > 
-> # —ÏÓÚËÏ ÂÁÛÎ¸Ú‡Ú
+> # –°–º–æ—Ç—Ä–∏–º —Ä–µ–∑—É–ª—å—Ç–∞—Ç
 > head(data8, 10)
-                              ÎËÂÌÚ ¬ÓÁ‡ÒÚ             –Â„ËÓÌ       —Ú‡ÚÛÒ     œÓÎ    œÓÎ2
-1  _ ÓÎÂÒÌËÍÓ‚ ¬ˇ˜ÂÒÎ‡‚ ¿Ì‡ÚÓÎ¸Â‚Ë˜      33       ‡ÒÌÓˇÒÍ- 2    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ
-2     _—‡ÈÏÛÁ‡ÌÓ‚ ÃËı‡ËÎ ¡ÓËÒÓ‚Ë˜      22       ‡ÒÌÓˇÒÍ- 2    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ
-3         ¿·‡ËÏÓ‚ Ã‡ÍÒËÏ ƒÏËÚËÂ‚Ë˜      43          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ
-4           ¿·‡ÍÛÏÓ‚‡ ﬁÎËˇ »‚‡ÌÓ‚Ì‡      22          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ
-5        ¿·‡ÌÓ‚‡ ≈ÎÂÌ‡ ¬Î‡‰ËÏËÓ‚Ì‡      54 —‡ÌÍÚ-œÂÚÂ·Û„- 6    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ
-6        ¿·‰‡ıËÏÓ‚‡ ﬁÎËˇ –‡ÙËÍÓ‚Ì‡      23 —‡ÌÍÚ-œÂÚÂ·Û„- 6    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ
-7     ¿·‰Û„‡ÎËÂ‚‡ ¿È„ÛÎ¸ Ã‡ÍÒÛÚÓ‚Ì‡      27          ÃÓÒÍ‚‡- 4 ÕÂ ‚ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ
-8       ¿·‰ÛÎÎ‡Â‚ »Î¸„‡ ›Î¸‰‡Ó‚Ë˜      44    ≈Í‡ÚÂËÌ·Û„- 8 ÕÂ ‚ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ
-9       ¿·‰ÛÎÎËÌ ≈‚„ÂÌËÈ ›‰Û‡‰Ó‚Ë˜      22    ≈Í‡ÚÂËÌ·Û„- 8 ÕÂ ‚ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ
-10  ¿·‰ÛÎÎËÌ‡ ≈Í‡ÚÂËÌ‡ ¿Ì‡ÚÓÎ¸Â‚Ì‡      63    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ
+–ö–ª–∏–µ–Ω—Ç –í–æ–∑—Ä–∞—Å—Ç             –†–µ–≥–∏–æ–Ω       –°—Ç–∞—Ç—É—Å     –ü–æ–ª    –ü–æ–ª2
+1  _–ö–æ–ª–µ—Å–Ω–∏–∫–æ–≤ –í—è—á–µ—Å–ª–∞–≤ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–∏—á      33      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫- 2    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π
+2     _–°–∞–π–º—É—Ä–∑–∞–Ω–æ–≤ –ú–∏—Ö–∞–∏–ª –ë–æ—Ä–∏—Å–æ–≤–∏—á      22      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫- 2    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π
+3         –ê–±–∞–∏–º–æ–≤ –ú–∞–∫—Å–∏–º –î–º–∏—Ç—Ä–∏–µ–≤–∏—á      43          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π
+4           –ê–±–∞–∫—É–º–æ–≤–∞ –Æ–ª–∏—è –ò–≤–∞–Ω–æ–≤–Ω–∞      22          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π
+5        –ê–±–∞–Ω–æ–≤–∞ –ï–ª–µ–Ω–∞ –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–Ω–∞      54 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥- 6    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π
+6        –ê–±–¥—Ä–∞—Ö–∏–º–æ–≤–∞ –Æ–ª–∏—è –†–∞—Ñ–∏–∫–æ–≤–Ω–∞      23 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥- 6    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π
+7     –ê–±–¥—É–≥–∞–ª–∏–µ–≤–∞ –ê–π–≥—É–ª—å –ú–∞–∫—Å—É—Ç–æ–≤–Ω–∞      27          –ú–æ—Å–∫–≤–∞- 4 –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π
+8       –ê–±–¥—É–ª–ª–∞–µ–≤ –ò–ª—å–≥–∞—Ä –≠–ª—å–¥–∞—Ä–æ–≤–∏—á      44    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8 –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π
+9       –ê–±–¥—É–ª–ª–∏–Ω –ï–≤–≥–µ–Ω–∏–π –≠–¥—É–∞—Ä–¥–æ–≤–∏—á      22    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8 –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π
+10  –ê–±–¥—É–ª–ª–∏–Ω–∞ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–Ω–∞      63    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π
 > 
-> # 6.3. ”‰‡ÎÂÌËÂ ÎË¯ÌËı ÒËÏ‚ÓÎÓ‚ ËÁ ÒÚÓÍ
+> # 6.3. –£–¥–∞–ª–µ–Ω–∏–µ –ª–∏—à–Ω–∏—Ö —Å–∏–º–≤–æ–ª–æ–≤ –∏–∑ —Å—Ç—Ä–æ–∫
 > 
-> # — ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË gsub Û‰‡ÎËÏ ÌÂÌÛÊÌ˚È ÒËÏ‚ÓÎ ÔÓ‰˜ÂÍË‚‡ÌËˇ, Ò ÍÓÚÓÓ„Ó 
-> # Ì‡˜ËÌ‡˛ÚÒˇ ÌÂÒÍÓÎ¸ÍÓ ÁÌ‡˜ÂÌËÈ ÔÂÂÏÂÌÌÓÈ  ÎËÂÌÚ, ÔÂ‚˚È ‡„ÛÏÂÌÚ ÙÛÌÍˆËË ñ ÒËÏ‚ÓÎ,
-> # ÍÓÚÓ˚È ÌÛÊÌÓ Û‰‡ÎËÚ¸, ‚ÚÓÓÈ ‡„ÛÏÂÌÚ ñ ÒËÏ‚ÓÎ, Ì‡ ÍÓÚÓ˚È ÌÛÊÌÓ
-> # Á‡ÏÂÌËÚ¸, ÚÂÚËÈ ‡„ÛÏÂÌÚ ñ ÒÚÓÍ‡ ËÎË ÔÂÂÏÂÌÌ‡ˇ, ÒÓ‰ÂÊ‡˘‡ˇ ÒÚÓÍÓ‚˚Â ÁÌ‡˜ÂÌËˇ
-> data8$ ÎËÂÌÚ <- gsub('_',  "", data8$ ÎËÂÌÚ)
+> # –° –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ gsub —É–¥–∞–ª–∏–º –Ω–µ–Ω—É–∂–Ω—ã–π —Å–∏–º–≤–æ–ª –ø–æ–¥—á–µ—Ä–∫–∏–≤–∞–Ω–∏—è, —Å –∫–æ—Ç–æ—Ä–æ–≥–æ 
+> # –Ω–∞—á–∏–Ω–∞—é—Ç—Å—è –Ω–µ—Å–∫–æ–ª—å–∫–æ –∑–Ω–∞—á–µ–Ω–∏–π –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π –ö–ª–∏–µ–Ω—Ç, –ø–µ—Ä–≤—ã–π –∞—Ä–≥—É–º–µ–Ω—Ç —Ñ—É–Ω–∫—Ü–∏–∏ ‚Äì —Å–∏–º–≤–æ–ª,
+> # –∫–æ—Ç–æ—Ä—ã–π –Ω—É–∂–Ω–æ —É–¥–∞–ª–∏—Ç—å, –≤—Ç–æ—Ä–æ–π –∞—Ä–≥—É–º–µ–Ω—Ç ‚Äì —Å–∏–º–≤–æ–ª, –Ω–∞ –∫–æ—Ç–æ—Ä—ã–π –Ω—É–∂–Ω–æ
+> # –∑–∞–º–µ–Ω–∏—Ç—å, —Ç—Ä–µ—Ç–∏–π –∞—Ä–≥—É–º–µ–Ω—Ç ‚Äì —Å—Ç—Ä–æ–∫–∞ –∏–ª–∏ –ø–µ—Ä–µ–º–µ–Ω–Ω–∞—è, —Å–æ–¥–µ—Ä–∂–∞—â–∞—è —Å—Ç—Ä–æ–∫–æ–≤—ã–µ –∑–Ω–∞—á–µ–Ω–∏—è
+> data8$–ö–ª–∏–µ–Ω—Ç <- gsub('_',  "", data8$–ö–ª–∏–µ–Ω—Ç)
 > 
-> # —ÏÓÚËÏ ÂÁÛÎ¸Ú‡Ú
+> # –°–º–æ—Ç—Ä–∏–º —Ä–µ–∑—É–ª—å—Ç–∞—Ç
 > head(data8, 20)
-                               ÎËÂÌÚ ¬ÓÁ‡ÒÚ             –Â„ËÓÌ       —Ú‡ÚÛÒ     œÓÎ    œÓÎ2
-1     ÓÎÂÒÌËÍÓ‚ ¬ˇ˜ÂÒÎ‡‚ ¿Ì‡ÚÓÎ¸Â‚Ë˜      33       ‡ÒÌÓˇÒÍ- 2    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ
-2       —‡ÈÏÛÁ‡ÌÓ‚ ÃËı‡ËÎ ¡ÓËÒÓ‚Ë˜      22       ‡ÒÌÓˇÒÍ- 2    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ
-3          ¿·‡ËÏÓ‚ Ã‡ÍÒËÏ ƒÏËÚËÂ‚Ë˜      43          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ
-4            ¿·‡ÍÛÏÓ‚‡ ﬁÎËˇ »‚‡ÌÓ‚Ì‡      22          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ
-5         ¿·‡ÌÓ‚‡ ≈ÎÂÌ‡ ¬Î‡‰ËÏËÓ‚Ì‡      54 —‡ÌÍÚ-œÂÚÂ·Û„- 6    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ
-6         ¿·‰‡ıËÏÓ‚‡ ﬁÎËˇ –‡ÙËÍÓ‚Ì‡      23 —‡ÌÍÚ-œÂÚÂ·Û„- 6    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ
-7      ¿·‰Û„‡ÎËÂ‚‡ ¿È„ÛÎ¸ Ã‡ÍÒÛÚÓ‚Ì‡      27          ÃÓÒÍ‚‡- 4 ÕÂ ‚ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ
-8        ¿·‰ÛÎÎ‡Â‚ »Î¸„‡ ›Î¸‰‡Ó‚Ë˜      44    ≈Í‡ÚÂËÌ·Û„- 8 ÕÂ ‚ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ
-9        ¿·‰ÛÎÎËÌ ≈‚„ÂÌËÈ ›‰Û‡‰Ó‚Ë˜      22    ≈Í‡ÚÂËÌ·Û„- 8 ÕÂ ‚ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ
-10   ¿·‰ÛÎÎËÌ‡ ≈Í‡ÚÂËÌ‡ ¿Ì‡ÚÓÎ¸Â‚Ì‡      63    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ
-11   ¿·‰ÛÎÎËÌ‡ ≈Í‡ÚÂËÌ‡ ¿Ì‡ÚÓÎ¸Â‚Ì‡      63    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ
-12   ¿·‰Û‡ÒÛÎÓ‚‡ Õ‡Ú‡Î¸ˇ “‡‰ÊËÎÓ‚Ì‡     55&    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ
-13       ¿·‰Û‡ıËÏÓ‚‡ ¿ÎÂÌ‡ ¿ÎËÏÓ‚Ì‡      57    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ
-14 ¿·ÂÎ¸‰ËÌ‡ √ÛÎ¸Ô‡ıËˇ √‡ÎËÏÊ‡ÌÓ‚Ì‡      41    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ
-15              ¿·ÎÂˆ ﬁÎËˇ —Â„ÂÂ‚Ì‡      33    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ
-16         ¿·ÓÎÏ‡ÒÓ‚‡ »ËÌ‡ ŒÎÂ„Ó‚Ì‡      38    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ
-17        ¿·‡Â‚ ÕÛÎ‡Ì ÃÛÒ‡È·ÂÍÓ‚Ë˜      49    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ
-18  ¿·‡ÏÂÌÍÓ ≈Í‡ÚÂËÌ‡ ¬Î‡‰ËÏËÓ‚Ì‡      56          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ
-19      ¿·‡ÏÓ‚ ƒÏËÚËÈ ¬Î‡‰ËÏËÓ‚Ë˜      51          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ
-20         ¿·‡ÏÓ‚ ÕËÍËÚ‡ ¬‡ÎÂ¸Â‚Ë˜   45ÎÂÚ    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ
+–ö–ª–∏–µ–Ω—Ç –í–æ–∑—Ä–∞—Å—Ç             –†–µ–≥–∏–æ–Ω       –°—Ç–∞—Ç—É—Å     –ü–æ–ª    –ü–æ–ª2
+1    –ö–æ–ª–µ—Å–Ω–∏–∫–æ–≤ –í—è—á–µ—Å–ª–∞–≤ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–∏—á      33      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫- 2    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π
+2       –°–∞–π–º—É—Ä–∑–∞–Ω–æ–≤ –ú–∏—Ö–∞–∏–ª –ë–æ—Ä–∏—Å–æ–≤–∏—á      22      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫- 2    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π
+3          –ê–±–∞–∏–º–æ–≤ –ú–∞–∫—Å–∏–º –î–º–∏—Ç—Ä–∏–µ–≤–∏—á      43          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π
+4            –ê–±–∞–∫—É–º–æ–≤–∞ –Æ–ª–∏—è –ò–≤–∞–Ω–æ–≤–Ω–∞      22          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π
+5         –ê–±–∞–Ω–æ–≤–∞ –ï–ª–µ–Ω–∞ –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–Ω–∞      54 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥- 6    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π
+6         –ê–±–¥—Ä–∞—Ö–∏–º–æ–≤–∞ –Æ–ª–∏—è –†–∞—Ñ–∏–∫–æ–≤–Ω–∞      23 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥- 6    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π
+7      –ê–±–¥—É–≥–∞–ª–∏–µ–≤–∞ –ê–π–≥—É–ª—å –ú–∞–∫—Å—É—Ç–æ–≤–Ω–∞      27          –ú–æ—Å–∫–≤–∞- 4 –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π
+8        –ê–±–¥—É–ª–ª–∞–µ–≤ –ò–ª—å–≥–∞—Ä –≠–ª—å–¥–∞—Ä–æ–≤–∏—á      44    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8 –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π
+9        –ê–±–¥—É–ª–ª–∏–Ω –ï–≤–≥–µ–Ω–∏–π –≠–¥—É–∞—Ä–¥–æ–≤–∏—á      22    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8 –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π
+10   –ê–±–¥—É–ª–ª–∏–Ω–∞ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–Ω–∞      63    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π
+11   –ê–±–¥—É–ª–ª–∏–Ω–∞ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–Ω–∞      63    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π
+12   –ê–±–¥—É—Ä–∞—Å—É–ª–æ–≤–∞ –ù–∞—Ç–∞–ª—å—è –¢–∞–¥–∂–∏–ª–æ–≤–Ω–∞     55&    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π
+13       –ê–±–¥—É—Ä–∞—Ö–∏–º–æ–≤–∞ –ê–ª–µ–Ω–∞ –ê–ª–∏–º–æ–≤–Ω–∞      57    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π
+14 –ê–±–µ–ª—å–¥–∏–Ω–∞ –ì—É–ª—å–ø–∞—Ä—Ö–∏—è –ì–∞–ª–∏–º–∂–∞–Ω–æ–≤–Ω–∞      41    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π
+15              –ê–±–ª–µ—Ü –Æ–ª–∏—è –°–µ—Ä–≥–µ–µ–≤–Ω–∞      33    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π
+16         –ê–±–æ–ª–º–∞—Å–æ–≤–∞ –ò—Ä–∏–Ω–∞ –û–ª–µ–≥–æ–≤–Ω–∞      38    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π
+17        –ê–±—Ä–∞–µ–≤ –ù—É—Ä–ª–∞–Ω –ú—É—Å–∞–π–±–µ–∫–æ–≤–∏—á      49    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π
+18  –ê–±—Ä–∞–º–µ–Ω–∫–æ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–Ω–∞      56          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π
+19      –ê–±—Ä–∞–º–æ–≤ –î–º–∏—Ç—Ä–∏–π –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–∏—á      51          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π
+20         –ê–±—Ä–∞–º–æ–≤ –ù–∏–∫–∏—Ç–∞ –í–∞–ª–µ—Ä—å–µ–≤–∏—á   45–ª–µ—Ç    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π
 > 
-> # “ÂÔÂ¸ Ò ÔÓÏÓ˘¸˛ gsub Û‰‡ÎËÏ ÌÂÌÛÊÌ˚Â ÒËÏ‚ÓÎ˚, ÍÓÚÓ˚ÏË 
-> # Á‡Í‡Ì˜Ë‚‡˛ÚÒˇ ÌÂÍÓÚÓ˚Â ÁÌ‡˜ÂÌËˇ ÔÂÂÏÂÌÌÓÈ ¬ÓÁ‡ÒÚ, Û‰‡ÎˇÂÏ
-> # ÒËÏ‚ÓÎ &, ‡ Ò ÔÓÏÓ˘¸˛ ÍÎ‡ÒÒ‡ ÒËÏ‚ÓÎÓ‚ POSIX [:alpha:] ‚ÒÂ ÒËÏ‚ÓÎ˚ ‡ÎÙ‡‚ËÚ‡,
-> # ÂÁÛÎ¸Ú‡Ú˚ Á‡ÔË¯ÂÏ ‚ ÔÂÂÏÂÌÌÛ˛ ¬ÓÁ‡ÒÚ2
+> # –¢–µ–ø–µ—Ä—å —Å –ø–æ–º–æ—â—å—é gsub —É–¥–∞–ª–∏–º –Ω–µ–Ω—É–∂–Ω—ã–µ —Å–∏–º–≤–æ–ª—ã, –∫–æ—Ç–æ—Ä—ã–º–∏ 
+> # –∑–∞–∫–∞–Ω—á–∏–≤–∞—é—Ç—Å—è –Ω–µ–∫–æ—Ç–æ—Ä—ã–µ –∑–Ω–∞—á–µ–Ω–∏—è –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π –í–æ–∑—Ä–∞—Å—Ç, —É–¥–∞–ª—è–µ–º
+> # —Å–∏–º–≤–æ–ª &, –∞ —Å –ø–æ–º–æ—â—å—é –∫–ª–∞—Å—Å–∞ —Å–∏–º–≤–æ–ª–æ–≤ POSIX [:alpha:] –≤—Å–µ —Å–∏–º–≤–æ–ª—ã –∞–ª—Ñ–∞–≤–∏—Ç–∞,
+> # —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã –∑–∞–ø–∏—à–µ–º –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é –í–æ–∑—Ä–∞—Å—Ç2
 > 
-> data8$¬ÓÁ‡ÒÚ2 <- gsub("[&[:alpha:]]", "", data8$¬ÓÁ‡ÒÚ)
+> data8$–í–æ–∑—Ä–∞—Å—Ç2 <- gsub("[&[:alpha:]]", "", data8$–í–æ–∑—Ä–∞—Å—Ç)
 > 
-> # —ÏÓÚËÏ ÂÁÛÎ¸Ú‡Ú
+> # –°–º–æ—Ç—Ä–∏–º —Ä–µ–∑—É–ª—å—Ç–∞—Ç
 > head(data8, 20)
-                               ÎËÂÌÚ ¬ÓÁ‡ÒÚ             –Â„ËÓÌ       —Ú‡ÚÛÒ     œÓÎ    œÓÎ2 ¬ÓÁ‡ÒÚ2
-1     ÓÎÂÒÌËÍÓ‚ ¬ˇ˜ÂÒÎ‡‚ ¿Ì‡ÚÓÎ¸Â‚Ë˜      33       ‡ÒÌÓˇÒÍ- 2    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       33
-2       —‡ÈÏÛÁ‡ÌÓ‚ ÃËı‡ËÎ ¡ÓËÒÓ‚Ë˜      22       ‡ÒÌÓˇÒÍ- 2    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       22
-3          ¿·‡ËÏÓ‚ Ã‡ÍÒËÏ ƒÏËÚËÂ‚Ë˜      43          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       43
-4            ¿·‡ÍÛÏÓ‚‡ ﬁÎËˇ »‚‡ÌÓ‚Ì‡      22          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       22
-5         ¿·‡ÌÓ‚‡ ≈ÎÂÌ‡ ¬Î‡‰ËÏËÓ‚Ì‡      54 —‡ÌÍÚ-œÂÚÂ·Û„- 6    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       54
-6         ¿·‰‡ıËÏÓ‚‡ ﬁÎËˇ –‡ÙËÍÓ‚Ì‡      23 —‡ÌÍÚ-œÂÚÂ·Û„- 6    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       23
-7      ¿·‰Û„‡ÎËÂ‚‡ ¿È„ÛÎ¸ Ã‡ÍÒÛÚÓ‚Ì‡      27          ÃÓÒÍ‚‡- 4 ÕÂ ‚ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       27
-8        ¿·‰ÛÎÎ‡Â‚ »Î¸„‡ ›Î¸‰‡Ó‚Ë˜      44    ≈Í‡ÚÂËÌ·Û„- 8 ÕÂ ‚ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       44
-9        ¿·‰ÛÎÎËÌ ≈‚„ÂÌËÈ ›‰Û‡‰Ó‚Ë˜      22    ≈Í‡ÚÂËÌ·Û„- 8 ÕÂ ‚ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       22
-10   ¿·‰ÛÎÎËÌ‡ ≈Í‡ÚÂËÌ‡ ¿Ì‡ÚÓÎ¸Â‚Ì‡      63    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       63
-11   ¿·‰ÛÎÎËÌ‡ ≈Í‡ÚÂËÌ‡ ¿Ì‡ÚÓÎ¸Â‚Ì‡      63    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       63
-12   ¿·‰Û‡ÒÛÎÓ‚‡ Õ‡Ú‡Î¸ˇ “‡‰ÊËÎÓ‚Ì‡     55&    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       55
-13       ¿·‰Û‡ıËÏÓ‚‡ ¿ÎÂÌ‡ ¿ÎËÏÓ‚Ì‡      57    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       57
-14 ¿·ÂÎ¸‰ËÌ‡ √ÛÎ¸Ô‡ıËˇ √‡ÎËÏÊ‡ÌÓ‚Ì‡      41    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       41
-15              ¿·ÎÂˆ ﬁÎËˇ —Â„ÂÂ‚Ì‡      33    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       33
-16         ¿·ÓÎÏ‡ÒÓ‚‡ »ËÌ‡ ŒÎÂ„Ó‚Ì‡      38    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       38
-17        ¿·‡Â‚ ÕÛÎ‡Ì ÃÛÒ‡È·ÂÍÓ‚Ë˜      49    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       49
-18  ¿·‡ÏÂÌÍÓ ≈Í‡ÚÂËÌ‡ ¬Î‡‰ËÏËÓ‚Ì‡      56          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       56
-19      ¿·‡ÏÓ‚ ƒÏËÚËÈ ¬Î‡‰ËÏËÓ‚Ë˜      51          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       51
-20         ¿·‡ÏÓ‚ ÕËÍËÚ‡ ¬‡ÎÂ¸Â‚Ë˜   45ÎÂÚ    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       45
+–ö–ª–∏–µ–Ω—Ç –í–æ–∑—Ä–∞—Å—Ç             –†–µ–≥–∏–æ–Ω       –°—Ç–∞—Ç—É—Å     –ü–æ–ª    –ü–æ–ª2 –í–æ–∑—Ä–∞—Å—Ç2
+1    –ö–æ–ª–µ—Å–Ω–∏–∫–æ–≤ –í—è—á–µ—Å–ª–∞–≤ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–∏—á      33      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫- 2    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       33
+2       –°–∞–π–º—É—Ä–∑–∞–Ω–æ–≤ –ú–∏—Ö–∞–∏–ª –ë–æ—Ä–∏—Å–æ–≤–∏—á      22      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫- 2    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       22
+3          –ê–±–∞–∏–º–æ–≤ –ú–∞–∫—Å–∏–º –î–º–∏—Ç—Ä–∏–µ–≤–∏—á      43          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       43
+4            –ê–±–∞–∫—É–º–æ–≤–∞ –Æ–ª–∏—è –ò–≤–∞–Ω–æ–≤–Ω–∞      22          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       22
+5         –ê–±–∞–Ω–æ–≤–∞ –ï–ª–µ–Ω–∞ –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–Ω–∞      54 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥- 6    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       54
+6         –ê–±–¥—Ä–∞—Ö–∏–º–æ–≤–∞ –Æ–ª–∏—è –†–∞—Ñ–∏–∫–æ–≤–Ω–∞      23 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥- 6    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       23
+7      –ê–±–¥—É–≥–∞–ª–∏–µ–≤–∞ –ê–π–≥—É–ª—å –ú–∞–∫—Å—É—Ç–æ–≤–Ω–∞      27          –ú–æ—Å–∫–≤–∞- 4 –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       27
+8        –ê–±–¥—É–ª–ª–∞–µ–≤ –ò–ª—å–≥–∞—Ä –≠–ª—å–¥–∞—Ä–æ–≤–∏—á      44    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8 –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       44
+9        –ê–±–¥—É–ª–ª–∏–Ω –ï–≤–≥–µ–Ω–∏–π –≠–¥—É–∞—Ä–¥–æ–≤–∏—á      22    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8 –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       22
+10   –ê–±–¥—É–ª–ª–∏–Ω–∞ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–Ω–∞      63    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       63
+11   –ê–±–¥—É–ª–ª–∏–Ω–∞ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–Ω–∞      63    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       63
+12   –ê–±–¥—É—Ä–∞—Å—É–ª–æ–≤–∞ –ù–∞—Ç–∞–ª—å—è –¢–∞–¥–∂–∏–ª–æ–≤–Ω–∞     55&    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       55
+13       –ê–±–¥—É—Ä–∞—Ö–∏–º–æ–≤–∞ –ê–ª–µ–Ω–∞ –ê–ª–∏–º–æ–≤–Ω–∞      57    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       57
+14 –ê–±–µ–ª—å–¥–∏–Ω–∞ –ì—É–ª—å–ø–∞—Ä—Ö–∏—è –ì–∞–ª–∏–º–∂–∞–Ω–æ–≤–Ω–∞      41    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       41
+15              –ê–±–ª–µ—Ü –Æ–ª–∏—è –°–µ—Ä–≥–µ–µ–≤–Ω–∞      33    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       33
+16         –ê–±–æ–ª–º–∞—Å–æ–≤–∞ –ò—Ä–∏–Ω–∞ –û–ª–µ–≥–æ–≤–Ω–∞      38    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       38
+17        –ê–±—Ä–∞–µ–≤ –ù—É—Ä–ª–∞–Ω –ú—É—Å–∞–π–±–µ–∫–æ–≤–∏—á      49    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       49
+18  –ê–±—Ä–∞–º–µ–Ω–∫–æ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–Ω–∞      56          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       56
+19      –ê–±—Ä–∞–º–æ–≤ –î–º–∏—Ç—Ä–∏–π –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–∏—á      51          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       51
+20         –ê–±—Ä–∞–º–æ–≤ –ù–∏–∫–∏—Ç–∞ –í–∞–ª–µ—Ä—å–µ–≤–∏—á   45–ª–µ—Ç    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       45
 > 
-> # ¿ ÚÂÔÂ¸ ‚˚ÔÓÎÌËÏ ‡Ì‡ÎÓ„Ë˜ÌÛ˛ ÓÔÂ‡ˆË˛ Ò ÔÓÏÓ˘¸˛ ÒÚ‡Ì‰‡ÚÌÓÈ ÙÛÌÍˆËË substr,
-> # ÓÌ‡ Á‡ÏÂÌˇÂÚ ÒÚÓÍÛ ÔÓ‰ÒÚÓÍÓÈ, ÔÂ‚˚È ‡„ÛÏÂÌÚ Á‡‰‡ÂÚ ÒÚÓÍÛ, 
-> # ‚ÚÓÓÈ ‡„ÛÏÂÌÚ ñ ÔÓÁËˆË˛ Ì‡˜‡Î¸ÌÓ„Ó ÒËÏ‚ÓÎ‡, ÚÂÚËÈ ‡„ÛÏÂÌÚ ñ 
-> # ÔÓÁËˆË˛ ÔÓÒÎÂ‰ÌÂ„Ó ÒËÏ‚ÓÎ‡, Ì‡ÔËÏÂ, ‚ ‰‡ÌÌÓÏ ÒÎÛ˜‡Â ÒÚÓÍ‡ ´28ÎÂÚª 
-> # ·Û‰ÂÚ Á‡ÏÂÌ‡ Ì‡ ÔÓ‰ÒÚÓÍÛ ´28ª, ´2ª ñ Ì‡˜‡Î¸Ì˚È ÒËÏ‚ÓÎ, Á‡ÌËÏ‡˛˘ËÈ ÔÓÁËˆË˛ 1,
-> # ´8ª - ÔÓÒÎÂ‰ÌËÈ ÒËÏ‚ÓÎ, Á‡ÌËÏ‡˛˘ËÈ ÔÓÁËˆË˛ 2 ÒÚÓÍË ´28 ÎÂÚª, 
-> # ÂÁÛÎ¸Ú‡Ú Á‡ÔË¯ÂÏ ‚ ÔÂÂÏÂÌÌÛ˛ ¬ÓÁ‡ÒÚ3 
-> data8$¬ÓÁ‡ÒÚ3 <- substr(data8$¬ÓÁ‡ÒÚ, 1, 2)
+> # –ê —Ç–µ–ø–µ—Ä—å –≤—ã–ø–æ–ª–Ω–∏–º –∞–Ω–∞–ª–æ–≥–∏—á–Ω—É—é –æ–ø–µ—Ä–∞—Ü–∏—é —Å –ø–æ–º–æ—â—å—é —Å—Ç–∞–Ω–¥–∞—Ä—Ç–Ω–æ–π —Ñ—É–Ω–∫—Ü–∏–∏ substr,
+> # –æ–Ω–∞ –∑–∞–º–µ–Ω—è–µ—Ç —Å—Ç—Ä–æ–∫—É –ø–æ–¥—Å—Ç—Ä–æ–∫–æ–π, –ø–µ—Ä–≤—ã–π –∞—Ä–≥—É–º–µ–Ω—Ç –∑–∞–¥–∞–µ—Ç —Å—Ç—Ä–æ–∫—É, 
+> # –≤—Ç–æ—Ä–æ–π –∞—Ä–≥—É–º–µ–Ω—Ç ‚Äì –ø–æ–∑–∏—Ü–∏—é –Ω–∞—á–∞–ª—å–Ω–æ–≥–æ —Å–∏–º–≤–æ–ª–∞, —Ç—Ä–µ—Ç–∏–π –∞—Ä–≥—É–º–µ–Ω—Ç ‚Äì 
+> # –ø–æ–∑–∏—Ü–∏—é –ø–æ—Å–ª–µ–¥–Ω–µ–≥–æ —Å–∏–º–≤–æ–ª–∞, –Ω–∞–ø—Ä–∏–º–µ—Ä, –≤ –¥–∞–Ω–Ω–æ–º —Å–ª—É—á–∞–µ —Å—Ç—Ä–æ–∫–∞ ¬´28–ª–µ—Ç¬ª 
+> # –±—É–¥–µ—Ç –∑–∞–º–µ–Ω–∞ –Ω–∞ –ø–æ–¥—Å—Ç—Ä–æ–∫—É ¬´28¬ª, ¬´2¬ª ‚Äì –Ω–∞—á–∞–ª—å–Ω—ã–π —Å–∏–º–≤–æ–ª, –∑–∞–Ω–∏–º–∞—é—â–∏–π –ø–æ–∑–∏—Ü–∏—é 1,
+> # ¬´8¬ª - –ø–æ—Å–ª–µ–¥–Ω–∏–π —Å–∏–º–≤–æ–ª, –∑–∞–Ω–∏–º–∞—é—â–∏–π –ø–æ–∑–∏—Ü–∏—é 2 —Å—Ç—Ä–æ–∫–∏ ¬´28 –ª–µ—Ç¬ª, 
+> # —Ä–µ–∑—É–ª—å—Ç–∞—Ç –∑–∞–ø–∏—à–µ–º –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é –í–æ–∑—Ä–∞—Å—Ç3 
+> data8$–í–æ–∑—Ä–∞—Å—Ç3 <- substr(data8$–í–æ–∑—Ä–∞—Å—Ç, 1, 2)
 > 
-> # —ÏÓÚËÏ ÂÁÛÎ¸Ú‡Ú
+> # –°–º–æ—Ç—Ä–∏–º —Ä–µ–∑—É–ª—å—Ç–∞—Ç
 > head(data8, 20)
-                               ÎËÂÌÚ ¬ÓÁ‡ÒÚ             –Â„ËÓÌ       —Ú‡ÚÛÒ     œÓÎ    œÓÎ2 ¬ÓÁ‡ÒÚ2 ¬ÓÁ‡ÒÚ3
-1     ÓÎÂÒÌËÍÓ‚ ¬ˇ˜ÂÒÎ‡‚ ¿Ì‡ÚÓÎ¸Â‚Ë˜      33       ‡ÒÌÓˇÒÍ- 2    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       33       33
-2       —‡ÈÏÛÁ‡ÌÓ‚ ÃËı‡ËÎ ¡ÓËÒÓ‚Ë˜      22       ‡ÒÌÓˇÒÍ- 2    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       22       22
-3          ¿·‡ËÏÓ‚ Ã‡ÍÒËÏ ƒÏËÚËÂ‚Ë˜      43          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       43       43
-4            ¿·‡ÍÛÏÓ‚‡ ﬁÎËˇ »‚‡ÌÓ‚Ì‡      22          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       22       22
-5         ¿·‡ÌÓ‚‡ ≈ÎÂÌ‡ ¬Î‡‰ËÏËÓ‚Ì‡      54 —‡ÌÍÚ-œÂÚÂ·Û„- 6    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       54       54
-6         ¿·‰‡ıËÏÓ‚‡ ﬁÎËˇ –‡ÙËÍÓ‚Ì‡      23 —‡ÌÍÚ-œÂÚÂ·Û„- 6    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       23       23
-7      ¿·‰Û„‡ÎËÂ‚‡ ¿È„ÛÎ¸ Ã‡ÍÒÛÚÓ‚Ì‡      27          ÃÓÒÍ‚‡- 4 ÕÂ ‚ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       27       27
-8        ¿·‰ÛÎÎ‡Â‚ »Î¸„‡ ›Î¸‰‡Ó‚Ë˜      44    ≈Í‡ÚÂËÌ·Û„- 8 ÕÂ ‚ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       44       44
-9        ¿·‰ÛÎÎËÌ ≈‚„ÂÌËÈ ›‰Û‡‰Ó‚Ë˜      22    ≈Í‡ÚÂËÌ·Û„- 8 ÕÂ ‚ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       22       22
-10   ¿·‰ÛÎÎËÌ‡ ≈Í‡ÚÂËÌ‡ ¿Ì‡ÚÓÎ¸Â‚Ì‡      63    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       63       63
-11   ¿·‰ÛÎÎËÌ‡ ≈Í‡ÚÂËÌ‡ ¿Ì‡ÚÓÎ¸Â‚Ì‡      63    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       63       63
-12   ¿·‰Û‡ÒÛÎÓ‚‡ Õ‡Ú‡Î¸ˇ “‡‰ÊËÎÓ‚Ì‡     55&    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       55       55
-13       ¿·‰Û‡ıËÏÓ‚‡ ¿ÎÂÌ‡ ¿ÎËÏÓ‚Ì‡      57    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       57       57
-14 ¿·ÂÎ¸‰ËÌ‡ √ÛÎ¸Ô‡ıËˇ √‡ÎËÏÊ‡ÌÓ‚Ì‡      41    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       41       41
-15              ¿·ÎÂˆ ﬁÎËˇ —Â„ÂÂ‚Ì‡      33    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       33       33
-16         ¿·ÓÎÏ‡ÒÓ‚‡ »ËÌ‡ ŒÎÂ„Ó‚Ì‡      38    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       38       38
-17        ¿·‡Â‚ ÕÛÎ‡Ì ÃÛÒ‡È·ÂÍÓ‚Ë˜      49    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       49       49
-18  ¿·‡ÏÂÌÍÓ ≈Í‡ÚÂËÌ‡ ¬Î‡‰ËÏËÓ‚Ì‡      56          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       56       56
-19      ¿·‡ÏÓ‚ ƒÏËÚËÈ ¬Î‡‰ËÏËÓ‚Ë˜      51          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       51       51
-20         ¿·‡ÏÓ‚ ÕËÍËÚ‡ ¬‡ÎÂ¸Â‚Ë˜   45ÎÂÚ    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       45       45
+–ö–ª–∏–µ–Ω—Ç –í–æ–∑—Ä–∞—Å—Ç             –†–µ–≥–∏–æ–Ω       –°—Ç–∞—Ç—É—Å     –ü–æ–ª    –ü–æ–ª2 –í–æ–∑—Ä–∞—Å—Ç2 –í–æ–∑—Ä–∞—Å—Ç3
+1    –ö–æ–ª–µ—Å–Ω–∏–∫–æ–≤ –í—è—á–µ—Å–ª–∞–≤ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–∏—á      33      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫- 2    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       33       33
+2       –°–∞–π–º—É—Ä–∑–∞–Ω–æ–≤ –ú–∏—Ö–∞–∏–ª –ë–æ—Ä–∏—Å–æ–≤–∏—á      22      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫- 2    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       22       22
+3          –ê–±–∞–∏–º–æ–≤ –ú–∞–∫—Å–∏–º –î–º–∏—Ç—Ä–∏–µ–≤–∏—á      43          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       43       43
+4            –ê–±–∞–∫—É–º–æ–≤–∞ –Æ–ª–∏—è –ò–≤–∞–Ω–æ–≤–Ω–∞      22          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       22       22
+5         –ê–±–∞–Ω–æ–≤–∞ –ï–ª–µ–Ω–∞ –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–Ω–∞      54 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥- 6    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       54       54
+6         –ê–±–¥—Ä–∞—Ö–∏–º–æ–≤–∞ –Æ–ª–∏—è –†–∞—Ñ–∏–∫–æ–≤–Ω–∞      23 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥- 6    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       23       23
+7      –ê–±–¥—É–≥–∞–ª–∏–µ–≤–∞ –ê–π–≥—É–ª—å –ú–∞–∫—Å—É—Ç–æ–≤–Ω–∞      27          –ú–æ—Å–∫–≤–∞- 4 –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       27       27
+8        –ê–±–¥—É–ª–ª–∞–µ–≤ –ò–ª—å–≥–∞—Ä –≠–ª—å–¥–∞—Ä–æ–≤–∏—á      44    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8 –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       44       44
+9        –ê–±–¥—É–ª–ª–∏–Ω –ï–≤–≥–µ–Ω–∏–π –≠–¥—É–∞—Ä–¥–æ–≤–∏—á      22    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8 –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       22       22
+10   –ê–±–¥—É–ª–ª–∏–Ω–∞ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–Ω–∞      63    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       63       63
+11   –ê–±–¥—É–ª–ª–∏–Ω–∞ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–Ω–∞      63    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       63       63
+12   –ê–±–¥—É—Ä–∞—Å—É–ª–æ–≤–∞ –ù–∞—Ç–∞–ª—å—è –¢–∞–¥–∂–∏–ª–æ–≤–Ω–∞     55&    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       55       55
+13       –ê–±–¥—É—Ä–∞—Ö–∏–º–æ–≤–∞ –ê–ª–µ–Ω–∞ –ê–ª–∏–º–æ–≤–Ω–∞      57    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       57       57
+14 –ê–±–µ–ª—å–¥–∏–Ω–∞ –ì—É–ª—å–ø–∞—Ä—Ö–∏—è –ì–∞–ª–∏–º–∂–∞–Ω–æ–≤–Ω–∞      41    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       41       41
+15              –ê–±–ª–µ—Ü –Æ–ª–∏—è –°–µ—Ä–≥–µ–µ–≤–Ω–∞      33    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       33       33
+16         –ê–±–æ–ª–º–∞—Å–æ–≤–∞ –ò—Ä–∏–Ω–∞ –û–ª–µ–≥–æ–≤–Ω–∞      38    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       38       38
+17        –ê–±—Ä–∞–µ–≤ –ù—É—Ä–ª–∞–Ω –ú—É—Å–∞–π–±–µ–∫–æ–≤–∏—á      49    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       49       49
+18  –ê–±—Ä–∞–º–µ–Ω–∫–æ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–Ω–∞      56          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       56       56
+19      –ê–±—Ä–∞–º–æ–≤ –î–º–∏—Ç—Ä–∏–π –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–∏—á      51          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       51       51
+20         –ê–±—Ä–∞–º–æ–≤ –ù–∏–∫–∏—Ç–∞ –í–∞–ª–µ—Ä—å–µ–≤–∏—á   45–ª–µ—Ç    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       45       45
 > 
-> # “ÂÔÂ¸ ‚˚ÔÓÎÌËÏ ÚÛ ÊÂ Ò‡ÏÛ˛ Á‡ÏÂÌÛ ÒÚÓÍË ÔÓ‰ÒÚÓÍÓÈ Ò ÔÓÏÓ˘¸˛ 
-> # ÒÚ‡Ì‰‡ÚÌÓÈ ÙÛÌÍˆËË substring, ÂÁÛÎ¸Ú‡Ú Á‡ÔË¯ÂÏ ‚ ÔÂÂÏÂÌÌÛ˛ ¬ÓÁ‡ÒÚ4
-> data8$¬ÓÁ‡ÒÚ4 <- substring(data8$¬ÓÁ‡ÒÚ, 1, 2)
+> # –¢–µ–ø–µ—Ä—å –≤—ã–ø–æ–ª–Ω–∏–º —Ç—É –∂–µ —Å–∞–º—É—é –∑–∞–º–µ–Ω—É —Å—Ç—Ä–æ–∫–∏ –ø–æ–¥—Å—Ç—Ä–æ–∫–æ–π —Å –ø–æ–º–æ—â—å—é 
+> # —Å—Ç–∞–Ω–¥–∞—Ä—Ç–Ω–æ–π —Ñ—É–Ω–∫—Ü–∏–∏ substring, —Ä–µ–∑—É–ª—å—Ç–∞—Ç –∑–∞–ø–∏—à–µ–º –≤ –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é –í–æ–∑—Ä–∞—Å—Ç4
+> data8$–í–æ–∑—Ä–∞—Å—Ç4 <- substring(data8$–í–æ–∑—Ä–∞—Å—Ç, 1, 2)
 > 
-> # —ÏÓÚËÏ ÂÁÛÎ¸Ú‡Ú
+> # –°–º–æ—Ç—Ä–∏–º —Ä–µ–∑—É–ª—å—Ç–∞—Ç
 > head(data8, 20)
-                               ÎËÂÌÚ ¬ÓÁ‡ÒÚ             –Â„ËÓÌ       —Ú‡ÚÛÒ     œÓÎ    œÓÎ2 ¬ÓÁ‡ÒÚ2 ¬ÓÁ‡ÒÚ3 ¬ÓÁ‡ÒÚ4
-1     ÓÎÂÒÌËÍÓ‚ ¬ˇ˜ÂÒÎ‡‚ ¿Ì‡ÚÓÎ¸Â‚Ë˜      33       ‡ÒÌÓˇÒÍ- 2    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       33       33       33
-2       —‡ÈÏÛÁ‡ÌÓ‚ ÃËı‡ËÎ ¡ÓËÒÓ‚Ë˜      22       ‡ÒÌÓˇÒÍ- 2    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       22       22       22
-3          ¿·‡ËÏÓ‚ Ã‡ÍÒËÏ ƒÏËÚËÂ‚Ë˜      43          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       43       43       43
-4            ¿·‡ÍÛÏÓ‚‡ ﬁÎËˇ »‚‡ÌÓ‚Ì‡      22          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       22       22       22
-5         ¿·‡ÌÓ‚‡ ≈ÎÂÌ‡ ¬Î‡‰ËÏËÓ‚Ì‡      54 —‡ÌÍÚ-œÂÚÂ·Û„- 6    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       54       54       54
-6         ¿·‰‡ıËÏÓ‚‡ ﬁÎËˇ –‡ÙËÍÓ‚Ì‡      23 —‡ÌÍÚ-œÂÚÂ·Û„- 6    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       23       23       23
-7      ¿·‰Û„‡ÎËÂ‚‡ ¿È„ÛÎ¸ Ã‡ÍÒÛÚÓ‚Ì‡      27          ÃÓÒÍ‚‡- 4 ÕÂ ‚ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       27       27       27
-8        ¿·‰ÛÎÎ‡Â‚ »Î¸„‡ ›Î¸‰‡Ó‚Ë˜      44    ≈Í‡ÚÂËÌ·Û„- 8 ÕÂ ‚ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       44       44       44
-9        ¿·‰ÛÎÎËÌ ≈‚„ÂÌËÈ ›‰Û‡‰Ó‚Ë˜      22    ≈Í‡ÚÂËÌ·Û„- 8 ÕÂ ‚ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       22       22       22
-10   ¿·‰ÛÎÎËÌ‡ ≈Í‡ÚÂËÌ‡ ¿Ì‡ÚÓÎ¸Â‚Ì‡      63    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       63       63       63
-11   ¿·‰ÛÎÎËÌ‡ ≈Í‡ÚÂËÌ‡ ¿Ì‡ÚÓÎ¸Â‚Ì‡      63    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       63       63       63
-12   ¿·‰Û‡ÒÛÎÓ‚‡ Õ‡Ú‡Î¸ˇ “‡‰ÊËÎÓ‚Ì‡     55&    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       55       55       55
-13       ¿·‰Û‡ıËÏÓ‚‡ ¿ÎÂÌ‡ ¿ÎËÏÓ‚Ì‡      57    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       57       57       57
-14 ¿·ÂÎ¸‰ËÌ‡ √ÛÎ¸Ô‡ıËˇ √‡ÎËÏÊ‡ÌÓ‚Ì‡      41    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       41       41       41
-15              ¿·ÎÂˆ ﬁÎËˇ —Â„ÂÂ‚Ì‡      33    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       33       33       33
-16         ¿·ÓÎÏ‡ÒÓ‚‡ »ËÌ‡ ŒÎÂ„Ó‚Ì‡      38    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       38       38       38
-17        ¿·‡Â‚ ÕÛÎ‡Ì ÃÛÒ‡È·ÂÍÓ‚Ë˜      49    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       49       49       49
-18  ¿·‡ÏÂÌÍÓ ≈Í‡ÚÂËÌ‡ ¬Î‡‰ËÏËÓ‚Ì‡      56          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       56       56       56
-19      ¿·‡ÏÓ‚ ƒÏËÚËÈ ¬Î‡‰ËÏËÓ‚Ë˜      51          ÃÓÒÍ‚‡- 4    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       51       51       51
-20         ¿·‡ÏÓ‚ ÕËÍËÚ‡ ¬‡ÎÂ¸Â‚Ë˜   45ÎÂÚ    ≈Í‡ÚÂËÌ·Û„- 8    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       45       45       45
+–ö–ª–∏–µ–Ω—Ç –í–æ–∑—Ä–∞—Å—Ç             –†–µ–≥–∏–æ–Ω       –°—Ç–∞—Ç—É—Å     –ü–æ–ª    –ü–æ–ª2 –í–æ–∑—Ä–∞—Å—Ç2 –í–æ–∑—Ä–∞—Å—Ç3 –í–æ–∑—Ä–∞—Å—Ç4
+1    –ö–æ–ª–µ—Å–Ω–∏–∫–æ–≤ –í—è—á–µ—Å–ª–∞–≤ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–∏—á      33      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫- 2    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       33       33       33
+2       –°–∞–π–º—É—Ä–∑–∞–Ω–æ–≤ –ú–∏—Ö–∞–∏–ª –ë–æ—Ä–∏—Å–æ–≤–∏—á      22      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫- 2    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       22       22       22
+3          –ê–±–∞–∏–º–æ–≤ –ú–∞–∫—Å–∏–º –î–º–∏—Ç—Ä–∏–µ–≤–∏—á      43          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       43       43       43
+4            –ê–±–∞–∫—É–º–æ–≤–∞ –Æ–ª–∏—è –ò–≤–∞–Ω–æ–≤–Ω–∞      22          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       22       22       22
+5         –ê–±–∞–Ω–æ–≤–∞ –ï–ª–µ–Ω–∞ –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–Ω–∞      54 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥- 6    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       54       54       54
+6         –ê–±–¥—Ä–∞—Ö–∏–º–æ–≤–∞ –Æ–ª–∏—è –†–∞—Ñ–∏–∫–æ–≤–Ω–∞      23 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥- 6    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       23       23       23
+7      –ê–±–¥—É–≥–∞–ª–∏–µ–≤–∞ –ê–π–≥—É–ª—å –ú–∞–∫—Å—É—Ç–æ–≤–Ω–∞      27          –ú–æ—Å–∫–≤–∞- 4 –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       27       27       27
+8        –ê–±–¥—É–ª–ª–∞–µ–≤ –ò–ª—å–≥–∞—Ä –≠–ª—å–¥–∞—Ä–æ–≤–∏—á      44    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8 –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       44       44       44
+9        –ê–±–¥—É–ª–ª–∏–Ω –ï–≤–≥–µ–Ω–∏–π –≠–¥—É–∞—Ä–¥–æ–≤–∏—á      22    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8 –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       22       22       22
+10   –ê–±–¥—É–ª–ª–∏–Ω–∞ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–Ω–∞      63    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       63       63       63
+11   –ê–±–¥—É–ª–ª–∏–Ω–∞ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–Ω–∞      63    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       63       63       63
+12   –ê–±–¥—É—Ä–∞—Å—É–ª–æ–≤–∞ –ù–∞—Ç–∞–ª—å—è –¢–∞–¥–∂–∏–ª–æ–≤–Ω–∞     55&    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       55       55       55
+13       –ê–±–¥—É—Ä–∞—Ö–∏–º–æ–≤–∞ –ê–ª–µ–Ω–∞ –ê–ª–∏–º–æ–≤–Ω–∞      57    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       57       57       57
+14 –ê–±–µ–ª—å–¥–∏–Ω–∞ –ì—É–ª—å–ø–∞—Ä—Ö–∏—è –ì–∞–ª–∏–º–∂–∞–Ω–æ–≤–Ω–∞      41    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       41       41       41
+15              –ê–±–ª–µ—Ü –Æ–ª–∏—è –°–µ—Ä–≥–µ–µ–≤–Ω–∞      33    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       33       33       33
+16         –ê–±–æ–ª–º–∞—Å–æ–≤–∞ –ò—Ä–∏–Ω–∞ –û–ª–µ–≥–æ–≤–Ω–∞      38    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       38       38       38
+17        –ê–±—Ä–∞–µ–≤ –ù—É—Ä–ª–∞–Ω –ú—É—Å–∞–π–±–µ–∫–æ–≤–∏—á      49    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       49       49       49
+18  –ê–±—Ä–∞–º–µ–Ω–∫–æ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–Ω–∞      56          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       56       56       56
+19      –ê–±—Ä–∞–º–æ–≤ –î–º–∏—Ç—Ä–∏–π –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–∏—á      51          –ú–æ—Å–∫–≤–∞- 4    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       51       51       51
+20         –ê–±—Ä–∞–º–æ–≤ –ù–∏–∫–∏—Ç–∞ –í–∞–ª–µ—Ä—å–µ–≤–∏—á   45–ª–µ—Ç    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥- 8    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       45       45       45
 > 
-> # œÂÓ·‡ÁÛÂÏ ÔÂÂÏÂÌÌÛ˛ –Â„ËÓÌ ‚ ÚËÔ char (ÁÌ‡˜ÂÌËˇ ñ ÒËÏ‚ÓÎ¸Ì˚Â ÏÂÚÍË) 
-> # Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË as.character
-> data8$–Â„ËÓÌ <- as.character(data8$–Â„ËÓÌ)
+> # –ü—Ä–µ–æ–±—Ä–∞–∑—É–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é –†–µ–≥–∏–æ–Ω –≤ —Ç–∏–ø char (–∑–Ω–∞—á–µ–Ω–∏—è ‚Äì —Å–∏–º–≤–æ–ª—å–Ω—ã–µ –º–µ—Ç–∫–∏) 
+> # —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ as.character
+> data8$–†–µ–≥–∏–æ–Ω <- as.character(data8$–†–µ–≥–∏–æ–Ω)
 > 
-> # ”‰‡ÎˇÂÏ ÔÓÒÎÂ‰ÌËÂ 3 ÒËÏ‚ÓÎ‡ ‚ Í‡Ê‰ÓÏ ÁÌ‡˜ÂÌËË
-> # ÔÂÂÏÂÌÌÓÈ –Â„ËÓÌ
-> data8$–Â„ËÓÌ <- substr(data8$–Â„ËÓÌ,1,nchar(data8$–Â„ËÓÌ)-3)
+> # –£–¥–∞–ª—è–µ–º –ø–æ—Å–ª–µ–¥–Ω–∏–µ 3 —Å–∏–º–≤–æ–ª–∞ –≤ –∫–∞–∂–¥–æ–º –∑–Ω–∞—á–µ–Ω–∏–∏
+> # –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π –†–µ–≥–∏–æ–Ω
+> data8$–†–µ–≥–∏–æ–Ω <- substr(data8$–†–µ–≥–∏–æ–Ω,1,nchar(data8$–†–µ–≥–∏–æ–Ω)-3)
 > 
-> # —ÏÓÚËÏ ÂÁÛÎ¸Ú‡Ú
+> # –°–º–æ—Ç—Ä–∏–º —Ä–µ–∑—É–ª—å—Ç–∞—Ç
 > head(data8, 20)
-                               ÎËÂÌÚ ¬ÓÁ‡ÒÚ          –Â„ËÓÌ       —Ú‡ÚÛÒ     œÓÎ    œÓÎ2 ¬ÓÁ‡ÒÚ2 ¬ÓÁ‡ÒÚ3 ¬ÓÁ‡ÒÚ4
-1     ÓÎÂÒÌËÍÓ‚ ¬ˇ˜ÂÒÎ‡‚ ¿Ì‡ÚÓÎ¸Â‚Ë˜      33       ‡ÒÌÓˇÒÍ    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       33       33       33
-2       —‡ÈÏÛÁ‡ÌÓ‚ ÃËı‡ËÎ ¡ÓËÒÓ‚Ë˜      22       ‡ÒÌÓˇÒÍ    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       22       22       22
-3          ¿·‡ËÏÓ‚ Ã‡ÍÒËÏ ƒÏËÚËÂ‚Ë˜      43          ÃÓÒÍ‚‡    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       43       43       43
-4            ¿·‡ÍÛÏÓ‚‡ ﬁÎËˇ »‚‡ÌÓ‚Ì‡      22          ÃÓÒÍ‚‡    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       22       22       22
-5         ¿·‡ÌÓ‚‡ ≈ÎÂÌ‡ ¬Î‡‰ËÏËÓ‚Ì‡      54 —‡ÌÍÚ-œÂÚÂ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       54       54       54
-6         ¿·‰‡ıËÏÓ‚‡ ﬁÎËˇ –‡ÙËÍÓ‚Ì‡      23 —‡ÌÍÚ-œÂÚÂ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       23       23       23
-7      ¿·‰Û„‡ÎËÂ‚‡ ¿È„ÛÎ¸ Ã‡ÍÒÛÚÓ‚Ì‡      27          ÃÓÒÍ‚‡ ÕÂ ‚ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       27       27       27
-8        ¿·‰ÛÎÎ‡Â‚ »Î¸„‡ ›Î¸‰‡Ó‚Ë˜      44    ≈Í‡ÚÂËÌ·Û„ ÕÂ ‚ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       44       44       44
-9        ¿·‰ÛÎÎËÌ ≈‚„ÂÌËÈ ›‰Û‡‰Ó‚Ë˜      22    ≈Í‡ÚÂËÌ·Û„ ÕÂ ‚ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       22       22       22
-10   ¿·‰ÛÎÎËÌ‡ ≈Í‡ÚÂËÌ‡ ¿Ì‡ÚÓÎ¸Â‚Ì‡      63    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       63       63       63
-11   ¿·‰ÛÎÎËÌ‡ ≈Í‡ÚÂËÌ‡ ¿Ì‡ÚÓÎ¸Â‚Ì‡      63    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       63       63       63
-12   ¿·‰Û‡ÒÛÎÓ‚‡ Õ‡Ú‡Î¸ˇ “‡‰ÊËÎÓ‚Ì‡     55&    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       55       55       55
-13       ¿·‰Û‡ıËÏÓ‚‡ ¿ÎÂÌ‡ ¿ÎËÏÓ‚Ì‡      57    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       57       57       57
-14 ¿·ÂÎ¸‰ËÌ‡ √ÛÎ¸Ô‡ıËˇ √‡ÎËÏÊ‡ÌÓ‚Ì‡      41    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       41       41       41
-15              ¿·ÎÂˆ ﬁÎËˇ —Â„ÂÂ‚Ì‡      33    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       33       33       33
-16         ¿·ÓÎÏ‡ÒÓ‚‡ »ËÌ‡ ŒÎÂ„Ó‚Ì‡      38    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       38       38       38
-17        ¿·‡Â‚ ÕÛÎ‡Ì ÃÛÒ‡È·ÂÍÓ‚Ë˜      49    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       49       49       49
-18  ¿·‡ÏÂÌÍÓ ≈Í‡ÚÂËÌ‡ ¬Î‡‰ËÏËÓ‚Ì‡      56          ÃÓÒÍ‚‡    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       56       56       56
-19      ¿·‡ÏÓ‚ ƒÏËÚËÈ ¬Î‡‰ËÏËÓ‚Ë˜      51          ÃÓÒÍ‚‡    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       51       51       51
-20         ¿·‡ÏÓ‚ ÕËÍËÚ‡ ¬‡ÎÂ¸Â‚Ë˜   45ÎÂÚ    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       45       45       45
+–ö–ª–∏–µ–Ω—Ç –í–æ–∑—Ä–∞—Å—Ç          –†–µ–≥–∏–æ–Ω       –°—Ç–∞—Ç—É—Å     –ü–æ–ª    –ü–æ–ª2 –í–æ–∑—Ä–∞—Å—Ç2 –í–æ–∑—Ä–∞—Å—Ç3 –í–æ–∑—Ä–∞—Å—Ç4
+1    –ö–æ–ª–µ—Å–Ω–∏–∫–æ–≤ –í—è—á–µ—Å–ª–∞–≤ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–∏—á      33      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       33       33       33
+2       –°–∞–π–º—É—Ä–∑–∞–Ω–æ–≤ –ú–∏—Ö–∞–∏–ª –ë–æ—Ä–∏—Å–æ–≤–∏—á      22      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       22       22       22
+3          –ê–±–∞–∏–º–æ–≤ –ú–∞–∫—Å–∏–º –î–º–∏—Ç—Ä–∏–µ–≤–∏—á      43          –ú–æ—Å–∫–≤–∞    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       43       43       43
+4            –ê–±–∞–∫—É–º–æ–≤–∞ –Æ–ª–∏—è –ò–≤–∞–Ω–æ–≤–Ω–∞      22          –ú–æ—Å–∫–≤–∞    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       22       22       22
+5         –ê–±–∞–Ω–æ–≤–∞ –ï–ª–µ–Ω–∞ –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–Ω–∞      54 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       54       54       54
+6         –ê–±–¥—Ä–∞—Ö–∏–º–æ–≤–∞ –Æ–ª–∏—è –†–∞—Ñ–∏–∫–æ–≤–Ω–∞      23 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       23       23       23
+7      –ê–±–¥—É–≥–∞–ª–∏–µ–≤–∞ –ê–π–≥—É–ª—å –ú–∞–∫—Å—É—Ç–æ–≤–Ω–∞      27          –ú–æ—Å–∫–≤–∞ –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       27       27       27
+8        –ê–±–¥—É–ª–ª–∞–µ–≤ –ò–ª—å–≥–∞—Ä –≠–ª—å–¥–∞—Ä–æ–≤–∏—á      44    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥ –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       44       44       44
+9        –ê–±–¥—É–ª–ª–∏–Ω –ï–≤–≥–µ–Ω–∏–π –≠–¥—É–∞—Ä–¥–æ–≤–∏—á      22    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥ –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       22       22       22
+10   –ê–±–¥—É–ª–ª–∏–Ω–∞ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–Ω–∞      63    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       63       63       63
+11   –ê–±–¥—É–ª–ª–∏–Ω–∞ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–Ω–∞      63    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       63       63       63
+12   –ê–±–¥—É—Ä–∞—Å—É–ª–æ–≤–∞ –ù–∞—Ç–∞–ª—å—è –¢–∞–¥–∂–∏–ª–æ–≤–Ω–∞     55&    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       55       55       55
+13       –ê–±–¥—É—Ä–∞—Ö–∏–º–æ–≤–∞ –ê–ª–µ–Ω–∞ –ê–ª–∏–º–æ–≤–Ω–∞      57    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       57       57       57
+14 –ê–±–µ–ª—å–¥–∏–Ω–∞ –ì—É–ª—å–ø–∞—Ä—Ö–∏—è –ì–∞–ª–∏–º–∂–∞–Ω–æ–≤–Ω–∞      41    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       41       41       41
+15              –ê–±–ª–µ—Ü –Æ–ª–∏—è –°–µ—Ä–≥–µ–µ–≤–Ω–∞      33    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       33       33       33
+16         –ê–±–æ–ª–º–∞—Å–æ–≤–∞ –ò—Ä–∏–Ω–∞ –û–ª–µ–≥–æ–≤–Ω–∞      38    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       38       38       38
+17        –ê–±—Ä–∞–µ–≤ –ù—É—Ä–ª–∞–Ω –ú—É—Å–∞–π–±–µ–∫–æ–≤–∏—á      49    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       49       49       49
+18  –ê–±—Ä–∞–º–µ–Ω–∫–æ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–Ω–∞      56          –ú–æ—Å–∫–≤–∞    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       56       56       56
+19      –ê–±—Ä–∞–º–æ–≤ –î–º–∏—Ç—Ä–∏–π –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–∏—á      51          –ú–æ—Å–∫–≤–∞    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       51       51       51
+20         –ê–±—Ä–∞–º–æ–≤ –ù–∏–∫–∏—Ç–∞ –í–∞–ª–µ—Ä—å–µ–≤–∏—á   45–ª–µ—Ç    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       45       45       45
 > 
-> # 6.4. ”‰‡ÎÂÌËÂ ÔÓ‚ÚÓˇ˛˘ËıÒˇ ÒÚÓÍ
+> # 6.4. –£–¥–∞–ª–µ–Ω–∏–µ –ø–æ–≤—Ç–æ—Ä—è—é—â–∏—Ö—Å—è —Å—Ç—Ä–æ–∫
 > 
-> # ”‰‡ÎˇÂÏ ‰Û·ÎËÛ˛˘ËÂÒˇ ÒÚÓÍË
+> # –£–¥–∞–ª—è–µ–º –¥—É–±–ª–∏—Ä—É—é—â–∏–µ—Å—è —Å—Ç—Ä–æ–∫–∏
 > data9 <- data8[!duplicated(data8), ]
 > data9
-                               ÎËÂÌÚ ¬ÓÁ‡ÒÚ          –Â„ËÓÌ       —Ú‡ÚÛÒ     œÓÎ    œÓÎ2 ¬ÓÁ‡ÒÚ2 ¬ÓÁ‡ÒÚ3 ¬ÓÁ‡ÒÚ4
-1     ÓÎÂÒÌËÍÓ‚ ¬ˇ˜ÂÒÎ‡‚ ¿Ì‡ÚÓÎ¸Â‚Ë˜      33       ‡ÒÌÓˇÒÍ    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       33       33       33
-2       —‡ÈÏÛÁ‡ÌÓ‚ ÃËı‡ËÎ ¡ÓËÒÓ‚Ë˜      22       ‡ÒÌÓˇÒÍ    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       22       22       22
-3          ¿·‡ËÏÓ‚ Ã‡ÍÒËÏ ƒÏËÚËÂ‚Ë˜      43          ÃÓÒÍ‚‡    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       43       43       43
-4            ¿·‡ÍÛÏÓ‚‡ ﬁÎËˇ »‚‡ÌÓ‚Ì‡      22          ÃÓÒÍ‚‡    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       22       22       22
-5         ¿·‡ÌÓ‚‡ ≈ÎÂÌ‡ ¬Î‡‰ËÏËÓ‚Ì‡      54 —‡ÌÍÚ-œÂÚÂ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       54       54       54
-6         ¿·‰‡ıËÏÓ‚‡ ﬁÎËˇ –‡ÙËÍÓ‚Ì‡      23 —‡ÌÍÚ-œÂÚÂ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       23       23       23
-7      ¿·‰Û„‡ÎËÂ‚‡ ¿È„ÛÎ¸ Ã‡ÍÒÛÚÓ‚Ì‡      27          ÃÓÒÍ‚‡ ÕÂ ‚ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       27       27       27
-8        ¿·‰ÛÎÎ‡Â‚ »Î¸„‡ ›Î¸‰‡Ó‚Ë˜      44    ≈Í‡ÚÂËÌ·Û„ ÕÂ ‚ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       44       44       44
-9        ¿·‰ÛÎÎËÌ ≈‚„ÂÌËÈ ›‰Û‡‰Ó‚Ë˜      22    ≈Í‡ÚÂËÌ·Û„ ÕÂ ‚ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       22       22       22
-10   ¿·‰ÛÎÎËÌ‡ ≈Í‡ÚÂËÌ‡ ¿Ì‡ÚÓÎ¸Â‚Ì‡      63    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       63       63       63
-12   ¿·‰Û‡ÒÛÎÓ‚‡ Õ‡Ú‡Î¸ˇ “‡‰ÊËÎÓ‚Ì‡     55&    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       55       55       55
-13       ¿·‰Û‡ıËÏÓ‚‡ ¿ÎÂÌ‡ ¿ÎËÏÓ‚Ì‡      57    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       57       57       57
-14 ¿·ÂÎ¸‰ËÌ‡ √ÛÎ¸Ô‡ıËˇ √‡ÎËÏÊ‡ÌÓ‚Ì‡      41    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       41       41       41
-15              ¿·ÎÂˆ ﬁÎËˇ —Â„ÂÂ‚Ì‡      33    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       33       33       33
-16         ¿·ÓÎÏ‡ÒÓ‚‡ »ËÌ‡ ŒÎÂ„Ó‚Ì‡      38    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       38       38       38
-17        ¿·‡Â‚ ÕÛÎ‡Ì ÃÛÒ‡È·ÂÍÓ‚Ë˜      49    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       49       49       49
-18  ¿·‡ÏÂÌÍÓ ≈Í‡ÚÂËÌ‡ ¬Î‡‰ËÏËÓ‚Ì‡      56          ÃÓÒÍ‚‡    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       56       56       56
-19      ¿·‡ÏÓ‚ ƒÏËÚËÈ ¬Î‡‰ËÏËÓ‚Ë˜      51          ÃÓÒÍ‚‡    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       51       51       51
-20         ¿·‡ÏÓ‚ ÕËÍËÚ‡ ¬‡ÎÂ¸Â‚Ë˜   45ÎÂÚ    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       45       45       45
-21          ¿·‡ÏÓ‚ —Â„ÂÈ —Â„ÂÂ‚Ë˜      32          ÃÓÒÍ‚‡    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       32       32       32
-22          ¿·‡ÏÓ‚ œÂÚ ¿Ì‡ÚÓÎ¸Â‚Ë˜      76          ÃÓÒÍ‚‡    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       76       76       76
-23           ¿·‡ÏÓ‚‡ ¬Â‡ —Â„ÂÂ‚Ì‡      23          ÃÓÒÍ‚‡    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       23       23       23
-25           ¿·‡ÏÓ‚‡ ﬂÌ‡ ¬‡ÎÂ¸Â‚Ì‡      46          ÃÓÒÍ‚‡    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       46       46       46
-26       ¿·‡Ï˛Í œ‡‚ÂÎ ¿ÎÂÍÒ‡Ì‰Ó‚Ë˜      73          ÃÓÒÍ‚‡    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       73       73       73
-27          ¿·ÓÒÍËÌ‡ ¿ÌÌ‡ —Â„ÂÂ‚Ì‡      23          ÃÓÒÍ‚‡    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       23       23       23
-28         ¿‚‡ÌÂÒˇÌ ƒË‡Ì‡ ¡ÂÊËÍÓ‚Ì‡      45          ÃÓÒÍ‚‡    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       45       45       45
-29         ¿‚‡ÌÒÍËÈ ﬁËÈ √ÂÌÌ‡‰¸Â‚Ë˜     65&          ÃÓÒÍ‚‡    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       65       65       65
-30              ¿‚‰ÂÂ‚‡ ¿ÌÌ‡ ﬁ¸Â‚Ì‡      65 —‡ÌÍÚ-œÂÚÂ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       65       65       65
-31      ¿‚‰ÓÌËÌ‡ »ËÌ‡ ¿ÎÂÍÒ‡Ì‰Ó‚Ì‡      55 —‡ÌÍÚ-œÂÚÂ·Û„ ÕÂ ‚ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       55       55       55
-32       ¿‚ÂËÌ‡ ƒ‡¸ˇ ¿ÎÂÍÒ‡Ì‰Ó‚Ì‡      45    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       45       45       45
-35  ¿‚ÂÍËÂ‚‡ —‚ÂÚÎ‡Ì‡ ¿ÎÂÍÒ‡Ì‰Ó‚Ì‡      31       ‡ÒÌÓˇÒÍ    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       31       31       31
-36       ¿‚Â¸ˇÌÓ‚ –ÛÒÚ‡Ï ÃËı‡ÈÎÓ‚Ë˜      37       ‡ÒÌÓˇÒÍ    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       37       37       37
-37            ¿‚ÂÚˇÌ ¿ÚÛ ÀÂ‚ÓÌÓ‚Ë˜      49       ‡ÒÌÓˇÒÍ    ¬ÂÌÛÎ(‡) ÃÛÊÒÍÓÈ ÃÛÊÒÍÓÈ       49       49       49
-38             ¿‚ÂÚˇÌ —ËÎ¸‚‡ ¿ÈÍÓ‚Ì‡      54    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       54       54       54
-39        ¿‚ÓÚËÌ‡ “‡Ú¸ˇÌ‡ ¬‡ÒËÎ¸Â‚Ì‡      36    ≈Í‡ÚÂËÌ·Û„    ¬ÂÌÛÎ(‡) ∆ÂÌÒÍËÈ ∆ÂÌÒÍËÈ       36       36       36
+–ö–ª–∏–µ–Ω—Ç –í–æ–∑—Ä–∞—Å—Ç          –†–µ–≥–∏–æ–Ω       –°—Ç–∞—Ç—É—Å     –ü–æ–ª    –ü–æ–ª2 –í–æ–∑—Ä–∞—Å—Ç2 –í–æ–∑—Ä–∞—Å—Ç3 –í–æ–∑—Ä–∞—Å—Ç4
+1    –ö–æ–ª–µ—Å–Ω–∏–∫–æ–≤ –í—è—á–µ—Å–ª–∞–≤ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–∏—á      33      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       33       33       33
+2       –°–∞–π–º—É—Ä–∑–∞–Ω–æ–≤ –ú–∏—Ö–∞–∏–ª –ë–æ—Ä–∏—Å–æ–≤–∏—á      22      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       22       22       22
+3          –ê–±–∞–∏–º–æ–≤ –ú–∞–∫—Å–∏–º –î–º–∏—Ç—Ä–∏–µ–≤–∏—á      43          –ú–æ—Å–∫–≤–∞    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       43       43       43
+4            –ê–±–∞–∫—É–º–æ–≤–∞ –Æ–ª–∏—è –ò–≤–∞–Ω–æ–≤–Ω–∞      22          –ú–æ—Å–∫–≤–∞    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       22       22       22
+5         –ê–±–∞–Ω–æ–≤–∞ –ï–ª–µ–Ω–∞ –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–Ω–∞      54 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       54       54       54
+6         –ê–±–¥—Ä–∞—Ö–∏–º–æ–≤–∞ –Æ–ª–∏—è –†–∞—Ñ–∏–∫–æ–≤–Ω–∞      23 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       23       23       23
+7      –ê–±–¥—É–≥–∞–ª–∏–µ–≤–∞ –ê–π–≥—É–ª—å –ú–∞–∫—Å—É—Ç–æ–≤–Ω–∞      27          –ú–æ—Å–∫–≤–∞ –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       27       27       27
+8        –ê–±–¥—É–ª–ª–∞–µ–≤ –ò–ª—å–≥–∞—Ä –≠–ª—å–¥–∞—Ä–æ–≤–∏—á      44    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥ –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       44       44       44
+9        –ê–±–¥—É–ª–ª–∏–Ω –ï–≤–≥–µ–Ω–∏–π –≠–¥—É–∞—Ä–¥–æ–≤–∏—á      22    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥ –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       22       22       22
+10   –ê–±–¥—É–ª–ª–∏–Ω–∞ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –ê–Ω–∞—Ç–æ–ª—å–µ–≤–Ω–∞      63    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       63       63       63
+12   –ê–±–¥—É—Ä–∞—Å—É–ª–æ–≤–∞ –ù–∞—Ç–∞–ª—å—è –¢–∞–¥–∂–∏–ª–æ–≤–Ω–∞     55&    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       55       55       55
+13       –ê–±–¥—É—Ä–∞—Ö–∏–º–æ–≤–∞ –ê–ª–µ–Ω–∞ –ê–ª–∏–º–æ–≤–Ω–∞      57    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       57       57       57
+14 –ê–±–µ–ª—å–¥–∏–Ω–∞ –ì—É–ª—å–ø–∞—Ä—Ö–∏—è –ì–∞–ª–∏–º–∂–∞–Ω–æ–≤–Ω–∞      41    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       41       41       41
+15              –ê–±–ª–µ—Ü –Æ–ª–∏—è –°–µ—Ä–≥–µ–µ–≤–Ω–∞      33    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       33       33       33
+16         –ê–±–æ–ª–º–∞—Å–æ–≤–∞ –ò—Ä–∏–Ω–∞ –û–ª–µ–≥–æ–≤–Ω–∞      38    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       38       38       38
+17        –ê–±—Ä–∞–µ–≤ –ù—É—Ä–ª–∞–Ω –ú—É—Å–∞–π–±–µ–∫–æ–≤–∏—á      49    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       49       49       49
+18  –ê–±—Ä–∞–º–µ–Ω–∫–æ –ï–∫–∞—Ç–µ—Ä–∏–Ω–∞ –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–Ω–∞      56          –ú–æ—Å–∫–≤–∞    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       56       56       56
+19      –ê–±—Ä–∞–º–æ–≤ –î–º–∏—Ç—Ä–∏–π –í–ª–∞–¥–∏–º–∏—Ä–æ–≤–∏—á      51          –ú–æ—Å–∫–≤–∞    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       51       51       51
+20         –ê–±—Ä–∞–º–æ–≤ –ù–∏–∫–∏—Ç–∞ –í–∞–ª–µ—Ä—å–µ–≤–∏—á   45–ª–µ—Ç    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       45       45       45
+21          –ê–±—Ä–∞–º–æ–≤ –°–µ—Ä–≥–µ–π –°–µ—Ä–≥–µ–µ–≤–∏—á      32          –ú–æ—Å–∫–≤–∞    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       32       32       32
+22          –ê–±—Ä–∞–º–æ–≤ –ü–µ—Ç—Ä –ê–Ω–∞—Ç–æ–ª—å–µ–≤–∏—á      76          –ú–æ—Å–∫–≤–∞    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       76       76       76
+23           –ê–±—Ä–∞–º–æ–≤–∞ –í–µ—Ä–∞ –°–µ—Ä–≥–µ–µ–≤–Ω–∞      23          –ú–æ—Å–∫–≤–∞    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       23       23       23
+25           –ê–±—Ä–∞–º–æ–≤–∞ –Ø–Ω–∞ –í–∞–ª–µ—Ä—å–µ–≤–Ω–∞      46          –ú–æ—Å–∫–≤–∞    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       46       46       46
+26       –ê–±—Ä–∞–º—é–∫ –ü–∞–≤–µ–ª –ê–ª–µ–∫—Å–∞–Ω–¥—Ä–æ–≤–∏—á      73          –ú–æ—Å–∫–≤–∞    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       73       73       73
+27          –ê–±—Ä–æ—Å–∫–∏–Ω–∞ –ê–Ω–Ω–∞ –°–µ—Ä–≥–µ–µ–≤–Ω–∞      23          –ú–æ—Å–∫–≤–∞    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       23       23       23
+28         –ê–≤–∞–Ω–µ—Å—è–Ω –î–∏–∞–Ω–∞ –ë–µ—Ä–∂–∏–∫–æ–≤–Ω–∞      45          –ú–æ—Å–∫–≤–∞    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       45       45       45
+29         –ê–≤–∞–Ω—Å–∫–∏–π –Æ—Ä–∏–π –ì–µ–Ω–Ω–∞–¥—å–µ–≤–∏—á     65&          –ú–æ—Å–∫–≤–∞    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       65       65       65
+30              –ê–≤–¥–µ–µ–≤–∞ –ê–Ω–Ω–∞ –Æ—Ä—å–µ–≤–Ω–∞      65 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       65       65       65
+31      –ê–≤–¥–æ–Ω–∏–Ω–∞ –ò—Ä–∏–Ω–∞ –ê–ª–µ–∫—Å–∞–Ω–¥—Ä–æ–≤–Ω–∞      55 –°–∞–Ω–∫—Ç-–ü–µ—Ç–µ—Ä–±—É—Ä–≥ –ù–µ –≤–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       55       55       55
+32       –ê–≤–µ—Ä–∏–Ω–∞ –î–∞—Ä—å—è –ê–ª–µ–∫—Å–∞–Ω–¥—Ä–æ–≤–Ω–∞      45    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       45       45       45
+35  –ê–≤–µ—Ä–∫–∏–µ–≤–∞ –°–≤–µ—Ç–ª–∞–Ω–∞ –ê–ª–µ–∫—Å–∞–Ω–¥—Ä–æ–≤–Ω–∞      31      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       31       31       31
+36       –ê–≤–µ—Ä—å—è–Ω–æ–≤ –†—É—Å—Ç–∞–º –ú–∏—Ö–∞–π–ª–æ–≤–∏—á      37      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       37       37       37
+37            –ê–≤–µ—Ç—è–Ω –ê—Ä—Ç—É—Ä –õ–µ–≤–æ–Ω–æ–≤–∏—á      49      –ö—Ä–∞—Å–Ω–æ—è—Ä—Å–∫    –í–µ—Ä–Ω—É–ª(–∞) –ú—É–∂—Å–∫–æ–π –ú—É–∂—Å–∫–æ–π       49       49       49
+38             –ê–≤–µ—Ç—è–Ω –°–∏–ª—å–≤–∞ –ê–π–∫–æ–≤–Ω–∞      54    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       54       54       54
+39        –ê–≤–æ—Ç–∏–Ω–∞ –¢–∞—Ç—å—è–Ω–∞ –í–∞—Å–∏–ª—å–µ–≤–Ω–∞      36    –ï–∫–∞—Ç–µ—Ä–∏–Ω–±—É—Ä–≥    –í–µ—Ä–Ω—É–ª(–∞) –ñ–µ–Ω—Å–∫–∏–π –ñ–µ–Ω—Å–∫–∏–π       36       36       36
 > 
-> # ≈˘Â ÏÓÊÌÓ Û‰‡ÎËÚ¸ ‰Û·ÎËÛ˛˘ËÂÒˇ ÒÚÓÍË Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË unique
+> # –ï—â–µ –º–æ–∂–Ω–æ —É–¥–∞–ª–∏—Ç—å –¥—É–±–ª–∏—Ä—É—é—â–∏–µ—Å—è —Å—Ç—Ä–æ–∫–∏ —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ unique
 > data10 <- unique(data8)
 > 
-> # 6.5. »Á‚ÎÂ˜ÂÌËÂ ÌÛÊÌ˚ı ÒËÏ‚ÓÎÓ‚ ËÁ ÒÚÓÍ
+> # 6.5. –ò–∑–≤–ª–µ—á–µ–Ω–∏–µ –Ω—É–∂–Ω—ã—Ö —Å–∏–º–≤–æ–ª–æ–≤ –∏–∑ —Å—Ç—Ä–æ–∫
 > 
-> # ◊‡ÒÚÓ ‰‡ÌÌ˚Â ÏÓ„ÛÚ ·˚Ú¸ ÌÂÍÓÂÍÚÌÓ Á‡ÔËÒ‡Ì˚ Ë ÌÂÓ·ıÓ‰ËÏÓ ËÁ‚ÎÂ˜¸
-> # ÌÛÊÌ˚Â Ì‡Ï ÔÓ‰ÒÚÓÍË
+> # –ß–∞—Å—Ç–æ –¥–∞–Ω–Ω—ã–µ –º–æ–≥—É—Ç –±—ã—Ç—å –Ω–µ–∫–æ—Ä—Ä–µ–∫—Ç–Ω–æ –∑–∞–ø–∏—Å–∞–Ω—ã –∏ –Ω–µ–æ–±—Ö–æ–¥–∏–º–æ –∏–∑–≤–ª–µ—á—å
+> # –Ω—É–∂–Ω—ã–µ –Ω–∞–º –ø–æ–¥—Å—Ç—Ä–æ–∫–∏
 > data11 <- read.csv2("C:/Trees/Raw_text.csv")
 > 
-> # —ÏÓÚËÏ ‰‡ÌÌ˚Â
+> # –°–º–æ—Ç—Ä–∏–º –¥–∞–Ω–Ω—ã–µ
 > data11
-                       raw
+raw
 1  KDR 1 2014-12-23 3242.0
 2  MSK 1 2010-02-23 3453.7
 3 KRSK 0 2014-06-20 2123.0
 4  SPB 0 2014-03-14 1123.6
 5  EKB 1 2013-01-15 2134.0
 > 
-> # œÂÓ·‡ÁÛÂÏ ‰‡ÌÌ˚Â ‚ ÚËÔ char (ÁÌ‡˜ÂÌËˇ ñ ÒËÏ‚ÓÎ¸Ì˚Â ÏÂÚÍË) 
-> # Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË as.character
+> # –ü—Ä–µ–æ–±—Ä–∞–∑—É–µ–º –¥–∞–Ω–Ω—ã–µ –≤ —Ç–∏–ø char (–∑–Ω–∞—á–µ–Ω–∏—è ‚Äì —Å–∏–º–≤–æ–ª—å–Ω—ã–µ –º–µ—Ç–∫–∏) 
+> # —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ as.character
 > data11$raw <- as.character(data11$raw)
 > 
-> # «‡„ÛÊ‡ÂÏ Ô‡ÍÂÚ stringr
+> # –ó–∞–≥—Ä—É–∂–∞–µ–º –ø–∞–∫–µ—Ç stringr
 > library(stringr)
 > 
-> # »Á‚ÎÂÍ‡ÂÏ ‰‡Ú˚ ËÁ ÒÚÓÎ·ˆ‡ raw Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË str_extract 
-> # Ô‡ÍÂÚ‡ stringr Ë ÒÓÁ‰‡ÂÏ ÔÂÂÏÂÌÌÛ˛ date
+> # –ò–∑–≤–ª–µ–∫–∞–µ–º –¥–∞—Ç—ã –∏–∑ —Å—Ç–æ–ª–±—Ü–∞ raw —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ str_extract 
+> # –ø–∞–∫–µ—Ç–∞ stringr –∏ —Å–æ–∑–¥–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é date
 > datepattern="[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
 > data11$date <- str_extract(data11$raw, pattern=datepattern)
 > 
-> # —ÏÓÚËÏ ‰‡ÌÌ˚Â
+> # –°–º–æ—Ç—Ä–∏–º –¥–∞–Ω–Ω—ã–µ
 > data11
-                       raw       date
+raw       date
 1  KDR 1 2014-12-23 3242.0 2014-12-23
 2  MSK 1 2010-02-23 3453.7 2010-02-23
 3 KRSK 0 2014-06-20 2123.0 2014-06-20
 4  SPB 0 2014-03-14 1123.6 2014-03-14
 5  EKB 1 2013-01-15 2134.0 2013-01-15
 > 
-> # ≈˘Â ÏÓÊÌÓ Ú‡Í
+> # –ï—â–µ –º–æ–∂–Ω–æ —Ç–∞–∫
 > datepattern2 <- "\\d\\d\\d\\d\\-\\d\\d-\\d\\d"
 > data11$date2 <- str_extract(data11$raw, pattern=datepattern2)
 > 
-> # —ÏÓÚËÏ ‰‡ÌÌ˚Â
+> # –°–º–æ—Ç—Ä–∏–º –¥–∞–Ω–Ω—ã–µ
 > data11
-                       raw       date      date2
+raw       date      date2
 1  KDR 1 2014-12-23 3242.0 2014-12-23 2014-12-23
 2  MSK 1 2010-02-23 3453.7 2010-02-23 2010-02-23
 3 KRSK 0 2014-06-20 2123.0 2014-06-20 2014-06-20
 4  SPB 0 2014-03-14 1123.6 2014-03-14 2014-03-14
 5  EKB 1 2013-01-15 2134.0 2013-01-15 2013-01-15
 > 
-> # »Á‚ÎÂÍ‡ÂÏ Ó‰ËÌÓ˜Ì˚Â ˆËÙ˚ ËÁ ÒÚÓÎ·ˆ‡ raw Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË str_extract 
-> # Ô‡ÍÂÚ‡ stringr Ë ÒÓÁ‰‡ÂÏ ÔÂÂÏÂÌÌÛ˛ gender 
+> # –ò–∑–≤–ª–µ–∫–∞–µ–º –æ–¥–∏–Ω–æ—á–Ω—ã–µ —Ü–∏—Ñ—Ä—ã –∏–∑ —Å—Ç–æ–ª–±—Ü–∞ raw —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ str_extract 
+> # –ø–∞–∫–µ—Ç–∞ stringr –∏ —Å–æ–∑–¥–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é gender 
 > genderpattern="[0-9]"
 > data11$gender <- str_extract(data11$raw, pattern=genderpattern)
 > 
-> # —ÏÓÚËÏ ‰‡ÌÌ˚Â
+> # –°–º–æ—Ç—Ä–∏–º –¥–∞–Ω–Ω—ã–µ
 > data11
-                       raw       date      date2 gender
+raw       date      date2 gender
 1  KDR 1 2014-12-23 3242.0 2014-12-23 2014-12-23      1
 2  MSK 1 2010-02-23 3453.7 2010-02-23 2010-02-23      1
 3 KRSK 0 2014-06-20 2123.0 2014-06-20 2014-06-20      0
 4  SPB 0 2014-03-14 1123.6 2014-03-14 2014-03-14      0
 5  EKB 1 2013-01-15 2134.0 2013-01-15 2013-01-15      1
 > 
-> # »Á‚ÎÂÍ‡ÂÏ ####.# ËÁ ÒÚÓÎ·ˆ‡ raw Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË str_extract 
-> # Ô‡ÍÂÚ‡ stringr Ë ÒÓÁ‰‡ÂÏ ÔÂÂÏÂÌÌÛ˛ score 
+> # –ò–∑–≤–ª–µ–∫–∞–µ–º ####.# –∏–∑ —Å—Ç–æ–ª–±—Ü–∞ raw —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ str_extract 
+> # –ø–∞–∫–µ—Ç–∞ stringr –∏ —Å–æ–∑–¥–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é score 
 > scorepattern <- "\\d\\d\\d\\d\\.\\d"
 > data11$score <- str_extract(data11$raw, pattern=scorepattern)
 > 
-> # —ÏÓÚËÏ ‰‡ÌÌ˚Â
+> # –°–º–æ—Ç—Ä–∏–º –¥–∞–Ω–Ω—ã–µ
 > data11
-                       raw       date      date2 gender  score
+raw       date      date2 gender  score
 1  KDR 1 2014-12-23 3242.0 2014-12-23 2014-12-23      1 3242.0
 2  MSK 1 2010-02-23 3453.7 2010-02-23 2010-02-23      1 3453.7
 3 KRSK 0 2014-06-20 2123.0 2014-06-20 2014-06-20      0 2123.0
 4  SPB 0 2014-03-14 1123.6 2014-03-14 2014-03-14      0 1123.6
 5  EKB 1 2013-01-15 2134.0 2013-01-15 2013-01-15      1 2134.0
 > 
-> # »Á‚ÎÂÍ‡ÂÏ ÚÂÍÒÚ ËÁ ÒÚÓÎ·ˆ‡ raw Ò ÔÓÏÓ˘¸˛ ÙÛÌÍˆËË str_extract 
-> # Ô‡ÍÂÚ‡ stringr Ë ÒÓÁ‰‡ÂÏ ÔÂÂÏÂÌÌÛ˛ city
+> # –ò–∑–≤–ª–µ–∫–∞–µ–º —Ç–µ–∫—Å—Ç –∏–∑ —Å—Ç–æ–ª–±—Ü–∞ raw —Å –ø–æ–º–æ—â—å—é —Ñ—É–Ω–∫—Ü–∏–∏ str_extract 
+> # –ø–∞–∫–µ—Ç–∞ stringr –∏ —Å–æ–∑–¥–∞–µ–º –ø–µ—Ä–µ–º–µ–Ω–Ω—É—é city
 > data11$city <- str_extract(data11$raw, pattern="[A-Z]+")
 > 
-> # ¿Ì‡ÎÓ„Ë˜ÌÛ˛ ÓÔÂ‡ˆË˛ ÏÓÊÌÓ ‚˚ÔÓÎÌËÚ¸ Ò ÔÓÏÓ˘¸˛ 
-> # ÒÚ‡Ì‰‡ÚÌÓÈ ÙÛÌÍˆËË sub
+> # –ê–Ω–∞–ª–æ–≥–∏—á–Ω—É—é –æ–ø–µ—Ä–∞—Ü–∏—é –º–æ–∂–Ω–æ –≤—ã–ø–æ–ª–Ω–∏—Ç—å —Å –ø–æ–º–æ—â—å—é 
+> # —Å—Ç–∞–Ω–¥–∞—Ä—Ç–Ω–æ–π —Ñ—É–Ω–∫—Ü–∏–∏ sub
 > data11$city2 <- sub("[^[:alpha:]]+", "", data11$raw)
 > 
-> # —ÏÓÚËÏ ‰‡ÌÌ˚Â
+> # –°–º–æ—Ç—Ä–∏–º –¥–∞–Ω–Ω—ã–µ
 > data11
-                       raw       date      date2 gender  score city city2
+raw       date      date2 gender  score city city2
 1  KDR 1 2014-12-23 3242.0 2014-12-23 2014-12-23      1 3242.0  KDR   KDR
 2  MSK 1 2010-02-23 3453.7 2010-02-23 2010-02-23      1 3453.7  MSK   MSK
 3 KRSK 0 2014-06-20 2123.0 2014-06-20 2014-06-20      0 2123.0 KRSK  KRSK
 4  SPB 0 2014-03-14 1123.6 2014-03-14 2014-03-14      0 1123.6  SPB   SPB
 5  EKB 1 2013-01-15 2134.0 2013-01-15 2013-01-15      1 2134.0  EKB   EKB
 > 
+  

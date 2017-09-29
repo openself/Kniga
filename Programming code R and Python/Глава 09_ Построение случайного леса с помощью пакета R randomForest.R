@@ -1,17 +1,17 @@
-# Глава 9 Построение случайного леса с помощью пакета R randomForest
+# Р“Р»Р°РІР° 9 РџРѕСЃС‚СЂРѕРµРЅРёРµ СЃР»СѓС‡Р°Р№РЅРѕРіРѕ Р»РµСЃР° СЃ РїРѕРјРѕС‰СЊСЋ РїР°РєРµС‚Р° R randomForest
 
-# 9.1 Построение ансамбля деревьев классификации
+# 9.1 РџРѕСЃС‚СЂРѕРµРЅРёРµ Р°РЅСЃР°РјР±Р»СЏ РґРµСЂРµРІСЊРµРІ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё
 
-# 9.1.1 Подготовка данных
+# 9.1.1 РџРѕРґРіРѕС‚РѕРІРєР° РґР°РЅРЅС‹С…
 
-# Задаем постоянный CRAN репозиторий
+# Р—Р°РґР°РµРј РїРѕСЃС‚РѕСЏРЅРЅС‹Р№ CRAN СЂРµРїРѕР·РёС‚РѕСЂРёР№
 cat(".Rprofile: Setting US repositoryn")
 r = getOption("repos")
 r["CRAN"] = "http://cran.us.r-project.org"
 options(repos = r)
 rm(r)
 
-# Устанавливаем необходимые для работы пакеты
+# РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅРµРѕР±С…РѕРґРёРјС‹Рµ РґР»СЏ СЂР°Р±РѕС‚С‹ РїР°РєРµС‚С‹
 install.packages("pROC")
 install.packages("randomForest")
 install.packages("rpart")
@@ -45,7 +45,7 @@ str(development)
 
 str(holdout)
 
-# 9.1.2 Построение модели и получение OOB оценки качества
+# 9.1.2 РџРѕСЃС‚СЂРѕРµРЅРёРµ РјРѕРґРµР»Рё Рё РїРѕР»СѓС‡РµРЅРёРµ OOB РѕС†РµРЅРєРё РєР°С‡РµСЃС‚РІР°
 
 library(randomForest)
 
@@ -60,19 +60,19 @@ plot(model)
 set.seed(152)
 tuneRF(development[,1:13], development[,14], ntreeTry=500, trace=FALSE)
 
-# 9.1.3 Важности предикторов
+# 9.1.3 Р’Р°Р¶РЅРѕСЃС‚Рё РїСЂРµРґРёРєС‚РѕСЂРѕРІ
 
 importance(model)
 varImpPlot(model)
 
-# 9.1.4 Графики частной зависимости
+# 9.1.4 Р“СЂР°С„РёРєРё С‡Р°СЃС‚РЅРѕР№ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё
 
 partialPlot(model, development, age, 1)
 partialPlot(model, development, cus_leng, 1)
 partialPlot(model, development, atm_user, 1)
 partialPlot(model, development, atm_user, 0)
 
-# 9.1.5 Вычисление вероятностей классов
+# 9.1.5 Р’С‹С‡РёСЃР»РµРЅРёРµ РІРµСЂРѕСЏС‚РЅРѕСЃС‚РµР№ РєР»Р°СЃСЃРѕРІ
 
 prob <- predict(model, development, type="prob")
 prob2 <- predict(model, holdout, type="prob")
@@ -81,25 +81,28 @@ tail(prob, 5)
 
 tail(prob2, 5)
 
-# Создаем таблицы данных, содержащие исходную информацию, 
-# и спрогнозированные вероятности.
+# РЎРѕР·РґР°РµРј С‚Р°Р±Р»РёС†С‹ РґР°РЅРЅС‹С…, СЃРѕРґРµСЂР¶Р°С‰РёРµ РёСЃС…РѕРґРЅСѓСЋ РёРЅС„РѕСЂРјР°С†РёСЋ, 
+# Рё СЃРїСЂРѕРіРЅРѕР·РёСЂРѕРІР°РЅРЅС‹Рµ РІРµСЂРѕСЏС‚РЅРѕСЃС‚Рё.
 newdevelopment<-data.frame(development, result=prob)
 newholdout<-data.frame(holdout, result=prob2)
-# На основе таблиц данных записываем отдельные CSV файлы.
+
+# РќР° РѕСЃРЅРѕРІРµ С‚Р°Р±Р»РёС† РґР°РЅРЅС‹С… Р·Р°РїРёСЃС‹РІР°РµРј РѕС‚РґРµР»СЊРЅС‹Рµ CSV С„Р°Р№Р»С‹.
 write.csv(newdevelopment, "resultRFcl_development.csv")
 write.csv(newholdout, "resultRFcl_holdout.csv")
 
-# 9.1.6 Оценка дискриминирующей способности модели с помощью ROC-кривой
+# 9.1.6 РћС†РµРЅРєР° РґРёСЃРєСЂРёРјРёРЅРёСЂСѓСЋС‰РµР№ СЃРїРѕСЃРѕР±РЅРѕСЃС‚Рё РјРѕРґРµР»Рё СЃ РїРѕРјРѕС‰СЊСЋ ROC-РєСЂРёРІРѕР№
 
-# Загружаем пакет для построения ROC-кривых.
+# Р—Р°РіСЂСѓР¶Р°РµРј РїР°РєРµС‚ РґР»СЏ РїРѕСЃС‚СЂРѕРµРЅРёСЏ ROC-РєСЂРёРІС‹С….
 library(pROC)
-# Строим ROC-кривые.
+
+# РЎС‚СЂРѕРёРј ROC-РєСЂРёРІС‹Рµ.
 roc_dev<-plot(roc(development$response, prob[,2], ci=TRUE), percent=TRUE, 
-             print.auc=TRUE, col="#1c61b6")
+              print.auc=TRUE, col="#1c61b6")
 roc_hold<-plot(roc(holdout$response, prob2[,2], ci=TRUE), percent=TRUE, 
-         print.auc=TRUE, col="#008600", print.auc.y= .4, add=TRUE)
-# Создаем легенды к ROC-кривым.
-legend("bottomright", legend=c("Обучающая выборка", "Контрольная выборка"), 
+               print.auc=TRUE, col="#008600", print.auc.y= .4, add=TRUE)
+
+# РЎРѕР·РґР°РµРј Р»РµРіРµРЅРґС‹ Рє ROC-РєСЂРёРІС‹Рј.
+legend("bottomright", legend=c("РћР±СѓС‡Р°СЋС‰Р°СЏ РІС‹Р±РѕСЂРєР°", "РљРѕРЅС‚СЂРѕР»СЊРЅР°СЏ РІС‹Р±РѕСЂРєР°"), 
        col=c("#1c61b6", "#008600"), lwd=2)
 
 roc(development$response, prob[,2], ci=TRUE)
@@ -108,30 +111,35 @@ roc(holdout$response, prob2[,2], ci=TRUE)
 
 prob <- predict(model, type="prob")
 
-# Строим ROC-кривые.
+# РЎС‚СЂРѕРёРј ROC-РєСЂРёРІС‹Рµ.
 roc_dev<-plot(roc(development$response, prob[,2], ci=TRUE), percent=TRUE, 
-             print.auc=TRUE, col="#1c61b6")
+              print.auc=TRUE, col="#1c61b6")
 roc_hold<-plot(roc(holdout$response, prob2[,2], ci=TRUE), percent=TRUE, 
-         print.auc=TRUE, col="#008600", print.auc.y= .4, add=TRUE)
-# Создаем легенды к ROC-кривым.
-legend("bottomright", legend=c("Обучающая выборка", "Контрольная выборка"), 
+               print.auc=TRUE, col="#008600", print.auc.y= .4, add=TRUE)
+
+# РЎРѕР·РґР°РµРј Р»РµРіРµРЅРґС‹ Рє ROC-РєСЂРёРІС‹Рј.
+legend("bottomright", legend=c("РћР±СѓС‡Р°СЋС‰Р°СЏ РІС‹Р±РѕСЂРєР°", "РљРѕРЅС‚СЂРѕР»СЊРЅР°СЏ РІС‹Р±РѕСЂРєР°"), 
        col=c("#1c61b6", "#008600"), lwd=2)
 
-# Загружаем пакет rpart.
+# Р—Р°РіСЂСѓР¶Р°РµРј РїР°РєРµС‚ rpart.
 library(rpart)
-# Подгоняем модель CRT
+
+# РџРѕРґРіРѕРЅСЏРµРј РјРѕРґРµР»СЊ CRT
 model2<-rpart(response ~., development)
-# Записываем вероятности, спрогнозированные деревом CRT, в объект score
+
+# Р—Р°РїРёСЃС‹РІР°РµРј РІРµСЂРѕСЏС‚РЅРѕСЃС‚Рё, СЃРїСЂРѕРіРЅРѕР·РёСЂРѕРІР°РЅРЅС‹Рµ РґРµСЂРµРІРѕРј CRT, РІ РѕР±СЉРµРєС‚ score
 score <- predict(model2, holdout, type="prob")
-# Визуализируем обе ROC-кривые.
+
+# Р’РёР·СѓР°Р»РёР·РёСЂСѓРµРј РѕР±Рµ ROC-РєСЂРёРІС‹Рµ.
 rf<-plot(roc(holdout$response, prob2[,2], ci=TRUE), percent=TRUE, print.auc=TRUE, col="#1c61b6")
 crt<-plot(roc(holdout$response, score[,2], ci=TRUE), percent=TRUE, 
-         print.auc=TRUE, col="#008600", print.auc.y= .4, add=TRUE)
-# Создаем легенды к ROC-кривым.
-legend("bottomright", legend=c("Случайный лес", "Дерево CRT"), 
+          print.auc=TRUE, col="#008600", print.auc.y= .4, add=TRUE)
+
+# РЎРѕР·РґР°РµРј Р»РµРіРµРЅРґС‹ Рє ROC-РєСЂРёРІС‹Рј.
+legend("bottomright", legend=c("РЎР»СѓС‡Р°Р№РЅС‹Р№ Р»РµСЃ", "Р”РµСЂРµРІРѕ CRT"), 
        col=c("#1c61b6", "#008600"), lwd=2)
 
-# 9.1.7 Получение спрогнозированных классов зависимой переменной
+# 9.1.7 РџРѕР»СѓС‡РµРЅРёРµ СЃРїСЂРѕРіРЅРѕР·РёСЂРѕРІР°РЅРЅС‹С… РєР»Р°СЃСЃРѕРІ Р·Р°РІРёСЃРёРјРѕР№ РїРµСЂРµРјРµРЅРЅРѕР№
 
 set.seed(152)
 resp <- predict(model, development, type="response")
@@ -147,12 +155,12 @@ tail(resp2, 5)
 
 table(holdout$response, resp2)
 
-# 9.1.9 График зазора прогнозов
+# 9.1.9 Р“СЂР°С„РёРє Р·Р°Р·РѕСЂР° РїСЂРѕРіРЅРѕР·РѕРІ
 
 plot(margin(model))
 
-# 9.2 Построение ансамбля деревьев регрессии
-# 9.2.1 Подготовка данных
+# 9.2 РџРѕСЃС‚СЂРѕРµРЅРёРµ Р°РЅСЃР°РјР±Р»СЏ РґРµСЂРµРІСЊРµРІ СЂРµРіСЂРµСЃСЃРёРё
+# 9.2.1 РџРѕРґРіРѕС‚РѕРІРєР° РґР°РЅРЅС‹С…
 
 data <- read.csv2("C:/Trees/Income.csv")
 str(data)
@@ -166,26 +174,25 @@ holdout <- data[ which(data$random_number <= 0.3), ]
 development$random_number <- NULL
 holdout$random_number <- NULL
 
-library(randomForest)
 set.seed(152)
 
-# 9.2.2 Построение модели и получение OOB оценки качества
+# 9.2.2 РџРѕСЃС‚СЂРѕРµРЅРёРµ РјРѕРґРµР»Рё Рё РїРѕР»СѓС‡РµРЅРёРµ OOB РѕС†РµРЅРєРё РєР°С‡РµСЃС‚РІР°
 
 model<-randomForest(income ~., development, importance=TRUE)
 print(model)
 plot(model)
 
-# 9.2.3 Важности предикторов
+# 9.2.3 Р’Р°Р¶РЅРѕСЃС‚Рё РїСЂРµРґРёРєС‚РѕСЂРѕРІ
 
 importance(model)
 varImpPlot(model)
 
-# 9.2.4 Графики частной зависимости
+# 9.2.4 Р“СЂР°С„РёРєРё С‡Р°СЃС‚РЅРѕР№ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё
 
 partialPlot(model, development, local)
 partialPlot(model, development, longdist)
 
-# 9.2.5 Работа с прогнозами и вычисление среднеквадратической ошибки
+# 9.2.5 Р Р°Р±РѕС‚Р° СЃ РїСЂРѕРіРЅРѕР·Р°РјРё Рё РІС‹С‡РёСЃР»РµРЅРёРµ СЃСЂРµРґРЅРµРєРІР°РґСЂР°С‚РёС‡РµСЃРєРѕР№ РѕС€РёР±РєРё
 
 predvalue_development <- predict(model, development)
 tail(predvalue_development, 5)
@@ -200,7 +207,7 @@ tail(predvalue_holdout, 5)
 MSE_holdout <- sum((holdout$income - predvalue_holdout)^2)/nrow(holdout)
 MSE_holdout
 
-# 9.2.6 Улучшение качества прогнозов
+# 9.2.6 РЈР»СѓС‡С€РµРЅРёРµ РєР°С‡РµСЃС‚РІР° РїСЂРѕРіРЅРѕР·РѕРІ
 
 set.seed(152)
 tuneRF(development[,1:10], development[,11], ntreeTry=500, trace=FALSE)
@@ -214,14 +221,14 @@ newpredvalue_holdout <- predict(model2, holdout)
 newMSE_holdout <- sum((holdout$income - newpredvalue_holdout)^2)/nrow(holdout)
 newMSE_holdout
 
-# 9.2.7 Вычисление коэффициента детерминации
+# 9.2.7 Р’С‹С‡РёСЃР»РµРЅРёРµ РєРѕСЌС„С„РёС†РёРµРЅС‚Р° РґРµС‚РµСЂРјРёРЅР°С†РёРё
 
 TSS <- sum((holdout$income-(mean(holdout$income)))^2)
 RSS <- sum((holdout$income-newpredvalue_holdout)^2)
 R2 <- 1-RSS/TSS
 R2
 
-# 9.2.8 Получение более развернутого вывода о качестве модели
+# 9.2.8 РџРѕР»СѓС‡РµРЅРёРµ Р±РѕР»РµРµ СЂР°Р·РІРµСЂРЅСѓС‚РѕРіРѕ РІС‹РІРѕРґР° Рѕ РєР°С‡РµСЃС‚РІРµ РјРѕРґРµР»Рё
 
 Xtrain <-development[,1:10]
 ytrain <-development[,11]
@@ -233,31 +240,35 @@ model3 <- randomForest(Xtrain, ytrain, Xtest, ytest, mtry=6)
 
 print(model3)
 
-# 9.3 Поиск оптимальных параметров случайного леса с помощью пакета caret
+# 9.3 РџРѕРёСЃРє РѕРїС‚РёРјР°Р»СЊРЅС‹С… РїР°СЂР°РјРµС‚СЂРѕРІ СЃР»СѓС‡Р°Р№РЅРѕРіРѕ Р»РµСЃР° СЃ РїРѕРјРѕС‰СЊСЋ РїР°РєРµС‚Р° caret
 
-# 9.3.1 Схема оптимизации параметров, реализованная в пакете caret
+# 9.3.1 РЎС…РµРјР° РѕРїС‚РёРјРёР·Р°С†РёРё РїР°СЂР°РјРµС‚СЂРѕРІ, СЂРµР°Р»РёР·РѕРІР°РЅРЅР°СЏ РІ РїР°РєРµС‚Рµ caret
 
-# 9.3.2 Настройка условий оптимизации
+# 9.3.2 РќР°СЃС‚СЂРѕР№РєР° СѓСЃР»РѕРІРёР№ РѕРїС‚РёРјРёР·Р°С†РёРё
 
-# 9.3.3 Поиск оптимальных параметров для задачи регрессии
+# 9.3.3 РџРѕРёСЃРє РѕРїС‚РёРјР°Р»СЊРЅС‹С… РїР°СЂР°РјРµС‚СЂРѕРІ РґР»СЏ Р·Р°РґР°С‡Рё СЂРµРіСЂРµСЃСЃРёРё
 
 data <- read.csv2("C:/Trees/Income.csv")
-# разбиваем данные на обучающий и тестовый наборы.
+
+# СЂР°Р·Р±РёРІР°РµРј РґР°РЅРЅС‹Рµ РЅР° РѕР±СѓС‡Р°СЋС‰РёР№ Рё С‚РµСЃС‚РѕРІС‹Р№ РЅР°Р±РѕСЂС‹.
 set.seed(42)
 data$random_number <- runif(nrow(data),0,1)
 development <- data[which(data$random_number > 0.3), ]
 test <- data[ which(data$random_number <= 0.3), ]
 development$random_number <- NULL
 test$random_number <- NULL
-# загружаем необходимые пакеты.
-library(randomForest)
+
+# Р·Р°РіСЂСѓР¶Р°РµРј РЅРµРѕР±С…РѕРґРёРјС‹Рµ РїР°РєРµС‚С‹.
 library(caret)
-# задаем набор условий для оптимизации.
+
+# Р·Р°РґР°РµРј РЅР°Р±РѕСЂ СѓСЃР»РѕРІРёР№ РґР»СЏ РѕРїС‚РёРјРёР·Р°С†РёРё.
 control <- trainControl(method="repeatedcv", number=10, repeats=10, search="grid")
 set.seed(152)
-# задаем сетку параметров для решетчатого поиска.
+
+# Р·Р°РґР°РµРј СЃРµС‚РєСѓ РїР°СЂР°РјРµС‚СЂРѕРІ РґР»СЏ СЂРµС€РµС‚С‡Р°С‚РѕРіРѕ РїРѕРёСЃРєР°.
 tunegrid <- expand.grid(.mtry=c(1:7))
-# строим модели и выбираем оптимальную.
+
+# СЃС‚СЂРѕРёРј РјРѕРґРµР»Рё Рё РІС‹Р±РёСЂР°РµРј РѕРїС‚РёРјР°Р»СЊРЅСѓСЋ.
 rf_gridsearch <- train(income~., data=development, method="rf", ntree=500,
                        tuneGrid=tunegrid, trControl=control)
 
@@ -274,29 +285,31 @@ RSS <- sum((test$income-predictions)^2)
 R2 <- 1-RSS/TSS
 R2
 
-# 9.3.4 Поиск оптимальных параметров для задачи классификации
+# 9.3.4 РџРѕРёСЃРє РѕРїС‚РёРјР°Р»СЊРЅС‹С… РїР°СЂР°РјРµС‚СЂРѕРІ РґР»СЏ Р·Р°РґР°С‡Рё РєР»Р°СЃСЃРёС„РёРєР°С†РёРё
 
 data <- read.csv2("C:/Trees/Bankloan.csv")
-# выполняем необходимые преобразования.
+
+# РІС‹РїРѕР»РЅСЏРµРј РЅРµРѕР±С…РѕРґРёРјС‹Рµ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёСЏ.
 data$ed2 <- ordered(data$ed, levels = c("1", "2", "3", "4", "5"))
 data$ed <- NULL
 data$default <-as.factor(data$default)
-# разбиваем данные на обучающий и тестовый наборы.
+
+# СЂР°Р·Р±РёРІР°РµРј РґР°РЅРЅС‹Рµ РЅР° РѕР±СѓС‡Р°СЋС‰РёР№ Рё С‚РµСЃС‚РѕРІС‹Р№ РЅР°Р±РѕСЂС‹.
 set.seed(42)
 data$random_number <- runif(nrow(data),0,1)
 development <- data[which(data$random_number > 0.3), ]
 test <- data[ which(data$random_number <= 0.3), ]
 development$random_number <- NULL
 test$random_number <- NULL
-# загружаем необходимые пакеты.
-library(randomForest)
-library(caret)
-# задаем набор условий для оптимизации.
+
+# Р·Р°РґР°РµРј РЅР°Р±РѕСЂ СѓСЃР»РѕРІРёР№ РґР»СЏ РѕРїС‚РёРјРёР·Р°С†РёРё.
 control <- trainControl(method="repeatedcv", number=10, repeats=10, search="grid")
 set.seed(152)
-# задаем сетку параметров для решетчатого поиска.
+
+# Р·Р°РґР°РµРј СЃРµС‚РєСѓ РїР°СЂР°РјРµС‚СЂРѕРІ РґР»СЏ СЂРµС€РµС‚С‡Р°С‚РѕРіРѕ РїРѕРёСЃРєР°.
 tunegrid <- expand.grid(.mtry=c(1:7))
-# строим модели и выбираем оптимальную.
+
+# СЃС‚СЂРѕРёРј РјРѕРґРµР»Рё Рё РІС‹Р±РёСЂР°РµРј РѕРїС‚РёРјР°Р»СЊРЅСѓСЋ.
 rf_gridsearch2 <- train(default ~ ., data=development, method="rf", ntree=500,
                         tuneGrid=tunegrid, trControl=control)
 
@@ -312,32 +325,33 @@ data$default2<-factor(data$default, levels=c(0, 1), labels=c("good","bad"),exclu
 data$default <- NULL
 data$ed2 <- ordered(data$ed, levels = c("1", "2", "3", "4", "5"))
 data$ed <- NULL
-# разбиваем данные на обучающий и тестовый наборы.
+
+# СЂР°Р·Р±РёРІР°РµРј РґР°РЅРЅС‹Рµ РЅР° РѕР±СѓС‡Р°СЋС‰РёР№ Рё С‚РµСЃС‚РѕРІС‹Р№ РЅР°Р±РѕСЂС‹.
 set.seed(42)
 data$random_number <- runif(nrow(data),0,1)
 development <- data[which(data$random_number > 0.3), ]
 test <- data[ which(data$random_number <= 0.3), ]
 development$random_number <- NULL
 test$random_number <- NULL
-# загружаем необходимые пакеты.
-library(randomForest)
-library(caret)
-# задаем набор условий для оптимизации.
+
+# Р·Р°РґР°РµРј РЅР°Р±РѕСЂ СѓСЃР»РѕРІРёР№ РґР»СЏ РѕРїС‚РёРјРёР·Р°С†РёРё.
 control <- trainControl(method="repeatedcv", number=10, repeats=10, search="grid",
                         classProbs=TRUE, summaryFunction=twoClassSummary)
 set.seed(152)
-# задаем сетку параметров для решетчатого поиска.
+
+# Р·Р°РґР°РµРј СЃРµС‚РєСѓ РїР°СЂР°РјРµС‚СЂРѕРІ РґР»СЏ СЂРµС€РµС‚С‡Р°С‚РѕРіРѕ РїРѕРёСЃРєР°.
 tunegrid <- expand.grid(.mtry=c(1:7))
-# строим модели и выбираем оптимальную.
+
+# СЃС‚СЂРѕРёРј РјРѕРґРµР»Рё Рё РІС‹Р±РёСЂР°РµРј РѕРїС‚РёРјР°Р»СЊРЅСѓСЋ.
 rf_gridsearch3 <- train(default2 ~ ., data=development, method="rf", metric="ROC", ntree=500,
-                       tuneGrid=tunegrid, trControl=control)
+                        tuneGrid=tunegrid, trControl=control)
 
 print(rf_gridsearch3)
 
 plot(rf_gridsearch3)
 
 prob <- predict(rf_gridsearch3, test, type="prob")
-library(pROC)
+
 roc(test$default2, prob[,2], ci=TRUE)
 
 plot(roc(test$default2, prob[,2], ci=TRUE))
@@ -347,17 +361,17 @@ customRF$parameters <- data.frame(parameter = c("mtry", "ntree"),
                                   class = rep("numeric", 2), label = c("mtry", "ntree"))
 customRF$grid <- function(x, y, len = NULL, search = "grid") {}
 customRF$fit <- function(x, y, wts, param, lev, last, weights, classProbs, ...) {
-randomForest(x, y, mtry = param$mtry, ntree=param$ntree, ...)
+  randomForest(x, y, mtry = param$mtry, ntree=param$ntree, ...)
 }
 customRF$predict <- function(modelFit, newdata, preProc = NULL, submodels = NULL)
-predict(modelFit, newdata)
+  predict(modelFit, newdata)
 customRF$prob <- function(modelFit, newdata, preProc = NULL, submodels = NULL)
-predict(modelFit, newdata, type = "prob")
+  predict(modelFit, newdata, type = "prob")
 customRF$sort <- function(x) x[order(x[,1]),]
 customRF$levels <- function(x) x$classes
 
 control <- trainControl(method="repeatedcv", number=10, repeats=10,
-                          classProbs=TRUE, summaryFunction=twoClassSummary)
+                        classProbs=TRUE, summaryFunction=twoClassSummary)
 tunegrid <- expand.grid(.mtry=c(1:7), .ntree=c(100, 200, 500, 600))
 set.seed(152)
 custom <- train(default2 ~ ., data=development, method=customRF, metric="ROC",            
@@ -372,30 +386,27 @@ roc(test$default2, pr[,2], ci=TRUE)
 
 customRF2 <- list(type = "Classification", library = "randomForest", loop = NULL)
 customRF2$parameters <- data.frame(parameter = c("mtry", "ntree", "nodesize"), 
-                       class = rep("numeric", 3), label = c("mtry", "ntree", "nodesize"))
+                                   class = rep("numeric", 3), label = c("mtry", "ntree", "nodesize"))
 customRF2$grid <- function(x, y, len = NULL, search = "grid") {}
 customRF2$fit <- function(x, y, wts, param, lev, last, weights, classProbs, ...) {
-randomForest(x, y, mtry = param$mtry, ntree=param$ntree, nodesize=param$nodesize, ...)
+  randomForest(x, y, mtry = param$mtry, ntree=param$ntree, nodesize=param$nodesize, ...)
 }
 customRF2$predict <- function(modelFit, newdata, preProc = NULL, submodels = NULL)
-predict(modelFit, newdata)
+  predict(modelFit, newdata)
 customRF2$prob <- function(modelFit, newdata, preProc = NULL, submodels = NULL)
-predict(modelFit, newdata, type = "prob")
+  predict(modelFit, newdata, type = "prob")
 customRF2$sort <- function(x) x[order(x[,1]),]
 customRF2$levels <- function(x) x$classes
 
 control <- trainControl(method="repeatedcv", number=10, repeats=10,
-                          classProbs=TRUE, summaryFunction=twoClassSummary)
+                        classProbs=TRUE, summaryFunction=twoClassSummary)
 tunegrid <- expand.grid(.mtry=c(1:7), .ntree=c(100, 200, 500, 600), 
                         .nodesize=c(1, 5, 10, 15, 20))
 set.seed(152)
 custom2 <- train(default2 ~ ., data=development, method=customRF2, metric="ROC",            
-                tuneGrid=tunegrid, trControl=control)
+                 tuneGrid=tunegrid, trControl=control)
 
 plot(custom2)
 
 pr2 <- predict(custom2, test, type="prob")
 roc(test$default2, pr2[,2], ci=TRUE)
-
-
-
